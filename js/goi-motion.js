@@ -151,6 +151,14 @@
     a.addEventListener('click', function () { copy(a.getAttribute('data-zalo-msg')); toast('Đã chép tin nhắn. Dán vào Zalo của GÓI để gửi.'); });
   });
 
+  // nút lên đầu trang, nút tải hồ sơ (in ra PDF)
+  $$('[data-name="Scroll to Top Button"]').forEach(function (b) {
+    b.setAttribute('role', 'button'); b.tabIndex = 0; b.style.cursor = 'pointer'; b.setAttribute('aria-label', 'Lên đầu trang');
+    function up() { window.scrollTo({ top: 0, behavior: reduce ? 'auto' : 'smooth' }); }
+    b.addEventListener('click', up); b.addEventListener('keydown', function (e) { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); up(); } });
+  });
+  $$('a[href="#in-ho-so"]').forEach(function (a) { a.addEventListener('click', function (e) { e.preventDefault(); window.print(); }); });
+
   // 7. Thanh lọc / tab: bấm là chọn (đổi kiểu theo nút đang chọn trong thiết kế)
   $$('[data-name*="Bộ Lọc"],[data-name="Types"],[data-name*="Stepper"],[data-name*="Tabs"]').forEach(function (bar) {
     var items = Array.prototype.slice.call(bar.children); if (items.length < 2) return;

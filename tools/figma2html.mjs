@@ -54,6 +54,10 @@ function hrefFor(el, ctx) {
   if (/^XEM \d+ MẪU HỘP|^XEM ĐỦ \d+ MẪU/.test(T)) return '/mau-hop';
   if (/XEM BẢN VẼ KHUÔN/.test(T)) return ctx.khuon || '/mau-hop';
   if (/^SKU-/.test(name)) return ctx.skuHref(name.split(' ')[0]);
+  const rel = el.parentNode && el.parentNode.getAttribute && el.parentNode.getAttribute('data-name') === 'Lưới 4 Mẫu Liên Quan' && el.querySelectorAll('p').map((x) => x.text.trim()).find((x) => /^SKU-[A-Z0-9]+$/.test(x));
+  if (rel) return ctx.skuHref(rel);
+  if (/^CHỌN GÓI/.test(T)) return ZALO;
+  if (/^TẢI .*PDF|^TẢI HỒ SƠ/.test(T) || name === 'Btn Tải PDF') return '#in-ho-so';
   // ảnh/thumbnail trong dòng sản phẩm trang chủ -> trang SKU theo tên thẻ
   if (!t && (/^Ảnh|^Thumb|^Hộp|^Túi/.test(name))) {
     let p = el.parentNode, title = /^(Hộp|Túi)/.test(name) ? name : '';
@@ -88,6 +92,7 @@ function hrefFor(el, ctx) {
   if (/CHỈ ĐƯỜNG/.test(T)) return MAPS;
   if (/GỌI|^0\d|09XX/.test(T) || /phone|Call/i.test(name)) return 'tel:0387365020';
   if (/^NHẬN BÁO GIÁ$|BÁO GIÁ NHANH|^BÁO GIÁ$/.test(T)) return ctx.kind === 'home' ? '#bao-gia' : '/#bao-gia';
+  if (ctx.wrap) return null; // chữ thường trong header/footer: chỉ link khi khớp quy tắc rõ ràng ở trên
   if (/ZALO|BÁO GIÁ|MAKET|MẪU|TƯ VẤN|E-PROFILE|KHUÔN|CHAT/.test(T)) return ZALO;
   return null;
 }
@@ -168,13 +173,13 @@ async function convertFrame(el, kind, skuHref, ctx = {}) {
   // nút trong thiết kế chưa nối prototype -> thành thẻ <a>
   for (const b of el.querySelectorAll('[data-name]')) {
     const nm = b.getAttribute('data-name');
-    if (b.tagName !== 'A' && !b.closest('a') && (/^(Btn|Nút|Search Input|Call Btn|Kênh (?!Của)|Social |Sơ Đồ Xưởng)/i.test(nm) || b.querySelector(':scope > [data-name="Trailing icon"], :scope > [data-name="Label"]'))) b.tagName = 'a';
+    if (b.tagName !== 'A' && !b.closest('a') && (/^(Btn|Nút|Search Input|Call Btn|Kênh (?!Của)|Social |Sơ Đồ Xưởng)/i.test(nm) || (b.parentNode && b.parentNode.getAttribute && b.parentNode.getAttribute('data-name') === 'Lưới 4 Mẫu Liên Quan') || b.querySelector(':scope > [data-name="Trailing icon"], :scope > [data-name="Label"]'))) b.tagName = 'a';
   }
   // chữ trong header/footer có đích đến -> bọc <a>
   for (const sec of el.childNodes.filter((n) => n.nodeType === 1 && /Header|Nav|Footer|Topbar|Top Bar|Breadcrumb/i.test(n.getAttribute('data-name') || ''))) {
     for (const p of sec.querySelectorAll('p')) {
       if (p.closest('a')) continue;
-      const h = hrefFor(p, { kind, skuHref, ...ctx }); if (!h) continue;
+      const h = hrefFor(p, { kind, skuHref, ...ctx, wrap: true }); if (!h) continue;
       const a = toDom(`<a href="${h}" data-link>${p.toString()}</a>`).firstChild; p.replaceWith(a);
     }
   }
