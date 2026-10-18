@@ -1,25 +1,25 @@
-const img01HeroProfileSection = "https://www.figma.com/api/mcp/asset/1e663e93-8740-4142-a53a-0e2737d80d1f.png";
-const imgDecoPaperGrain = "https://www.figma.com/api/mcp/asset/b3da384f-eb4d-419e-8505-78ce080979cb.png";
-const imgDecoHalftone = "https://www.figma.com/api/mcp/asset/3cd8a8b2-4250-4509-8ce1-5dfa6bce4584.png";
-const imgNhXngSnXutQ12 = "https://www.figma.com/api/mcp/asset/63fb9b8d-a36f-4dca-9d3c-07db16f6e882.png";
-const imgVideoThumbnail = "https://www.figma.com/api/mcp/asset/82f74c20-8781-4d12-9a5d-c860b8e87ef1.png";
-const imgKcsCanhMauCmyk = "https://www.figma.com/api/mcp/asset/b5df8d5f-a640-4734-8188-46e5b4a732f3.png";
-const imgBHpKhiVuong90 = "https://www.figma.com/api/mcp/asset/f0305583-a174-45c6-9e57-a37d91757ea2.png";
-const imgEpKimVangAnhKim = "https://www.figma.com/api/mcp/asset/0529fc4d-607f-42e8-9f57-9e7aa15e7065.png";
-const imgDongPalletXutXng = "https://www.figma.com/api/mcp/asset/a35319ab-6313-4382-8f26-7498aebed347.png";
-const imgDecoRegistration = "https://www.figma.com/api/mcp/asset/033a176f-e6fe-4eef-b5b3-b998667d6d98.svg";
-const imgIconBag = "https://www.figma.com/api/mcp/asset/0b9ed064-dabb-4a7e-b498-af0cbdaf39fb.svg";
-const imgIconArrowUr = "https://www.figma.com/api/mcp/asset/3c26ce54-bcfa-41f8-a635-a24bb8f9f780.svg";
-const imgDecoConDu = "https://www.figma.com/api/mcp/asset/e8e9d029-15f4-41cc-999c-ace0e4e3c98e.svg";
-const imgEllipse = "https://www.figma.com/api/mcp/asset/2ea699ec-1b1b-4b75-a502-8c96a89798a8.svg";
-const imgIconCheck = "https://www.figma.com/api/mcp/asset/85418951-1a47-467d-a3de-5d3ca6b05069.svg";
-const imgIconScissors = "https://www.figma.com/api/mcp/asset/76d59159-758e-4946-b311-dcf2224322d6.svg";
-const imgLine = "https://www.figma.com/api/mcp/asset/689e2463-dab1-4c80-91d2-616a201c6316.svg";
-const imgGroup = "https://www.figma.com/api/mcp/asset/30e86b3f-6ec3-400a-9727-d8586902e954.svg";
-const imgIconBox = "https://www.figma.com/api/mcp/asset/15f7d87f-6b39-475c-9599-a1a689ae8841.svg";
-const imgIconCheck1 = "https://www.figma.com/api/mcp/asset/2e977e2c-d6b1-4b79-a31a-0fd0f4065833.svg";
-const imgTrailingIcon = "https://www.figma.com/api/mcp/asset/fd08c00a-75dd-4fdd-a2ce-14584836f024.svg";
-const imgDecoRegistration1 = "https://www.figma.com/api/mcp/asset/5c8dd867-682a-4122-a7b3-23540aa6c339.svg";
+const img01HeroProfileSection = "https://www.figma.com/api/mcp/asset/9ce5ca9c-e3b9-44ab-90a9-d33c5faae988.png";
+const imgDecoPaperGrain = "https://www.figma.com/api/mcp/asset/07ce4b04-a7cd-444c-958b-421dbb699413.png";
+const imgDecoHalftone = "https://www.figma.com/api/mcp/asset/1e4e6fb9-1057-4aae-8ce3-b88ff9ffa4d2.png";
+const imgNhXngSnXutQ12 = "https://www.figma.com/api/mcp/asset/8e932ede-8cbb-4d37-93e3-8cbc5b47c6c2.png";
+const imgVideoThumbnail = "https://www.figma.com/api/mcp/asset/00ff100e-c645-4cb1-888e-8709e29d1cae.png";
+const imgKcsCanhMauCmyk = "https://www.figma.com/api/mcp/asset/dabd4758-8d16-4638-a7a5-c3b2c7a02be0.png";
+const imgBHpKhiVuong90 = "https://www.figma.com/api/mcp/asset/f24e87e9-7f62-4e03-aed8-64b13a3fa7a0.png";
+const imgEpKimVangAnhKim = "https://www.figma.com/api/mcp/asset/6fe611aa-3667-45bc-ab7f-73f98057829c.png";
+const imgDongPalletXutXng = "https://www.figma.com/api/mcp/asset/1aad6bd8-ad5f-4864-b7d8-7d245ecf8c56.png";
+const imgDecoRegistration = "https://www.figma.com/api/mcp/asset/0ad3b830-f9b0-4778-8e38-bc84e26d5292.svg";
+const imgIconBag = "https://www.figma.com/api/mcp/asset/5c594a4b-79eb-445a-a144-a38ed99f2e3d.svg";
+const imgIconArrowUr = "https://www.figma.com/api/mcp/asset/76296e5d-493d-4d2d-bfcb-4e3725951a13.svg";
+const imgDecoConDu = "https://www.figma.com/api/mcp/asset/3dd8a2e3-a1a0-46c3-9177-401c78bc65e3.svg";
+const imgEllipse = "https://www.figma.com/api/mcp/asset/6cfc4834-5255-4778-9700-d62957939974.svg";
+const imgIconCheck = "https://www.figma.com/api/mcp/asset/9d3a6448-8076-4401-8051-520247b668be.svg";
+const imgIconScissors = "https://www.figma.com/api/mcp/asset/6aadde39-43ac-4318-a016-3933947d2c01.svg";
+const imgLine = "https://www.figma.com/api/mcp/asset/a15415ed-ff8d-4fe5-9c8e-4ab0f96fbfb0.svg";
+const imgGroup = "https://www.figma.com/api/mcp/asset/570859ec-88c9-44ba-bdb2-e71aa51497ee.svg";
+const imgIconBox = "https://www.figma.com/api/mcp/asset/d549a43f-c5e8-474c-a39a-725e263f09f7.svg";
+const imgIconCheck1 = "https://www.figma.com/api/mcp/asset/c4c5bdde-3bb6-448b-8b60-bf9feba7705d.svg";
+const imgTrailingIcon = "https://www.figma.com/api/mcp/asset/1bf72d5e-7f2f-4d4c-9fad-7661dfd5b4ca.svg";
+const imgDecoRegistration1 = "https://www.figma.com/api/mcp/asset/754b3564-e4da-4d51-a196-c265575a5567.svg";
 
 export default function HSNangLcDesktop1440Px() {
   return (
@@ -554,7 +554,7 @@ export default function HSNangLcDesktop1440Px() {
                 <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconCheck1} />
               </div>
               <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/body-base,20px)] not-italic relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/body-base,14px)] tracking-[var(--typography\/letter-spacing\/body-base,-0.14px)] whitespace-nowrap" data-node-id="134:807">
-                Chặng 3: KCS 100% Từng Chiếc
+                Chặng 3: Kiểm Tra Từng Chiếc
               </p>
             </div>
             <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/caption,16px)] not-italic relative shrink-0 text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-[length:var(--typography\/font-size\/caption,11px)] tracking-[var(--typography\/letter-spacing\/caption,0px)] whitespace-nowrap" data-node-id="134:808">
@@ -609,12 +609,8 @@ export default function HSNangLcDesktop1440Px() {
             <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/body-small,16px)] not-italic relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/body-small,12px)] tracking-[var(--typography\/letter-spacing\/body-small,0px)] w-[320px]" data-node-id="134:821">
               Chi phí làm khuôn dao bế
             </p>
-            <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[0] not-italic relative shrink-0 text-[0px] text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] tracking-[var(--typography\/letter-spacing\/body-small,0px)] w-[440px]" data-node-id="134:822">
-              <span className="font-['Inter:Regular'] font-normal leading-[16px] text-[12px]">{`Tính phí `}</span>
-              <span className="font-['JetBrains_Mono:Regular'] font-normal leading-[16px] text-[12px]">1.500.000đ</span>
-              <span className="font-['Inter:Regular'] font-normal leading-[16px] text-[12px]">{` - `}</span>
-              <span className="font-['JetBrains_Mono:Regular'] font-normal leading-[16px] text-[12px]">3.000.000đ</span>
-              <span className="font-['Inter:Regular'] font-normal leading-[16px] text-[12px]">/mã</span>
+            <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/body-small,16px)] not-italic relative shrink-0 text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-[length:var(--typography\/font-size\/body-small,12px)] tracking-[var(--typography\/letter-spacing\/body-small,0px)] w-[440px]" data-node-id="134:822">
+              Tính phí khuôn riêng cho từng mã
             </p>
             <div className="relative shrink-0 size-[16px]" data-node-id="148:573" data-name="Icon/check">
               <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconCheck} />

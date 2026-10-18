@@ -18,7 +18,7 @@ const atoms = new AtomicCSS('f');
 const ZALO = 'https://zalo.me/0387365020';
 const MAPS = 'https://www.google.com/maps/search/?api=1&query=36%2F6H+Tr%E1%BA%A7n+Th%E1%BB%8B+H%C3%A8%2C+T%C3%A2n+Th%E1%BB%9Bi+Hi%E1%BB%87p%2C+Qu%E1%BA%ADn+12';
 // Figma xuất code bỏ mất độ mờ của màu gắn biến trắng (base/white) -> bù lại theo node (quét bằng use_figma)
-const PAINT_FIX = { '134:604': 's.24', '134:606': 's.24', '134:608': 's.24', '134:610': 's.24', '178:1086': 'b.04|s.14', '178:1089': 's.2', '178:1093': 'c.62', '178:1095': 's.2', '178:1101': 'c.62', '178:1103': 's.2', '178:1108': 'c.62', '178:1110': 's.2', '178:1115': 'c.62', '178:1117': 's.2', '178:1121': 'c.62' };
+const PAINT_FIX = {};
 const PROVINCES = ['TP Hồ Chí Minh','Hà Nội','Hải Phòng','Đà Nẵng','Cần Thơ','Huế','Đồng Nai','Tây Ninh','Vĩnh Long','Đồng Tháp','An Giang','Cà Mau','Lâm Đồng','Đắk Lắk','Khánh Hòa','Gia Lai','Quảng Ngãi','Quảng Trị','Hà Tĩnh','Nghệ An','Thanh Hóa','Ninh Bình','Hưng Yên','Bắc Ninh','Quảng Ninh','Lạng Sơn','Cao Bằng','Tuyên Quang','Lào Cai','Thái Nguyên','Phú Thọ','Sơn La','Điện Biên','Lai Châu'];
 
 // ---------- tải asset Figma về repo ----------
