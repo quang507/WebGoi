@@ -1,29 +1,29 @@
-const imgDecoPaperGrain = "https://www.figma.com/api/mcp/asset/e5901d90-af45-401b-bccd-44a39ffbf328.png";
-const imgDecoHalftone = "https://www.figma.com/api/mcp/asset/545fe24c-98c5-4325-9908-bf8a1901def1.png";
-const imgHeroPhoto = "https://www.figma.com/api/mcp/asset/1654fcd2-9ef4-4833-8d80-f7a38da3f3f3.png";
-const imgDecoBangKeo = "https://www.figma.com/api/mcp/asset/eb4abe1f-a86d-4d18-bea5-c6abe2cebd5c.png";
-const imgNhGoiKhiDu = "https://www.figma.com/api/mcp/asset/b410bba2-ff3e-470d-b2d6-d6409e2eaabf.png";
-const imgNhGoiDngB = "https://www.figma.com/api/mcp/asset/1a0a34eb-1303-4c4c-b1f9-8d2572c0c2a5.png";
-const imgThumb = "https://www.figma.com/api/mcp/asset/25923038-5d1d-4d4a-9e35-7f9d844f29f3.png";
-const imgThumb1 = "https://www.figma.com/api/mcp/asset/6accb561-ccf6-42fc-9bc0-3f140ae05ee6.png";
-const imgThumb2 = "https://www.figma.com/api/mcp/asset/3b5e60f7-51ea-49f9-b9d5-a12895cfd80e.png";
-const imgThumb3 = "https://www.figma.com/api/mcp/asset/8f987593-fddd-457a-b2a1-f0f708d43319.png";
-const imgThumb4 = "https://www.figma.com/api/mcp/asset/9a839cd4-529b-4713-8a10-a57dc9f5dd96.png";
-const imgThumb5 = "https://www.figma.com/api/mcp/asset/c46e57c4-c872-465c-9ea3-0dba7148836f.png";
-const imgFactoryPhoto = "https://www.figma.com/api/mcp/asset/f467299b-30ad-4d6d-8461-86392fa6e734.png";
-const imgIconBag = "https://www.figma.com/api/mcp/asset/faaa5027-974a-41bd-b421-b701ba27416a.svg";
-const imgIconPhone = "https://www.figma.com/api/mcp/asset/981cda1f-3a7a-4423-b53e-e35de55fefdd.svg";
-const imgDecoConDu = "https://www.figma.com/api/mcp/asset/cdcdf81c-fa48-42ed-a3d7-791d57cd9f41.svg";
-const imgEllipse = "https://www.figma.com/api/mcp/asset/897ea7ca-0fbc-47db-825b-be9d8da97b6e.svg";
-const imgIconChevronDown = "https://www.figma.com/api/mcp/asset/a4cb4de7-d906-46f4-9074-0fad9e6bee1e.svg";
-const imgTrailingIcon = "https://www.figma.com/api/mcp/asset/b1634304-f289-4f55-b977-7a8f0ee919d6.svg";
-const imgIconCheck = "https://www.figma.com/api/mcp/asset/5721b556-6f82-4726-b574-45f4d0e72e69.svg";
-const imgTrailingIcon1 = "https://www.figma.com/api/mcp/asset/bda4decd-c514-4c5e-a8f6-100081e2846b.svg";
-const imgDecoConDu1 = "https://www.figma.com/api/mcp/asset/71bb7c95-53bc-4647-9469-af03aea21731.svg";
-const imgEllipse1 = "https://www.figma.com/api/mcp/asset/5b1c1d4e-a5d9-46fa-8884-335adacd55eb.svg";
-const imgGroup = "https://www.figma.com/api/mcp/asset/f58e7b1a-031b-4b2d-892d-16a43adf14be.svg";
-const imgDecoRegistration = "https://www.figma.com/api/mcp/asset/4a615cd2-4ede-4d21-a44c-cb3072849726.svg";
-const imgLeadingIcon = "https://www.figma.com/api/mcp/asset/665af2ea-f7c5-475b-a3d2-04e7e43f241e.svg";
+const imgDecoPaperGrain = "https://www.figma.com/api/mcp/asset/697da44b-7091-4dea-804d-4d97076e8e62.png";
+const imgDecoHalftone = "https://www.figma.com/api/mcp/asset/48b17a2f-cf91-4472-903e-fa18a0dc1f67.png";
+const imgHeroPhoto = "https://www.figma.com/api/mcp/asset/7168c917-d7c2-47b3-bb79-9f6a714ff156.png";
+const imgDecoBangKeo = "https://www.figma.com/api/mcp/asset/aa6908f7-58da-4cc7-b507-ceb3ce1f9296.png";
+const imgNhGoiKhiDu = "https://www.figma.com/api/mcp/asset/b5ebb5f4-8274-41a6-8425-c11228d84b85.png";
+const imgNhGoiDngB = "https://www.figma.com/api/mcp/asset/fd91b01e-38a4-4d58-bde3-712324e1e45c.png";
+const imgThumb = "https://www.figma.com/api/mcp/asset/d03b1004-9987-46e2-bb8f-c7bbcff6cb8e.png";
+const imgThumb1 = "https://www.figma.com/api/mcp/asset/0be2c9d0-dac3-486e-8d63-6704925808df.png";
+const imgThumb2 = "https://www.figma.com/api/mcp/asset/1266e9c3-525e-4fd2-92cb-4de15c7516f2.png";
+const imgThumb3 = "https://www.figma.com/api/mcp/asset/f69f193d-5b11-4885-8259-96af06b3a7d0.png";
+const imgThumb4 = "https://www.figma.com/api/mcp/asset/12d74c91-dfe2-4bf9-8204-d01d3ca8c4ea.png";
+const imgThumb5 = "https://www.figma.com/api/mcp/asset/4de26ef4-277d-4d4c-a3b8-53f730ea49b0.png";
+const imgFactoryPhoto = "https://www.figma.com/api/mcp/asset/4c3240eb-530b-4ddd-b2df-3d9c9fa4db0e.png";
+const imgIconBag = "https://www.figma.com/api/mcp/asset/39117ac5-e441-4680-94f8-dcec0378e169.svg";
+const imgIconPhone = "https://www.figma.com/api/mcp/asset/f3c8802a-def5-46d1-8dc2-033d3e9dfea7.svg";
+const imgDecoConDu = "https://www.figma.com/api/mcp/asset/2781713a-1fa7-4eca-bfe7-9bc37f369ae5.svg";
+const imgEllipse = "https://www.figma.com/api/mcp/asset/86f37021-1e9d-4b1a-be26-528c1679f95b.svg";
+const imgIconChevronDown = "https://www.figma.com/api/mcp/asset/b345dace-6a56-4cfc-bfd6-26919f276eae.svg";
+const imgTrailingIcon = "https://www.figma.com/api/mcp/asset/132da5b9-a3e6-4728-9f41-2679f324854c.svg";
+const imgIconCheck = "https://www.figma.com/api/mcp/asset/b9bb54c3-fc0b-47a6-9a9b-389213a4f25a.svg";
+const imgTrailingIcon1 = "https://www.figma.com/api/mcp/asset/247268ae-1d30-4f0f-8bea-952c0275312c.svg";
+const imgDecoConDu1 = "https://www.figma.com/api/mcp/asset/a0a0d8d2-bf8b-4ec1-bae5-77c0d6e33745.svg";
+const imgEllipse1 = "https://www.figma.com/api/mcp/asset/e42a87f7-dd02-451f-837f-2dd050efb6fd.svg";
+const imgGroup = "https://www.figma.com/api/mcp/asset/a42d26a0-ceb3-4f1d-97db-c01c14c4893c.svg";
+const imgDecoRegistration = "https://www.figma.com/api/mcp/asset/ee3dc13b-4c9c-4b23-ba18-b1d8d91593bc.svg";
+const imgLeadingIcon = "https://www.figma.com/api/mcp/asset/b3a3ae24-84a6-4388-9e8f-090382b31ce1.svg";
 
 export default function TrangChMobile390TiuNgonCai() {
   return (
@@ -58,8 +58,9 @@ export default function TrangChMobile390TiuNgonCai() {
         <div className="absolute h-[136.5px] left-[-68.25px] opacity-12 top-[490.8px] w-[273px]" data-node-id="161:766" data-name="Deco · Halftone">
           <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgDecoHalftone} />
         </div>
-        <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/heading-2,32px)] relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/heading-2,25px)] text-shadow-[-1.5px_0px_0px_rgba(0,161,232,0.45),1.5px_1px_0px_rgba(227,0,128,0.4)] tracking-[var(--typography\/letter-spacing\/heading-2,-0.5px)] w-[350px]" data-node-id="134:132">
-          BAO BÌ IN LOGO RIÊNG ĐẶT THEO SET 100
+        <p className="[word-break:break-word] font-['Be_Vietnam_Pro:ExtraBold'] leading-[0] not-italic relative shrink-0 text-[0px] text-[color:var(--ink\/strong,#121212)] tracking-[var(--typography\/letter-spacing\/heading-2,-0.5px)] w-[350px]" data-node-id="134:132">
+          <span className="leading-[var(--typography\/line-height\/heading-2,32px)] text-[25px]">{`BAO BÌ IN LOGO RIÊNG `}</span>
+          <span className="leading-[32px] text-[#d7262b] text-[25px] tracking-[-0.5px]">ĐẶT THEO SET 100</span>
         </p>
         <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/body-base,20px)] not-italic relative shrink-0 text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-[length:var(--typography\/font-size\/body-base,14px)] tracking-[var(--typography\/letter-spacing\/body-base,-0.14px)] w-[350px]" data-node-id="134:133">
           Chọn 1 trong 21 mẫu hộp có sẵn, in logo riêng theo set 100. Hàng làm riêng 7–10 ngày sau khi duyệt file.
@@ -452,7 +453,7 @@ export default function TrangChMobile390TiuNgonCai() {
             </div>
           </div>
         </div>
-        <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/heading-4,28px)] relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/heading-4,20px)] tracking-[var(--typography\/letter-spacing\/heading-4,-0.4px)] whitespace-nowrap" data-node-id="134:170">
+        <p className="[word-break:break-word] font-['Be_Vietnam_Pro:ExtraBold'] leading-[var(--typography\/line-height\/heading-4,28px)] not-italic relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/heading-4,20px)] tracking-[var(--typography\/letter-spacing\/heading-4,-0.4px)] whitespace-nowrap" data-node-id="134:170">
           MỘT ĐỐI TÁC TRỌN GÓI CHO SME
         </p>
         <div className="[word-break:break-word] bg-[var(--paper\/light,#f7f7f7)] border border-[var(--line\/default,rgba(1,1,1,0.13))] border-solid content-stretch flex flex-col gap-[var(--spacing\/gap\/2xsmall,4px)] h-[170px] items-start not-italic overflow-clip p-[var(--spacing\/padding\/medium,16px)] relative rounded-[var(--radius\/luxury,12px)] shrink-0 w-[350px]" data-node-id="134:171" data-name="Bình File & Maket 3D 15p">

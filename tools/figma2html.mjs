@@ -274,7 +274,7 @@ const head = (p) => `<!DOCTYPE html>
 <link rel="canonical" href="https://goi-v2.vercel.app${p.url}"><meta property="og:title" content="${p.title}"><meta property="og:description" content="${p.desc}">
 <meta name="theme-color" content="#FAF8F5"><link rel="icon" href="/brand/avatar-goi-icon-tet-red.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lora:wght@500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@700;800&family=Inter:wght@400;500;600;700&family=Lora:wght@500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/css/goi-base.css?v=${p.v}"><link rel="stylesheet" href="/css/goi-atoms.css?v=${p.v}">
 <script>(function(){var q=/[?&]bp=([dtm])/.exec(location.search),R=document.documentElement;if(q)R.setAttribute('data-bp',q[1]);function z(){var w=R.clientWidth,b=q?{d:1440,t:834,m:390}[q[1]]:(w>=1100?1440:w>=600?834:390),v=q?1:w/b;if(b===1440)v=Math.min(v,1);R.style.setProperty('--z',v);}z();addEventListener('resize',z);})();</script>
 </head><body class="goi" data-page="${p.kind}">

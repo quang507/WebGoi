@@ -1,35 +1,35 @@
-const imgDecoPaperGrain = "https://www.figma.com/api/mcp/asset/094e759f-f031-411d-8fd6-ac5c70073f1d.png";
-const imgDecoHalftone = "https://www.figma.com/api/mcp/asset/d58a26d4-1d8b-4c5a-8218-11d63359c76e.png";
-const imgNhSnPhm = "https://www.figma.com/api/mcp/asset/fc94e7f3-4dd0-4215-8162-aa0818542207.png";
-const imgNhSnPhm1 = "https://www.figma.com/api/mcp/asset/25748ce2-3302-4a7e-878b-d1fb39533686.png";
-const imgNhSnPhm2 = "https://www.figma.com/api/mcp/asset/a36bd59e-932e-4561-b5f6-804ce86fefa3.png";
-const imgNhSnPhm3 = "https://www.figma.com/api/mcp/asset/34796c16-1ce2-4a73-859c-74122b7a8bf9.png";
-const imgNhSnPhm4 = "https://www.figma.com/api/mcp/asset/9532980a-e86d-450a-837f-5891273f93f6.png";
-const imgNhSnPhm5 = "https://www.figma.com/api/mcp/asset/79940a0c-21bb-4bae-82d8-6ef101bc1673.png";
-const imgNhSnPhm6 = "https://www.figma.com/api/mcp/asset/76c97316-c647-4b41-b47e-a5cc166f524f.png";
-const imgNhSnPhm7 = "https://www.figma.com/api/mcp/asset/26c16d9f-f8d9-4ae4-b064-ae7cf6801c1a.png";
-const imgNhSnPhm8 = "https://www.figma.com/api/mcp/asset/c4a5ff64-6a84-4c5f-944d-c0049862d207.png";
-const imgNhSnPhm9 = "https://www.figma.com/api/mcp/asset/38d109da-0cc2-48b5-8588-cf590f799c23.png";
-const imgNhSnPhm10 = "https://www.figma.com/api/mcp/asset/ea0446b2-e64d-43d1-87ed-d740988ef515.png";
-const imgNhSnPhm11 = "https://www.figma.com/api/mcp/asset/d6e4a19f-97ce-4cb1-8357-cf544a97c709.png";
-const imgNhSnPhm12 = "https://www.figma.com/api/mcp/asset/b0f766da-be4b-404d-8467-0c1772968ce9.png";
-const imgNhSnPhm13 = "https://www.figma.com/api/mcp/asset/436f8e8f-7810-490e-846a-7d4172f10bb3.png";
-const imgNhSnPhm14 = "https://www.figma.com/api/mcp/asset/48a49fcf-e3c2-49e5-b7fa-87178b769dfb.png";
-const imgNhSnPhm15 = "https://www.figma.com/api/mcp/asset/f03b61a5-5b64-4318-b989-8ed889082c89.png";
-const imgNhSnPhm16 = "https://www.figma.com/api/mcp/asset/043a1569-1ebd-4553-8fad-f9447acb25eb.png";
-const imgNhSnPhm17 = "https://www.figma.com/api/mcp/asset/bd497b35-7da8-4743-8999-2ca22cbc29cd.png";
-const imgNhSnPhm18 = "https://www.figma.com/api/mcp/asset/50c50640-dc38-4d91-89d5-d550f0a25b54.png";
-const imgNhSnPhm19 = "https://www.figma.com/api/mcp/asset/5e9a93f4-a623-4559-8c6e-ccf45a2d89fb.png";
-const imgNhSnPhm20 = "https://www.figma.com/api/mcp/asset/1434c7bb-bb04-4c26-b4ac-f8ae61339bc9.png";
-const imgDecoRegistration = "https://www.figma.com/api/mcp/asset/1a87eded-488e-49e2-a7f6-1cf0be8c2f90.svg";
-const imgIconBag = "https://www.figma.com/api/mcp/asset/1265c50b-2643-4425-8d35-de37c14b6cf8.svg";
-const imgGroup = "https://www.figma.com/api/mcp/asset/bb559fc0-0d95-4da0-b76c-1b32a3ca2866.svg";
-const imgIconSearch = "https://www.figma.com/api/mcp/asset/2f435e34-3566-4cf4-9b9b-32823e29083a.svg";
-const imgIconArrowUr = "https://www.figma.com/api/mcp/asset/ce740cdf-cb14-47b1-8ce1-8651e499db1c.svg";
-const imgIconBagPlus = "https://www.figma.com/api/mcp/asset/320d25d2-c80f-49e3-abdd-eecf7a76de61.svg";
-const imgIconScissors = "https://www.figma.com/api/mcp/asset/d44ff071-b76f-4bf8-8058-06a2be536bbe.svg";
-const imgLine = "https://www.figma.com/api/mcp/asset/4885d464-ad37-4571-a8e6-3e231f2f7a73.svg";
-const imgDecoRegistration1 = "https://www.figma.com/api/mcp/asset/56581718-6e92-41ff-bcbf-a6a43eae6c28.svg";
+const imgDecoPaperGrain = "https://www.figma.com/api/mcp/asset/c5c19b36-ce81-43b1-82f2-c0b327f38417.png";
+const imgDecoHalftone = "https://www.figma.com/api/mcp/asset/a14a2a92-1a74-4021-bbf0-fd1d7050abc6.png";
+const imgNhSnPhm = "https://www.figma.com/api/mcp/asset/0fe64481-6149-4830-99b7-6ce115221168.png";
+const imgNhSnPhm1 = "https://www.figma.com/api/mcp/asset/a026eca9-4506-4c23-aee5-4a606c821586.png";
+const imgNhSnPhm2 = "https://www.figma.com/api/mcp/asset/d2d36218-9fa3-4694-9c6e-022b68b89c0c.png";
+const imgNhSnPhm3 = "https://www.figma.com/api/mcp/asset/5770bbcc-a1c2-47b2-9258-40ca71f949ba.png";
+const imgNhSnPhm4 = "https://www.figma.com/api/mcp/asset/d229e422-3afe-4eeb-a14e-4b8f4fec3c6c.png";
+const imgNhSnPhm5 = "https://www.figma.com/api/mcp/asset/45f97ae2-7c0f-45dd-adb2-9044b03e9252.png";
+const imgNhSnPhm6 = "https://www.figma.com/api/mcp/asset/0ebeeb7d-4493-4cea-aff9-f6538fb768ef.png";
+const imgNhSnPhm7 = "https://www.figma.com/api/mcp/asset/f0e65bed-4d09-4eff-95be-06687dc96ea6.png";
+const imgNhSnPhm8 = "https://www.figma.com/api/mcp/asset/c92ae9c0-fe90-4f2e-a423-37ae9eeb81c4.png";
+const imgNhSnPhm9 = "https://www.figma.com/api/mcp/asset/0308c248-f247-49ae-ac4f-95cc28b2baca.png";
+const imgNhSnPhm10 = "https://www.figma.com/api/mcp/asset/233655f5-60ab-4380-ae19-0fec2654da50.png";
+const imgNhSnPhm11 = "https://www.figma.com/api/mcp/asset/e1e9cdb7-29ee-48ce-aeca-7e727b3af35e.png";
+const imgNhSnPhm12 = "https://www.figma.com/api/mcp/asset/38361201-09db-4c22-8b07-8a02fb4f13ac.png";
+const imgNhSnPhm13 = "https://www.figma.com/api/mcp/asset/b9b0ceac-58b6-46a4-aab3-159f2248077a.png";
+const imgNhSnPhm14 = "https://www.figma.com/api/mcp/asset/4d879588-48dd-41b4-951a-ea7a04bf6bd4.png";
+const imgNhSnPhm15 = "https://www.figma.com/api/mcp/asset/c972e3d5-0aa6-4c31-b396-c3c9ee410142.png";
+const imgNhSnPhm16 = "https://www.figma.com/api/mcp/asset/7e02db2b-40b6-4cb6-a346-df087bbd7438.png";
+const imgNhSnPhm17 = "https://www.figma.com/api/mcp/asset/1c208a44-32c9-4028-a76a-cb35a37819b9.png";
+const imgNhSnPhm18 = "https://www.figma.com/api/mcp/asset/6001dec6-4c86-4d7c-8c00-61da300e8e8e.png";
+const imgNhSnPhm19 = "https://www.figma.com/api/mcp/asset/4a49607d-86b9-4a26-8c18-34cdcc32e649.png";
+const imgNhSnPhm20 = "https://www.figma.com/api/mcp/asset/dd7a0f7d-02b1-4243-a2bf-f0e09955901f.png";
+const imgDecoRegistration = "https://www.figma.com/api/mcp/asset/19d01c32-9904-4de2-a1d0-3bdd37ce3f25.svg";
+const imgIconBag = "https://www.figma.com/api/mcp/asset/0d1caffa-d842-4f20-91c2-97504da258c0.svg";
+const imgGroup = "https://www.figma.com/api/mcp/asset/092636a7-d99d-4bcc-98e2-62ea7a8064de.svg";
+const imgIconSearch = "https://www.figma.com/api/mcp/asset/5656e3eb-8765-4e4f-8ddc-28865735d02f.svg";
+const imgIconArrowUr = "https://www.figma.com/api/mcp/asset/421eb4eb-d10f-4055-b651-8aa53553efde.svg";
+const imgIconBagPlus = "https://www.figma.com/api/mcp/asset/54d80d0e-ccf7-4a5a-8785-bfe796db2fd3.svg";
+const imgIconScissors = "https://www.figma.com/api/mcp/asset/cbc529e9-0fca-4aa5-acae-5b0434a524b6.svg";
+const imgLine = "https://www.figma.com/api/mcp/asset/92875dec-ac74-4e67-a092-b3feaa190fa6.svg";
+const imgDecoRegistration1 = "https://www.figma.com/api/mcp/asset/2f0e4293-c878-41c1-94bd-c7fc335ef9fc.svg";
 
 export default function ListingHpCngAmDngDesktop1440Px() {
   return (
@@ -113,7 +113,7 @@ export default function ListingHpCngAmDngDesktop1440Px() {
         <div className="absolute h-[450px] left-[-225px] opacity-12 top-[-168px] w-[900px]" data-node-id="161:962" data-name="Deco · Halftone">
           <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgDecoHalftone} />
         </div>
-        <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/display,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/display-3,44px)] relative shrink-0 text-[color:var(--base\/white,white)] text-[length:var(--typography\/font-size\/display-3,36px)] tracking-[var(--typography\/letter-spacing\/display-3,-0.98px)] whitespace-nowrap" data-node-id="134:1026">
+        <p className="[word-break:break-word] font-['Be_Vietnam_Pro:ExtraBold'] leading-[var(--typography\/line-height\/display-3,44px)] not-italic relative shrink-0 text-[color:var(--base\/white,white)] text-[length:var(--typography\/font-size\/display-3,36px)] tracking-[var(--typography\/letter-spacing\/display-3,-0.98px)] whitespace-nowrap" data-node-id="134:1026">
           MẪU HỘP CÓ SẴN
         </p>
         <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/body-base,20px)] not-italic relative shrink-0 text-[color:var(--base\/white,white)] text-[length:var(--typography\/font-size\/body-base,14px)] tracking-[var(--typography\/letter-spacing\/body-base,-0.14px)] w-[1100px]" data-node-id="134:1027">

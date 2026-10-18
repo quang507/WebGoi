@@ -1,25 +1,25 @@
-const img01HeroProfileSection = "https://www.figma.com/api/mcp/asset/683c18b2-7f88-442f-9bd8-d90b0bef77df.png";
-const imgDecoPaperGrain = "https://www.figma.com/api/mcp/asset/9625a8b0-efd1-481a-a6d7-b8b7b8a325dd.png";
-const imgDecoHalftone = "https://www.figma.com/api/mcp/asset/a267678c-949f-49e1-8af5-9ffd1824d43a.png";
-const imgNhXngSnXutQ12 = "https://www.figma.com/api/mcp/asset/6bb9ef06-462c-4b0f-971b-b5e2aff68d4f.png";
-const imgVideoThumbnail = "https://www.figma.com/api/mcp/asset/9373c18a-41df-4b50-92c3-76e885bdf1ec.png";
-const imgKcsCanhMauCmyk = "https://www.figma.com/api/mcp/asset/d8a0dc7d-547e-407d-8e26-51aad3ccbbb1.png";
-const imgBHpKhiVuong90 = "https://www.figma.com/api/mcp/asset/fa3f5d71-b31d-4ece-b861-6a1704fbbe4b.png";
-const imgEpKimVangAnhKim = "https://www.figma.com/api/mcp/asset/f3f748da-63a5-4c97-8e4e-0e49b1aca159.png";
-const imgDongPalletXutXng = "https://www.figma.com/api/mcp/asset/29faab57-3a31-4b67-902c-9ba8db6c44a9.png";
-const imgDecoRegistration = "https://www.figma.com/api/mcp/asset/c563ee49-7d7b-46f4-a3ae-0cd593a31923.svg";
-const imgIconBag = "https://www.figma.com/api/mcp/asset/68640213-f0e7-405f-8535-f9369036ada5.svg";
-const imgIconArrowUr = "https://www.figma.com/api/mcp/asset/288d779f-8b80-47a0-8204-f5ba65d27d4e.svg";
-const imgDecoConDu = "https://www.figma.com/api/mcp/asset/48840a34-ce2c-4433-9a8f-92230be72c66.svg";
-const imgEllipse = "https://www.figma.com/api/mcp/asset/bac6d7b1-991a-419d-8441-545f5af05f60.svg";
-const imgIconCheck = "https://www.figma.com/api/mcp/asset/7c5bbc52-3b55-4274-be3e-eb257929f12b.svg";
-const imgIconScissors = "https://www.figma.com/api/mcp/asset/47bfedd0-4a62-4186-96e3-bd7545b53a07.svg";
-const imgLine = "https://www.figma.com/api/mcp/asset/771335e2-19c3-47aa-8784-13e46c1922a3.svg";
-const imgGroup = "https://www.figma.com/api/mcp/asset/c3b6ff43-6d68-44eb-bc94-f071b7e6a972.svg";
-const imgIconBox = "https://www.figma.com/api/mcp/asset/7b41070b-e2de-43d4-840a-1f7bad647bf8.svg";
-const imgIconCheck1 = "https://www.figma.com/api/mcp/asset/060391b7-a975-44f5-9770-b27306586afb.svg";
-const imgTrailingIcon = "https://www.figma.com/api/mcp/asset/7dba2f82-7a4e-4a14-9a93-a447684182e7.svg";
-const imgDecoRegistration1 = "https://www.figma.com/api/mcp/asset/035b54fb-a61a-47b4-bb3f-6693aa61e5af.svg";
+const img01HeroProfileSection = "https://www.figma.com/api/mcp/asset/1e663e93-8740-4142-a53a-0e2737d80d1f.png";
+const imgDecoPaperGrain = "https://www.figma.com/api/mcp/asset/b3da384f-eb4d-419e-8505-78ce080979cb.png";
+const imgDecoHalftone = "https://www.figma.com/api/mcp/asset/3cd8a8b2-4250-4509-8ce1-5dfa6bce4584.png";
+const imgNhXngSnXutQ12 = "https://www.figma.com/api/mcp/asset/63fb9b8d-a36f-4dca-9d3c-07db16f6e882.png";
+const imgVideoThumbnail = "https://www.figma.com/api/mcp/asset/82f74c20-8781-4d12-9a5d-c860b8e87ef1.png";
+const imgKcsCanhMauCmyk = "https://www.figma.com/api/mcp/asset/b5df8d5f-a640-4734-8188-46e5b4a732f3.png";
+const imgBHpKhiVuong90 = "https://www.figma.com/api/mcp/asset/f0305583-a174-45c6-9e57-a37d91757ea2.png";
+const imgEpKimVangAnhKim = "https://www.figma.com/api/mcp/asset/0529fc4d-607f-42e8-9f57-9e7aa15e7065.png";
+const imgDongPalletXutXng = "https://www.figma.com/api/mcp/asset/a35319ab-6313-4382-8f26-7498aebed347.png";
+const imgDecoRegistration = "https://www.figma.com/api/mcp/asset/033a176f-e6fe-4eef-b5b3-b998667d6d98.svg";
+const imgIconBag = "https://www.figma.com/api/mcp/asset/0b9ed064-dabb-4a7e-b498-af0cbdaf39fb.svg";
+const imgIconArrowUr = "https://www.figma.com/api/mcp/asset/3c26ce54-bcfa-41f8-a635-a24bb8f9f780.svg";
+const imgDecoConDu = "https://www.figma.com/api/mcp/asset/e8e9d029-15f4-41cc-999c-ace0e4e3c98e.svg";
+const imgEllipse = "https://www.figma.com/api/mcp/asset/2ea699ec-1b1b-4b75-a502-8c96a89798a8.svg";
+const imgIconCheck = "https://www.figma.com/api/mcp/asset/85418951-1a47-467d-a3de-5d3ca6b05069.svg";
+const imgIconScissors = "https://www.figma.com/api/mcp/asset/76d59159-758e-4946-b311-dcf2224322d6.svg";
+const imgLine = "https://www.figma.com/api/mcp/asset/689e2463-dab1-4c80-91d2-616a201c6316.svg";
+const imgGroup = "https://www.figma.com/api/mcp/asset/30e86b3f-6ec3-400a-9727-d8586902e954.svg";
+const imgIconBox = "https://www.figma.com/api/mcp/asset/15f7d87f-6b39-475c-9599-a1a689ae8841.svg";
+const imgIconCheck1 = "https://www.figma.com/api/mcp/asset/2e977e2c-d6b1-4b79-a31a-0fd0f4065833.svg";
+const imgTrailingIcon = "https://www.figma.com/api/mcp/asset/fd08c00a-75dd-4fdd-a2ce-14584836f024.svg";
+const imgDecoRegistration1 = "https://www.figma.com/api/mcp/asset/5c8dd867-682a-4122-a7b3-23540aa6c339.svg";
 
 export default function HSNangLcDesktop1440Px() {
   return (
@@ -102,17 +102,17 @@ export default function HSNangLcDesktop1440Px() {
             HỒ SƠ NĂNG LỰC SẢN XUẤT 2026 - 2027
           </p>
         </div>
-        <div className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/display,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[0] relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/display-1,45px)] text-center tracking-[var(--typography\/letter-spacing\/display-1,-1.52px)] whitespace-nowrap" data-node-id="134:681">
+        <div className="[word-break:break-word] font-['Be_Vietnam_Pro:ExtraBold'] leading-[0] not-italic relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/display-1,45px)] text-center tracking-[var(--typography\/letter-spacing\/display-1,-1.52px)] whitespace-nowrap" data-node-id="134:681">
           <p className="leading-[var(--typography\/line-height\/display-1,52px)] mb-0">XƯỞNG IN BAO BÌ GÓI</p>
           <p className="leading-[var(--typography\/line-height\/display-1,52px)]">NỀN TẢNG CÔNG NGHIỆP TẠI QUẬN 12</p>
         </div>
         <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/body-base,20px)] not-italic relative shrink-0 text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-[length:var(--typography\/font-size\/body-base,14px)] text-center tracking-[var(--typography\/letter-spacing\/body-base,-0.14px)] w-[900px]" data-node-id="134:682">
-          Xưởng NAHT tại Tân Thới Hiệp, Quận 12 in hộp, túi, tem nhãn và phụ liệu. GÓI là thương hiệu bao bì Tết của xưởng, đặt theo set 100 sản phẩm.
+          Xưởng GÓI tại Tân Thới Hiệp, Quận 12 in hộp, túi, tem nhãn và phụ liệu. GÓI là thương hiệu bao bì Tết của xưởng, đặt theo set 100 sản phẩm.
         </p>
         <div className="[word-break:break-word] content-stretch flex gap-[var(--spacing\/gap\/large,24px)] h-[90px] items-start overflow-clip relative shrink-0 w-[1100px] whitespace-nowrap" data-node-id="134:683" data-name="4 Chỉ Số Năng Lực">
           <div className="bg-[var(--base\/white,white)] border border-[var(--line\/default,rgba(1,1,1,0.13))] border-solid content-stretch flex flex-col gap-[var(--spacing\/gap\/2xsmall,4px)] h-[90px] items-center justify-center overflow-clip p-[var(--spacing\/padding\/small,12px)] relative rounded-[var(--radius\/luxury,12px)] shrink-0 w-[257px]" data-node-id="134:684" data-name="10 NĂM">
             <p className="font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/heading-3,28px)] relative shrink-0 text-[color:var(--brand\/red,#ff6bd5)] text-[length:var(--typography\/font-size\/heading-3,22px)] tracking-[var(--typography\/letter-spacing\/heading-3,-0.44px)]" data-node-id="134:685">
-              NAHT Q12
+              XƯỞNG Q12
             </p>
             <p className="font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/caption,16px)] not-italic relative shrink-0 text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-[length:var(--typography\/font-size\/caption,11px)] tracking-[var(--typography\/letter-spacing\/caption,0px)]" data-node-id="134:686">
               Xưởng in trực tiếp
@@ -170,7 +170,7 @@ export default function HSNangLcDesktop1440Px() {
           <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[16px] not-italic relative shrink-0 text-[11px] text-[color:var(--brand\/red,#ff6bd5)] tracking-[0.66px] uppercase whitespace-nowrap" data-node-id="134:698">
             CÂU CHUYỆN KHỞI TẠO
           </p>
-          <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/display,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/display-4,40px)] min-w-full relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/display-4,32px)] tracking-[var(--typography\/letter-spacing\/display-4,-0.76px)] w-[min-content]" data-node-id="134:699">
+          <p className="[word-break:break-word] font-['Be_Vietnam_Pro:ExtraBold'] leading-[var(--typography\/line-height\/display-4,40px)] min-w-full not-italic relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/display-4,32px)] tracking-[var(--typography\/letter-spacing\/display-4,-0.76px)] w-[min-content]" data-node-id="134:699">
             Shop Nhỏ Cũng Có Bao Bì Mang Tên Mình
           </p>
           <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/body-base,20px)] not-italic relative shrink-0 text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-[length:var(--typography\/font-size\/body-base,14px)] tracking-[var(--typography\/letter-spacing\/body-base,-0.14px)] w-[630px]" data-node-id="134:700">
@@ -518,7 +518,7 @@ export default function HSNangLcDesktop1440Px() {
             <p className="leading-[var(--typography\/line-height\/heading-1,36px)]">Kiểm Soát 3 Chặng</p>
           </div>
           <p className="font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/body-base,20px)] min-w-full not-italic relative shrink-0 text-[length:var(--typography\/font-size\/body-base,14px)] tracking-[var(--typography\/letter-spacing\/body-base,-0.14px)] w-[min-content]" data-node-id="134:798">
-            Giấy, mực và keo của xưởng NAHT có chứng nhận RoHS và CA65. Mỗi đơn qua 3 bước kiểm tra trước khi giao.
+            Giấy, mực và keo của xưởng có chứng nhận RoHS và CA65. Mỗi đơn qua 3 bước kiểm tra trước khi giao.
           </p>
         </div>
         <div className="bg-[var(--paper\/light,#f7f7f7)] border border-[var(--line\/default,rgba(1,1,1,0.13))] border-solid content-stretch flex flex-col gap-[var(--spacing\/gap\/small,12px)] h-[350px] items-start overflow-clip p-[var(--spacing\/padding\/xlarge,24px)] relative rounded-[var(--radius\/luxury,12px)] shrink-0 w-[634px]" data-node-id="134:799" data-name="Cột Phải 3 Chặng KCS">

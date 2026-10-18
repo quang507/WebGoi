@@ -1,36 +1,36 @@
-const imgDecoPaperGrain = "https://www.figma.com/api/mcp/asset/b4d71e11-22d4-4566-a365-8aefc07898ff.png";
-const imgDecoHalftone = "https://www.figma.com/api/mcp/asset/cb5e4750-0464-49a9-8747-8ff004313614.png";
-const imgHeroPhoto = "https://www.figma.com/api/mcp/asset/1df09597-2bf6-4fc4-9e63-2e13b94b16d4.png";
-const imgDecoBangKeo = "https://www.figma.com/api/mcp/asset/f6b1a0de-668d-4745-90e6-ddf7d5065a4a.png";
-const imgNhGoiKhiDu = "https://www.figma.com/api/mcp/asset/5094a6c1-4583-4f68-abce-ba67ce0c969e.png";
-const imgNhGoiDngB = "https://www.figma.com/api/mcp/asset/cfc0fec2-cf5f-462a-a605-0580e8f6e9c3.png";
-const imgThumb = "https://www.figma.com/api/mcp/asset/c104bfb7-1909-47f9-a8a0-da1ae1837f2b.png";
-const imgThumb1 = "https://www.figma.com/api/mcp/asset/941e3bfb-54a1-48ea-8ad8-75cd491a83ea.png";
-const imgThumb2 = "https://www.figma.com/api/mcp/asset/0a251f01-e9ad-4040-b9da-b9c80cc34d86.png";
-const imgThumb3 = "https://www.figma.com/api/mcp/asset/62d7bc23-4cb3-4b68-ba63-1ec880e4799d.png";
-const imgThumb4 = "https://www.figma.com/api/mcp/asset/04671942-2299-4b48-9e8d-800ad75c1a1c.png";
-const imgThumb5 = "https://www.figma.com/api/mcp/asset/524b896f-eeb8-4822-bc1c-218ece738347.png";
-const imgFactoryPhoto = "https://www.figma.com/api/mcp/asset/a544b1f6-e0c6-4405-b083-8685a75e83e2.png";
-const imgWaveArt = "https://www.figma.com/api/mcp/asset/c7bcf365-fdca-4585-a12b-6e11d8008165.png";
-const imgIconBag = "https://www.figma.com/api/mcp/asset/ca92c9d1-993b-4be6-9ef5-f0aad73e93c9.svg";
-const imgIconArrowUr = "https://www.figma.com/api/mcp/asset/105d067a-f113-40ea-b52d-0966a58ea212.svg";
-const imgIconChevronDown = "https://www.figma.com/api/mcp/asset/b5d8d821-a5c7-4b55-a72e-73a50490424d.svg";
-const imgTrailingIcon = "https://www.figma.com/api/mcp/asset/d5752efb-c11d-4e1f-b72d-39812f13cb83.svg";
-const imgIconScissors = "https://www.figma.com/api/mcp/asset/35353379-24f9-4832-b867-b971ff6a03ce.svg";
-const imgLine = "https://www.figma.com/api/mcp/asset/435b2343-1a9c-4026-9963-b2c6b60fb897.svg";
-const imgIconCheck = "https://www.figma.com/api/mcp/asset/27255b41-a885-4ebb-a8f1-5669bbd7d748.svg";
-const imgDecoConDu = "https://www.figma.com/api/mcp/asset/7f2cdadf-32c0-4c4f-a00e-836b39888762.svg";
-const imgEllipse = "https://www.figma.com/api/mcp/asset/1262bfde-4a45-474e-90d4-0f0a43fd415b.svg";
-const imgGroup = "https://www.figma.com/api/mcp/asset/3b393c77-e298-41e2-a1f3-57a31fe90b10.svg";
-const imgGroup1 = "https://www.figma.com/api/mcp/asset/99c2bc3e-29e2-4309-80b1-906b446ecda1.svg";
-const imgDecoRegistration = "https://www.figma.com/api/mcp/asset/86a8bbee-50f3-4031-858a-a470bf6feead.svg";
+const imgDecoPaperGrain = "https://www.figma.com/api/mcp/asset/34ac036b-3fa4-41a4-9741-709c69bbd081.png";
+const imgDecoHalftone = "https://www.figma.com/api/mcp/asset/1d41061a-1c48-4190-b28a-641d2eee61a8.png";
+const imgHeroPhoto = "https://www.figma.com/api/mcp/asset/0db0af05-e4aa-4f3e-a2f6-dd87b047e95a.png";
+const imgDecoBangKeo = "https://www.figma.com/api/mcp/asset/bc7d76c8-74fd-4712-a958-985b04909b2f.png";
+const imgNhGoiKhiDu = "https://www.figma.com/api/mcp/asset/4168b17b-8b8a-4b13-b7a6-42ea0caf181a.png";
+const imgNhGoiDngB = "https://www.figma.com/api/mcp/asset/2329f425-4ab0-4390-98e9-6683b288c8c2.png";
+const imgThumb = "https://www.figma.com/api/mcp/asset/c2c8de8f-bcbe-4e99-817a-d5039f22b200.png";
+const imgThumb1 = "https://www.figma.com/api/mcp/asset/87d07174-77cc-46af-99dc-a5aec8ad1fe6.png";
+const imgThumb2 = "https://www.figma.com/api/mcp/asset/bbd38ae6-cc86-48a9-9c64-181a43980836.png";
+const imgThumb3 = "https://www.figma.com/api/mcp/asset/2b68d4e2-57aa-4fdf-bec4-822247d2e99d.png";
+const imgThumb4 = "https://www.figma.com/api/mcp/asset/66784335-33ce-4a61-afdd-d6b92750dd0e.png";
+const imgThumb5 = "https://www.figma.com/api/mcp/asset/cb522939-e903-45f5-99be-5c2128a5dedd.png";
+const imgFactoryPhoto = "https://www.figma.com/api/mcp/asset/ecbafc17-e384-4b41-a2f9-7dbb0c7774eb.png";
+const imgWaveArt = "https://www.figma.com/api/mcp/asset/0856410f-665b-4fa3-be6f-56adcb0bbca8.png";
+const imgIconBag = "https://www.figma.com/api/mcp/asset/80499aa0-4b61-4d24-b7cb-114f1f836c91.svg";
+const imgIconArrowUr = "https://www.figma.com/api/mcp/asset/1a17b13d-297c-45f6-83c2-a18a5e8b3a6f.svg";
+const imgIconChevronDown = "https://www.figma.com/api/mcp/asset/95e8e5ba-2d26-42ad-8e44-921dfaccbac4.svg";
+const imgTrailingIcon = "https://www.figma.com/api/mcp/asset/00f06cf5-15db-4b96-9ceb-a9cdf94244ed.svg";
+const imgIconScissors = "https://www.figma.com/api/mcp/asset/697180ab-6b6c-47c3-b41d-753ef59ac4db.svg";
+const imgLine = "https://www.figma.com/api/mcp/asset/a0a53bc0-fe45-4aa4-8cf1-03f0ffb80b40.svg";
+const imgIconCheck = "https://www.figma.com/api/mcp/asset/b88fa4f7-005b-440a-ac3b-c1e075fb9abd.svg";
+const imgDecoConDu = "https://www.figma.com/api/mcp/asset/38d02ff3-f8d8-48ed-aa28-53d02e09375d.svg";
+const imgEllipse = "https://www.figma.com/api/mcp/asset/4a9c6293-89fc-4065-a957-2f066f02a8ed.svg";
+const imgGroup = "https://www.figma.com/api/mcp/asset/95d1551c-bfed-4ae8-93b0-66b5aa7fa63b.svg";
+const imgGroup1 = "https://www.figma.com/api/mcp/asset/c230a293-3565-498a-81d4-8c1e77e7e0ef.svg";
+const imgDecoRegistration = "https://www.figma.com/api/mcp/asset/1dcd9299-6617-4609-89d9-3c3c741ce580.svg";
 
 export default function TrangChTablet834IPadResponsive() {
   return (
     <div className="bg-[var(--base\/white,white)] content-stretch flex flex-col items-start relative size-full" data-node-id="134:4" data-name="Trang Chủ - Tablet 834 (iPad Responsive)">
       <div className="bg-[var(--paper\/light,#f7f7f7)] content-stretch flex h-[36px] items-center justify-center overflow-clip p-[var(--spacing\/padding\/xsmall,8px)] relative shrink-0 w-[834px]" data-node-id="134:5" data-name="00 - Top Bar Tablet">
         <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/caption,16px)] not-italic relative shrink-0 text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-[length:var(--typography\/font-size\/caption,11px)] tracking-[var(--typography\/letter-spacing\/caption,0px)] whitespace-nowrap" data-node-id="134:6">
-          Xưởng in trực tiếp NAHT Q12 • 21 mẫu hộp có sẵn • Đặt theo set 100 • Hotline: 0387 365 020
+          Xưởng in trực tiếp Quận 12 • 21 mẫu hộp có sẵn • Đặt theo set 100 • Hotline: 0387 365 020
         </p>
       </div>
       <div className="bg-[var(--base\/white,white)] border border-[var(--line\/default,rgba(1,1,1,0.13))] border-solid content-stretch flex h-[82px] items-center justify-between p-[var(--spacing\/padding\/3xlarge,40px)] relative shrink-0 w-[834px]" data-node-id="134:7" data-name="01 - Header Tablet">
@@ -77,12 +77,12 @@ export default function TrangChTablet834IPadResponsive() {
         <div className="absolute h-[291.9px] left-[-145.95px] opacity-12 top-[426.48px] w-[583.8px]" data-node-id="161:692" data-name="Deco · Halftone">
           <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgDecoHalftone} />
         </div>
-        <div className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[0] relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/heading-1,28px)] text-shadow-[-1.5px_0px_0px_rgba(0,161,232,0.45),1.5px_1px_0px_rgba(227,0,128,0.4)] tracking-[var(--typography\/letter-spacing\/heading-1,-0.56px)] w-[754px]" data-node-id="134:17">
-          <p className="leading-[var(--typography\/line-height\/heading-1,36px)] mb-[var(--typography\/font-size\/heading-1,28px)]">BAO BÌ IN LOGO RIÊNG</p>
-          <p className="leading-[var(--typography\/line-height\/heading-1,36px)]">ĐẶT THEO SET 100</p>
+        <div className="[word-break:break-word] font-['Be_Vietnam_Pro:ExtraBold'] leading-[0] not-italic relative shrink-0 text-[0px] text-[color:var(--ink\/strong,#121212)] tracking-[var(--typography\/letter-spacing\/heading-1,-0.56px)] w-[754px]" data-node-id="134:17">
+          <p className="leading-[var(--typography\/line-height\/heading-1,36px)] mb-[var(--typography\/font-size\/heading-1,28px)] text-[28px]">BAO BÌ IN LOGO RIÊNG</p>
+          <p className="leading-[36px] text-[#d7262b] text-[28px] tracking-[-0.56px]">ĐẶT THEO SET 100</p>
         </div>
         <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/body-base,20px)] not-italic relative shrink-0 text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-[length:var(--typography\/font-size\/body-base,14px)] tracking-[var(--typography\/letter-spacing\/body-base,-0.14px)] w-[754px]" data-node-id="134:18">
-          Xưởng NAHT tại Quận 12 in trực tiếp, không qua trung gian. Chọn 1 trong 21 mẫu hộp có sẵn, GÓI in logo thương hiệu của bạn lên hộp, tem và đai.
+          Xưởng tại Quận 12 in trực tiếp, không qua trung gian. Chọn 1 trong 21 mẫu hộp có sẵn, GÓI in logo thương hiệu của bạn lên hộp, tem và đai.
         </p>
         <div className="[word-break:break-word] content-stretch flex h-[76px] items-start justify-between relative shrink-0 w-[754px] whitespace-nowrap" data-node-id="134:19" data-name="Stats Row">
           <div className="bg-[var(--paper\/light,#f7f7f7)] border border-[var(--line\/default,rgba(1,1,1,0.13))] border-solid content-stretch flex flex-col gap-[var(--spacing\/gap\/2xsmall,4px)] items-start overflow-clip p-[var(--spacing\/padding\/small,12px)] relative rounded-[var(--radius\/luxury,12px)] shrink-0 w-[174px]" data-node-id="134:20" data-name="Stat">
@@ -466,7 +466,7 @@ export default function TrangChTablet834IPadResponsive() {
             </div>
           </div>
         </div>
-        <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/heading-3,28px)] relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/heading-3,22px)] tracking-[var(--typography\/letter-spacing\/heading-3,-0.44px)] whitespace-nowrap" data-node-id="134:54">
+        <p className="[word-break:break-word] font-['Be_Vietnam_Pro:ExtraBold'] leading-[var(--typography\/line-height\/heading-3,28px)] not-italic relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/heading-3,22px)] tracking-[var(--typography\/letter-spacing\/heading-3,-0.44px)] whitespace-nowrap" data-node-id="134:54">
           MỘT ĐỐI TÁC, TRỌN GÓI TỪ Ý TƯỞNG ĐẾN THÀNH PHẨM
         </p>
         <div className="[word-break:break-word] content-stretch flex flex-col gap-[var(--spacing\/gap\/medium,16px)] h-[400px] items-start not-italic overflow-clip relative shrink-0 w-[754px]" data-node-id="134:55" data-name="Grid 2x2">
@@ -653,7 +653,7 @@ export default function TrangChTablet834IPadResponsive() {
           Bạn lo món ngon, GÓI cùng bạn chuẩn bị chiếc hộp phù hợp.
         </p>
         <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/body-base,20px)] not-italic relative shrink-0 text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-[length:var(--typography\/font-size\/body-base,14px)] tracking-[var(--typography\/letter-spacing\/body-base,-0.14px)] w-[754px]" data-node-id="134:112">
-          GÓI là thương hiệu bao bì Tết của xưởng NAHT. In offset, cán màng, bế, ép kim, bồi và dán hộp đều làm tại xưởng.
+          GÓI là thương hiệu bao bì Tết của xưởng in tại Quận 12. In offset, cán màng, bế, ép kim, bồi và dán hộp đều làm tại xưởng.
         </p>
         <div className="h-[400px] relative rounded-[var(--radius\/luxury,12px)] shrink-0 w-[754px]" data-node-id="134:113" data-name="Factory Photo">
           <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[var(--radius\/luxury,12px)] size-full" src={imgFactoryPhoto} />
