@@ -3,7 +3,7 @@
 Trang chủ, Mẫu hộp, Hồ sơ năng lực và các trang Chi tiết SKU được sinh tự động từ code Figma xuất ra, để web luôn giống bản thiết kế.
 
 ## Cập nhật khi thiết kế đổi
-1. Trong Figma (page "Design — DS fix"), chọn frame cần cập nhật và xuất lại code bằng Figma MCP (`get_design_context`, `forceCode`), lưu file `.jsx` vào `design/figma-export/` đúng tên cũ (`home-d.jsx`, `home-t.jsx`, … `batch-rest.jsx`).
+1. Trong Figma (page "Design — DS fix"), chọn frame cần cập nhật và xuất lại code bằng Figma MCP (`get_design_context`, `forceCode`), lưu bằng `python tools/save-export.py <file kết quả> <tên>` vào `design/figma-export/` (`home-d`, `home-t`, `home-m`, `profile-d`, `profile-t`, `listing-d/t/m`, `pdp-d`). Frame nhỏ (Hồ sơ mobile, PDP tablet/mobile, 3 khung Giỏ Báo Giá) không ra file riêng được: gom bản sao vào một khung tạm theo đúng thứ tự đó, xuất thành `batch-2`, rồi xoá khung tạm.
 2. Chạy:
    ```bash
    cd tools && npm install && npm run build
