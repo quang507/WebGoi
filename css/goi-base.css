@@ -157,3 +157,11 @@ html.goi-cart-open{overflow:hidden}
 [data-tier].is-on{box-shadow:inset 0 0 0 2px #D7262B}
 :focus-visible{outline:2px solid #D7262B;outline-offset:2px}
 @media (prefers-reduced-motion:reduce){.goi-cart__panel,.goi-cart__scrim{transition:none}[data-cart-add].is-added{animation:none}}
+
+/* ---------- chân trang mobile: ngăn kéo liên kết ---------- */
+.goi-ngan [data-name="Ngăn Tiêu Đề"]{cursor:pointer;-webkit-tap-highlight-color:transparent}
+.goi-ngan [data-name="Ngăn Tiêu Đề"] [data-name^="Icon/chevron"]{transition:transform .25s ease}
+.goi-ngan.is-open [data-name="Ngăn Tiêu Đề"] [data-name^="Icon/chevron"]{transform:rotate(180deg)}
+.goi-ngan [data-name="Ngăn Nội Dung"]{max-height:0;overflow:hidden;padding-bottom:0 !important;transition:max-height .3s cubic-bezier(.2,.8,.2,1),padding .3s}
+.goi-ngan.is-open [data-name="Ngăn Nội Dung"]{padding-bottom:16px !important}
+@media (prefers-reduced-motion:reduce){.goi-ngan [data-name="Ngăn Nội Dung"],.goi-ngan [data-name^="Icon/chevron"]{transition:none}}

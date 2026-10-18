@@ -159,6 +159,8 @@ async function convertFrame(el, kind, skuHref, ctx = {}) {
     const css = fx.split('|').map((f) => `${{ b: 'background-color', s: 'border-color', c: 'color' }[f[0]]}:rgba(255,255,255,${f.slice(1)})`).join(';');
     n.setAttribute('style', ((n.getAttribute('style') || '') + ';' + css).replace(/^;/, ''));
   }
+  // thẻ Facebook: đánh dấu dòng số người theo dõi để JS cập nhật
+  for (const card of el.querySelectorAll('[data-name="Kênh Facebook"]')) for (const t of card.querySelectorAll('p')) if (/người theo dõi/.test(t.text)) t.setAttribute('data-fb-followers', '');
   // giỏ báo giá: nút mở giỏ, nút thêm vào giỏ, nút trong khung giỏ
   for (const b of el.querySelectorAll('[data-name="Cart Btn"], [data-name="Cart Btn Icon"]')) { b.setAttribute('data-cart-open', ''); b.setAttribute('role', 'button'); b.setAttribute('tabindex', '0'); b.setAttribute('aria-label', 'Mở giỏ báo giá'); }
   for (const c of el.querySelectorAll('[data-name="Cart Count"]')) { c.setAttribute('data-cart-count', ''); const t = c.querySelector('p'); if (t) t.set_content('0'); }

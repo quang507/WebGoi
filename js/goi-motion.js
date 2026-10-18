@@ -266,6 +266,30 @@
     render();
   })();
 
+  // chân trang mobile: ngăn kéo liên kết (mặc định gập, bấm tiêu đề để mở)
+  $$('[data-name^="Ngăn "]').forEach(function (g, i) {
+    var head = g.querySelector('[data-name="Ngăn Tiêu Đề"]'), body = g.querySelector('[data-name="Ngăn Nội Dung"]');
+    if (!head || !body) return;
+    var id = 'goi-ngan-' + i; body.id = id;
+    head.setAttribute('role', 'button'); head.tabIndex = 0; head.setAttribute('aria-controls', id); head.setAttribute('aria-expanded', 'false');
+    g.classList.add('goi-ngan');
+    function toggle() {
+      var open = !g.classList.contains('is-open'); g.classList.toggle('is-open', open); head.setAttribute('aria-expanded', String(open));
+      body.style.maxHeight = open ? (body.scrollHeight + 16) + 'px' : '';
+    }
+    head.addEventListener('click', toggle);
+    if (/[?&]static(&|$)/.test(location.search)) { g.classList.add('is-open'); head.setAttribute('aria-expanded', 'true'); body.style.maxHeight = 'none'; }
+    head.addEventListener('keydown', function (e) { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); toggle(); } });
+  });
+
+  // thẻ Facebook: cập nhật số người theo dõi (hàm /api/fb-followers, cache 1 giờ)
+  var fbCount = $$('[data-fb-followers]');
+  if (fbCount.length && window.fetch) fetch('/api/fb-followers').then(function (r) { return r.status === 200 ? r.json() : null; }).then(function (d) {
+    if (!d || !d.followers) return;
+    var n = Number(d.followers).toLocaleString('vi-VN');
+    fbCount.forEach(function (p) { p.textContent = p.textContent.replace(/^[\d.,]+(?= người theo dõi)/, n); });
+  }).catch(function () {});
+
   // nút lên đầu trang, nút tải hồ sơ (in ra PDF)
   $$('[data-name="Scroll to Top Button"]').forEach(function (b) {
     b.setAttribute('role', 'button'); b.tabIndex = 0; b.style.cursor = 'pointer'; b.setAttribute('aria-label', 'Lên đầu trang');
