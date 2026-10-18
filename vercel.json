@@ -11,5 +11,47 @@
     }
    ]
   }
+ ],
+ "redirects": [
+  {
+   "source": "/mau-hop/hc0209",
+   "destination": "/mau-hop",
+   "permanent": true
+  },
+  {
+   "source": "/mau-hop/hc0181",
+   "destination": "/mau-hop",
+   "permanent": true
+  },
+  {
+   "source": "/mau-hop/hc0231",
+   "destination": "/mau-hop",
+   "permanent": true
+  },
+  {
+   "source": "/mau-hop/hc0174",
+   "destination": "/mau-hop",
+   "permanent": true
+  },
+  {
+   "source": "/mau-hop/hc0194",
+   "destination": "/mau-hop",
+   "permanent": true
+  },
+  {
+   "source": "/mau-hop/hc0158",
+   "destination": "/mau-hop",
+   "permanent": true
+  },
+  {
+   "source": "/mau-hop/hm0150",
+   "destination": "/mau-hop",
+   "permanent": true
+  },
+  {
+   "source": "/mau-hop/tg0064",
+   "destination": "/mau-hop",
+   "permanent": true
+  }
  ]
 }

@@ -1,0 +1,12 @@
+{
+  "name": "goi-tools",
+  "private": true,
+  "type": "module",
+  "description": "Công cụ dựng site GÓI từ bản xuất Figma (không chạy trên Vercel)",
+  "scripts": {
+    "build": "node figma2html.mjs"
+  },
+  "devDependencies": {
+    "node-html-parser": "6.1.13"
+  }
+}

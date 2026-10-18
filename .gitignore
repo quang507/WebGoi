@@ -1,2 +1,7 @@
 .vercel
 .env*
+tools/node_modules
+design/shots
+design/compare
+design/figma-ref
+design/asset-cache.json
