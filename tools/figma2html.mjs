@@ -6,7 +6,7 @@ import { createHash } from 'node:crypto';
 import { execFileSync } from 'node:child_process';
 import path from 'node:path';
 import { jsxToHtml, AtomicCSS, toDom } from './lib/jsx2html.mjs';
-import { PAGES, SKU_PAGES, CART_SKUS } from './pages.mjs';
+import { PAGES, SKU_PAGES, CART_SKUS, CONTENT_PAGES } from './pages.mjs';
 
 const ROOT = path.resolve(import.meta.dirname, '..');
 const EXP = path.join(ROOT, 'design/figma-export');
@@ -51,6 +51,11 @@ function hrefFor(el, ctx) {
   const kn = name.match(/^Kênh (.+)$/); if (kn && CH[kn[1]]) return CH[kn[1]];
   const SOC = { 'Social FB': CH.Facebook, 'Social YT': CH.YouTube, 'Social TT': CH.TikTok, 'Social ZL': ZALO }; if (SOC[name]) return SOC[name];
   if (/^Sơ Đồ Xưởng/.test(name)) return MAPS;
+  const card = name.match(/^(Bài|Bộ) · (.+)$/); if (card) return (card[1] === 'Bài' ? '/tin-tuc/' : '/thiet-ke/') + card[2];
+  if (/^Btn Hỏi Giá |^Btn Dùng Bộ Này$/.test(name)) return ZALO;
+  if (name === 'Btn Gọi My') return 'tel:0981047115';
+  if (name === 'Btn Về Trang Chủ') return '/';
+  if (name === 'Btn Kraft Hay Ivory') return '/tin-tuc/kraft-hay-ivory';
   if (/^XEM \d+ MẪU HỘP|^XEM ĐỦ \d+ MẪU/.test(T)) return '/mau-hop';
   if (/XEM BẢN VẼ KHUÔN/.test(T)) return ctx.khuon || '/mau-hop';
   if (/^SKU-/.test(name)) return ctx.skuHref(name.split(' ')[0]);
@@ -95,7 +100,7 @@ function hrefFor(el, ctx) {
   if (/^TÌM MẪU HỘP/.test(T)) return '/mau-hop';
   if (/CHỈ ĐƯỜNG/.test(T)) return MAPS;
   if (/GỌI|^0\d|09XX/.test(T) || /phone|Call/i.test(name)) return 'tel:0387365020';
-  if (/^NHẬN BÁO GIÁ$|BÁO GIÁ NHANH|^BÁO GIÁ$/.test(T)) return ctx.kind === 'home' ? '#bao-gia' : '/#bao-gia';
+  if (/^NHẬN BÁO GIÁ$|BÁO GIÁ NHANH|^BÁO GIÁ$/.test(T)) return ctx.kind === 'home' || ctx.kind === 'contact' ? '#bao-gia' : '/#bao-gia';
   if (ctx.wrap) return null; // chữ thường trong header/footer: chỉ link khi khớp quy tắc rõ ràng ở trên
   if (/ZALO|BÁO GIÁ|MAKET|MẪU|TƯ VẤN|E-PROFILE|KHUÔN|CHAT/.test(T)) return ZALO;
   return null;
@@ -149,12 +154,14 @@ async function convertFrame(el, kind, skuHref, ctx = {}) {
   // Figma xuất instance halftone ở footer thành component phụ, mất opacity 10% và xoay 180° -> trả lại đúng như thiết kế
   el.querySelectorAll('[data-node-id="158:591"]').forEach((h) => h.setAttribute('style', ((h.getAttribute('style') || '') + ';opacity:.1;rotate:180deg').replace(/^;/, '')));
   tagInteractions(el, kind);
+  if (!el.querySelector('#bao-gia')) { let f = el.querySelector('[data-name="Form Báo Giá Nhanh"]'); while (f && f.parentNode && f.parentNode !== el) f = f.parentNode; if (f && f !== el) f.setAttribute('id', 'bao-gia'); }
   // asset
   for (const img of el.querySelectorAll('img')) {
     const src = img.getAttribute('src') || '';
     const m = src.match(/^@@(img\w+)@@$/); if (m) img.setAttribute('src', '@@' + m[1] + '@@');
     const nm = img.parentNode?.getAttribute('data-name') || '';
-    img.setAttribute('alt', /^(Deco|Icon|Trailing|Leading|Vector)/.test(nm) ? '' : nm.replace(/^Ảnh:?\s*/, ''));
+    const alt = img.getAttribute('data-alt'); img.removeAttribute('data-alt');
+    img.setAttribute('alt', alt != null ? alt : /^(Deco|Icon|Trailing|Leading|Vector|Slot|Mẫu Ảnh|Ảnh (Bài|Bộ|Phụ))/.test(nm) ? '' : nm.replace(/^Ảnh:?\s*/, ''));
     img.setAttribute('loading', 'lazy'); img.setAttribute('decoding', 'async');
   }
   for (const t of el.querySelectorAll('[class*="bg-size-["]')) { const m = (t.getAttribute('class') || '').match(/bg-size-\[([\d.]+)px_[\d.]+px\]/); if (m) t.setAttribute('data-tile', m[1]); }
@@ -212,7 +219,7 @@ async function convertFrame(el, kind, skuHref, ctx = {}) {
   // nút trong thiết kế chưa nối prototype -> thành thẻ <a>
   for (const b of el.querySelectorAll('[data-name]')) {
     const nm = b.getAttribute('data-name');
-    if (b.tagName !== 'A' && !b.closest('a') && !/^Btn (Thêm|Đóng Giỏ|Giảm|Tăng|Xoá|Menu|Đóng Menu|Tìm Mẫu|Xem Tất Cả)/.test(nm) && !/^Search Input/.test(nm) && (/^(Btn|Nút|Search Input|Call Btn|Kênh (?!Của)|Social |Sơ Đồ Xưởng|Menu Item)/i.test(nm) || (b.parentNode && b.parentNode.getAttribute && b.parentNode.getAttribute('data-name') === 'Lưới 4 Mẫu Liên Quan') || b.querySelector(':scope > [data-name="Trailing icon"], :scope > [data-name="Label"]'))) b.tagName = 'a';
+    if (b.tagName !== 'A' && !b.closest('a') && !/^Btn (Thêm|Đóng Giỏ|Giảm|Tăng|Xoá|Menu|Đóng Menu|Tìm Mẫu|Xem Tất Cả)/.test(nm) && !/^Search Input|^Nút (404|Bộ|Bài Viết)$/.test(nm) && (/^(Btn|Nút|Search Input|Call Btn|Kênh (?!Của)|Social |Sơ Đồ Xưởng|Menu Item|Bài · |Bộ · )/i.test(nm) || (b.parentNode && b.parentNode.getAttribute && b.parentNode.getAttribute('data-name') === 'Lưới 4 Mẫu Liên Quan') || b.querySelector(':scope > [data-name="Trailing icon"], :scope > [data-name="Label"]'))) b.tagName = 'a';
   }
   // chữ trong header/footer có đích đến -> bọc <a>
   for (const sec of el.childNodes.filter((n) => kind !== 'cart' && n.nodeType === 1 && /Header|Nav|Footer|Topbar|Top Bar|Breadcrumb/i.test(n.getAttribute('data-name') || ''))) {
@@ -224,13 +231,14 @@ async function convertFrame(el, kind, skuHref, ctx = {}) {
   }
   // link
   for (const a of el.querySelectorAll('a')) { const h = hrefFor(a, { kind, skuHref, ...ctx }); if (!h && !a.hasAttribute('data-link')) { a.tagName = 'div'; continue; } if (h) { a.setAttribute('href', h); if (/^https?:/.test(h)) { a.setAttribute('target', '_blank'); a.setAttribute('rel', 'noopener'); } } }
-  if (ctx.url) for (const a of el.querySelectorAll('[data-name="Header Navigation"] a[href], [data-name="Nav Links"] a[href]')) { const h = a.getAttribute('href'); if (h === ctx.url || (ctx.url.startsWith('/mau-hop') && h === '/mau-hop')) a.setAttribute('aria-current', 'page'); }
+  if (ctx.url) for (const a of el.querySelectorAll('[data-name="Header Navigation"] a[href], [data-name="Nav Links"] a[href]')) { const h = a.getAttribute('href'); if (h !== '/' && (h === ctx.url || ctx.url.startsWith(h + '/'))) a.setAttribute('aria-current', 'page'); }
   for (const a of el.querySelectorAll('a')) {
     const T = a.text.replace(/\s+/g, ' ').trim().toUpperCase();
     if (a.getAttribute('data-name') === 'Btn Gửi Báo Giá') a.setAttribute('data-quote-submit', '');
     if (a.getAttribute('data-name') === 'Btn Gửi Giỏ') a.setAttribute('data-cart-submit', '');
     const g = T.match(/^CHỌN (GÓI [^ ]+ [^ ]+)$/) || (/^CHỌN GÓI NÀY$/.test(T) && (a.getAttribute('data-name') || '').match(/Chọn (GÓI .+)$/));
     if (g) a.setAttribute('data-zalo-msg', `GÓI ơi, mình quan tâm ${g[1].replace(/^GÓI/, 'Gói').replace(/(\S+)$/, (w) => w[0] + w.slice(1).toLowerCase())} (set 100 sản phẩm). Tư vấn giúp mình nhé.`);
+    const hg = (a.getAttribute('data-name') || '').match(/^Btn Hỏi Giá (.+)$/); if (hg) a.setAttribute('data-zalo-msg', `GÓI ơi, mình cần báo giá ${hg[1].toLowerCase()}. Số lượng dự kiến: ... Mình gửi mẫu/logo kèm theo.`);
     if (/^(ĐẶT HÀNG MẪU TRƯỚC|NHẬN BÁO GIÁ MẪU NÀY|ZALO BÁO GIÁ NGAY|NHẬN MẪU IN THỬ)/.test(T) && ctx.skuName) a.setAttribute('data-zalo-msg', `GÓI ơi, mình cần báo giá ${ctx.skuName} (${ctx.skuCode}), số lượng dự kiến: ... Giao tới: ...`);
   }
   // class -> atomic
@@ -263,7 +271,8 @@ async function resolveAssets(html, assets) {
 
 // ---------- đọc bản xuất ----------
 const frames = {};
-for (const f of ['home-d', 'home-t', 'home-m', 'profile-d', 'profile-t', 'listing-d', 'listing-t', 'listing-m', 'pdp-d']) frames[f] = jsxToHtml(readFileSync(path.join(EXP, f + '.jsx'), 'utf8'));
+for (const f of ['home-d', 'home-t', 'home-m', 'profile-d', 'profile-t', 'listing-d', 'listing-t', 'listing-m', 'pdp-d',
+  ...['banggia', 'dichvu', 'quytrinh', 'lienhe', 'chinhsach', 'e404', 'tintuc', 'thietke', 'baiviet', 'botk'].flatMap((k) => [k + '-d', k + '-t', k + '-m'])]) frames[f] = jsxToHtml(readFileSync(path.join(EXP, f + '.jsx'), 'utf8'));
 { // batch-2: khung tạm chứa các frame nhỏ theo thứ tự (frame nhỏ không xuất ra file riêng được)
   const b = jsxToHtml(readFileSync(path.join(EXP, 'batch-2.jsx'), 'utf8'));
   const dom = toDom(b.html); const kids = dom.firstChild.childNodes.filter((n) => n.nodeType === 1);
@@ -292,10 +301,23 @@ async function cartHtml() {
 }
 
 const W = { d: 1440, t: 834, m: 390 };
+const SITE = 'https://goi-v2.vercel.app';
+// thông tin doanh nghiệp: đúng như chân trang thiết kế (địa chỉ xưởng, 2 số điện thoại)
+const LD = JSON.stringify({ '@context': 'https://schema.org', '@type': 'LocalBusiness', name: 'GÓI', description: 'Xưởng in bao bì giấy, hộp quà Tết in logo thương hiệu riêng, đặt theo set 100 sản phẩm.', url: SITE + '/', image: SITE + '/img/og-goi.jpg', telephone: ['+84387365020', '+84981047115'], address: { '@type': 'PostalAddress', streetAddress: '36/6H Trần Thị Hè', addressLocality: 'Phường Tân Thới Hiệp, Quận 12', addressRegion: 'TP. Hồ Chí Minh', addressCountry: 'VN' }, sameAs: ['https://www.facebook.com/profile.php?id=61593633389379', 'https://www.instagram.com/goi.packaging', 'https://www.tiktok.com/@goipackaging', 'https://www.youtube.com/channel/UCpPrblgue9zz5ORZLhF6ItA'] });
+// ảnh chia sẻ: ảnh riêng của trang (bài viết, bộ thiết kế) cắt 1200×630 JPG; còn lại dùng ảnh chung vẽ trong Figma (OG Share 1200x630)
+function ogImage(src) {
+  if (!src) return '/img/og-goi.jpg';
+  const out = '/img/og/' + path.basename(src).replace(/\.\w+$/, '.jpg'); const abs = path.join(ROOT, out.slice(1));
+  if (!existsSync(abs)) { mkdirSync(path.dirname(abs), { recursive: true }); execFileSync('python', ['-c', `from PIL import Image, ImageOps;ImageOps.fit(Image.open(r'''${path.join(ROOT, src.slice(1))}''').convert('RGB'),(1200,630),Image.LANCZOS).save(r'''${abs}''',quality=84,optimize=True)`]); }
+  return out;
+}
 const head = (p) => `<!DOCTYPE html>
 <html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>${p.title}</title><meta name="description" content="${p.desc}"><meta name="robots" content="noindex">
-<link rel="canonical" href="https://goi-v2.vercel.app${p.url}"><meta property="og:title" content="${p.title}"><meta property="og:description" content="${p.desc}">
+<title>${p.title}</title><meta name="description" content="${p.desc}">${p.url === '/404' ? '<meta name="robots" content="noindex">' : ''}
+<link rel="canonical" href="${SITE}${p.url === '/' ? '/' : p.url}"><meta property="og:type" content="${p.kind === 'article' ? 'article' : 'website'}"><meta property="og:site_name" content="GÓI"><meta property="og:locale" content="vi_VN">
+<meta property="og:url" content="${SITE}${p.url}"><meta property="og:title" content="${p.title}"><meta property="og:description" content="${p.desc}">
+<meta property="og:image" content="${SITE}${p.ogImg}"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">${LD}</script>
 <meta name="theme-color" content="#FAF8F5"><link rel="icon" href="/brand/avatar-goi-icon-tet-red.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@700;800&family=Inter:wght@400;500;600;700&family=Lora:wght@500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
@@ -317,7 +339,7 @@ async function buildPage(p, frameKeys, skuHref, mutate) {
   }
   const extra = p.kind === 'listing' ? `
 <template data-empty-search>${EMPTY_SEARCH}</template>` : '';
-  const out = head({ ...p, v }) + body + CART + MENU + extra + `\n<script src="/js/goi-motion.js?v=${v}" defer></script>\n</body></html>\n`;
+  const out = head({ ...p, v, ogImg: ogImage(p.og) }) + body + CART + MENU + extra + `\n<script src="/js/goi-motion.js?v=${v}" defer></script>\n</body></html>\n`;
   const file = path.join(ROOT, p.file); mkdirSync(path.dirname(file), { recursive: true }); writeFileSync(file, out);
   console.log('✓', p.file, (out.length / 1024).toFixed(0) + 'KB');
 }
@@ -330,6 +352,20 @@ const MENU = await (async () => { const el = toDom(frames.menu.html).firstChild;
 <div class="goi-menu" data-menu aria-hidden="true"><div class="goi-menu__scrim" data-menu-close></div>${fixTiles(await resolveAssets(el.toString(), frames.menu.assets)).replace(/ data-(reveal|parallax|crop|cut|draw|card|sticky)(="[^"]*")?/g, '')}</div>`; })();
 for (const p of PAGES) await buildPage(p, p.frames, skuHref, p.mutate);
 for (const p of SKU_PAGES) await buildPage(p, p.frames, skuHref, p.mutate);
+for (const p of CONTENT_PAGES) await buildPage(p, p.frames, skuHref, p.mutate);
+// sitemap + robots: chỉ các trang đã dựng từ Figma (bỏ 404)
+const today = new Date().toISOString().slice(0, 10);
+writeFileSync(path.join(ROOT, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+${[...PAGES, ...SKU_PAGES, ...CONTENT_PAGES].filter((p) => p.url !== '/404').map((p) => `<url><loc>${SITE}${p.url}</loc><lastmod>${today}</lastmod></url>`).join('\n')}
+</urlset>
+`);
+writeFileSync(path.join(ROOT, 'robots.txt'), `User-agent: *
+Allow: /
+Disallow: /api/
+
+Sitemap: ${SITE}/sitemap.xml
+`);
 writeFileSync(path.join(ROOT, 'css/goi-atoms.css'), '/* Tự sinh từ Figma — không sửa tay. tools/figma2html.mjs */\n' + atoms.css() + '\n');
 if (atoms.unknown.size) console.log('Class chưa hỗ trợ:', [...atoms.unknown].slice(0, 40));
 console.log('atoms:', atoms.rules.size);

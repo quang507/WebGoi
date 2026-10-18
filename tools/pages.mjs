@@ -120,3 +120,79 @@ export const CART_SKUS = Object.fromEntries(Object.entries(SKUS).filter(([, s]) 
   k: [s.code, s.name, s.desc, s.holds, s.finish, KEYWORDS[slug] || '', ...groupsOf(slug).map((g) => GROUPS[g].label)].join(' ').normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/đ/gi, 'd').toLowerCase()
 }]));
 export const RETIRED = Object.keys(SKUS).filter((slug) => !/^SKU-/.test(SKUS[slug].code));
+
+// ---------- Các trang nội dung dựng lại từ Figma (18/10) ----------
+const page = (file, url, key, title, desc, kind = 'page') => ({ file, url, kind, frames: { d: key + '-d', t: key + '-t', m: key + '-m' }, title, desc });
+PAGES.push(
+  page('bang-gia.html', '/bang-gia', 'banggia', 'Bảng Giá Set 100 · GÓI', 'Ba gói bao bì Tết theo set 100 sản phẩm, in logo thương hiệu riêng. Giá gồm in logo, chưa gồm VAT 8% và vận chuyển.'),
+  page('dich-vu.html', '/dich-vu', 'dichvu', 'Dịch Vụ In Gia Công · GÓI', 'Ngoài hộp có sẵn, xưởng Quận 12 nhận in nhãn, thẻ bài, ruy băng, tem dán, hộp giấy theo yêu cầu.'),
+  page('quy-trinh.html', '/quy-trinh', 'quytrinh', 'Quy Trình Đặt Hàng · GÓI', 'Từ lúc nhắn GÓI tới lúc nhận hộp: gửi logo, duyệt maket, in thử, sản xuất và giao hàng.'),
+  page('lien-he.html', '/lien-he', 'lienhe', 'Liên Hệ Xưởng In · GÓI', 'Xưởng in bao bì GÓI tại Tân Thới Hiệp, Quận 12, TP.HCM. Gọi, nhắn Zalo hoặc gửi yêu cầu báo giá.', 'contact'),
+  page('chinh-sach.html', '/chinh-sach', 'chinhsach', 'Chính Sách Đặt Hàng · GÓI', 'Cọc, giao hàng, màu in và lưu khuôn: chính sách đặt hàng của GÓI, viết ngắn để đọc trong hai phút.'),
+  page('404.html', '/404', 'e404', 'Không Tìm Thấy Trang · GÓI', 'Trang bạn tìm không còn ở đây. Xem 21 mẫu hộp có sẵn hoặc về trang chủ GÓI.'),
+  page('tin-tuc.html', '/tin-tuc', 'tintuc', 'Cẩm Nang Bao Bì · GÓI', 'Chuyện giấy, chuyện hộp, chuyện in cho shop bán Tết: chọn giấy, bảng giá set 100, đặt ít mà giá vẫn mềm.'),
+  page('thiet-ke.html', '/thiet-ke', 'thietke', 'Bộ Thiết Kế Có Sẵn · GÓI', 'Mỗi bộ đã phối xong màu và hoạ tiết theo một mẫu hộp. Bạn đặt logo của mình lên, đổi lời chúc, rồi in.')
+);
+
+// bài viết + bộ thiết kế: nội dung trích từ trang cũ (tools/extract-legacy.py -> content/*.json), đổ vào khuôn Figma
+const POSTS = JSON.parse(readFileSync(path.join(ROOT, 'content/tin-tuc.json'), 'utf8'));
+const SETS = JSON.parse(readFileSync(path.join(ROOT, 'content/thiet-ke.json'), 'utf8'));
+const dmy = (d) => d.split('-').reverse().join('/');
+const full = (u) => u.replace(/-t\.webp$/, '.webp');
+const putText = (x, t) => { if (!x) return; const sp = x.querySelector('span'); if (sp) x.set_content(`<span class="${sp.getAttribute('class')}">${esc(t)}</span>`); else x.set_content(esc(t)); };
+const kids = (n, tag) => n.childNodes.filter((c) => c.nodeType === 1 && (!tag || c.tagName === tag));
+function setCrumb(el, t) { const c = el.querySelector('[data-name^="Breadcrumbs"] p'); if (c) putText(c, t); }
+// thân bài HTML cũ -> thẻ mang đúng class đoạn văn / tiêu đề phụ của khuôn Figma
+function prose(html, pCls, hCls) {
+  return html.replace(/<p>/g, `<p class="${pCls}">`).replace(/<h[23]>/g, `<p class="${hCls}" role="heading" aria-level="2">`).replace(/<\/h[23]>/g, '</p>')
+    .replace(/<ul>/g, `<ul class="${pCls}">`);
+}
+function articleMutate(post) {
+  const others = POSTS.filter((x) => x.slug !== post.slug).slice(0, 3);
+  return (el) => {
+    setCrumb(el, `Trang Chủ  /  Cẩm Nang  /  ${post.title}`);
+    const k = el.querySelector('[data-name="Khung Bài Viết"]'); const ps = kids(k, 'P');
+    putText(ps[0], dmy(post.date)); putText(ps[1], post.title);
+    const hi = k.querySelector('[data-name="Slot Ảnh Chính"] img'); hi.setAttribute('src', post.img); hi.setAttribute('data-alt', post.title);
+    const slot = k.querySelector('[data-name="Slot Nội Dung"]'); const sp = kids(slot, 'P');
+    const pCls = sp[0].getAttribute('class'); const hCls = sp[1].getAttribute('class');
+    const pair = slot.querySelector('[data-name="Mẫu Ảnh Đôi"]');
+    slot.set_content(prose(post.body, pCls, hCls));
+    if (pair && post.skus.length >= 2) {
+      kids(pair).forEach((box, i) => { const s = post.skus[i]; box.tagName = 'a'; box.setAttribute('data-name', `${s.c} · ảnh`); const im = box.querySelector('img'); im.setAttribute('src', full(s.i)); im.setAttribute('data-alt', s.n); });
+      slot.appendChild(pair);
+    }
+    el.querySelectorAll('[data-name="Bài Liên Quan"] [data-name^="Bài · "]').forEach((card, i) => {
+      const o = others[i]; if (!o) { card.setAttribute('style', 'visibility:hidden'); return; }
+      card.setAttribute('data-name', 'Bài · ' + o.slug);
+      const q = card.querySelectorAll('p'); putText(q[0], dmy(o.date)); putText(q[1], o.title); putText(q[2], o.desc);
+      const im = card.querySelector('img'); if (im) { im.setAttribute('src', o.img); im.setAttribute('data-alt', ''); }
+    });
+  };
+}
+function setMutate(s) {
+  return (el) => {
+    setCrumb(el, `Trang Chủ  /  Thiết Kế  /  ${s.title}`);
+    const h = kids(el.querySelector('[data-name="Hero Chữ"]'), 'P'); putText(h[1], s.title); putText(h[2], s.lead);
+    const hi = el.querySelector('[data-name="Slot Ảnh Bộ"] img'); hi.setAttribute('src', s.imgs[0]); hi.setAttribute('data-alt', `Bộ thiết kế ${s.title}`);
+    const d = el.querySelector('[data-name="Slot Mô Tả"]'); d.set_content(prose(s.body, kids(d, 'P')[0].getAttribute('class'), ''));
+    const gal = el.querySelector('[data-name="Slot Ảnh Phụ"]'); const extra = s.imgs.slice(1);
+    if (!extra.length) gal.remove(); else kids(gal).forEach((box, i) => { if (!extra[i]) { box.remove(); return; } const im = box.querySelector('img'); im.setAttribute('src', extra[i]); im.setAttribute('data-alt', `${s.title}, ảnh ${i + 2}`); });
+    // lưới mẫu áp dụng: dựng lại hàng theo số mã của bộ (giữ số cột của thiết kế)
+    const grid = el.querySelector('[data-name="Slot Mẫu Áp Dụng"]'); const rows = kids(grid); const cols = kids(rows[0]).length;
+    const tpl = kids(rows[0]).find((c) => /^SKU-/.test(c.getAttribute('data-name') || '')); const empty = kids(rows[0]).find((c) => c.getAttribute('data-name') === 'Ô Trống');
+    const cards = s.skus.map((k) => { const c = tpl.clone(); c.tagName = 'a'; c.setAttribute('data-name', `${k.c} - ${k.n}`); const q = c.querySelectorAll('p'); putText(q[0], k.c); putText(q[1], k.n.charAt(0).toUpperCase() + k.n.slice(1)); const im = c.querySelector('img'); im.setAttribute('src', full(k.i)); im.setAttribute('data-alt', k.n); return c; });
+    const out = [];
+    for (let i = 0; i < cards.length; i += cols) {
+      const r = rows[0].clone(); r.set_content('');
+      for (let j = 0; j < cols; j++) { const c = cards[i + j]; if (c) r.appendChild(c); else { const e = empty ? empty.clone() : tpl.clone(); if (!empty) e.setAttribute('style', 'visibility:hidden'); r.appendChild(e); } }
+      out.push(r.toString());
+    }
+    grid.set_content(out.join(''));
+    const b = el.querySelector('[data-name="Btn Dùng Bộ Này"]'); if (b) b.setAttribute('data-zalo-msg', s.zalo);
+  };
+}
+export const CONTENT_PAGES = [
+  ...POSTS.map((x) => ({ file: `tin-tuc/${x.slug}.html`, url: `/tin-tuc/${x.slug}`, kind: 'article', frames: { d: 'baiviet-d', t: 'baiviet-t', m: 'baiviet-m' }, title: `${x.title} · GÓI`, desc: x.desc, og: x.img, mutate: articleMutate(x) })),
+  ...SETS.map((x) => ({ file: `thiet-ke/${x.slug}.html`, url: `/thiet-ke/${x.slug}`, kind: 'set', frames: { d: 'botk-d', t: 'botk-t', m: 'botk-m' }, title: `Bộ thiết kế ${x.title} · GÓI`, desc: x.desc || x.lead, og: x.imgs[0], mutate: setMutate(x) }))
+];
