@@ -1,7 +1,7 @@
 // Nhận yêu cầu báo giá từ web (giỏ báo giá + form báo giá nhanh) và chuyển tới nơi lưu.
 // Nơi lưu đặt bằng biến môi trường trên Vercel, không lộ ra trình duyệt:
-//   GOI_SHEET_WEBHOOK  URL Web App của Google Apps Script (xem docs/apps-script-bao-gia.gs)
-//   GOI_SHEET_SECRET   chuỗi bí mật, khớp với SECRET trong Apps Script
+//   SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY  ghi vào bảng public.quote_requests (RLS khoá, chỉ service role ghi)
+//   GOI_SHEET_WEBHOOK, GOI_SHEET_SECRET      (tuỳ chọn) chép thêm vào Google Sheet, xem docs/apps-script-bao-gia.gs
 // Chưa đặt biến thì vẫn trả 202 để web không báo lỗi; khách vẫn gửi được qua Zalo.
 
 const clip = (v, n) => String(v == null ? '' : v).replace(/[\u0000-\u001f]/g, ' ').trim().slice(0, n);
@@ -26,12 +26,21 @@ module.exports = async function handler(req, res) {
     trang: clip(b.page, 120)
   };
 
-  const url = process.env.GOI_SHEET_WEBHOOK;
-  if (!url) return res.status(202).json({ ok: true, stored: false });
-  try {
-    const r = await fetch(url, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ secret: process.env.GOI_SHEET_SECRET || '', row }), redirect: 'follow' });
-    return res.status(r.ok ? 200 : 502).json({ ok: r.ok, stored: r.ok });
-  } catch (e) {
-    return res.status(502).json({ ok: false, stored: false });
+  const jobs = [];
+  const sbUrl = process.env.SUPABASE_URL, sbKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
+  if (sbUrl && sbKey) {
+    jobs.push(fetch(sbUrl.replace(/\/$/, '') + '/rest/v1/quote_requests', {
+      method: 'POST',
+      headers: { apikey: sbKey, Authorization: 'Bearer ' + sbKey, 'Content-Type': 'application/json', Prefer: 'return=minimal' },
+      body: JSON.stringify({ source: b.source === 'gio' ? 'gio' : 'form', ten: row.ten || null, sdt, tinh: row.tinh || null, ghichu: row.ghichu || null, items, page: row.trang || null })
+    }).then((r) => r.ok));
   }
+  const hook = process.env.GOI_SHEET_WEBHOOK;
+  if (hook) {
+    jobs.push(fetch(hook, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ secret: process.env.GOI_SHEET_SECRET || '', row }), redirect: 'follow' }).then((r) => r.ok));
+  }
+  if (!jobs.length) return res.status(202).json({ ok: true, stored: false });
+  const done = await Promise.all(jobs.map((j) => j.catch(() => false)));
+  const stored = done.some(Boolean);
+  return res.status(stored ? 200 : 502).json({ ok: stored, stored });
 };
