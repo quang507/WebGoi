@@ -249,7 +249,7 @@
                 " | Số lượng: " + qty + " cái" +
                 " | Kích thước: " + l + "x" + w + "x" + h + "cm" +
                 (phone ? " | SĐT: " + phone : "") +
-                ". Kiểm tra kho khuôn sẵn giúp mình nhé!";
+                ". Tư vấn giúp mình mẫu hộp phù hợp nhé!";
       if (submitBtn) {
         submitBtn.href = "https://zalo.me/0387365020?text=" + encodeURIComponent(msg);
       }

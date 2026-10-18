@@ -65,23 +65,90 @@
     b.addEventListener('pointerleave', function () { b.style.transform = ''; });
   });
 
-  // 6. Thanh kéo số lượng trong widget báo giá
-  var STEPS = ['50', '100', '200', '500', '1.000', '2.000', '5.000'];
-  $$('[data-slider-track]').forEach(function (track) {
-    var fill = track.querySelector('[data-slider-fill]'), thumb = track.querySelector('[data-slider-thumb]');
-    var box = track.closest('[data-name*="Slider"],[data-name*="Form"],[data-name*="Widget"]') || track.parentElement;
-    var label = $$('p', box).filter(function (p) { return /ĐANG CHỌN/i.test(p.textContent); })[0];
-    function set(clientX) {
-      var r = track.getBoundingClientRect(), k = Math.max(0, Math.min(1, (clientX - r.left) / r.width));
-      var i = Math.round(k * (STEPS.length - 1)), kk = i / (STEPS.length - 1);
-      if (fill) fill.style.width = (kk * 100) + '%';
-      if (thumb) thumb.style.left = 'calc(' + (kk * 100) + '% - ' + (thumb.offsetWidth / 2) + 'px)';
-      if (label) label.textContent = label.textContent.replace(/[\d.]+ CÁI/i, STEPS[i] + ' CÁI');
+  // 6. Form báo giá nhanh: chọn loại, nhập kích thước, kéo số lượng, gửi qua Zalo
+  var ZALO = 'https://zalo.me/0387365020';
+  function toast(msg) {
+    var t = document.querySelector('.goi-toast');
+    if (!t) { t = document.createElement('div'); t.className = 'goi-toast'; t.setAttribute('role', 'status'); document.body.appendChild(t); }
+    t.textContent = msg; t.classList.add('is-on'); clearTimeout(t._h); t._h = setTimeout(function () { t.classList.remove('is-on'); }, 4200);
+  }
+  function copy(text) {
+    if (navigator.clipboard && window.isSecureContext) return navigator.clipboard.writeText(text).catch(function () {});
+    var a = document.createElement('textarea'); a.value = text; a.style.cssText = 'position:fixed;opacity:0'; document.body.appendChild(a); a.select();
+    try { document.execCommand('copy'); } catch (e) {} a.remove();
+  }
+  $$('form[data-quote]').forEach(function (form) {
+    var STEPS = $$('[data-name="Các Nấc Số Lượng"] p', form), track = form.querySelector('[data-slider-track]');
+    var fill = form.querySelector('[data-slider-fill]'), thumb = form.querySelector('[data-slider-thumb]');
+    var qtyP = $$('[data-name="Qty Header"] p', form)[1], sum = $$('[data-name="Summary"] span', form)[1];
+    var pills = $$('[data-name="Types"] > *', form), type = pills[0] ? pills[0].textContent.trim() : '';
+    var qty = qtyP ? qtyP.textContent.replace(/\s*cái/, '').trim() : '1.000';
+    function render() {
+      if (qtyP) qtyP.textContent = qty + ' cái';
+      if (sum) sum.textContent = type + ' · ' + qty + ' cái';
     }
-    var drag = false;
-    track.addEventListener('pointerdown', function (e) { drag = true; track.setPointerCapture(e.pointerId); thumb && thumb.classList.add('is-drag'); set(e.clientX); });
-    track.addEventListener('pointermove', function (e) { if (drag) set(e.clientX); });
-    track.addEventListener('pointerup', function () { drag = false; thumb && thumb.classList.remove('is-drag'); });
+    pills.forEach(function (it) { it.addEventListener('click', function () { type = it.textContent.trim(); render(); }); });
+    function scale() { return track.getBoundingClientRect().width / track.offsetWidth || 1; }
+    function centers() {
+      var r = track.getBoundingClientRect(), k = scale();
+      return STEPS.map(function (p) { var q = p.getBoundingClientRect(); return (q.left + q.width / 2 - r.left) / k; });
+    }
+    function go(i) {
+      var c = centers(); i = Math.max(0, Math.min(STEPS.length - 1, i));
+      var x = Math.max(0, Math.min(track.offsetWidth, c[i]));
+      if (fill) fill.style.width = x + 'px';
+      if (thumb) thumb.style.left = (x - thumb.offsetWidth / 2) + 'px';
+      STEPS.forEach(function (p, j) { p.classList.toggle('is-on', j === i); });
+      qty = STEPS[i].textContent.trim(); form._i = i; render();
+      if (track) track.setAttribute('aria-valuetext', qty + ' cái');
+    }
+    function nearest(clientX) {
+      var r = track.getBoundingClientRect(), x = (clientX - r.left) / scale(), c = centers(), best = 0;
+      c.forEach(function (v, j) { if (Math.abs(v - x) < Math.abs(c[best] - x)) best = j; }); return best;
+    }
+    if (track && STEPS.length) {
+      var zone = track.parentElement, drag = false;
+      form._i = Math.max(0, STEPS.map(function (p) { return p.textContent.trim(); }).indexOf(qty));
+      track.setAttribute('role', 'slider'); track.setAttribute('aria-label', 'Số lượng'); track.tabIndex = 0;
+      track.setAttribute('aria-valuemin', '0'); track.setAttribute('aria-valuemax', String(STEPS.length - 1));
+      zone.style.touchAction = 'pan-y'; zone.style.cursor = 'pointer';
+      zone.addEventListener('pointerdown', function (e) { drag = true; zone.setPointerCapture(e.pointerId); thumb && thumb.classList.add('is-drag'); go(nearest(e.clientX)); });
+      zone.addEventListener('pointermove', function (e) { if (drag) go(nearest(e.clientX)); });
+      zone.addEventListener('pointerup', function () { drag = false; thumb && thumb.classList.remove('is-drag'); });
+      zone.addEventListener('pointercancel', function () { drag = false; thumb && thumb.classList.remove('is-drag'); });
+      track.addEventListener('keydown', function (e) {
+        if (/Arrow(Right|Up)/.test(e.key)) { e.preventDefault(); go(form._i + 1); }
+        if (/Arrow(Left|Down)/.test(e.key)) { e.preventDefault(); go(form._i - 1); }
+      });
+      STEPS.forEach(function (p, j) { p.style.cursor = 'pointer'; p.addEventListener('click', function () { go(j); }); });
+    }
+    var sel = form.querySelector('select[data-goi-input]');
+    if (sel) sel.addEventListener('change', function () { sel.classList.toggle('has-v', !!sel.value); });
+    var btn = form.querySelector('[data-quote-submit]');
+    if (btn) btn.addEventListener('click', function (e) {
+      e.preventDefault();
+      var v = function (n) { var x = form.querySelector('[name="' + n + '"]'); return x ? x.value.trim() : ''; };
+      var phone = v('sdt').replace(/[\s.\-]/g, ''), box = form.querySelector('[name="sdt"]');
+      if (!/^(0|\+?84)\d{9,10}$/.test(phone)) {
+        if (box) { box.closest('[data-name]').classList.add('is-err'); box.focus(); }
+        toast('Bạn nhập giúp số điện thoại Zalo để GÓI gửi báo giá nhé.'); return;
+      }
+      if (box) box.closest('[data-name]').classList.remove('is-err');
+      var dims = [v('dai'), v('rong'), v('cao')], hasDim = dims.some(Boolean);
+      var msg = ['GÓI ơi, mình cần báo giá:',
+        '• Loại: ' + type,
+        '• Kích thước: ' + (hasDim ? dims.map(function (d) { return d || '?'; }).join(' × ') + ' cm' : 'chưa có, nhờ GÓI tư vấn'),
+        '• Số lượng: ' + qty + ' cái',
+        '• Tên: ' + (v('ten') || '...'),
+        '• SĐT Zalo: ' + phone,
+        '• Giao tới: ' + (v('tinh') || '...')].join('\n');
+      copy(msg); toast('Đã chép nội dung báo giá. Dán vào khung chat Zalo của GÓI để gửi.');
+      setTimeout(function () { window.open(ZALO, '_blank', 'noopener'); }, 350);
+    });
+  });
+  // nút có sẵn nội dung tin nhắn (chọn gói, báo giá mẫu này): chép tin rồi mở Zalo
+  $$('[data-zalo-msg]').forEach(function (a) {
+    a.addEventListener('click', function () { copy(a.getAttribute('data-zalo-msg')); toast('Đã chép tin nhắn. Dán vào Zalo của GÓI để gửi.'); });
   });
 
   // 7. Thanh lọc / tab: bấm là chọn (đổi kiểu theo nút đang chọn trong thiết kế)

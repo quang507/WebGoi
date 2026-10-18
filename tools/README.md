@@ -19,3 +19,9 @@ Trang chủ, Mẫu hộp, Hồ sơ năng lực và các trang Chi tiết SKU đ�
 - `js/goi-motion.js` — hiện dần khi cuộn, đếm số, parallax, băng chữ chạy, thanh kéo số lượng, nút nam châm.
 
 Mỗi trang chứa đủ 3 bản (1440 / 834 / 390) và tự phóng theo bề rộng màn hình, nên chữ, khoảng cách, ảnh giữ đúng tỉ lệ thiết kế ở mọi máy.
+
+## Những chỗ bản xuất Figma sai, bộ dựng tự bù
+- Màu gắn biến trắng có độ mờ (thẻ kênh, nút mạng xã hội ở chân trang) mất độ mờ khi xuất → bảng `PAINT_FIX` trong `figma2html.mjs` (quét lại bằng `use_figma` nếu thêm lớp mới).
+- Nền lặp (Paper grain, Nền kraft) xuất sai cỡ ô → tính lại theo cỡ ảnh gốc × scalingFactor (`fixTiles`).
+- Form "Form Báo Giá Nhanh": các ô `Input …`/`Select Tỉnh` thành ô nhập thật; JS ở mục 6 của `js/goi-motion.js` (chọn loại, kéo số lượng, chép tin nhắn rồi mở Zalo).
+- Chụp so sánh: chạy `shot.sh` lần lượt từng trang (chạy song song làm Chrome lẫn trang).

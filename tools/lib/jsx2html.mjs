@@ -74,7 +74,10 @@ export function compile(tok) {
     'bg-gradient-to-l': [['--gdir', 'to left']], 'bg-gradient-to-r': [['--gdir', 'to right']], 'bg-gradient-to-b': [['--gdir', 'to bottom']], 'bg-gradient-to-t': [['--gdir', 'to top']],
     'from-white': [['--gfrom', '#fff']], 'via-white': [['--gvia', '#fff']], 'to-white': [['--gto', '#fff']], 'via-1/2': [['--gviapos', '50%']]
   };
+  const extra = { contents: [['display', 'contents']], 'flex-wrap': [['flex-wrap', 'wrap']], 'content-start': [['align-content', 'flex-start']], 'leading-none': [['line-height', '1']], 'min-h-px': [['min-height', '1px']], 'mix-blend-multiply': [['mix-blend-mode', 'multiply']], 'self-stretch': [['align-self', 'stretch']], 'bg-clip-text': [['-webkit-background-clip', 'text'], ['background-clip', 'text']], 'items-end': [['align-items', 'flex-end']] };
   if (simple[tok]) return simple[tok];
+  if (extra[tok]) return extra[tok];
+  if ((m = tok.match(/^(-?)rotate-(\d+)$/))) return [['rotate', `${m[1]}${m[2]}deg`]];
   if ((m = tok.match(/^opacity-(\d+)$/))) return [['opacity', String(+m[1] / 100)]];
   if ((m = tok.match(/^\[([\w-]+):(.+)\]$/))) return [[m[1], val(m[2])]];
   if (!(m = tok.match(/^(-?)([a-z-]+)-\[(.+)\]$/))) return null;
@@ -83,6 +86,8 @@ export function compile(tok) {
     w: ['width'], h: ['height'], size: ['width', 'height'], left: ['left'], top: ['top'], right: ['right'], bottom: ['bottom'], inset: ['inset'], rounded: ['border-radius'], leading: ['line-height'], tracking: ['letter-spacing'], flex: ['flex'], 'min-w': ['min-width'], 'max-w': ['max-width'], 'min-h': ['min-height'] };
   if (box[k]) { box[k].forEach((p) => add(p, v)); return d; }
   if (k === 'shadow') return [['box-shadow', v]];
+  if (k === 'drop-shadow') return [['filter', `drop-shadow(${v})`]];
+  if (k === 'text-shadow') return [['text-shadow', v]];
   if (k === 'bg-size') return [['background-size', v]];
   if (k === 'bg') return [[/^url\(/.test(v) ? 'background-image' : 'background-color', v]];
   if (k === 'border') return [[isLen(v) ? 'border-width' : 'border-color', v]];

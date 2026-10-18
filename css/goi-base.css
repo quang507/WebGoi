@@ -104,3 +104,25 @@ a[data-link]:hover p{color:var(--brand-red) !important}
 }
 
 [data-name^="Deco"]{pointer-events:none !important;cursor:auto !important}
+
+/* ---------- form báo giá nhanh ---------- */
+[data-goi-input]{flex:1 1 0;min-width:0;width:100%;background:transparent;border:0;outline:0;margin:0;padding:0;font:inherit;line-height:inherit;-webkit-appearance:none;appearance:none;border-radius:0}
+[data-goi-input]::placeholder{color:inherit;opacity:1}
+input[data-goi-input]:not(:placeholder-shown),select[data-goi-input].has-v{color:var(--text-primary,#17181C)}
+select[data-goi-input]{cursor:pointer;height:100%}
+[data-name="Select Tỉnh"] [data-name^="Icon"]{pointer-events:none}
+form[data-quote] [data-name^="Input "],form[data-quote] [data-name="Select Tỉnh"]{transition:box-shadow .2s ease,border-color .2s ease;cursor:text}
+form[data-quote] [data-name^="Input "]:focus-within,form[data-quote] [data-name="Select Tỉnh"]:focus-within{box-shadow:0 0 0 3px rgba(215,38,43,.18);border-color:#D7262B}
+form[data-quote] .is-err{box-shadow:0 0 0 3px rgba(215,38,43,.35)!important;border-color:#D7262B!important;animation:goi-shake .35s}
+@keyframes goi-shake{25%{transform:translateX(-4px)}75%{transform:translateX(4px)}}
+form[data-quote] [data-name="Types"]>*{transition:background-color .2s ease,color .2s ease,transform .15s ease}
+form[data-quote] [data-name="Types"]>*:active{transform:scale(.96)}
+[data-slider-fill]{transition:width .18s cubic-bezier(.2,.8,.2,1)}
+[data-slider-thumb]{transition:left .18s cubic-bezier(.2,.8,.2,1),transform .15s ease;cursor:grab;box-shadow:0 2px 6px rgba(23,24,28,.25)}
+[data-slider-thumb].is-drag{transform:scale(1.25);cursor:grabbing}
+[data-slider-track]:focus-visible{outline:2px solid #D7262B;outline-offset:6px}
+[data-name="Các Nấc Số Lượng"] p{transition:color .2s ease}
+[data-name="Các Nấc Số Lượng"] p.is-on{color:#D7262B;font-weight:700}
+.goi-toast{position:fixed;left:50%;bottom:24px;z-index:9999;transform:translate(-50%,20px);opacity:0;pointer-events:none;max-width:min(92vw,440px);padding:12px 18px;border-radius:2px;background:#17181C;color:#FAF8F5;font:500 14px/1.45 Inter,system-ui,sans-serif;box-shadow:0 10px 30px rgba(23,24,28,.3);border-left:3px solid #D7262B;transition:opacity .25s ease,transform .25s ease}
+.goi-toast.is-on{opacity:1;transform:translate(-50%,0)}
+@media (prefers-reduced-motion:reduce){[data-slider-fill],[data-slider-thumb],.goi-toast{transition:none}}

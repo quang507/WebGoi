@@ -1,5 +1,6 @@
 // Dựng các trang GÓI từ bản xuất Figma (design/figma-export/*.jsx).
 // Chạy: cd tools && npm run build
+import { execSync } from 'node:child_process';
 import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'node:fs';
 import { createHash } from 'node:crypto';
 import { execFileSync } from 'node:child_process';
@@ -15,6 +16,10 @@ mkdirSync(ASSET_DIR, { recursive: true });
 const cache = existsSync(CACHE) ? JSON.parse(readFileSync(CACHE, 'utf8')) : {};
 const atoms = new AtomicCSS('f');
 const ZALO = 'https://zalo.me/0387365020';
+const MAPS = 'https://www.google.com/maps/search/?api=1&query=36%2F6H+Tr%E1%BA%A7n+Th%E1%BB%8B+H%C3%A8%2C+T%C3%A2n+Th%E1%BB%9Bi+Hi%E1%BB%87p%2C+Qu%E1%BA%ADn+12';
+// Figma xuất code bỏ mất độ mờ của màu gắn biến trắng (base/white) -> bù lại theo node (quét bằng use_figma)
+const PAINT_FIX = { '134:604': 's.24', '134:606': 's.24', '134:608': 's.24', '134:610': 's.24', '178:1086': 'b.04|s.14', '178:1089': 's.2', '178:1093': 'c.62', '178:1095': 's.2', '178:1101': 'c.62', '178:1103': 's.2', '178:1108': 'c.62', '178:1110': 's.2', '178:1115': 'c.62', '178:1117': 's.2', '178:1121': 'c.62' };
+const PROVINCES = ['TP Hồ Chí Minh','Hà Nội','Hải Phòng','Đà Nẵng','Cần Thơ','Huế','Đồng Nai','Tây Ninh','Vĩnh Long','Đồng Tháp','An Giang','Cà Mau','Lâm Đồng','Đắk Lắk','Khánh Hòa','Gia Lai','Quảng Ngãi','Quảng Trị','Hà Tĩnh','Nghệ An','Thanh Hóa','Ninh Bình','Hưng Yên','Bắc Ninh','Quảng Ninh','Lạng Sơn','Cao Bằng','Tuyên Quang','Lào Cai','Thái Nguyên','Phú Thọ','Sơn La','Điện Biên','Lai Châu'];
 
 // ---------- tải asset Figma về repo ----------
 async function localAsset(url) {
@@ -42,6 +47,12 @@ async function localAsset(url) {
 function hrefFor(el, ctx) {
   const t = el.text.replace(/\s+/g, ' ').trim(); const T = t.toUpperCase(); const name = el.getAttribute('data-name') || '';
   if (/^Deco/.test(name)) return null;
+  const CH = { Facebook: 'https://www.facebook.com/profile.php?id=61593633389379', Instagram: 'https://www.instagram.com/goi.packaging', TikTok: 'https://www.tiktok.com/@goipackaging', YouTube: 'https://www.youtube.com/channel/UCpPrblgue9zz5ORZLhF6ItA', 'Zalo OA': ZALO };
+  const kn = name.match(/^Kênh (.+)$/); if (kn && CH[kn[1]]) return CH[kn[1]];
+  const SOC = { 'Social FB': CH.Facebook, 'Social YT': CH.YouTube, 'Social TT': CH.TikTok, 'Social ZL': ZALO }; if (SOC[name]) return SOC[name];
+  if (/^Sơ Đồ Xưởng/.test(name)) return MAPS;
+  if (/^XEM \d+ MẪU HỘP|^XEM ĐỦ \d+ MẪU/.test(T)) return '/mau-hop';
+  if (/XEM BẢN VẼ KHUÔN/.test(T)) return ctx.khuon || '/mau-hop';
   if (/^SKU-/.test(name)) return ctx.skuHref(name.split(' ')[0]);
   // ảnh/thumbnail trong dòng sản phẩm trang chủ -> trang SKU theo tên thẻ
   if (!t && (/^Ảnh|^Thumb|^Hộp|^Túi/.test(name))) {
@@ -74,7 +85,7 @@ function hrefFor(el, ctx) {
   if (/^THIẾT KẾ & TƯ VẤN \(QUANG\)/.test(T)) return 'tel:0387365020';
   if (/^ZALO OA/.test(T)) return ZALO;
   if (/^TÌM MẪU HỘP/.test(T)) return '/mau-hop';
-  if (/CHỈ ĐƯỜNG/.test(T)) return 'https://www.google.com/maps/search/?api=1&query=36%2F6H+Tr%E1%BA%A7n+Th%E1%BB%8B+H%C3%A8%2C+T%C3%A2n+Th%E1%BB%9Bi+Hi%E1%BB%87p%2C+Qu%E1%BA%ADn+12';
+  if (/CHỈ ĐƯỜNG/.test(T)) return MAPS;
   if (/GỌI|^0\d|09XX/.test(T) || /phone|Call/i.test(name)) return 'tel:0387365020';
   if (/^NHẬN BÁO GIÁ$|BÁO GIÁ NHANH|^BÁO GIÁ$/.test(T)) return ctx.kind === 'home' ? '#bao-gia' : '/#bao-gia';
   if (/ZALO|BÁO GIÁ|MAKET|MẪU|TƯ VẤN|E-PROFILE|KHUÔN|CHAT/.test(T)) return ZALO;
@@ -123,7 +134,7 @@ function tagInteractions(root, kind) {
 }
 
 // ---------- chuyển một frame ----------
-async function convertFrame(el, kind, skuHref) {
+async function convertFrame(el, kind, skuHref, ctx = {}) {
   // gỡ toạ độ tuyệt đối khi frame lấy từ wrapper xuất gộp
   el.querySelectorAll('[class]').concat([el]).forEach((n) => n.setAttribute('data-src-class', n.getAttribute('class')));
   // Figma xuất instance halftone ở footer thành component phụ, mất opacity 10% và xoay 180° -> trả lại đúng như thiết kế
@@ -137,21 +148,45 @@ async function convertFrame(el, kind, skuHref) {
     img.setAttribute('alt', /^(Deco|Icon|Trailing|Leading|Vector)/.test(nm) ? '' : nm.replace(/^Ảnh:?\s*/, ''));
     img.setAttribute('loading', 'lazy'); img.setAttribute('decoding', 'async');
   }
+  for (const t of el.querySelectorAll('[class*="bg-size-["]')) { const m = (t.getAttribute('class') || '').match(/bg-size-\[([\d.]+)px_[\d.]+px\]/); if (m) t.setAttribute('data-tile', m[1]); }
+  for (const [id, fx] of Object.entries(PAINT_FIX)) {
+    const n = el.querySelector(`[data-node-id="${id}"]`); if (!n) continue;
+    const css = fx.split('|').map((f) => `${{ b: 'background-color', s: 'border-color', c: 'color' }[f[0]]}:rgba(255,255,255,${f.slice(1)})`).join(';');
+    n.setAttribute('style', ((n.getAttribute('style') || '') + ';' + css).replace(/^;/, ''));
+  }
+  // form báo giá: ô nhập thật thay chữ giữ chỗ (giữ nguyên kiểu chữ của thiết kế)
+  const KEY = { 'Input Dài': ['dai', 'decimal'], 'Input Rộng': ['rong', 'decimal'], 'Input Cao': ['cao', 'decimal'], 'Input Tên': ['ten', 'text'], 'Input SĐT': ['sdt', 'tel'] };
+  for (const box of el.querySelectorAll('[data-name^="Input "], [data-name="Select Tỉnh"]')) {
+    const ph = box.querySelector('[data-name="Placeholder"]') || box.querySelector('p'); if (!ph) continue;
+    const nm = box.getAttribute('data-name'); const cls = ph.getAttribute('class') || '';
+    let html;
+    if (nm === 'Select Tỉnh') html = `<select class="${cls}" data-goi-input name="tinh" aria-label="Tỉnh/Thành nhận hàng"><option value="">— Tỉnh/Thành nhận hàng —</option>${PROVINCES.map((v) => `<option>${v}</option>`).join('')}</select>`;
+    else { const [k, t] = KEY[nm] || ['x', 'text']; html = `<input class="${cls}" data-goi-input name="${k}" placeholder="${ph.text.trim()}" aria-label="${ph.text.trim()}" ${t === 'decimal' ? 'inputmode="decimal"' : t === 'tel' ? 'type="tel" inputmode="tel" autocomplete="tel"' : 'autocomplete="name"'}>`; }
+    ph.replaceWith(toDom(html).firstChild);
+  }
+  for (const f of el.querySelectorAll('[data-name="Form Báo Giá Nhanh"]')) { f.tagName = 'form'; f.setAttribute('data-quote', ''); f.setAttribute('novalidate', ''); }
   // nút trong thiết kế chưa nối prototype -> thành thẻ <a>
   for (const b of el.querySelectorAll('[data-name]')) {
     const nm = b.getAttribute('data-name');
-    if (b.tagName !== 'A' && !b.closest('a') && (/^(Btn|Nút|Search Input|Call Btn)/i.test(nm) || b.querySelector(':scope > [data-name="Trailing icon"], :scope > [data-name="Label"]'))) b.tagName = 'a';
+    if (b.tagName !== 'A' && !b.closest('a') && (/^(Btn|Nút|Search Input|Call Btn|Kênh (?!Của)|Social |Sơ Đồ Xưởng)/i.test(nm) || b.querySelector(':scope > [data-name="Trailing icon"], :scope > [data-name="Label"]'))) b.tagName = 'a';
   }
   // chữ trong header/footer có đích đến -> bọc <a>
   for (const sec of el.childNodes.filter((n) => n.nodeType === 1 && /Header|Nav|Footer|Topbar|Top Bar|Breadcrumb/i.test(n.getAttribute('data-name') || ''))) {
     for (const p of sec.querySelectorAll('p')) {
       if (p.closest('a')) continue;
-      const h = hrefFor(p, { kind, skuHref }); if (!h) continue;
+      const h = hrefFor(p, { kind, skuHref, ...ctx }); if (!h) continue;
       const a = toDom(`<a href="${h}" data-link>${p.toString()}</a>`).firstChild; p.replaceWith(a);
     }
   }
   // link
-  for (const a of el.querySelectorAll('a')) { const h = hrefFor(a, { kind, skuHref }); if (!h && !a.hasAttribute('data-link')) { a.tagName = 'div'; continue; } if (h) { a.setAttribute('href', h); if (/^https?:/.test(h)) { a.setAttribute('target', '_blank'); a.setAttribute('rel', 'noopener'); } } }
+  for (const a of el.querySelectorAll('a')) { const h = hrefFor(a, { kind, skuHref, ...ctx }); if (!h && !a.hasAttribute('data-link')) { a.tagName = 'div'; continue; } if (h) { a.setAttribute('href', h); if (/^https?:/.test(h)) { a.setAttribute('target', '_blank'); a.setAttribute('rel', 'noopener'); } } }
+  for (const a of el.querySelectorAll('a')) {
+    const T = a.text.replace(/\s+/g, ' ').trim().toUpperCase();
+    if (a.getAttribute('data-name') === 'Btn Gửi Báo Giá') a.setAttribute('data-quote-submit', '');
+    const g = T.match(/^CHỌN (GÓI [^ ]+ [^ ]+)$/) || (/^CHỌN GÓI NÀY$/.test(T) && (a.getAttribute('data-name') || '').match(/Chọn (GÓI .+)$/));
+    if (g) a.setAttribute('data-zalo-msg', `GÓI ơi, mình quan tâm ${g[1].replace(/^GÓI/, 'Gói').replace(/(\S+)$/, (w) => w[0] + w.slice(1).toLowerCase())} (set 100 sản phẩm). Tư vấn giúp mình nhé.`);
+    if (/^(ĐẶT HÀNG MẪU TRƯỚC|NHẬN BÁO GIÁ MẪU NÀY|ZALO BÁO GIÁ NGAY|NHẬN MẪU IN THỬ)/.test(T) && ctx.skuName) a.setAttribute('data-zalo-msg', `GÓI ơi, mình cần báo giá ${ctx.skuName} (${ctx.skuCode}), số lượng dự kiến: ... Giao tới: ...`);
+  }
   // class -> atomic
   const all = [el, ...el.querySelectorAll('*')];
   for (const n of all) {
@@ -161,6 +196,19 @@ async function convertFrame(el, kind, skuHref) {
   return el;
 }
 
+// Figma TILE: ô lặp = cỡ ảnh gốc × scalingFactor; bản xuất lại lấy 100px × scalingFactor -> tính lại theo ảnh thật
+const dimCache = {};
+function imgDim(rel) {
+  if (!dimCache[rel]) dimCache[rel] = execSync(`python -c "from PIL import Image;print(*Image.open(r'${path.join(ROOT, rel)}').size)"`).toString().trim().split(' ').map(Number);
+  return dimCache[rel];
+}
+function fixTiles(html) {
+  return html.replace(/<[^>]*data-tile="([\d.]+)"[^>]*>/g, (tag, n) => {
+    const m = tag.match(/url\(&quot;(\/assets\/f\/[^&]+)&quot;\)/); if (!m || /\.svg$/.test(m[1])) return tag;
+    const [w, h] = imgDim(m[1]); const k = parseFloat(n) / 100;
+    return tag.replace(/style="([^"]*)"/, (_, st) => `style="${st};background-size:${+(w * k).toFixed(1)}px ${+(h * k).toFixed(1)}px"`);
+  });
+}
 async function resolveAssets(html, assets) {
   let out = html;
   for (const [k, url] of Object.entries(assets)) { if (!out.includes('@@' + k + '@@')) continue; const p = await localAsset(url); out = out.split('@@' + k + '@@').join(p); }
@@ -200,8 +248,8 @@ async function buildPage(p, frameKeys, skuHref, mutate) {
     const fr = frames[frameKeys[bp]]; if (!fr) continue;
     const dom = toDom(fr.html); const el = dom.firstChild;
     if (mutate) mutate(el, bp);
-    await convertFrame(el, p.kind, skuHref);
-    let html = await resolveAssets(el.toString(), fr.assets);
+    await convertFrame(el, p.kind, skuHref, { khuon: p.khuon, skuName: p.skuName, skuCode: p.skuCode });
+    let html = fixTiles(await resolveAssets(el.toString(), fr.assets));
     body += `\n<div class="bp bp-${bp}" style="--w:${W[bp]}"${bp === 'd' ? '' : ' aria-hidden="false"'}>${html}</div>`;
   }
   const out = head({ ...p, v }) + body + `\n<script src="/js/goi-motion.js?v=${v}" defer></script>\n</body></html>\n`;
