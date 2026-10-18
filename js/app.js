@@ -32,7 +32,7 @@
 
   /* ---------- menu lớn + ngăn kéo ---------- */
   $$('.nav__item').forEach((item) => {
-    const btn = $('button', item); let t;
+    const btn = $('button', item); if (!btn) return; let t;
     const open = (v) => { item.classList.toggle('is-open', v); btn.setAttribute('aria-expanded', String(v)); };
     btn.addEventListener('click', () => open(!item.classList.contains('is-open')));
     if (canHover) {
@@ -211,4 +211,135 @@
     $$('.reveal').forEach((n) => io.observe(n));
     $$('video[data-lazy]').forEach((v) => new IntersectionObserver((es) => es.forEach((x) => { x.isIntersecting ? v.play().catch(() => {}) : v.pause(); }), { threshold: .35 }).observe(v));
   } else $$('.reveal').forEach((n) => n.classList.add('is-in'));
+
+  /* ---------- Section 03: Slider Tính Giá Nhanh vuabaobigiay ---------- */
+  const quoteCalc = $('[data-quote-calculator]');
+  if (quoteCalc) {
+    const slider = $('#calc-qty-slider', quoteCalc);
+    const qtyDisplay = $('#calc-qty-display', quoteCalc);
+    const unitDisplay = $('#calc-unit-display', quoteCalc);
+    const totalDisplay = $('#calc-total-display', quoteCalc);
+    const phoneInput = $('#calc-phone-input', quoteCalc);
+    const submitBtn = $('#calc-zalo-submit', quoteCalc);
+    const typeBtns = $$('[data-type-btn]', quoteCalc);
+
+    const qtySteps = [50, 100, 200, 500, 1000, 2000, 5000];
+    const discountFactor = [1.25, 1.0, 0.88, 0.72, 0.60, 0.52, 0.44];
+
+    let currentBase = 18500;
+    let currentTypeName = "Hộp Cứng Âm Dương";
+
+    function updateCalc() {
+      const stepIdx = parseInt(slider.value, 10);
+      const qty = qtySteps[stepIdx];
+      const factor = discountFactor[stepIdx];
+      const unitPrice = Math.round(currentBase * factor);
+      const totalPrice = unitPrice * qty;
+
+      if (qtyDisplay) qtyDisplay.textContent = (qty === 5000 ? "5.000+ cái" : qty + " cái");
+      if (unitDisplay) unitDisplay.textContent = vnd(unitPrice) + " / cái";
+      if (totalDisplay) totalDisplay.textContent = vnd(totalPrice);
+
+      const l = ($('#calc-dim-l', quoteCalc) && $('#calc-dim-l', quoteCalc).value) || "22";
+      const w = ($('#calc-dim-w', quoteCalc) && $('#calc-dim-w', quoteCalc).value) || "16";
+      const h = ($('#calc-dim-h', quoteCalc) && $('#calc-dim-h', quoteCalc).value) || "6.5";
+      const phone = phoneInput ? phoneInput.value.trim() : "";
+
+      const msg = "GÓI ơi, mình muốn nhận báo giá cho dòng: " + currentTypeName + 
+                " | Số lượng: " + qty + " cái" +
+                " | Kích thước: " + l + "x" + w + "x" + h + "cm" +
+                (phone ? " | SĐT: " + phone : "") +
+                ". Kiểm tra kho khuôn sẵn giúp mình nhé!";
+      if (submitBtn) {
+        submitBtn.href = "https://zalo.me/0387365020?text=" + encodeURIComponent(msg);
+      }
+    }
+
+    typeBtns.forEach((btn) => {
+      btn.addEventListener('click', () => {
+        typeBtns.forEach((b) => b.classList.remove('is-active'));
+        btn.classList.add('is-active');
+        currentBase = parseInt(btn.getAttribute('data-base'), 10) || 18500;
+        currentTypeName = btn.textContent.trim();
+        updateCalc();
+      });
+    });
+
+    if (slider) slider.addEventListener('input', updateCalc);
+    const dimL = $('#calc-dim-l', quoteCalc); if (dimL) dimL.addEventListener('input', updateCalc);
+    const dimW = $('#calc-dim-w', quoteCalc); if (dimW) dimW.addEventListener('input', updateCalc);
+    const dimH = $('#calc-dim-h', quoteCalc); if (dimH) dimH.addEventListener('input', updateCalc);
+    if (phoneInput) phoneInput.addEventListener('input', updateCalc);
+
+    updateCalc();
+  }
+
+  /* ---------- PDP Thumbnail Switcher & Option Selectors ---------- */
+  $$('[data-pdp-src]').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const img = $('#pdpMainImg');
+      if (img) img.src = btn.dataset.pdpSrc;
+      $$('[data-pdp-src]').forEach((b) => b.classList.remove('is-active'));
+      btn.classList.add('is-active');
+    });
+  });
+
+  $$('.pdp-options-section').forEach((sec) => {
+    const pills = $$('.pdp-option-pill', sec);
+    pills.forEach((p) => {
+      p.addEventListener('click', () => {
+        pills.forEach((x) => x.classList.remove('is-selected'));
+        p.classList.add('is-selected');
+      });
+    });
+  });
+
+  /* ---------- Catalog Smart Search & Quick Suggestions & Category Filter ---------- */
+  const catalogSearch = $('[data-catalog-search]');
+  const filterBtns = $$('.category-filter-btn');
+  const cards = $$('.figma-sku-card');
+  const emptyBox = $('.figma-catalog-grid .empty');
+
+  let currentCategory = 'all';
+
+  function filterCatalog() {
+    const kw = catalogSearch ? catalogSearch.value.trim().toLowerCase() : '';
+    let count = 0;
+    cards.forEach((card) => {
+      const title = (card.dataset.title || card.textContent).toLowerCase();
+      const needs = card.dataset.needs || '';
+      const matchCat = (currentCategory === 'all' || needs.includes(currentCategory));
+      const matchKw = (!kw || title.includes(kw));
+      const vis = matchCat && matchKw;
+      card.style.display = vis ? '' : 'none';
+      if (vis) count++;
+    });
+    if (emptyBox) emptyBox.hidden = count > 0;
+  }
+
+  if (catalogSearch) {
+    catalogSearch.addEventListener('input', filterCatalog);
+    const searchBtn = $('[data-catalog-search-btn]');
+    if (searchBtn) searchBtn.addEventListener('click', filterCatalog);
+  }
+
+  $$('.suggestion-chip').forEach((chip) => {
+    chip.addEventListener('click', () => {
+      if (catalogSearch) {
+        catalogSearch.value = chip.dataset.searchKw || chip.textContent.trim();
+        filterCatalog();
+      }
+    });
+  });
+
+  filterBtns.forEach((btn) => {
+    btn.addEventListener('click', () => {
+      filterBtns.forEach((b) => b.classList.remove('is-active'));
+      btn.classList.add('is-active');
+      currentCategory = btn.dataset.val || 'all';
+      filterCatalog();
+    });
+  });
 })();
+
+
