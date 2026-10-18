@@ -68,4 +68,9 @@ export const SKU_PAGES = Object.entries(SKUS)
     title: `${s.name} ${s.code} · GÓI`, desc: s.desc.slice(0, 155), mutate: skuMutate(slug, s),
     khuon: s.khuon, skuName: s.name, skuCode: s.code
   }));
+// dữ liệu gọn cho giỏ báo giá (mã → tên, cỡ, ảnh nhỏ, link)
+export const CART_SKUS = Object.fromEntries(Object.entries(SKUS).filter(([, s]) => /^SKU-/.test(s.code)).map(([slug, s]) => [s.code, {
+  n: s.name.charAt(0).toUpperCase() + s.name.slice(1), s: s.sizes.map(([a, b]) => (a === b ? a : `${a}: ${b}`)).join(' · '),
+  i: (s.imgs[0] || `/img/sku/${slug}-1.webp`).replace(/\.webp$/, '-t.webp'), u: `/mau-hop/${slug}`
+}]));
 export const RETIRED = Object.keys(SKUS).filter((slug) => !/^SKU-/.test(SKUS[slug].code));

@@ -126,3 +126,34 @@ form[data-quote] [data-name="Types"]>*:active{transform:scale(.96)}
 .goi-toast{position:fixed;left:50%;bottom:24px;z-index:9999;transform:translate(-50%,20px);opacity:0;pointer-events:none;max-width:min(92vw,440px);padding:12px 18px;border-radius:2px;background:#17181C;color:#FAF8F5;font:500 14px/1.45 Inter,system-ui,sans-serif;box-shadow:0 10px 30px rgba(23,24,28,.3);border-left:3px solid #D7262B;transition:opacity .25s ease,transform .25s ease}
 .goi-toast.is-on{opacity:1;transform:translate(-50%,0)}
 @media (prefers-reduced-motion:reduce){[data-slider-fill],[data-slider-thumb],.goi-toast{transition:none}}
+
+/* ---------- giỏ báo giá (khung trượt từ phải, dựng từ frame "Giỏ Báo Giá") ---------- */
+.goi-cart{position:fixed;inset:0;z-index:1000;visibility:hidden;pointer-events:none}
+.goi-cart.is-open{visibility:visible;pointer-events:auto}
+.goi-cart__scrim{position:absolute;inset:0;background:rgba(23,24,28,.45);opacity:0;transition:opacity .28s ease}
+.goi-cart.is-open .goi-cart__scrim{opacity:1}
+.goi-cart__panel{position:absolute;top:0;right:0;height:100%;overflow-y:auto;overscroll-behavior:contain;background:#fff;transform:translateX(100%);transition:transform .34s cubic-bezier(.2,.8,.2,1);box-shadow:-12px 0 40px rgba(23,24,28,.18)}
+.goi-cart.is-open .goi-cart__panel{transform:none}
+.goi-cart__v{display:none}
+.goi-cart__v > *{box-shadow:none !important;border:0 !important}
+@media (min-width:600px){.goi-cart__v-d{display:block}}
+@media (max-width:599.98px){.goi-cart__v-m{display:block;zoom:var(--z,1)}.goi-cart__panel{width:100%}}
+html[data-bp] .goi-cart__v{display:none}html[data-bp=d] .goi-cart__v-d,html[data-bp=t] .goi-cart__v-d,html[data-bp=m] .goi-cart__v-m{display:block}
+html.goi-cart-open{overflow:hidden}
+.goi-cart__empty{display:none}
+.is-empty > .goi-cart__empty{display:block}
+.is-empty > [data-name="Cart Note"],.is-empty > [data-name="Cart Items"],.is-empty > [data-name="Cart Contact"],.is-empty > [data-name="Cart Footer"],.is-empty [data-name="Cart Count Text"]{display:none !important}
+.goi-cart__empty > *{width:100% !important}
+[data-cart-open],[data-cart-add],[data-cart-close],[data-name="Btn Giảm"],[data-name="Btn Tăng"],[data-name="Btn Xoá"],[data-tier]{cursor:pointer;-webkit-tap-highlight-color:transparent}
+[data-cart-open],[data-cart-add]{transition:background-color .18s ease,transform .15s ease}
+[data-cart-open]:hover,[data-cart-add]:hover{background-color:var(--paper-light,#FAF8F5) !important}
+[data-name="Btn Thêm Vào Giỏ"][data-cart-add]:hover{background-color:#D7262B !important}
+[data-cart-add]:active,[data-cart-open]:active{transform:scale(.94)}
+[data-cart-add].is-added{animation:goi-pop .45s cubic-bezier(.2,.8,.2,1)}
+@keyframes goi-pop{40%{transform:scale(1.18)}}
+[data-cart-count].is-zero{display:none !important}
+[data-name="Btn Giảm"]:hover,[data-name="Btn Tăng"]:hover,[data-name="Btn Xoá"]:hover,[data-cart-close]:hover{background-color:var(--paper-light,#FAF8F5)}
+[data-tier]{transition:box-shadow .2s ease}
+[data-tier].is-on{box-shadow:inset 0 0 0 2px #D7262B}
+:focus-visible{outline:2px solid #D7262B;outline-offset:2px}
+@media (prefers-reduced-motion:reduce){.goi-cart__panel,.goi-cart__scrim{transition:none}[data-cart-add].is-added{animation:none}}

@@ -1,24 +1,25 @@
-const img01HeroProfileSection = "https://www.figma.com/api/mcp/asset/08f0d876-79e1-4adb-bdff-a156702f044d.png";
-const imgDecoPaperGrain = "https://www.figma.com/api/mcp/asset/fc8bf07a-5320-451e-9a7a-7a10c3c9f4a7.png";
-const imgDecoHalftone = "https://www.figma.com/api/mcp/asset/edb241dc-baad-4b95-95e3-2dfe74b8947d.png";
-const imgNhXngSnXutQ12 = "https://www.figma.com/api/mcp/asset/fd19fd6a-397a-448b-9269-29ef02cf71c3.png";
-const imgVideoThumbnail = "https://www.figma.com/api/mcp/asset/0c8d569a-6bcb-4349-b169-f0bc3266388c.png";
-const imgKcsCanhMauCmyk = "https://www.figma.com/api/mcp/asset/6e1ed54d-218c-4cc8-908a-f42be1fe0a5b.png";
-const imgBHpKhiVuong90 = "https://www.figma.com/api/mcp/asset/efb50a38-6d5d-4138-a85c-2893fd084f4a.png";
-const imgEpKimVangAnhKim = "https://www.figma.com/api/mcp/asset/7b1b7a56-5872-46d7-a2c7-349701c64e6a.png";
-const imgDongPalletXutXng = "https://www.figma.com/api/mcp/asset/82508593-8aaf-40cf-a7eb-2a5e66d08d3a.png";
-const imgDecoRegistration = "https://www.figma.com/api/mcp/asset/3cb0bce4-d134-4ed5-a8a0-9c7e21a6bdcf.svg";
-const imgIconArrowUr = "https://www.figma.com/api/mcp/asset/670b717e-86bc-4d54-ac00-ad0381c9f3f3.svg";
-const imgDecoConDu = "https://www.figma.com/api/mcp/asset/07f0e347-152f-42ca-8403-0152f82b55bb.svg";
-const imgEllipse = "https://www.figma.com/api/mcp/asset/16cf040c-e0b2-4a33-a632-6693f467ca78.svg";
-const imgIconCheck = "https://www.figma.com/api/mcp/asset/99d2ac72-4804-457e-85a8-4121fa7bf807.svg";
-const imgIconScissors = "https://www.figma.com/api/mcp/asset/590209f0-a5fa-41fc-85e9-750e6f918ce3.svg";
-const imgLine = "https://www.figma.com/api/mcp/asset/6ee564ae-5bfe-4767-b83f-fd2834a07143.svg";
-const imgGroup = "https://www.figma.com/api/mcp/asset/f9074383-53d0-4565-ace4-c011d109466b.svg";
-const imgIconBox = "https://www.figma.com/api/mcp/asset/a1f5d5ba-e7bc-4b40-8b7c-4833d87ece7e.svg";
-const imgIconCheck1 = "https://www.figma.com/api/mcp/asset/33863746-0737-4b55-9186-9c370509ecda.svg";
-const imgTrailingIcon = "https://www.figma.com/api/mcp/asset/6722eece-dd4c-4d0c-8de7-cd287e8cf0ff.svg";
-const imgDecoRegistration1 = "https://www.figma.com/api/mcp/asset/33c041d6-272c-4fb8-9afb-c1ad817600a4.svg";
+const img01HeroProfileSection = "https://www.figma.com/api/mcp/asset/683c18b2-7f88-442f-9bd8-d90b0bef77df.png";
+const imgDecoPaperGrain = "https://www.figma.com/api/mcp/asset/9625a8b0-efd1-481a-a6d7-b8b7b8a325dd.png";
+const imgDecoHalftone = "https://www.figma.com/api/mcp/asset/a267678c-949f-49e1-8af5-9ffd1824d43a.png";
+const imgNhXngSnXutQ12 = "https://www.figma.com/api/mcp/asset/6bb9ef06-462c-4b0f-971b-b5e2aff68d4f.png";
+const imgVideoThumbnail = "https://www.figma.com/api/mcp/asset/9373c18a-41df-4b50-92c3-76e885bdf1ec.png";
+const imgKcsCanhMauCmyk = "https://www.figma.com/api/mcp/asset/d8a0dc7d-547e-407d-8e26-51aad3ccbbb1.png";
+const imgBHpKhiVuong90 = "https://www.figma.com/api/mcp/asset/fa3f5d71-b31d-4ece-b861-6a1704fbbe4b.png";
+const imgEpKimVangAnhKim = "https://www.figma.com/api/mcp/asset/f3f748da-63a5-4c97-8e4e-0e49b1aca159.png";
+const imgDongPalletXutXng = "https://www.figma.com/api/mcp/asset/29faab57-3a31-4b67-902c-9ba8db6c44a9.png";
+const imgDecoRegistration = "https://www.figma.com/api/mcp/asset/c563ee49-7d7b-46f4-a3ae-0cd593a31923.svg";
+const imgIconBag = "https://www.figma.com/api/mcp/asset/68640213-f0e7-405f-8535-f9369036ada5.svg";
+const imgIconArrowUr = "https://www.figma.com/api/mcp/asset/288d779f-8b80-47a0-8204-f5ba65d27d4e.svg";
+const imgDecoConDu = "https://www.figma.com/api/mcp/asset/48840a34-ce2c-4433-9a8f-92230be72c66.svg";
+const imgEllipse = "https://www.figma.com/api/mcp/asset/bac6d7b1-991a-419d-8441-545f5af05f60.svg";
+const imgIconCheck = "https://www.figma.com/api/mcp/asset/7c5bbc52-3b55-4274-be3e-eb257929f12b.svg";
+const imgIconScissors = "https://www.figma.com/api/mcp/asset/47bfedd0-4a62-4186-96e3-bd7545b53a07.svg";
+const imgLine = "https://www.figma.com/api/mcp/asset/771335e2-19c3-47aa-8784-13e46c1922a3.svg";
+const imgGroup = "https://www.figma.com/api/mcp/asset/c3b6ff43-6d68-44eb-bc94-f071b7e6a972.svg";
+const imgIconBox = "https://www.figma.com/api/mcp/asset/7b41070b-e2de-43d4-840a-1f7bad647bf8.svg";
+const imgIconCheck1 = "https://www.figma.com/api/mcp/asset/060391b7-a975-44f5-9770-b27306586afb.svg";
+const imgTrailingIcon = "https://www.figma.com/api/mcp/asset/7dba2f82-7a4e-4a14-9a93-a447684182e7.svg";
+const imgDecoRegistration1 = "https://www.figma.com/api/mcp/asset/035b54fb-a61a-47b4-bb3f-6693aa61e5af.svg";
 
 export default function HSNangLcDesktop1440Px() {
   return (
@@ -42,7 +43,7 @@ export default function HSNangLcDesktop1440Px() {
           <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgDecoRegistration} />
         </div>
       </div>
-      <div className="bg-[var(--base\/white,white)] border border-[var(--line\/default,rgba(1,1,1,0.13))] border-solid content-stretch flex h-[84px] items-center justify-between overflow-clip px-[var(--spacing\/padding\/2xlarge,32px)] py-[var(--spacing\/padding\/medium,16px)] relative shrink-0 w-[1440px]" data-node-id="134:667" data-name="Header Navigation">
+      <div className="bg-[var(--base\/white,white)] border border-[var(--line\/default,rgba(1,1,1,0.13))] border-solid content-stretch flex h-[84px] items-center justify-between px-[var(--spacing\/padding\/2xlarge,32px)] py-[var(--spacing\/padding\/medium,16px)] relative shrink-0 w-[1440px]" data-node-id="134:667" data-name="Header Navigation">
         <a className="[word-break:break-word] block cursor-pointer font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[0] relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/heading-1,28px)] tracking-[var(--typography\/letter-spacing\/heading-1,-0.56px)] whitespace-nowrap" data-node-id="134:668">
           <p className="leading-[var(--typography\/line-height\/heading-1,36px)]">GÓI</p>
         </a>
@@ -66,14 +67,29 @@ export default function HSNangLcDesktop1440Px() {
             Liên Hệ
           </p>
         </div>
-        <a className="bg-[var(--brand\/red,#ff6bd5)] content-stretch cursor-pointer flex gap-[var(--spacing\/gap\/xsmall,8px)] h-[42px] items-center justify-center px-[var(--spacing\/padding\/large,20px)] relative rounded-[var(--radius\/luxury,12px)] shrink-0" data-node-id="148:240" data-name="Btn Báo Giá">
-          <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/button,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/button-label-l,20px)] not-italic relative shrink-0 text-[color:var(--base\/white,white)] text-[length:var(--typography\/font-size\/button-label-l,14px)] text-left tracking-[var(--typography\/letter-spacing\/button-label-l,0px)] whitespace-nowrap" data-node-id="I148:240;148:70">
-            Gửi Logo Nhận Maket
-          </p>
-          <div className="relative shrink-0 size-[16px]" data-node-id="I148:240;148:71" data-name="Trailing icon">
-            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconArrowUr} />
+        <div className="content-stretch flex gap-[24px] items-center relative shrink-0" data-node-id="197:2613" data-name="Header Actions">
+          <div className="bg-[var(--base\/white,white)] border border-[var(--ink\/strong,#121212)] border-solid content-stretch flex gap-[8px] h-[40px] items-center pl-[12px] pr-[10px] relative rounded-[var(--radius\/luxury,12px)] shrink-0" data-node-id="197:2605" data-name="Cart Btn">
+            <div className="relative shrink-0 size-[18px]" data-node-id="I197:2605;195:1586" data-name="Icon/bag">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconBag} />
+            </div>
+            <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/button,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/button-label-xs,12px)] not-italic relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/button-label-xs,12px)] tracking-[var(--typography\/letter-spacing\/button-label-xs,0px)] whitespace-nowrap" data-node-id="I197:2605;195:1590">
+              GIỎ BÁO GIÁ
+            </p>
+            <div className="bg-[var(--brand\/red,#ff6bd5)] content-stretch flex h-[18px] items-center justify-center min-w-[18px] overflow-clip px-[5px] relative rounded-[var(--radius\/luxury,12px)] shrink-0" data-node-id="I197:2605;195:1591" data-name="Cart Count">
+              <p className="[word-break:break-word] font-['JetBrains_Mono:Bold'] font-bold leading-[normal] relative shrink-0 text-[11px] text-[color:var(--base\/white,white)] whitespace-nowrap" data-node-id="I197:2605;195:1592">
+                2
+              </p>
+            </div>
           </div>
-        </a>
+          <a className="bg-[var(--brand\/red,#ff6bd5)] content-stretch cursor-pointer flex gap-[var(--spacing\/gap\/xsmall,8px)] h-[42px] items-center justify-center px-[var(--spacing\/padding\/large,20px)] relative rounded-[var(--radius\/luxury,12px)] shrink-0" data-node-id="148:240" data-name="Btn Báo Giá">
+            <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/button,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/button-label-l,20px)] not-italic relative shrink-0 text-[color:var(--base\/white,white)] text-[length:var(--typography\/font-size\/button-label-l,14px)] text-left tracking-[var(--typography\/letter-spacing\/button-label-l,0px)] whitespace-nowrap" data-node-id="I148:240;148:70">
+              Gửi Logo Nhận Maket
+            </p>
+            <div className="relative shrink-0 size-[16px]" data-node-id="I148:240;148:71" data-name="Trailing icon">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconArrowUr} />
+            </div>
+          </a>
+        </div>
       </div>
       <div className="bg-[var(--paper\/light,#f7f7f7)] content-stretch flex flex-col gap-[var(--dm-20,20px)] h-[460px] items-center justify-center overflow-clip p-[var(--dm-64,64px)] relative shrink-0 w-[1440px]" data-node-id="134:678" data-name="01 - Hero Profile Section">
         <div aria-hidden className="absolute bg-size-[60.00000238418579px_60.00000238418579px] bg-top-left inset-0 opacity-55 pointer-events-none" style={{ backgroundImage: `url("${img01HeroProfileSection}")` }} />

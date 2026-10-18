@@ -1,43 +1,56 @@
-const imgDecoPaperGrain = "https://www.figma.com/api/mcp/asset/7c058221-b218-4f4b-9c0b-c6fdc1d3ed8e.png";
-const imgDecoHalftone = "https://www.figma.com/api/mcp/asset/ce986370-408f-4754-a7f2-e9eadaf5dcda.png";
-const imgHeroPhoto = "https://www.figma.com/api/mcp/asset/9ae87b01-593b-4843-952b-73b7a8ee7d18.png";
-const imgDecoBangKeo = "https://www.figma.com/api/mcp/asset/9418a579-0998-4082-a25c-8d62d7decfcf.png";
-const imgNhGoiKhiDu = "https://www.figma.com/api/mcp/asset/5669bf04-efd1-4d17-bbed-39cf6d4fb12d.png";
-const imgNhGoiDngB = "https://www.figma.com/api/mcp/asset/19d5272c-ca39-4924-a5f2-5090e96ef644.png";
-const imgThumb = "https://www.figma.com/api/mcp/asset/cf7ba14c-8680-47d4-89c8-845744ab1c4f.png";
-const imgThumb1 = "https://www.figma.com/api/mcp/asset/5c50dbb1-6e40-4203-a97d-ab17a7af10fe.png";
-const imgThumb2 = "https://www.figma.com/api/mcp/asset/ccc293a5-2f12-4dca-af95-5c8a13ce9aae.png";
-const imgThumb3 = "https://www.figma.com/api/mcp/asset/b6c23407-3218-42d6-acd0-846d8e015730.png";
-const imgThumb4 = "https://www.figma.com/api/mcp/asset/daeb0e91-9b71-4e20-87af-a261d4396c56.png";
-const imgThumb5 = "https://www.figma.com/api/mcp/asset/b1ff5a3c-65ce-46c0-9733-d80a884eec45.png";
-const imgFactoryPhoto = "https://www.figma.com/api/mcp/asset/0e7f169f-800d-487b-a0dc-3dd5a2eaf537.png";
-const imgIconPhone = "https://www.figma.com/api/mcp/asset/f02614b5-d029-4b65-9b27-6f491fe74002.svg";
-const imgDecoConDu = "https://www.figma.com/api/mcp/asset/e919a884-38b1-43b5-9c42-bc7bbc93b546.svg";
-const imgEllipse = "https://www.figma.com/api/mcp/asset/2026215c-ad6d-4f1e-91f3-70533ac2ce82.svg";
-const imgIconChevronDown = "https://www.figma.com/api/mcp/asset/0732bbf9-da0a-4f14-84dc-f2db5fddd68f.svg";
-const imgTrailingIcon = "https://www.figma.com/api/mcp/asset/db66eb45-1721-4d79-bd7c-d7bba4068177.svg";
-const imgIconCheck = "https://www.figma.com/api/mcp/asset/a19c594a-a9a8-467c-a951-0cc8afe104e0.svg";
-const imgTrailingIcon1 = "https://www.figma.com/api/mcp/asset/f9d96696-8171-48dd-aa24-24b0511dd618.svg";
-const imgDecoConDu1 = "https://www.figma.com/api/mcp/asset/2ff8276e-0d65-4a97-a155-ca6f60e1c8ea.svg";
-const imgEllipse1 = "https://www.figma.com/api/mcp/asset/3b1da0f5-4b6e-464b-a971-583b3766ee38.svg";
-const imgGroup = "https://www.figma.com/api/mcp/asset/d7fd46c7-524a-4496-8bad-7dc740cacd80.svg";
-const imgDecoRegistration = "https://www.figma.com/api/mcp/asset/e5863312-6029-4ad4-b489-e1f2ead57be5.svg";
-const imgLeadingIcon = "https://www.figma.com/api/mcp/asset/93523593-7fc1-40ef-a79f-927afb7ee33f.svg";
+const imgDecoPaperGrain = "https://www.figma.com/api/mcp/asset/e5901d90-af45-401b-bccd-44a39ffbf328.png";
+const imgDecoHalftone = "https://www.figma.com/api/mcp/asset/545fe24c-98c5-4325-9908-bf8a1901def1.png";
+const imgHeroPhoto = "https://www.figma.com/api/mcp/asset/1654fcd2-9ef4-4833-8d80-f7a38da3f3f3.png";
+const imgDecoBangKeo = "https://www.figma.com/api/mcp/asset/eb4abe1f-a86d-4d18-bea5-c6abe2cebd5c.png";
+const imgNhGoiKhiDu = "https://www.figma.com/api/mcp/asset/b410bba2-ff3e-470d-b2d6-d6409e2eaabf.png";
+const imgNhGoiDngB = "https://www.figma.com/api/mcp/asset/1a0a34eb-1303-4c4c-b1f9-8d2572c0c2a5.png";
+const imgThumb = "https://www.figma.com/api/mcp/asset/25923038-5d1d-4d4a-9e35-7f9d844f29f3.png";
+const imgThumb1 = "https://www.figma.com/api/mcp/asset/6accb561-ccf6-42fc-9bc0-3f140ae05ee6.png";
+const imgThumb2 = "https://www.figma.com/api/mcp/asset/3b5e60f7-51ea-49f9-b9d5-a12895cfd80e.png";
+const imgThumb3 = "https://www.figma.com/api/mcp/asset/8f987593-fddd-457a-b2a1-f0f708d43319.png";
+const imgThumb4 = "https://www.figma.com/api/mcp/asset/9a839cd4-529b-4713-8a10-a57dc9f5dd96.png";
+const imgThumb5 = "https://www.figma.com/api/mcp/asset/c46e57c4-c872-465c-9ea3-0dba7148836f.png";
+const imgFactoryPhoto = "https://www.figma.com/api/mcp/asset/f467299b-30ad-4d6d-8461-86392fa6e734.png";
+const imgIconBag = "https://www.figma.com/api/mcp/asset/faaa5027-974a-41bd-b421-b701ba27416a.svg";
+const imgIconPhone = "https://www.figma.com/api/mcp/asset/981cda1f-3a7a-4423-b53e-e35de55fefdd.svg";
+const imgDecoConDu = "https://www.figma.com/api/mcp/asset/cdcdf81c-fa48-42ed-a3d7-791d57cd9f41.svg";
+const imgEllipse = "https://www.figma.com/api/mcp/asset/897ea7ca-0fbc-47db-825b-be9d8da97b6e.svg";
+const imgIconChevronDown = "https://www.figma.com/api/mcp/asset/a4cb4de7-d906-46f4-9074-0fad9e6bee1e.svg";
+const imgTrailingIcon = "https://www.figma.com/api/mcp/asset/b1634304-f289-4f55-b977-7a8f0ee919d6.svg";
+const imgIconCheck = "https://www.figma.com/api/mcp/asset/5721b556-6f82-4726-b574-45f4d0e72e69.svg";
+const imgTrailingIcon1 = "https://www.figma.com/api/mcp/asset/bda4decd-c514-4c5e-a8f6-100081e2846b.svg";
+const imgDecoConDu1 = "https://www.figma.com/api/mcp/asset/71bb7c95-53bc-4647-9469-af03aea21731.svg";
+const imgEllipse1 = "https://www.figma.com/api/mcp/asset/5b1c1d4e-a5d9-46fa-8884-335adacd55eb.svg";
+const imgGroup = "https://www.figma.com/api/mcp/asset/f58e7b1a-031b-4b2d-892d-16a43adf14be.svg";
+const imgDecoRegistration = "https://www.figma.com/api/mcp/asset/4a615cd2-4ede-4d21-a44c-cb3072849726.svg";
+const imgLeadingIcon = "https://www.figma.com/api/mcp/asset/665af2ea-f7c5-475b-a3d2-04e7e43f241e.svg";
 
 export default function TrangChMobile390TiuNgonCai() {
   return (
     <div className="bg-[var(--base\/white,white)] content-stretch flex flex-col items-start relative size-full" data-node-id="134:126" data-name="Trang Chủ - Mobile 390 (Tối Ưu Ngón Cái)">
-      <div className="bg-[var(--base\/white,white)] border border-[var(--line\/default,rgba(1,1,1,0.13))] border-solid content-stretch flex h-[56px] items-center justify-between overflow-clip p-[var(--spacing\/padding\/large,20px)] relative shrink-0 w-[390px]" data-node-id="134:127" data-name="00 - Header Mobile">
+      <div className="bg-[var(--base\/white,white)] border border-[var(--line\/default,rgba(1,1,1,0.13))] border-solid content-stretch flex h-[56px] items-center justify-between p-[var(--spacing\/padding\/large,20px)] relative shrink-0 w-[390px]" data-node-id="134:127" data-name="00 - Header Mobile">
         <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/body-extra,24px)] not-italic relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/body-extra,16px)] tracking-[var(--typography\/letter-spacing\/body-extra,-0.16px)] whitespace-nowrap" data-node-id="134:128">
           GÓI
         </p>
-        <div className="bg-[var(--base\/white,white)] border border-[var(--ink\/strong,#121212)] border-solid content-stretch flex gap-[var(--spacing\/gap\/xsmall,8px)] h-[36px] items-center justify-center px-[var(--spacing\/padding\/medium,16px)] relative rounded-[var(--radius\/luxury,12px)] shrink-0 w-[160px]" data-node-id="148:132" data-name="Call Btn">
-          <div className="relative shrink-0 size-[16px]" data-node-id="I148:132;148:110" data-name="Leading icon">
-            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconPhone} />
+        <div className="content-stretch flex gap-[10px] items-center relative shrink-0" data-node-id="197:2604" data-name="Header Actions">
+          <div className="bg-[var(--base\/white,white)] border border-[var(--ink\/strong,#121212)] border-solid content-stretch flex items-center justify-center relative rounded-[var(--radius\/luxury,12px)] shrink-0 size-[40px]" data-node-id="197:2597" data-name="Cart Btn Icon">
+            <div className="relative shrink-0 size-[20px]" data-node-id="I197:2597;195:1594" data-name="Icon/bag">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconBag} />
+            </div>
+            <div className="absolute bg-[var(--brand\/red,#ff6bd5)] content-stretch flex h-[18px] items-center justify-center left-[28px] min-w-[18px] overflow-clip px-[5px] rounded-[var(--radius\/luxury,12px)] top-[-8px]" data-node-id="I197:2597;195:1598" data-name="Cart Count">
+              <p className="[word-break:break-word] font-['JetBrains_Mono:Bold'] font-bold leading-[normal] relative shrink-0 text-[11px] text-[color:var(--base\/white,white)] whitespace-nowrap" data-node-id="I197:2597;195:1599">
+                2
+              </p>
+            </div>
           </div>
-          <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/button,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/button-label-xs,12px)] not-italic relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/button-label-xs,12px)] tracking-[var(--typography\/letter-spacing\/button-label-xs,0px)] whitespace-nowrap" data-node-id="I148:132;148:112">
-            0387 365 020
-          </p>
+          <div className="bg-[var(--base\/white,white)] border border-[var(--ink\/strong,#121212)] border-solid content-stretch flex gap-[var(--spacing\/gap\/xsmall,8px)] h-[36px] items-center justify-center px-[var(--spacing\/padding\/medium,16px)] relative rounded-[var(--radius\/luxury,12px)] shrink-0 w-[160px]" data-node-id="148:132" data-name="Call Btn">
+            <div className="relative shrink-0 size-[16px]" data-node-id="I148:132;148:110" data-name="Leading icon">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconPhone} />
+            </div>
+            <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/button,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/button-label-xs,12px)] not-italic relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/button-label-xs,12px)] tracking-[var(--typography\/letter-spacing\/button-label-xs,0px)] whitespace-nowrap" data-node-id="I148:132;148:112">
+              0387 365 020
+            </p>
+          </div>
         </div>
       </div>
       <div className="bg-[var(--base\/white,white)] content-stretch flex flex-col gap-[var(--spacing\/gap\/medium,16px)] h-[600px] items-start overflow-clip p-[var(--spacing\/padding\/large,20px)] relative shrink-0 w-[390px]" data-node-id="134:131" data-name="01 - Hero Mobile">

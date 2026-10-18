@@ -142,6 +142,7 @@
         '• Tên: ' + (v('ten') || '...'),
         '• SĐT Zalo: ' + phone,
         '• Giao tới: ' + (v('tinh') || '...')].join('\n');
+      saveRequest({ source: 'form', page: location.pathname, ten: v('ten'), sdt: phone, tinh: v('tinh'), items: [{ loai: type, kichthuoc: hasDim ? dims.join('x') + ' cm' : '', sl: qty }], web: '' });
       copy(msg); toast('Đã chép nội dung báo giá. Dán vào khung chat Zalo của GÓI để gửi.');
       setTimeout(function () { window.open(ZALO, '_blank', 'noopener'); }, 350);
     });
@@ -150,6 +151,120 @@
   $$('[data-zalo-msg]').forEach(function (a) {
     a.addEventListener('click', function () { copy(a.getAttribute('data-zalo-msg')); toast('Đã chép tin nhắn. Dán vào Zalo của GÓI để gửi.'); });
   });
+
+  // gửi yêu cầu về máy chủ để lưu lại (không chặn việc mở Zalo nếu lỗi mạng)
+  function saveRequest(data) {
+    try {
+      return fetch('/api/bao-gia', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(data), keepalive: true }).catch(function () {});
+    } catch (e) { return Promise.resolve(); }
+  }
+
+  // 6b. Giỏ báo giá: gom nhiều mẫu, chọn số lượng, gửi một lần qua Zalo
+  var cartRoot = document.querySelector('[data-cart]');
+  if (cartRoot) (function () {
+    var KEY = 'goi-cart-v1', QTY = ['100', '200', '300', '500', '1.000', '2.000', '5.000+'];
+    var SKUS = {}; try { SKUS = JSON.parse(document.getElementById('goi-skus').textContent); } catch (e) {}
+    var items = []; try { items = JSON.parse(localStorage.getItem(KEY)) || []; } catch (e) {}
+    items = items.filter(function (it) { return SKUS[it.code]; });
+    function store() { try { localStorage.setItem(KEY, JSON.stringify(items)); } catch (e) {} }
+    var views = $$('.goi-cart__v', cartRoot).map(function (v) {
+      var list = v.querySelector('[data-name="Cart Items"]'), tpl = list && list.querySelector('[data-name="Cart Item"]');
+      tpl = tpl && tpl.cloneNode(true); if (list) list.innerHTML = '';
+      var frame = v.firstElementChild;
+      var empty = document.createElement('div'); empty.className = 'goi-cart__empty';
+      var et = cartRoot.querySelector('template[data-cart-empty]'); if (et) empty.appendChild(et.content.cloneNode(true));
+      frame.appendChild(empty);
+      return { v: v, list: list, tpl: tpl, frame: frame };
+    });
+    function setText(root, name, txt) { var n = root.querySelector('[data-name="' + name + '"]'); n = n && (n.tagName === 'P' ? n : (n.querySelector('p') || n)); if (n) n.textContent = txt; }
+    function count() { return items.length; }
+    function render() {
+      $$('[data-cart-count]').forEach(function (b) { var p = b.querySelector('p'); if (p) p.textContent = count(); b.classList.toggle('is-zero', !count()); });
+      views.forEach(function (w) {
+        w.frame.classList.toggle('is-empty', !count());
+        $$('[data-name="Cart Count Text"]', w.v).forEach(function (p) { p.textContent = '(' + count() + ' mẫu)'; });
+        if (!w.list || !w.tpl) return;
+        w.list.innerHTML = '';
+        items.forEach(function (it, i) {
+          var s = SKUS[it.code], row = w.tpl.cloneNode(true); row.setAttribute('data-i', i);
+          setText(row, 'Code', it.code); setText(row, 'Title', s.n); setText(row, 'Size', s.s); setText(row, 'Qty Value', QTY[it.q] + ' cái');
+          var img = row.querySelector('[data-name="Ảnh"] img'); if (img) { img.src = s.i; img.alt = s.n; }
+          w.list.appendChild(row);
+        });
+      });
+    }
+    function visibleView() { return views.filter(function (w) { return getComputedStyle(w.v).display !== 'none'; })[0]; }
+    function open() {
+      render(); cartRoot.classList.add('is-open'); cartRoot.setAttribute('aria-hidden', 'false'); document.documentElement.classList.add('goi-cart-open');
+      var w = visibleView(); var f = w && w.v.querySelector('[data-cart-close]'); if (f) f.focus();
+    }
+    function close() { cartRoot.classList.remove('is-open'); cartRoot.setAttribute('aria-hidden', 'true'); document.documentElement.classList.remove('goi-cart-open'); }
+    function selectedQty(btn) {
+      var bp = btn.closest('.bp'), on = bp && bp.querySelector('[data-tier].is-on'); if (!on) return 0;
+      var i = QTY.indexOf(on.getAttribute('data-tier')); return i < 0 ? 0 : i;
+    }
+    function add(code, q) {
+      var hit = items.filter(function (it) { return it.code === code; })[0];
+      if (hit) { if (q > hit.q) hit.q = q; } else items.push({ code: code, q: q || 0 });
+      store(); render();
+      toast('Đã thêm ' + code + ' vào giỏ báo giá (' + count() + ' mẫu).');
+    }
+    document.addEventListener('click', function (e) {
+      var a = e.target.closest('[data-cart-add]');
+      if (a) { e.preventDefault(); e.stopPropagation(); add(a.getAttribute('data-cart-add'), selectedQty(a)); a.classList.remove('is-added'); void a.offsetWidth; a.classList.add('is-added'); return; }
+      if (e.target.closest('[data-cart-open]')) { e.preventDefault(); open(); return; }
+      if (e.target.closest('[data-cart-close]')) { e.preventDefault(); close(); return; }
+      var row = e.target.closest('[data-name="Cart Item"]');
+      if (row && cartRoot.contains(row)) {
+        var i = +row.getAttribute('data-i'), it = items[i]; if (!it) return;
+        if (e.target.closest('[data-name="Btn Giảm"]')) it.q = Math.max(0, it.q - 1);
+        else if (e.target.closest('[data-name="Btn Tăng"]')) it.q = Math.min(QTY.length - 1, it.q + 1);
+        else if (e.target.closest('[data-name="Btn Xoá"]')) items.splice(i, 1);
+        else return;
+        store(); render();
+      }
+    }, true);
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && cartRoot.classList.contains('is-open')) close();
+      var t = e.target;
+      if ((e.key === 'Enter' || e.key === ' ') && t.matches && t.matches('[data-cart-open],[data-cart-add],[data-cart-close],[data-tier],[data-name="Btn Giảm"],[data-name="Btn Tăng"],[data-name="Btn Xoá"]')) { e.preventDefault(); t.click(); }
+    });
+    cartRoot.addEventListener('click', function (e) {
+      var b = e.target.closest('[data-cart-submit]'); if (!b) return; e.preventDefault();
+      var w = visibleView(); if (!w) return;
+      if (!count()) { toast('Giỏ đang trống. Chọn mẫu hộp trước nhé.'); return; }
+      var v = function (n) { var x = w.v.querySelector('[name="' + n + '"]'); return x ? x.value.trim() : ''; };
+      var phone = v('sdt').replace(/[\s.\-]/g, ''), box = w.v.querySelector('[name="sdt"]');
+      if (!/^(0|\+?84)\d{9,10}$/.test(phone)) {
+        if (box) { box.closest('[data-name]').classList.add('is-err'); box.focus(); }
+        toast('Bạn nhập giúp số điện thoại Zalo để GÓI gửi báo giá nhé.'); return;
+      }
+      if (box) box.closest('[data-name]').classList.remove('is-err');
+      var lines = items.map(function (it, i) { return (i + 1) + '. ' + it.code + ' · ' + SKUS[it.code].n + ' · ' + QTY[it.q] + ' cái'; });
+      var msg = ['GÓI ơi, mình cần báo giá giỏ ' + count() + ' mẫu:'].concat(lines, ['• Tên: ' + (v('ten') || '...'), '• SĐT Zalo: ' + phone, '• Giao tới: ' + (v('tinh') || '...')], v('ghichu') ? ['• Ghi chú: ' + v('ghichu')] : []).join('\n');
+      saveRequest({ source: 'gio', page: location.pathname, ten: v('ten'), sdt: phone, tinh: v('tinh'), ghichu: v('ghichu'), items: items.map(function (it) { return { code: it.code, ten: SKUS[it.code].n, sl: QTY[it.q] }; }), web: '' });
+      copy(msg); toast('Đã chép nội dung giỏ báo giá. Dán vào khung chat Zalo của GÓI để gửi.');
+      items = []; store(); render(); close();
+      setTimeout(function () { window.open(ZALO, '_blank', 'noopener'); }, 350);
+    });
+    // nấc số lượng ở trang chi tiết (100 cái, 200 cái…): bấm để chọn số lượng khi thêm vào giỏ
+    $$('.bp').forEach(function (bp) {
+      var tiers = [];
+      $$('p', bp).forEach(function (p) {
+        var m = /^([\d.]+) cái$/.exec(p.textContent.trim()); if (!m || QTY.indexOf(m[1]) < 0) return;
+        var tile = p.parentElement; if (!tile || p.closest('[data-cart]') || p.closest('form')) return;
+        if (!tile.querySelector('p + p')) return; // ô nấc có cả dòng giá bên dưới
+        tile.setAttribute('data-tier', m[1]); tile.setAttribute('role', 'button'); tile.tabIndex = 0; tiers.push(tile);
+      });
+      if (!tiers.length) return;
+      // mặc định chọn ô thiết kế đang làm nổi (class khác các ô còn lại), nếu không có thì ô đầu
+      var cls = tiers.map(function (t) { return t.className; });
+      var odd = tiers.filter(function (t) { return cls.filter(function (c) { return c === t.className; }).length === 1; });
+      (odd.length === 1 ? odd[0] : tiers[0]).classList.add('is-on');
+      tiers.forEach(function (t) { t.addEventListener('click', function () { tiers.forEach(function (x) { x.classList.toggle('is-on', x === t); }); }); });
+    });
+    render();
+  })();
 
   // nút lên đầu trang, nút tải hồ sơ (in ra PDF)
   $$('[data-name="Scroll to Top Button"]').forEach(function (b) {

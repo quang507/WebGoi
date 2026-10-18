@@ -6,7 +6,7 @@ import { createHash } from 'node:crypto';
 import { execFileSync } from 'node:child_process';
 import path from 'node:path';
 import { jsxToHtml, AtomicCSS, toDom } from './lib/jsx2html.mjs';
-import { PAGES, SKU_PAGES } from './pages.mjs';
+import { PAGES, SKU_PAGES, CART_SKUS } from './pages.mjs';
 
 const ROOT = path.resolve(import.meta.dirname, '..');
 const EXP = path.join(ROOT, 'design/figma-export');
@@ -159,8 +159,26 @@ async function convertFrame(el, kind, skuHref, ctx = {}) {
     const css = fx.split('|').map((f) => `${{ b: 'background-color', s: 'border-color', c: 'color' }[f[0]]}:rgba(255,255,255,${f.slice(1)})`).join(';');
     n.setAttribute('style', ((n.getAttribute('style') || '') + ';' + css).replace(/^;/, ''));
   }
+  // giỏ báo giá: nút mở giỏ, nút thêm vào giỏ, nút trong khung giỏ
+  for (const b of el.querySelectorAll('[data-name="Cart Btn"], [data-name="Cart Btn Icon"]')) { b.setAttribute('data-cart-open', ''); b.setAttribute('role', 'button'); b.setAttribute('tabindex', '0'); b.setAttribute('aria-label', 'Mở giỏ báo giá'); }
+  for (const c of el.querySelectorAll('[data-name="Cart Count"]')) { c.setAttribute('data-cart-count', ''); const t = c.querySelector('p'); if (t) t.set_content('0'); }
+  for (const b of el.querySelectorAll('[data-name="Btn Thêm Giỏ"], [data-name="Btn Thêm Vào Giỏ"]')) {
+    const card = b.closest('[data-name^="SKU-"]');
+    const code = card ? card.getAttribute('data-name').split(' ')[0] : ctx.skuCode;
+    if (code) { b.setAttribute('data-cart-add', code); b.setAttribute('role', 'button'); b.setAttribute('tabindex', '0'); b.setAttribute('aria-label', 'Thêm vào giỏ báo giá'); b.setAttribute('title', 'Thêm vào giỏ báo giá'); b.tagName = 'div'; }
+  }
+  // chữ trong Figma xuất ra không kèm tên layer -> gắn lại theo vị trí để JS điền dữ liệu
+  for (const it of el.querySelectorAll('[data-name="Cart Item"]')) {
+    const info = it.querySelector('[data-name="Info"]'); const ps = info ? info.childNodes.filter((n) => n.tagName === 'P') : [];
+    ['Code', 'Title', 'Size'].forEach((nm, i) => ps[i] && ps[i].setAttribute('data-name', nm));
+    const q = it.querySelector('[data-name="Qty"] p'); if (q) q.setAttribute('data-name', 'Qty Value');
+  }
+  for (const r of el.querySelectorAll('[data-name="Title Row"]')) { const ps = r.childNodes.filter((n) => n.tagName === 'P'); if (ps[1]) ps[1].setAttribute('data-name', 'Cart Count Text'); }
+  for (const b of el.querySelectorAll('[data-name="Btn Đóng Giỏ"]')) { b.setAttribute('data-cart-close', ''); b.setAttribute('role', 'button'); b.setAttribute('tabindex', '0'); b.setAttribute('aria-label', 'Đóng giỏ'); }
+  for (const b of el.querySelectorAll('[data-name="Btn Giảm"], [data-name="Btn Tăng"], [data-name="Btn Xoá"]')) { b.setAttribute('role', 'button'); b.setAttribute('tabindex', '0'); b.setAttribute('aria-label', { 'Btn Giảm': 'Giảm số lượng', 'Btn Tăng': 'Tăng số lượng', 'Btn Xoá': 'Bỏ khỏi giỏ' }[b.getAttribute('data-name')]); }
+  for (const f of el.querySelectorAll('[data-name^="Giỏ Báo Giá"]')) { f.tagName = 'form'; f.setAttribute('data-cart-form', ''); f.setAttribute('novalidate', ''); }
   // form báo giá: ô nhập thật thay chữ giữ chỗ (giữ nguyên kiểu chữ của thiết kế)
-  const KEY = { 'Input Dài': ['dai', 'decimal'], 'Input Rộng': ['rong', 'decimal'], 'Input Cao': ['cao', 'decimal'], 'Input Tên': ['ten', 'text'], 'Input SĐT': ['sdt', 'tel'] };
+  const KEY = { 'Input Dài': ['dai', 'decimal'], 'Input Rộng': ['rong', 'decimal'], 'Input Cao': ['cao', 'decimal'], 'Input Tên': ['ten', 'text'], 'Input SĐT': ['sdt', 'tel'], 'Input Ghi Chú': ['ghichu', 'text'] };
   for (const box of el.querySelectorAll('[data-name^="Input "], [data-name="Select Tỉnh"]')) {
     const ph = box.querySelector('[data-name="Placeholder"]') || box.querySelector('p'); if (!ph) continue;
     const nm = box.getAttribute('data-name'); const cls = ph.getAttribute('class') || '';
@@ -173,10 +191,10 @@ async function convertFrame(el, kind, skuHref, ctx = {}) {
   // nút trong thiết kế chưa nối prototype -> thành thẻ <a>
   for (const b of el.querySelectorAll('[data-name]')) {
     const nm = b.getAttribute('data-name');
-    if (b.tagName !== 'A' && !b.closest('a') && (/^(Btn|Nút|Search Input|Call Btn|Kênh (?!Của)|Social |Sơ Đồ Xưởng)/i.test(nm) || (b.parentNode && b.parentNode.getAttribute && b.parentNode.getAttribute('data-name') === 'Lưới 4 Mẫu Liên Quan') || b.querySelector(':scope > [data-name="Trailing icon"], :scope > [data-name="Label"]'))) b.tagName = 'a';
+    if (b.tagName !== 'A' && !b.closest('a') && !/^Btn (Thêm|Đóng Giỏ|Giảm|Tăng|Xoá)/.test(nm) && (/^(Btn|Nút|Search Input|Call Btn|Kênh (?!Của)|Social |Sơ Đồ Xưởng)/i.test(nm) || (b.parentNode && b.parentNode.getAttribute && b.parentNode.getAttribute('data-name') === 'Lưới 4 Mẫu Liên Quan') || b.querySelector(':scope > [data-name="Trailing icon"], :scope > [data-name="Label"]'))) b.tagName = 'a';
   }
   // chữ trong header/footer có đích đến -> bọc <a>
-  for (const sec of el.childNodes.filter((n) => n.nodeType === 1 && /Header|Nav|Footer|Topbar|Top Bar|Breadcrumb/i.test(n.getAttribute('data-name') || ''))) {
+  for (const sec of el.childNodes.filter((n) => kind !== 'cart' && n.nodeType === 1 && /Header|Nav|Footer|Topbar|Top Bar|Breadcrumb/i.test(n.getAttribute('data-name') || ''))) {
     for (const p of sec.querySelectorAll('p')) {
       if (p.closest('a')) continue;
       const h = hrefFor(p, { kind, skuHref, ...ctx, wrap: true }); if (!h) continue;
@@ -188,6 +206,7 @@ async function convertFrame(el, kind, skuHref, ctx = {}) {
   for (const a of el.querySelectorAll('a')) {
     const T = a.text.replace(/\s+/g, ' ').trim().toUpperCase();
     if (a.getAttribute('data-name') === 'Btn Gửi Báo Giá') a.setAttribute('data-quote-submit', '');
+    if (a.getAttribute('data-name') === 'Btn Gửi Giỏ') a.setAttribute('data-cart-submit', '');
     const g = T.match(/^CHỌN (GÓI [^ ]+ [^ ]+)$/) || (/^CHỌN GÓI NÀY$/.test(T) && (a.getAttribute('data-name') || '').match(/Chọn (GÓI .+)$/));
     if (g) a.setAttribute('data-zalo-msg', `GÓI ơi, mình quan tâm ${g[1].replace(/^GÓI/, 'Gói').replace(/(\S+)$/, (w) => w[0] + w.slice(1).toLowerCase())} (set 100 sản phẩm). Tư vấn giúp mình nhé.`);
     if (/^(ĐẶT HÀNG MẪU TRƯỚC|NHẬN BÁO GIÁ MẪU NÀY|ZALO BÁO GIÁ NGAY|NHẬN MẪU IN THỬ)/.test(T) && ctx.skuName) a.setAttribute('data-zalo-msg', `GÓI ơi, mình cần báo giá ${ctx.skuName} (${ctx.skuCode}), số lượng dự kiến: ... Giao tới: ...`);
@@ -222,15 +241,30 @@ async function resolveAssets(html, assets) {
 
 // ---------- đọc bản xuất ----------
 const frames = {};
-for (const f of ['home-d', 'home-t', 'home-m', 'profile-d', 'profile-t', 'listing-d']) frames[f] = jsxToHtml(readFileSync(path.join(EXP, f + '.jsx'), 'utf8'));
-{ // batch-rest: wrapper chứa 6 frame theo thứ tự
-  const b = jsxToHtml(readFileSync(path.join(EXP, 'batch-rest.jsx'), 'utf8'));
+for (const f of ['home-d', 'home-t', 'home-m', 'profile-d', 'profile-t', 'listing-d', 'listing-t', 'listing-m', 'pdp-d']) frames[f] = jsxToHtml(readFileSync(path.join(EXP, f + '.jsx'), 'utf8'));
+{ // batch-2: khung tạm chứa các frame nhỏ theo thứ tự (frame nhỏ không xuất ra file riêng được)
+  const b = jsxToHtml(readFileSync(path.join(EXP, 'batch-2.jsx'), 'utf8'));
   const dom = toDom(b.html); const kids = dom.firstChild.childNodes.filter((n) => n.nodeType === 1);
-  ['profile-m', 'listing-t', 'listing-m', 'pdp-d', 'pdp-t', 'pdp-m'].forEach((k, i) => {
+  ['profile-m', 'pdp-t', 'pdp-m', 'cart-d', 'cart-m', 'cart-empty'].forEach((k, i) => {
     const c = kids[i]; const cls = (c.getAttribute('class') || '').split(/\s+/).filter((t) => !/^(absolute|left-\[|top-\[|top-0|left-0)/.test(t));
     c.setAttribute('class', ['relative', ...cls].join(' '));
     frames[k] = { html: c.toString(), assets: b.assets };
   });
+}
+
+// ---------- giỏ báo giá: dựng 1 lần từ frame "Giỏ Báo Giá", chèn vào mọi trang ----------
+async function cartHtml() {
+  // khung giỏ nằm ngoài luồng cuộn trang -> bỏ hiệu ứng hiện dần/parallax
+  const calm = (h) => h.replace(/ data-(reveal|parallax|crop|cut|draw|card|sticky)(="[^"]*")?/g, '');
+  const part = async (key) => { const el = toDom(frames[key].html).firstChild; await convertFrame(el, 'cart', () => '/mau-hop'); return calm(fixTiles(await resolveAssets(el.toString(), frames[key].assets))); };
+  const emptyEl = toDom(frames['cart-empty'].html).firstChild; await convertFrame(emptyEl, 'cart', () => '/mau-hop');
+  const empty = emptyEl.querySelector('[data-name="Empty State"]');
+  const emptyHtml = calm(fixTiles(await resolveAssets(empty.toString(), frames['cart-empty'].assets)));
+  return `\n<div class="goi-cart" data-cart aria-hidden="true"><div class="goi-cart__scrim" data-cart-close></div>
+<div class="goi-cart__panel" role="dialog" aria-modal="true" aria-label="Giỏ báo giá">
+<div class="goi-cart__v goi-cart__v-d">${await part('cart-d')}</div><div class="goi-cart__v goi-cart__v-m">${await part('cart-m')}</div>
+</div><template data-cart-empty>${emptyHtml}</template></div>
+<script type="application/json" id="goi-skus">${JSON.stringify(CART_SKUS)}</script>`;
 }
 
 const W = { d: 1440, t: 834, m: 390 };
@@ -257,12 +291,13 @@ async function buildPage(p, frameKeys, skuHref, mutate) {
     let html = fixTiles(await resolveAssets(el.toString(), fr.assets));
     body += `\n<div class="bp bp-${bp}" style="--w:${W[bp]}"${bp === 'd' ? '' : ' aria-hidden="false"'}>${html}</div>`;
   }
-  const out = head({ ...p, v }) + body + `\n<script src="/js/goi-motion.js?v=${v}" defer></script>\n</body></html>\n`;
+  const out = head({ ...p, v }) + body + CART + `\n<script src="/js/goi-motion.js?v=${v}" defer></script>\n</body></html>\n`;
   const file = path.join(ROOT, p.file); mkdirSync(path.dirname(file), { recursive: true }); writeFileSync(file, out);
   console.log('✓', p.file, (out.length / 1024).toFixed(0) + 'KB');
 }
 
 const skuHref = (code) => '/mau-hop/' + code.replace(/^SKU-/, '').toLowerCase().replace(/[^a-z0-9]/g, '');
+const CART = await cartHtml();
 for (const p of PAGES) await buildPage(p, p.frames, skuHref, p.mutate);
 for (const p of SKU_PAGES) await buildPage(p, p.frames, skuHref, p.mutate);
 writeFileSync(path.join(ROOT, 'css/goi-atoms.css'), '/* Tự sinh từ Figma — không sửa tay. tools/figma2html.mjs */\n' + atoms.css() + '\n');

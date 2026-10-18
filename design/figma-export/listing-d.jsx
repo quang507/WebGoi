@@ -1,20 +1,35 @@
-const imgDecoPaperGrain = "https://www.figma.com/api/mcp/asset/e357aa32-316f-4ba6-962d-04db7d92154e.png";
-const imgDecoHalftone = "https://www.figma.com/api/mcp/asset/831b3902-bbcf-4572-9665-b9f4e937e388.png";
-const imgNhSnPhm = "https://www.figma.com/api/mcp/asset/45af6257-7b20-4baf-962f-555d65161e8f.png";
-const imgNhSnPhm1 = "https://www.figma.com/api/mcp/asset/336655e8-2d90-4914-92d7-07ea9dc538a7.png";
-const imgNhSnPhm2 = "https://www.figma.com/api/mcp/asset/f3ad5833-a736-46ba-90a0-a3ab35942873.png";
-const imgNhSnPhm3 = "https://www.figma.com/api/mcp/asset/4f974eee-275b-41d8-b40a-56ef15ea197d.png";
-const imgNhSnPhm4 = "https://www.figma.com/api/mcp/asset/8646e23a-0904-44fb-ba24-0c4933cd2803.png";
-const imgNhSnPhm5 = "https://www.figma.com/api/mcp/asset/34337f3e-53cf-4701-a324-65b6807d18d1.png";
-const imgNhSnPhm6 = "https://www.figma.com/api/mcp/asset/5a6e43ea-509f-49cb-a3f5-a38885ac9e55.png";
-const imgNhSnPhm7 = "https://www.figma.com/api/mcp/asset/490b3032-d3a4-4ad9-830e-563fca151f27.png";
-const imgDecoRegistration = "https://www.figma.com/api/mcp/asset/ae3524e6-ca1b-4415-b3ed-f2b282a65849.svg";
-const imgGroup = "https://www.figma.com/api/mcp/asset/99cd17be-79a9-4ae5-a29e-0ceac9f853a6.svg";
-const imgIconSearch = "https://www.figma.com/api/mcp/asset/113d9bd2-06c2-4175-ab4a-b21aae7f3a73.svg";
-const imgIconArrowUr = "https://www.figma.com/api/mcp/asset/34cde05e-136f-4df4-a732-2b3321ac9cc7.svg";
-const imgIconScissors = "https://www.figma.com/api/mcp/asset/6a35da68-2911-4d33-b8b7-d0ebe629507d.svg";
-const imgLine = "https://www.figma.com/api/mcp/asset/5cccf481-4b33-4d6d-9a5c-c4f3f3e7bda5.svg";
-const imgDecoRegistration1 = "https://www.figma.com/api/mcp/asset/96dc05d9-ed7f-417a-98da-9f85fba2fcce.svg";
+const imgDecoPaperGrain = "https://www.figma.com/api/mcp/asset/094e759f-f031-411d-8fd6-ac5c70073f1d.png";
+const imgDecoHalftone = "https://www.figma.com/api/mcp/asset/d58a26d4-1d8b-4c5a-8218-11d63359c76e.png";
+const imgNhSnPhm = "https://www.figma.com/api/mcp/asset/fc94e7f3-4dd0-4215-8162-aa0818542207.png";
+const imgNhSnPhm1 = "https://www.figma.com/api/mcp/asset/25748ce2-3302-4a7e-878b-d1fb39533686.png";
+const imgNhSnPhm2 = "https://www.figma.com/api/mcp/asset/a36bd59e-932e-4561-b5f6-804ce86fefa3.png";
+const imgNhSnPhm3 = "https://www.figma.com/api/mcp/asset/34796c16-1ce2-4a73-859c-74122b7a8bf9.png";
+const imgNhSnPhm4 = "https://www.figma.com/api/mcp/asset/9532980a-e86d-450a-837f-5891273f93f6.png";
+const imgNhSnPhm5 = "https://www.figma.com/api/mcp/asset/79940a0c-21bb-4bae-82d8-6ef101bc1673.png";
+const imgNhSnPhm6 = "https://www.figma.com/api/mcp/asset/76c97316-c647-4b41-b47e-a5cc166f524f.png";
+const imgNhSnPhm7 = "https://www.figma.com/api/mcp/asset/26c16d9f-f8d9-4ae4-b064-ae7cf6801c1a.png";
+const imgNhSnPhm8 = "https://www.figma.com/api/mcp/asset/c4a5ff64-6a84-4c5f-944d-c0049862d207.png";
+const imgNhSnPhm9 = "https://www.figma.com/api/mcp/asset/38d109da-0cc2-48b5-8588-cf590f799c23.png";
+const imgNhSnPhm10 = "https://www.figma.com/api/mcp/asset/ea0446b2-e64d-43d1-87ed-d740988ef515.png";
+const imgNhSnPhm11 = "https://www.figma.com/api/mcp/asset/d6e4a19f-97ce-4cb1-8357-cf544a97c709.png";
+const imgNhSnPhm12 = "https://www.figma.com/api/mcp/asset/b0f766da-be4b-404d-8467-0c1772968ce9.png";
+const imgNhSnPhm13 = "https://www.figma.com/api/mcp/asset/436f8e8f-7810-490e-846a-7d4172f10bb3.png";
+const imgNhSnPhm14 = "https://www.figma.com/api/mcp/asset/48a49fcf-e3c2-49e5-b7fa-87178b769dfb.png";
+const imgNhSnPhm15 = "https://www.figma.com/api/mcp/asset/f03b61a5-5b64-4318-b989-8ed889082c89.png";
+const imgNhSnPhm16 = "https://www.figma.com/api/mcp/asset/043a1569-1ebd-4553-8fad-f9447acb25eb.png";
+const imgNhSnPhm17 = "https://www.figma.com/api/mcp/asset/bd497b35-7da8-4743-8999-2ca22cbc29cd.png";
+const imgNhSnPhm18 = "https://www.figma.com/api/mcp/asset/50c50640-dc38-4d91-89d5-d550f0a25b54.png";
+const imgNhSnPhm19 = "https://www.figma.com/api/mcp/asset/5e9a93f4-a623-4559-8c6e-ccf45a2d89fb.png";
+const imgNhSnPhm20 = "https://www.figma.com/api/mcp/asset/1434c7bb-bb04-4c26-b4ac-f8ae61339bc9.png";
+const imgDecoRegistration = "https://www.figma.com/api/mcp/asset/1a87eded-488e-49e2-a7f6-1cf0be8c2f90.svg";
+const imgIconBag = "https://www.figma.com/api/mcp/asset/1265c50b-2643-4425-8d35-de37c14b6cf8.svg";
+const imgGroup = "https://www.figma.com/api/mcp/asset/bb559fc0-0d95-4da0-b76c-1b32a3ca2866.svg";
+const imgIconSearch = "https://www.figma.com/api/mcp/asset/2f435e34-3566-4cf4-9b9b-32823e29083a.svg";
+const imgIconArrowUr = "https://www.figma.com/api/mcp/asset/ce740cdf-cb14-47b1-8ce1-8651e499db1c.svg";
+const imgIconBagPlus = "https://www.figma.com/api/mcp/asset/320d25d2-c80f-49e3-abdd-eecf7a76de61.svg";
+const imgIconScissors = "https://www.figma.com/api/mcp/asset/d44ff071-b76f-4bf8-8058-06a2be536bbe.svg";
+const imgLine = "https://www.figma.com/api/mcp/asset/4885d464-ad37-4571-a8e6-3e231f2f7a73.svg";
+const imgDecoRegistration1 = "https://www.figma.com/api/mcp/asset/56581718-6e92-41ff-bcbf-a6a43eae6c28.svg";
 
 export default function ListingHpCngAmDngDesktop1440Px() {
   return (
@@ -38,29 +53,44 @@ export default function ListingHpCngAmDngDesktop1440Px() {
           <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgDecoRegistration} />
         </div>
       </div>
-      <div className="[word-break:break-word] bg-[var(--base\/white,white)] border border-[var(--line\/default,rgba(1,1,1,0.13))] border-solid content-stretch flex h-[84px] items-center justify-between overflow-clip p-[var(--spacing\/padding\/2xlarge,32px)] relative shrink-0 w-[1440px] whitespace-nowrap" data-node-id="134:1014" data-name="Header Navigation">
-        <a className="block cursor-pointer font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[0] relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/heading-1,28px)] tracking-[var(--typography\/letter-spacing\/heading-1,-0.56px)]" data-node-id="134:1015">
+      <div className="bg-[var(--base\/white,white)] border border-[var(--line\/default,rgba(1,1,1,0.13))] border-solid content-stretch flex h-[84px] items-center justify-between p-[var(--spacing\/padding\/2xlarge,32px)] relative shrink-0 w-[1440px]" data-node-id="134:1014" data-name="Header Navigation">
+        <a className="[word-break:break-word] block cursor-pointer font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[0] relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/heading-1,28px)] tracking-[var(--typography\/letter-spacing\/heading-1,-0.56px)] whitespace-nowrap" data-node-id="134:1015">
           <p className="leading-[var(--typography\/line-height\/heading-1,36px)]">GÓI</p>
         </a>
-        <div className="content-stretch flex gap-[var(--dm-28,28px)] h-[44px] items-center justify-center not-italic overflow-clip relative shrink-0 text-[length:var(--typography\/font-size\/body-base,14px)] tracking-[var(--typography\/letter-spacing\/body-base,-0.14px)]" data-node-id="134:1016" data-name="Links">
-          <a className="block cursor-pointer font-[family-name:var(--typography\/font-family\/sans,'Inter:Medium')] font-[var(--emphasis\/font-weight\/medium,500)] leading-[0] relative shrink-0 text-[color:var(--ink\/strong,#121212)]" data-node-id="134:1017">
-            <p className="leading-[var(--typography\/line-height\/body-base,20px)]">Trang Chủ</p>
-          </a>
-          <p className="font-[family-name:var(--typography\/font-family\/sans,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/body-base,20px)] relative shrink-0 text-[color:var(--brand\/red,#ff6bd5)]" data-node-id="134:1018">
-            Hộp Cứng Cao Cấp
-          </p>
-          <p className="font-[family-name:var(--typography\/font-family\/sans,'Inter:Medium')] font-[var(--emphasis\/font-weight\/medium,500)] leading-[var(--typography\/line-height\/body-base,20px)] relative shrink-0 text-[color:var(--ink\/strong,#121212)]" data-node-id="134:1019">
-            Hộp Giấy Mềm
-          </p>
-          <p className="font-[family-name:var(--typography\/font-family\/sans,'Inter:Medium')] font-[var(--emphasis\/font-weight\/medium,500)] leading-[var(--typography\/line-height\/body-base,20px)] relative shrink-0 text-[color:var(--ink\/strong,#121212)]" data-node-id="134:1020">
-            Túi Giấy
-          </p>
-          <p className="font-[family-name:var(--typography\/font-family\/sans,'Inter:Medium')] font-[var(--emphasis\/font-weight\/medium,500)] leading-[var(--typography\/line-height\/body-base,20px)] relative shrink-0 text-[color:var(--ink\/strong,#121212)]" data-node-id="134:1021">
-            Hộp Carton Sóng
-          </p>
-          <a className="block cursor-pointer font-[family-name:var(--typography\/font-family\/sans,'Inter:Medium')] font-[var(--emphasis\/font-weight\/medium,500)] leading-[0] relative shrink-0 text-[color:var(--ink\/strong,#121212)]" data-node-id="134:1022">
-            <p className="leading-[var(--typography\/line-height\/body-base,20px)]">Báo Giá Nhanh</p>
-          </a>
+        <div className="content-stretch flex gap-[24px] items-center relative shrink-0" data-node-id="197:2638" data-name="Header Actions">
+          <div className="[word-break:break-word] content-stretch flex gap-[var(--dm-28,28px)] h-[44px] items-center justify-center not-italic overflow-clip relative shrink-0 text-[length:var(--typography\/font-size\/body-base,14px)] tracking-[var(--typography\/letter-spacing\/body-base,-0.14px)] whitespace-nowrap" data-node-id="134:1016" data-name="Links">
+            <a className="block cursor-pointer font-[family-name:var(--typography\/font-family\/sans,'Inter:Medium')] font-[var(--emphasis\/font-weight\/medium,500)] leading-[0] relative shrink-0 text-[color:var(--ink\/strong,#121212)]" data-node-id="134:1017">
+              <p className="leading-[var(--typography\/line-height\/body-base,20px)]">Trang Chủ</p>
+            </a>
+            <p className="font-[family-name:var(--typography\/font-family\/sans,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/body-base,20px)] relative shrink-0 text-[color:var(--brand\/red,#ff6bd5)]" data-node-id="134:1018">
+              Hộp Cứng Cao Cấp
+            </p>
+            <p className="font-[family-name:var(--typography\/font-family\/sans,'Inter:Medium')] font-[var(--emphasis\/font-weight\/medium,500)] leading-[var(--typography\/line-height\/body-base,20px)] relative shrink-0 text-[color:var(--ink\/strong,#121212)]" data-node-id="134:1019">
+              Hộp Giấy Mềm
+            </p>
+            <p className="font-[family-name:var(--typography\/font-family\/sans,'Inter:Medium')] font-[var(--emphasis\/font-weight\/medium,500)] leading-[var(--typography\/line-height\/body-base,20px)] relative shrink-0 text-[color:var(--ink\/strong,#121212)]" data-node-id="134:1020">
+              Túi Giấy
+            </p>
+            <p className="font-[family-name:var(--typography\/font-family\/sans,'Inter:Medium')] font-[var(--emphasis\/font-weight\/medium,500)] leading-[var(--typography\/line-height\/body-base,20px)] relative shrink-0 text-[color:var(--ink\/strong,#121212)]" data-node-id="134:1021">
+              Hộp Carton Sóng
+            </p>
+            <a className="block cursor-pointer font-[family-name:var(--typography\/font-family\/sans,'Inter:Medium')] font-[var(--emphasis\/font-weight\/medium,500)] leading-[0] relative shrink-0 text-[color:var(--ink\/strong,#121212)]" data-node-id="134:1022">
+              <p className="leading-[var(--typography\/line-height\/body-base,20px)]">Báo Giá Nhanh</p>
+            </a>
+          </div>
+          <div className="bg-[var(--base\/white,white)] border border-[var(--ink\/strong,#121212)] border-solid content-stretch flex gap-[8px] h-[40px] items-center pl-[12px] pr-[10px] relative rounded-[var(--radius\/luxury,12px)] shrink-0" data-node-id="197:2630" data-name="Cart Btn">
+            <div className="relative shrink-0 size-[18px]" data-node-id="I197:2630;195:1586" data-name="Icon/bag">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconBag} />
+            </div>
+            <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/button,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/button-label-xs,12px)] not-italic relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/button-label-xs,12px)] tracking-[var(--typography\/letter-spacing\/button-label-xs,0px)] whitespace-nowrap" data-node-id="I197:2630;195:1590">
+              GIỎ BÁO GIÁ
+            </p>
+            <div className="bg-[var(--brand\/red,#ff6bd5)] content-stretch flex h-[18px] items-center justify-center min-w-[18px] overflow-clip px-[5px] relative rounded-[var(--radius\/luxury,12px)] shrink-0" data-node-id="I197:2630;195:1591" data-name="Cart Count">
+              <p className="[word-break:break-word] font-['JetBrains_Mono:Bold'] font-bold leading-[normal] relative shrink-0 text-[11px] text-[color:var(--base\/white,white)] whitespace-nowrap" data-node-id="I197:2630;195:1592">
+                2
+              </p>
+            </div>
+          </div>
         </div>
       </div>
       <div className="bg-[var(--paper\/light,#f7f7f7)] border border-[var(--line\/default,rgba(1,1,1,0.13))] border-solid content-stretch flex gap-[var(--spacing\/gap\/xsmall,8px)] h-[52px] items-center overflow-clip p-[var(--spacing\/padding\/medium,16px)] relative shrink-0 w-[1440px]" data-node-id="134:1023" data-name="Breadcrumbs">
@@ -184,10 +214,17 @@ export default function ListingHpCngAmDngDesktop1440Px() {
             <p className="[word-break:break-word] font-['Inter:Bold'] font-bold leading-[normal] min-w-full not-italic relative shrink-0 text-[14px] text-[color:var(--brand\/red,#ff6bd5)] text-left w-[min-content]" data-node-id="I148:672;148:665">
               Báo giá theo số lượng
             </p>
-            <div className="bg-[var(--base\/white,white)] border border-[var(--ink\/strong,#121212)] border-solid content-stretch flex gap-[var(--spacing\/gap\/xsmall,8px)] h-[36px] items-center justify-center px-[var(--spacing\/padding\/medium,16px)] relative rounded-[var(--radius\/luxury,12px)] shrink-0 w-full" data-node-id="I148:672;148:666" data-name="Btn Xem Chi Tiết">
-              <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/button,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/button-label-xs,12px)] not-italic relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/button-label-xs,12px)] text-left tracking-[var(--typography\/letter-spacing\/button-label-xs,0px)] whitespace-nowrap" data-node-id="I148:672;148:666;148:112">{`XEM CHI TIẾT & BÁO GIÁ`}</p>
-              <div className="relative shrink-0 size-[16px]" data-node-id="I148:672;148:666;148:113" data-name="Trailing icon">
-                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconArrowUr} />
+            <div className="content-stretch flex gap-[8px] items-start overflow-clip relative shrink-0 w-full" data-node-id="I148:672;195:1600" data-name="Card Actions">
+              <div className="bg-[var(--base\/white,white)] border border-[var(--ink\/strong,#121212)] border-solid content-stretch cursor-pointer flex flex-[1_0_0] gap-[var(--spacing\/gap\/xsmall,8px)] items-center justify-center min-w-px px-[var(--spacing\/padding\/medium,16px)] relative rounded-[var(--radius\/luxury,12px)] self-stretch" data-node-id="I148:672;148:666" data-name="Btn Xem Chi Tiết">
+                <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/button,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/button-label-xs,12px)] not-italic relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/button-label-xs,12px)] text-left tracking-[var(--typography\/letter-spacing\/button-label-xs,0px)] whitespace-nowrap" data-node-id="I148:672;148:666;148:112">{`XEM CHI TIẾT & BÁO GIÁ`}</p>
+                <div className="relative shrink-0 size-[16px]" data-node-id="I148:672;148:666;148:113" data-name="Trailing icon">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconArrowUr} />
+                </div>
+              </div>
+              <div className="bg-[var(--base\/white,white)] border border-[var(--ink\/strong,#121212)] border-solid content-stretch flex items-center justify-center overflow-clip relative rounded-[var(--radius\/luxury,12px)] shrink-0 size-[36px]" data-node-id="I148:672;195:1601" data-name="Btn Thêm Giỏ">
+                <div className="relative shrink-0 size-[18px]" data-node-id="I148:672;195:1602" data-name="Icon/bagPlus">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconBagPlus} />
+                </div>
               </div>
             </div>
           </a>
@@ -215,10 +252,17 @@ export default function ListingHpCngAmDngDesktop1440Px() {
             <p className="[word-break:break-word] font-['Inter:Bold'] font-bold leading-[normal] min-w-full not-italic relative shrink-0 text-[14px] text-[color:var(--brand\/red,#ff6bd5)] text-left w-[min-content]" data-node-id="I148:688;148:665">
               Báo giá theo số lượng
             </p>
-            <div className="bg-[var(--base\/white,white)] border border-[var(--ink\/strong,#121212)] border-solid content-stretch flex gap-[var(--spacing\/gap\/xsmall,8px)] h-[36px] items-center justify-center px-[var(--spacing\/padding\/medium,16px)] relative rounded-[var(--radius\/luxury,12px)] shrink-0 w-full" data-node-id="I148:688;148:666" data-name="Btn Xem Chi Tiết">
-              <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/button,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/button-label-xs,12px)] not-italic relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/button-label-xs,12px)] text-left tracking-[var(--typography\/letter-spacing\/button-label-xs,0px)] whitespace-nowrap" data-node-id="I148:688;148:666;148:112">{`XEM CHI TIẾT & BÁO GIÁ`}</p>
-              <div className="relative shrink-0 size-[16px]" data-node-id="I148:688;148:666;148:113" data-name="Trailing icon">
-                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconArrowUr} />
+            <div className="content-stretch flex gap-[8px] items-start overflow-clip relative shrink-0 w-full" data-node-id="I148:688;195:1600" data-name="Card Actions">
+              <div className="bg-[var(--base\/white,white)] border border-[var(--ink\/strong,#121212)] border-solid content-stretch cursor-pointer flex flex-[1_0_0] gap-[var(--spacing\/gap\/xsmall,8px)] items-center justify-center min-w-px px-[var(--spacing\/padding\/medium,16px)] relative rounded-[var(--radius\/luxury,12px)] self-stretch" data-node-id="I148:688;148:666" data-name="Btn Xem Chi Tiết">
+                <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/button,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/button-label-xs,12px)] not-italic relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/button-label-xs,12px)] text-left tracking-[var(--typography\/letter-spacing\/button-label-xs,0px)] whitespace-nowrap" data-node-id="I148:688;148:666;148:112">{`XEM CHI TIẾT & BÁO GIÁ`}</p>
+                <div className="relative shrink-0 size-[16px]" data-node-id="I148:688;148:666;148:113" data-name="Trailing icon">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconArrowUr} />
+                </div>
+              </div>
+              <div className="bg-[var(--base\/white,white)] border border-[var(--ink\/strong,#121212)] border-solid content-stretch flex items-center justify-center overflow-clip relative rounded-[var(--radius\/luxury,12px)] shrink-0 size-[36px]" data-node-id="I148:688;195:1601" data-name="Btn Thêm Giỏ">
+                <div className="relative shrink-0 size-[18px]" data-node-id="I148:688;195:1602" data-name="Icon/bagPlus">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconBagPlus} />
+                </div>
               </div>
             </div>
           </a>
@@ -246,10 +290,17 @@ export default function ListingHpCngAmDngDesktop1440Px() {
             <p className="[word-break:break-word] font-['Inter:Bold'] font-bold leading-[normal] min-w-full not-italic relative shrink-0 text-[14px] text-[color:var(--brand\/red,#ff6bd5)] text-left w-[min-content]" data-node-id="I148:703;148:665">
               Báo giá theo số lượng
             </p>
-            <div className="bg-[var(--base\/white,white)] border border-[var(--ink\/strong,#121212)] border-solid content-stretch flex gap-[var(--spacing\/gap\/xsmall,8px)] h-[36px] items-center justify-center px-[var(--spacing\/padding\/medium,16px)] relative rounded-[var(--radius\/luxury,12px)] shrink-0 w-full" data-node-id="I148:703;148:666" data-name="Btn Xem Chi Tiết">
-              <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/button,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/button-label-xs,12px)] not-italic relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/button-label-xs,12px)] text-left tracking-[var(--typography\/letter-spacing\/button-label-xs,0px)] whitespace-nowrap" data-node-id="I148:703;148:666;148:112">{`XEM CHI TIẾT & BÁO GIÁ`}</p>
-              <div className="relative shrink-0 size-[16px]" data-node-id="I148:703;148:666;148:113" data-name="Trailing icon">
-                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconArrowUr} />
+            <div className="content-stretch flex gap-[8px] items-start overflow-clip relative shrink-0 w-full" data-node-id="I148:703;195:1600" data-name="Card Actions">
+              <div className="bg-[var(--base\/white,white)] border border-[var(--ink\/strong,#121212)] border-solid content-stretch cursor-pointer flex flex-[1_0_0] gap-[var(--spacing\/gap\/xsmall,8px)] items-center justify-center min-w-px px-[var(--spacing\/padding\/medium,16px)] relative rounded-[var(--radius\/luxury,12px)] self-stretch" data-node-id="I148:703;148:666" data-name="Btn Xem Chi Tiết">
+                <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/button,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/button-label-xs,12px)] not-italic relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/button-label-xs,12px)] text-left tracking-[var(--typography\/letter-spacing\/button-label-xs,0px)] whitespace-nowrap" data-node-id="I148:703;148:666;148:112">{`XEM CHI TIẾT & BÁO GIÁ`}</p>
+                <div className="relative shrink-0 size-[16px]" data-node-id="I148:703;148:666;148:113" data-name="Trailing icon">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconArrowUr} />
+                </div>
+              </div>
+              <div className="bg-[var(--base\/white,white)] border border-[var(--ink\/strong,#121212)] border-solid content-stretch flex items-center justify-center overflow-clip relative rounded-[var(--radius\/luxury,12px)] shrink-0 size-[36px]" data-node-id="I148:703;195:1601" data-name="Btn Thêm Giỏ">
+                <div className="relative shrink-0 size-[18px]" data-node-id="I148:703;195:1602" data-name="Icon/bagPlus">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconBagPlus} />
+                </div>
               </div>
             </div>
           </a>
@@ -277,10 +328,17 @@ export default function ListingHpCngAmDngDesktop1440Px() {
             <p className="[word-break:break-word] font-['Inter:Bold'] font-bold leading-[normal] min-w-full not-italic relative shrink-0 text-[14px] text-[color:var(--brand\/red,#ff6bd5)] text-left w-[min-content]" data-node-id="I148:718;148:665">
               Báo giá theo số lượng
             </p>
-            <div className="bg-[var(--base\/white,white)] border border-[var(--ink\/strong,#121212)] border-solid content-stretch flex gap-[var(--spacing\/gap\/xsmall,8px)] h-[36px] items-center justify-center px-[var(--spacing\/padding\/medium,16px)] relative rounded-[var(--radius\/luxury,12px)] shrink-0 w-full" data-node-id="I148:718;148:666" data-name="Btn Xem Chi Tiết">
-              <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/button,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/button-label-xs,12px)] not-italic relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/button-label-xs,12px)] text-left tracking-[var(--typography\/letter-spacing\/button-label-xs,0px)] whitespace-nowrap" data-node-id="I148:718;148:666;148:112">{`XEM CHI TIẾT & BÁO GIÁ`}</p>
-              <div className="relative shrink-0 size-[16px]" data-node-id="I148:718;148:666;148:113" data-name="Trailing icon">
-                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconArrowUr} />
+            <div className="content-stretch flex gap-[8px] items-start overflow-clip relative shrink-0 w-full" data-node-id="I148:718;195:1600" data-name="Card Actions">
+              <div className="bg-[var(--base\/white,white)] border border-[var(--ink\/strong,#121212)] border-solid content-stretch cursor-pointer flex flex-[1_0_0] gap-[var(--spacing\/gap\/xsmall,8px)] items-center justify-center min-w-px px-[var(--spacing\/padding\/medium,16px)] relative rounded-[var(--radius\/luxury,12px)] self-stretch" data-node-id="I148:718;148:666" data-name="Btn Xem Chi Tiết">
+                <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/button,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/button-label-xs,12px)] not-italic relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/button-label-xs,12px)] text-left tracking-[var(--typography\/letter-spacing\/button-label-xs,0px)] whitespace-nowrap" data-node-id="I148:718;148:666;148:112">{`XEM CHI TIẾT & BÁO GIÁ`}</p>
+                <div className="relative shrink-0 size-[16px]" data-node-id="I148:718;148:666;148:113" data-name="Trailing icon">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconArrowUr} />
+                </div>
+              </div>
+              <div className="bg-[var(--base\/white,white)] border border-[var(--ink\/strong,#121212)] border-solid content-stretch flex items-center justify-center overflow-clip relative rounded-[var(--radius\/luxury,12px)] shrink-0 size-[36px]" data-node-id="I148:718;195:1601" data-name="Btn Thêm Giỏ">
+                <div className="relative shrink-0 size-[18px]" data-node-id="I148:718;195:1602" data-name="Icon/bagPlus">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconBagPlus} />
+                </div>
               </div>
             </div>
           </a>
@@ -310,10 +368,17 @@ export default function ListingHpCngAmDngDesktop1440Px() {
             <p className="[word-break:break-word] font-['Inter:Bold'] font-bold leading-[normal] min-w-full not-italic relative shrink-0 text-[14px] text-[color:var(--brand\/red,#ff6bd5)] text-left w-[min-content]" data-node-id="I148:733;148:665">
               Báo giá theo số lượng
             </p>
-            <div className="bg-[var(--base\/white,white)] border border-[var(--ink\/strong,#121212)] border-solid content-stretch flex gap-[var(--spacing\/gap\/xsmall,8px)] h-[36px] items-center justify-center px-[var(--spacing\/padding\/medium,16px)] relative rounded-[var(--radius\/luxury,12px)] shrink-0 w-full" data-node-id="I148:733;148:666" data-name="Btn Xem Chi Tiết">
-              <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/button,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/button-label-xs,12px)] not-italic relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/button-label-xs,12px)] text-left tracking-[var(--typography\/letter-spacing\/button-label-xs,0px)] whitespace-nowrap" data-node-id="I148:733;148:666;148:112">{`XEM CHI TIẾT & BÁO GIÁ`}</p>
-              <div className="relative shrink-0 size-[16px]" data-node-id="I148:733;148:666;148:113" data-name="Trailing icon">
-                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconArrowUr} />
+            <div className="content-stretch flex gap-[8px] items-start overflow-clip relative shrink-0 w-full" data-node-id="I148:733;195:1600" data-name="Card Actions">
+              <div className="bg-[var(--base\/white,white)] border border-[var(--ink\/strong,#121212)] border-solid content-stretch cursor-pointer flex flex-[1_0_0] gap-[var(--spacing\/gap\/xsmall,8px)] items-center justify-center min-w-px px-[var(--spacing\/padding\/medium,16px)] relative rounded-[var(--radius\/luxury,12px)] self-stretch" data-node-id="I148:733;148:666" data-name="Btn Xem Chi Tiết">
+                <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/button,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/button-label-xs,12px)] not-italic relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/button-label-xs,12px)] text-left tracking-[var(--typography\/letter-spacing\/button-label-xs,0px)] whitespace-nowrap" data-node-id="I148:733;148:666;148:112">{`XEM CHI TIẾT & BÁO GIÁ`}</p>
+                <div className="relative shrink-0 size-[16px]" data-node-id="I148:733;148:666;148:113" data-name="Trailing icon">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconArrowUr} />
+                </div>
+              </div>
+              <div className="bg-[var(--base\/white,white)] border border-[var(--ink\/strong,#121212)] border-solid content-stretch flex items-center justify-center overflow-clip relative rounded-[var(--radius\/luxury,12px)] shrink-0 size-[36px]" data-node-id="I148:733;195:1601" data-name="Btn Thêm Giỏ">
+                <div className="relative shrink-0 size-[18px]" data-node-id="I148:733;195:1602" data-name="Icon/bagPlus">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconBagPlus} />
+                </div>
               </div>
             </div>
           </a>
@@ -341,10 +406,17 @@ export default function ListingHpCngAmDngDesktop1440Px() {
             <p className="[word-break:break-word] font-['Inter:Bold'] font-bold leading-[normal] min-w-full not-italic relative shrink-0 text-[14px] text-[color:var(--brand\/red,#ff6bd5)] text-left w-[min-content]" data-node-id="I148:748;148:665">
               Báo giá theo số lượng
             </p>
-            <div className="bg-[var(--base\/white,white)] border border-[var(--ink\/strong,#121212)] border-solid content-stretch flex gap-[var(--spacing\/gap\/xsmall,8px)] h-[36px] items-center justify-center px-[var(--spacing\/padding\/medium,16px)] relative rounded-[var(--radius\/luxury,12px)] shrink-0 w-full" data-node-id="I148:748;148:666" data-name="Btn Xem Chi Tiết">
-              <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/button,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/button-label-xs,12px)] not-italic relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/button-label-xs,12px)] text-left tracking-[var(--typography\/letter-spacing\/button-label-xs,0px)] whitespace-nowrap" data-node-id="I148:748;148:666;148:112">{`XEM CHI TIẾT & BÁO GIÁ`}</p>
-              <div className="relative shrink-0 size-[16px]" data-node-id="I148:748;148:666;148:113" data-name="Trailing icon">
-                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconArrowUr} />
+            <div className="content-stretch flex gap-[8px] items-start overflow-clip relative shrink-0 w-full" data-node-id="I148:748;195:1600" data-name="Card Actions">
+              <div className="bg-[var(--base\/white,white)] border border-[var(--ink\/strong,#121212)] border-solid content-stretch cursor-pointer flex flex-[1_0_0] gap-[var(--spacing\/gap\/xsmall,8px)] items-center justify-center min-w-px px-[var(--spacing\/padding\/medium,16px)] relative rounded-[var(--radius\/luxury,12px)] self-stretch" data-node-id="I148:748;148:666" data-name="Btn Xem Chi Tiết">
+                <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/button,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/button-label-xs,12px)] not-italic relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/button-label-xs,12px)] text-left tracking-[var(--typography\/letter-spacing\/button-label-xs,0px)] whitespace-nowrap" data-node-id="I148:748;148:666;148:112">{`XEM CHI TIẾT & BÁO GIÁ`}</p>
+                <div className="relative shrink-0 size-[16px]" data-node-id="I148:748;148:666;148:113" data-name="Trailing icon">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconArrowUr} />
+                </div>
+              </div>
+              <div className="bg-[var(--base\/white,white)] border border-[var(--ink\/strong,#121212)] border-solid content-stretch flex items-center justify-center overflow-clip relative rounded-[var(--radius\/luxury,12px)] shrink-0 size-[36px]" data-node-id="I148:748;195:1601" data-name="Btn Thêm Giỏ">
+                <div className="relative shrink-0 size-[18px]" data-node-id="I148:748;195:1602" data-name="Icon/bagPlus">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconBagPlus} />
+                </div>
               </div>
             </div>
           </a>
@@ -372,10 +444,17 @@ export default function ListingHpCngAmDngDesktop1440Px() {
             <p className="[word-break:break-word] font-['Inter:Bold'] font-bold leading-[normal] min-w-full not-italic relative shrink-0 text-[14px] text-[color:var(--brand\/red,#ff6bd5)] text-left w-[min-content]" data-node-id="I148:763;148:665">
               Báo giá theo số lượng
             </p>
-            <div className="bg-[var(--base\/white,white)] border border-[var(--ink\/strong,#121212)] border-solid content-stretch flex gap-[var(--spacing\/gap\/xsmall,8px)] h-[36px] items-center justify-center px-[var(--spacing\/padding\/medium,16px)] relative rounded-[var(--radius\/luxury,12px)] shrink-0 w-full" data-node-id="I148:763;148:666" data-name="Btn Xem Chi Tiết">
-              <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/button,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/button-label-xs,12px)] not-italic relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/button-label-xs,12px)] text-left tracking-[var(--typography\/letter-spacing\/button-label-xs,0px)] whitespace-nowrap" data-node-id="I148:763;148:666;148:112">{`XEM CHI TIẾT & BÁO GIÁ`}</p>
-              <div className="relative shrink-0 size-[16px]" data-node-id="I148:763;148:666;148:113" data-name="Trailing icon">
-                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconArrowUr} />
+            <div className="content-stretch flex gap-[8px] items-start overflow-clip relative shrink-0 w-full" data-node-id="I148:763;195:1600" data-name="Card Actions">
+              <div className="bg-[var(--base\/white,white)] border border-[var(--ink\/strong,#121212)] border-solid content-stretch cursor-pointer flex flex-[1_0_0] gap-[var(--spacing\/gap\/xsmall,8px)] items-center justify-center min-w-px px-[var(--spacing\/padding\/medium,16px)] relative rounded-[var(--radius\/luxury,12px)] self-stretch" data-node-id="I148:763;148:666" data-name="Btn Xem Chi Tiết">
+                <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/button,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/button-label-xs,12px)] not-italic relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/button-label-xs,12px)] text-left tracking-[var(--typography\/letter-spacing\/button-label-xs,0px)] whitespace-nowrap" data-node-id="I148:763;148:666;148:112">{`XEM CHI TIẾT & BÁO GIÁ`}</p>
+                <div className="relative shrink-0 size-[16px]" data-node-id="I148:763;148:666;148:113" data-name="Trailing icon">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconArrowUr} />
+                </div>
+              </div>
+              <div className="bg-[var(--base\/white,white)] border border-[var(--ink\/strong,#121212)] border-solid content-stretch flex items-center justify-center overflow-clip relative rounded-[var(--radius\/luxury,12px)] shrink-0 size-[36px]" data-node-id="I148:763;195:1601" data-name="Btn Thêm Giỏ">
+                <div className="relative shrink-0 size-[18px]" data-node-id="I148:763;195:1602" data-name="Icon/bagPlus">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconBagPlus} />
+                </div>
               </div>
             </div>
           </a>
@@ -403,10 +482,547 @@ export default function ListingHpCngAmDngDesktop1440Px() {
             <p className="[word-break:break-word] font-['Inter:Bold'] font-bold leading-[normal] min-w-full not-italic relative shrink-0 text-[14px] text-[color:var(--brand\/red,#ff6bd5)] text-left w-[min-content]" data-node-id="I148:778;148:665">
               Báo giá theo số lượng
             </p>
-            <div className="bg-[var(--base\/white,white)] border border-[var(--ink\/strong,#121212)] border-solid content-stretch flex gap-[var(--spacing\/gap\/xsmall,8px)] h-[36px] items-center justify-center px-[var(--spacing\/padding\/medium,16px)] relative rounded-[var(--radius\/luxury,12px)] shrink-0 w-full" data-node-id="I148:778;148:666" data-name="Btn Xem Chi Tiết">
-              <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/button,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/button-label-xs,12px)] not-italic relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/button-label-xs,12px)] text-left tracking-[var(--typography\/letter-spacing\/button-label-xs,0px)] whitespace-nowrap" data-node-id="I148:778;148:666;148:112">{`XEM CHI TIẾT & BÁO GIÁ`}</p>
-              <div className="relative shrink-0 size-[16px]" data-node-id="I148:778;148:666;148:113" data-name="Trailing icon">
-                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconArrowUr} />
+            <div className="content-stretch flex gap-[8px] items-start overflow-clip relative shrink-0 w-full" data-node-id="I148:778;195:1600" data-name="Card Actions">
+              <div className="bg-[var(--base\/white,white)] border border-[var(--ink\/strong,#121212)] border-solid content-stretch cursor-pointer flex flex-[1_0_0] gap-[var(--spacing\/gap\/xsmall,8px)] items-center justify-center min-w-px px-[var(--spacing\/padding\/medium,16px)] relative rounded-[var(--radius\/luxury,12px)] self-stretch" data-node-id="I148:778;148:666" data-name="Btn Xem Chi Tiết">
+                <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/button,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/button-label-xs,12px)] not-italic relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/button-label-xs,12px)] text-left tracking-[var(--typography\/letter-spacing\/button-label-xs,0px)] whitespace-nowrap" data-node-id="I148:778;148:666;148:112">{`XEM CHI TIẾT & BÁO GIÁ`}</p>
+                <div className="relative shrink-0 size-[16px]" data-node-id="I148:778;148:666;148:113" data-name="Trailing icon">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconArrowUr} />
+                </div>
+              </div>
+              <div className="bg-[var(--base\/white,white)] border border-[var(--ink\/strong,#121212)] border-solid content-stretch flex items-center justify-center overflow-clip relative rounded-[var(--radius\/luxury,12px)] shrink-0 size-[36px]" data-node-id="I148:778;195:1601" data-name="Btn Thêm Giỏ">
+                <div className="relative shrink-0 size-[18px]" data-node-id="I148:778;195:1602" data-name="Icon/bagPlus">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconBagPlus} />
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div className="content-stretch cursor-pointer flex gap-[var(--spacing\/gap\/large,24px)] h-[640px] items-start overflow-clip relative shrink-0 w-[1344px]" data-node-id="196:1741" data-name="Hàng 3">
+          <a className="bg-[var(--base\/white,white)] border border-[var(--line\/default,rgba(1,1,1,0.13))] border-solid content-stretch flex flex-col gap-[var(--spacing\/gap\/xsmall,8px)] items-start overflow-clip p-[var(--spacing\/padding\/small,12px)] relative rounded-[var(--radius\/luxury,12px)] shrink-0 w-[318px]" data-node-id="196:1742" data-name="SKU-BC001 - Hộp Bánh Chưng Âm Dương">
+            <div className="h-[290px] relative rounded-[var(--radius\/luxury,12px)] shrink-0 w-full" data-node-id="I196:1742;148:658" data-name="Ảnh sản phẩm">
+              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[var(--radius\/luxury,12px)] size-full" src={imgNhSnPhm8} />
+            </div>
+            <div className="content-stretch flex gap-[var(--spacing\/gap\/xsmall,8px)] h-[22px] items-start overflow-clip relative shrink-0 w-[290px]" data-node-id="I196:1742;148:659" data-name="Tags">
+              <div className="bg-[var(--brand\/red,#ff6bd5)] content-stretch flex h-[20px] items-center overflow-clip p-[var(--spacing\/padding\/2xsmall,4px)] relative rounded-[var(--radius\/luxury,12px)] shrink-0" data-node-id="I196:1742;148:660" data-name="Badge">
+                <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/label-small,12px)] not-italic relative shrink-0 text-[color:var(--base\/white,white)] text-[length:var(--typography\/font-size\/label-small,9px)] text-left tracking-[var(--typography\/letter-spacing\/label-small,0px)] whitespace-nowrap" data-node-id="I196:1742;148:661">
+                  HỘP GIẤY
+                </p>
+              </div>
+              <p className="[word-break:break-word] font-['JetBrains_Mono:Bold'] font-bold leading-[16px] relative shrink-0 text-[11px] text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-left whitespace-nowrap" data-node-id="I196:1742;148:662">
+                SKU-BC001
+              </p>
+            </div>
+            <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/body-extra,24px)] min-w-full not-italic relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/body-extra,16px)] text-left tracking-[var(--typography\/letter-spacing\/body-extra,-0.16px)] w-[min-content]" data-node-id="I196:1742;148:663">
+              Hộp Bánh Chưng Âm Dương
+            </p>
+            <div className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[0] min-w-full not-italic relative shrink-0 text-[0px] text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-left w-[min-content]" data-node-id="I196:1742;148:664">
+              <p className="font-['JetBrains_Mono:Regular'] leading-[16px] mb-0 text-[11px]">250 × 250 × 80 mm</p>
+              <p className="leading-[16px] text-[11px]">Set 100 sản phẩm · in logo thương hiệu riêng</p>
+            </div>
+            <p className="[word-break:break-word] font-['Inter:Bold'] font-bold leading-[normal] min-w-full not-italic relative shrink-0 text-[14px] text-[color:var(--brand\/red,#ff6bd5)] text-left w-[min-content]" data-node-id="I196:1742;148:665">
+              Báo giá theo số lượng
+            </p>
+            <div className="content-stretch flex gap-[8px] items-start overflow-clip relative shrink-0 w-full" data-node-id="I196:1742;195:1600" data-name="Card Actions">
+              <div className="bg-[var(--base\/white,white)] border border-[var(--ink\/strong,#121212)] border-solid content-stretch cursor-pointer flex flex-[1_0_0] gap-[var(--spacing\/gap\/xsmall,8px)] items-center justify-center min-w-px px-[var(--spacing\/padding\/medium,16px)] relative rounded-[var(--radius\/luxury,12px)] self-stretch" data-node-id="I196:1742;148:666" data-name="Btn Xem Chi Tiết">
+                <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/button,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/button-label-xs,12px)] not-italic relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/button-label-xs,12px)] text-left tracking-[var(--typography\/letter-spacing\/button-label-xs,0px)] whitespace-nowrap" data-node-id="I196:1742;148:666;148:112">{`XEM CHI TIẾT & BÁO GIÁ`}</p>
+                <div className="relative shrink-0 size-[16px]" data-node-id="I196:1742;148:666;148:113" data-name="Trailing icon">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconArrowUr} />
+                </div>
+              </div>
+              <div className="bg-[var(--base\/white,white)] border border-[var(--ink\/strong,#121212)] border-solid content-stretch flex items-center justify-center overflow-clip relative rounded-[var(--radius\/luxury,12px)] shrink-0 size-[36px]" data-node-id="I196:1742;195:1601" data-name="Btn Thêm Giỏ">
+                <div className="relative shrink-0 size-[18px]" data-node-id="I196:1742;195:1602" data-name="Icon/bagPlus">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconBagPlus} />
+                </div>
+              </div>
+            </div>
+          </a>
+          <a className="bg-[var(--base\/white,white)] border border-[var(--line\/default,rgba(1,1,1,0.13))] border-solid content-stretch flex flex-col gap-[var(--spacing\/gap\/xsmall,8px)] items-start overflow-clip p-[var(--spacing\/padding\/small,12px)] relative rounded-[var(--radius\/luxury,12px)] shrink-0 w-[318px]" data-node-id="196:1743" data-name="SKU-LX200 - Hộp Nắp Gài Cửa Sổ 200 g">
+            <div className="h-[290px] relative rounded-[var(--radius\/luxury,12px)] shrink-0 w-full" data-node-id="I196:1743;148:658" data-name="Ảnh sản phẩm">
+              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[var(--radius\/luxury,12px)] size-full" src={imgNhSnPhm9} />
+            </div>
+            <div className="content-stretch flex gap-[var(--spacing\/gap\/xsmall,8px)] h-[22px] items-start overflow-clip relative shrink-0 w-[290px]" data-node-id="I196:1743;148:659" data-name="Tags">
+              <div className="bg-[var(--ink\/strong,#121212)] content-stretch flex h-[20px] items-center overflow-clip p-[var(--spacing\/padding\/2xsmall,4px)] relative rounded-[var(--radius\/luxury,12px)] shrink-0" data-node-id="I196:1743;148:660" data-name="Badge">
+                <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/label-small,12px)] not-italic relative shrink-0 text-[color:var(--base\/white,white)] text-[length:var(--typography\/font-size\/label-small,9px)] text-left tracking-[var(--typography\/letter-spacing\/label-small,0px)] whitespace-nowrap" data-node-id="I196:1743;148:661">
+                  HỘP GIẤY
+                </p>
+              </div>
+              <p className="[word-break:break-word] font-['JetBrains_Mono:Bold'] font-bold leading-[16px] relative shrink-0 text-[11px] text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-left whitespace-nowrap" data-node-id="I196:1743;148:662">
+                SKU-LX200
+              </p>
+            </div>
+            <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/body-extra,24px)] min-w-full not-italic relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/body-extra,16px)] text-left tracking-[var(--typography\/letter-spacing\/body-extra,-0.16px)] w-[min-content]" data-node-id="I196:1743;148:663">
+              Hộp Nắp Gài Cửa Sổ 200 g
+            </p>
+            <div className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[0] min-w-full not-italic relative shrink-0 text-[0px] text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-left w-[min-content]" data-node-id="I196:1743;148:664">
+              <p className="font-['JetBrains_Mono:Regular'] leading-[16px] mb-0 text-[11px]">110 × 30 × 190 mm</p>
+              <p className="leading-[16px] text-[11px]">Set 100 sản phẩm · in logo thương hiệu riêng</p>
+            </div>
+            <p className="[word-break:break-word] font-['Inter:Bold'] font-bold leading-[normal] min-w-full not-italic relative shrink-0 text-[14px] text-[color:var(--brand\/red,#ff6bd5)] text-left w-[min-content]" data-node-id="I196:1743;148:665">
+              Báo giá theo số lượng
+            </p>
+            <div className="content-stretch flex gap-[8px] items-start overflow-clip relative shrink-0 w-full" data-node-id="I196:1743;195:1600" data-name="Card Actions">
+              <div className="bg-[var(--base\/white,white)] border border-[var(--ink\/strong,#121212)] border-solid content-stretch cursor-pointer flex flex-[1_0_0] gap-[var(--spacing\/gap\/xsmall,8px)] items-center justify-center min-w-px px-[var(--spacing\/padding\/medium,16px)] relative rounded-[var(--radius\/luxury,12px)] self-stretch" data-node-id="I196:1743;148:666" data-name="Btn Xem Chi Tiết">
+                <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/button,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/button-label-xs,12px)] not-italic relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/button-label-xs,12px)] text-left tracking-[var(--typography\/letter-spacing\/button-label-xs,0px)] whitespace-nowrap" data-node-id="I196:1743;148:666;148:112">{`XEM CHI TIẾT & BÁO GIÁ`}</p>
+                <div className="relative shrink-0 size-[16px]" data-node-id="I196:1743;148:666;148:113" data-name="Trailing icon">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconArrowUr} />
+                </div>
+              </div>
+              <div className="bg-[var(--base\/white,white)] border border-[var(--ink\/strong,#121212)] border-solid content-stretch flex items-center justify-center overflow-clip relative rounded-[var(--radius\/luxury,12px)] shrink-0 size-[36px]" data-node-id="I196:1743;195:1601" data-name="Btn Thêm Giỏ">
+                <div className="relative shrink-0 size-[18px]" data-node-id="I196:1743;195:1602" data-name="Icon/bagPlus">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconBagPlus} />
+                </div>
+              </div>
+            </div>
+          </a>
+          <a className="bg-[var(--base\/white,white)] border border-[var(--line\/default,rgba(1,1,1,0.13))] border-solid content-stretch flex flex-col gap-[var(--spacing\/gap\/xsmall,8px)] items-start overflow-clip p-[var(--spacing\/padding\/small,12px)] relative rounded-[var(--radius\/luxury,12px)] shrink-0 w-[318px]" data-node-id="196:1744" data-name="SKU-LX500 - Hộp Nắp Gài Cửa Sổ 500 g">
+            <div className="h-[290px] relative rounded-[var(--radius\/luxury,12px)] shrink-0 w-full" data-node-id="I196:1744;148:658" data-name="Ảnh sản phẩm">
+              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[var(--radius\/luxury,12px)] size-full" src={imgNhSnPhm10} />
+            </div>
+            <div className="content-stretch flex gap-[var(--spacing\/gap\/xsmall,8px)] h-[22px] items-start overflow-clip relative shrink-0 w-[290px]" data-node-id="I196:1744;148:659" data-name="Tags">
+              <div className="bg-[var(--ink\/strong,#121212)] content-stretch flex h-[20px] items-center overflow-clip p-[var(--spacing\/padding\/2xsmall,4px)] relative rounded-[var(--radius\/luxury,12px)] shrink-0" data-node-id="I196:1744;148:660" data-name="Badge">
+                <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/label-small,12px)] not-italic relative shrink-0 text-[color:var(--base\/white,white)] text-[length:var(--typography\/font-size\/label-small,9px)] text-left tracking-[var(--typography\/letter-spacing\/label-small,0px)] whitespace-nowrap" data-node-id="I196:1744;148:661">
+                  HỘP GIẤY
+                </p>
+              </div>
+              <p className="[word-break:break-word] font-['JetBrains_Mono:Bold'] font-bold leading-[16px] relative shrink-0 text-[11px] text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-left whitespace-nowrap" data-node-id="I196:1744;148:662">
+                SKU-LX500
+              </p>
+            </div>
+            <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/body-extra,24px)] min-w-full not-italic relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/body-extra,16px)] text-left tracking-[var(--typography\/letter-spacing\/body-extra,-0.16px)] w-[min-content]" data-node-id="I196:1744;148:663">
+              Hộp Nắp Gài Cửa Sổ 500 g
+            </p>
+            <div className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[0] min-w-full not-italic relative shrink-0 text-[0px] text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-left w-[min-content]" data-node-id="I196:1744;148:664">
+              <p className="font-['JetBrains_Mono:Regular'] leading-[16px] mb-0 text-[11px]">130 × 50 × 210 mm</p>
+              <p className="leading-[16px] text-[11px]">Set 100 sản phẩm · in logo thương hiệu riêng</p>
+            </div>
+            <p className="[word-break:break-word] font-['Inter:Bold'] font-bold leading-[normal] min-w-full not-italic relative shrink-0 text-[14px] text-[color:var(--brand\/red,#ff6bd5)] text-left w-[min-content]" data-node-id="I196:1744;148:665">
+              Báo giá theo số lượng
+            </p>
+            <div className="content-stretch flex gap-[8px] items-start overflow-clip relative shrink-0 w-full" data-node-id="I196:1744;195:1600" data-name="Card Actions">
+              <div className="bg-[var(--base\/white,white)] border border-[var(--ink\/strong,#121212)] border-solid content-stretch cursor-pointer flex flex-[1_0_0] gap-[var(--spacing\/gap\/xsmall,8px)] items-center justify-center min-w-px px-[var(--spacing\/padding\/medium,16px)] relative rounded-[var(--radius\/luxury,12px)] self-stretch" data-node-id="I196:1744;148:666" data-name="Btn Xem Chi Tiết">
+                <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/button,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/button-label-xs,12px)] not-italic relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/button-label-xs,12px)] text-left tracking-[var(--typography\/letter-spacing\/button-label-xs,0px)] whitespace-nowrap" data-node-id="I196:1744;148:666;148:112">{`XEM CHI TIẾT & BÁO GIÁ`}</p>
+                <div className="relative shrink-0 size-[16px]" data-node-id="I196:1744;148:666;148:113" data-name="Trailing icon">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconArrowUr} />
+                </div>
+              </div>
+              <div className="bg-[var(--base\/white,white)] border border-[var(--ink\/strong,#121212)] border-solid content-stretch flex items-center justify-center overflow-clip relative rounded-[var(--radius\/luxury,12px)] shrink-0 size-[36px]" data-node-id="I196:1744;195:1601" data-name="Btn Thêm Giỏ">
+                <div className="relative shrink-0 size-[18px]" data-node-id="I196:1744;195:1602" data-name="Icon/bagPlus">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconBagPlus} />
+                </div>
+              </div>
+            </div>
+          </a>
+          <a className="bg-[var(--base\/white,white)] border border-[var(--line\/default,rgba(1,1,1,0.13))] border-solid content-stretch flex flex-col gap-[var(--spacing\/gap\/xsmall,8px)] items-start overflow-clip p-[var(--spacing\/padding\/small,12px)] relative rounded-[var(--radius\/luxury,12px)] shrink-0 w-[318px]" data-node-id="196:1745" data-name="SKU-HOPQUA01 - Hộp Đựng Hũ Nhựa Tròn 500 ml">
+            <div className="h-[290px] relative rounded-[var(--radius\/luxury,12px)] shrink-0 w-full" data-node-id="I196:1745;148:658" data-name="Ảnh sản phẩm">
+              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[var(--radius\/luxury,12px)] size-full" src={imgNhSnPhm11} />
+            </div>
+            <div className="content-stretch flex gap-[var(--spacing\/gap\/xsmall,8px)] h-[22px] items-start overflow-clip relative shrink-0 w-[290px]" data-node-id="I196:1745;148:659" data-name="Tags">
+              <div className="bg-[var(--ink\/strong,#121212)] content-stretch flex h-[20px] items-center overflow-clip p-[var(--spacing\/padding\/2xsmall,4px)] relative rounded-[var(--radius\/luxury,12px)] shrink-0" data-node-id="I196:1745;148:660" data-name="Badge">
+                <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/label-small,12px)] not-italic relative shrink-0 text-[color:var(--base\/white,white)] text-[length:var(--typography\/font-size\/label-small,9px)] text-left tracking-[var(--typography\/letter-spacing\/label-small,0px)] whitespace-nowrap" data-node-id="I196:1745;148:661">
+                  HỘP GIẤY
+                </p>
+              </div>
+              <p className="[word-break:break-word] font-['JetBrains_Mono:Bold'] font-bold leading-[16px] relative shrink-0 text-[11px] text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-left whitespace-nowrap" data-node-id="I196:1745;148:662">
+                SKU-HOPQUA01
+              </p>
+            </div>
+            <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/body-extra,24px)] min-w-full not-italic relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/body-extra,16px)] text-left tracking-[var(--typography\/letter-spacing\/body-extra,-0.16px)] w-[min-content]" data-node-id="I196:1745;148:663">
+              Hộp Đựng Hũ Nhựa Tròn 500 ml
+            </p>
+            <div className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[0] min-w-full not-italic relative shrink-0 text-[0px] text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-left w-[min-content]" data-node-id="I196:1745;148:664">
+              <p className="font-['JetBrains_Mono:Regular'] leading-[16px] mb-0 text-[11px]">Vừa hũ tròn 500 ml</p>
+              <p className="leading-[16px] text-[11px]">Set 100 sản phẩm · in logo thương hiệu riêng</p>
+            </div>
+            <p className="[word-break:break-word] font-['Inter:Bold'] font-bold leading-[normal] min-w-full not-italic relative shrink-0 text-[14px] text-[color:var(--brand\/red,#ff6bd5)] text-left w-[min-content]" data-node-id="I196:1745;148:665">
+              Báo giá theo số lượng
+            </p>
+            <div className="content-stretch flex gap-[8px] items-start overflow-clip relative shrink-0 w-full" data-node-id="I196:1745;195:1600" data-name="Card Actions">
+              <div className="bg-[var(--base\/white,white)] border border-[var(--ink\/strong,#121212)] border-solid content-stretch cursor-pointer flex flex-[1_0_0] gap-[var(--spacing\/gap\/xsmall,8px)] items-center justify-center min-w-px px-[var(--spacing\/padding\/medium,16px)] relative rounded-[var(--radius\/luxury,12px)] self-stretch" data-node-id="I196:1745;148:666" data-name="Btn Xem Chi Tiết">
+                <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/button,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/button-label-xs,12px)] not-italic relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/button-label-xs,12px)] text-left tracking-[var(--typography\/letter-spacing\/button-label-xs,0px)] whitespace-nowrap" data-node-id="I196:1745;148:666;148:112">{`XEM CHI TIẾT & BÁO GIÁ`}</p>
+                <div className="relative shrink-0 size-[16px]" data-node-id="I196:1745;148:666;148:113" data-name="Trailing icon">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconArrowUr} />
+                </div>
+              </div>
+              <div className="bg-[var(--base\/white,white)] border border-[var(--ink\/strong,#121212)] border-solid content-stretch flex items-center justify-center overflow-clip relative rounded-[var(--radius\/luxury,12px)] shrink-0 size-[36px]" data-node-id="I196:1745;195:1601" data-name="Btn Thêm Giỏ">
+                <div className="relative shrink-0 size-[18px]" data-node-id="I196:1745;195:1602" data-name="Icon/bagPlus">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconBagPlus} />
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div className="content-stretch cursor-pointer flex gap-[var(--spacing\/gap\/large,24px)] h-[640px] items-start overflow-clip relative shrink-0 w-[1344px]" data-node-id="196:1826" data-name="Hàng 4">
+          <a className="bg-[var(--base\/white,white)] border border-[var(--line\/default,rgba(1,1,1,0.13))] border-solid content-stretch flex flex-col gap-[var(--spacing\/gap\/xsmall,8px)] items-start overflow-clip p-[var(--spacing\/padding\/small,12px)] relative rounded-[var(--radius\/luxury,12px)] shrink-0 w-[318px]" data-node-id="196:1827" data-name="SKU-GOI - Hộp Gối Quà Tặng Nhỏ">
+            <div className="h-[290px] relative rounded-[var(--radius\/luxury,12px)] shrink-0 w-full" data-node-id="I196:1827;148:658" data-name="Ảnh sản phẩm">
+              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[var(--radius\/luxury,12px)] size-full" src={imgNhSnPhm12} />
+            </div>
+            <div className="content-stretch flex gap-[var(--spacing\/gap\/xsmall,8px)] h-[22px] items-start overflow-clip relative shrink-0 w-[290px]" data-node-id="I196:1827;148:659" data-name="Tags">
+              <div className="bg-[var(--brand\/red,#ff6bd5)] content-stretch flex h-[20px] items-center overflow-clip p-[var(--spacing\/padding\/2xsmall,4px)] relative rounded-[var(--radius\/luxury,12px)] shrink-0" data-node-id="I196:1827;148:660" data-name="Badge">
+                <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/label-small,12px)] not-italic relative shrink-0 text-[color:var(--base\/white,white)] text-[length:var(--typography\/font-size\/label-small,9px)] text-left tracking-[var(--typography\/letter-spacing\/label-small,0px)] whitespace-nowrap" data-node-id="I196:1827;148:661">
+                  HỘP GIẤY
+                </p>
+              </div>
+              <p className="[word-break:break-word] font-['JetBrains_Mono:Bold'] font-bold leading-[16px] relative shrink-0 text-[11px] text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-left whitespace-nowrap" data-node-id="I196:1827;148:662">
+                SKU-GOI
+              </p>
+            </div>
+            <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/body-extra,24px)] min-w-full not-italic relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/body-extra,16px)] text-left tracking-[var(--typography\/letter-spacing\/body-extra,-0.16px)] w-[min-content]" data-node-id="I196:1827;148:663">
+              Hộp Gối Quà Tặng Nhỏ
+            </p>
+            <div className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[0] min-w-full not-italic relative shrink-0 text-[0px] text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-left w-[min-content]" data-node-id="I196:1827;148:664">
+              <p className="font-['JetBrains_Mono:Regular'] leading-[16px] mb-0 text-[11px]">3 cỡ · từ 90 × 60 × 28 mm</p>
+              <p className="leading-[16px] text-[11px]">Set 100 sản phẩm · in logo thương hiệu riêng</p>
+            </div>
+            <p className="[word-break:break-word] font-['Inter:Bold'] font-bold leading-[normal] min-w-full not-italic relative shrink-0 text-[14px] text-[color:var(--brand\/red,#ff6bd5)] text-left w-[min-content]" data-node-id="I196:1827;148:665">
+              Báo giá theo số lượng
+            </p>
+            <div className="content-stretch flex gap-[8px] items-start overflow-clip relative shrink-0 w-full" data-node-id="I196:1827;195:1600" data-name="Card Actions">
+              <div className="bg-[var(--base\/white,white)] border border-[var(--ink\/strong,#121212)] border-solid content-stretch cursor-pointer flex flex-[1_0_0] gap-[var(--spacing\/gap\/xsmall,8px)] items-center justify-center min-w-px px-[var(--spacing\/padding\/medium,16px)] relative rounded-[var(--radius\/luxury,12px)] self-stretch" data-node-id="I196:1827;148:666" data-name="Btn Xem Chi Tiết">
+                <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/button,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/button-label-xs,12px)] not-italic relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/button-label-xs,12px)] text-left tracking-[var(--typography\/letter-spacing\/button-label-xs,0px)] whitespace-nowrap" data-node-id="I196:1827;148:666;148:112">{`XEM CHI TIẾT & BÁO GIÁ`}</p>
+                <div className="relative shrink-0 size-[16px]" data-node-id="I196:1827;148:666;148:113" data-name="Trailing icon">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconArrowUr} />
+                </div>
+              </div>
+              <div className="bg-[var(--base\/white,white)] border border-[var(--ink\/strong,#121212)] border-solid content-stretch flex items-center justify-center overflow-clip relative rounded-[var(--radius\/luxury,12px)] shrink-0 size-[36px]" data-node-id="I196:1827;195:1601" data-name="Btn Thêm Giỏ">
+                <div className="relative shrink-0 size-[18px]" data-node-id="I196:1827;195:1602" data-name="Icon/bagPlus">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconBagPlus} />
+                </div>
+              </div>
+            </div>
+          </a>
+          <a className="bg-[var(--base\/white,white)] border border-[var(--line\/default,rgba(1,1,1,0.13))] border-solid content-stretch flex flex-col gap-[var(--spacing\/gap\/xsmall,8px)] items-start overflow-clip p-[var(--spacing\/padding\/small,12px)] relative rounded-[var(--radius\/luxury,12px)] shrink-0 w-[318px]" data-node-id="196:1828" data-name="SKU-MAILER - Hộp Mailer Tự Khoá Sóng E">
+            <div className="h-[290px] relative rounded-[var(--radius\/luxury,12px)] shrink-0 w-full" data-node-id="I196:1828;148:658" data-name="Ảnh sản phẩm">
+              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[var(--radius\/luxury,12px)] size-full" src={imgNhSnPhm13} />
+            </div>
+            <div className="content-stretch flex gap-[var(--spacing\/gap\/xsmall,8px)] h-[22px] items-start overflow-clip relative shrink-0 w-[290px]" data-node-id="I196:1828;148:659" data-name="Tags">
+              <div className="bg-[var(--ink\/strong,#121212)] content-stretch flex h-[20px] items-center overflow-clip p-[var(--spacing\/padding\/2xsmall,4px)] relative rounded-[var(--radius\/luxury,12px)] shrink-0" data-node-id="I196:1828;148:660" data-name="Badge">
+                <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/label-small,12px)] not-italic relative shrink-0 text-[color:var(--base\/white,white)] text-[length:var(--typography\/font-size\/label-small,9px)] text-left tracking-[var(--typography\/letter-spacing\/label-small,0px)] whitespace-nowrap" data-node-id="I196:1828;148:661">
+                  HỘP CARTON
+                </p>
+              </div>
+              <p className="[word-break:break-word] font-['JetBrains_Mono:Bold'] font-bold leading-[16px] relative shrink-0 text-[11px] text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-left whitespace-nowrap" data-node-id="I196:1828;148:662">
+                SKU-MAILER
+              </p>
+            </div>
+            <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/body-extra,24px)] min-w-full not-italic relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/body-extra,16px)] text-left tracking-[var(--typography\/letter-spacing\/body-extra,-0.16px)] w-[min-content]" data-node-id="I196:1828;148:663">
+              Hộp Mailer Tự Khoá Sóng E
+            </p>
+            <div className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[0] min-w-full not-italic relative shrink-0 text-[0px] text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-left w-[min-content]" data-node-id="I196:1828;148:664">
+              <p className="font-['JetBrains_Mono:Regular'] leading-[16px] mb-0 text-[11px]">2 cỡ · từ 300 × 200 × 60 mm</p>
+              <p className="leading-[16px] text-[11px]">Set 100 sản phẩm · in logo thương hiệu riêng</p>
+            </div>
+            <p className="[word-break:break-word] font-['Inter:Bold'] font-bold leading-[normal] min-w-full not-italic relative shrink-0 text-[14px] text-[color:var(--brand\/red,#ff6bd5)] text-left w-[min-content]" data-node-id="I196:1828;148:665">
+              Báo giá theo số lượng
+            </p>
+            <div className="content-stretch flex gap-[8px] items-start overflow-clip relative shrink-0 w-full" data-node-id="I196:1828;195:1600" data-name="Card Actions">
+              <div className="bg-[var(--base\/white,white)] border border-[var(--ink\/strong,#121212)] border-solid content-stretch cursor-pointer flex flex-[1_0_0] gap-[var(--spacing\/gap\/xsmall,8px)] items-center justify-center min-w-px px-[var(--spacing\/padding\/medium,16px)] relative rounded-[var(--radius\/luxury,12px)] self-stretch" data-node-id="I196:1828;148:666" data-name="Btn Xem Chi Tiết">
+                <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/button,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/button-label-xs,12px)] not-italic relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/button-label-xs,12px)] text-left tracking-[var(--typography\/letter-spacing\/button-label-xs,0px)] whitespace-nowrap" data-node-id="I196:1828;148:666;148:112">{`XEM CHI TIẾT & BÁO GIÁ`}</p>
+                <div className="relative shrink-0 size-[16px]" data-node-id="I196:1828;148:666;148:113" data-name="Trailing icon">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconArrowUr} />
+                </div>
+              </div>
+              <div className="bg-[var(--base\/white,white)] border border-[var(--ink\/strong,#121212)] border-solid content-stretch flex items-center justify-center overflow-clip relative rounded-[var(--radius\/luxury,12px)] shrink-0 size-[36px]" data-node-id="I196:1828;195:1601" data-name="Btn Thêm Giỏ">
+                <div className="relative shrink-0 size-[18px]" data-node-id="I196:1828;195:1602" data-name="Icon/bagPlus">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconBagPlus} />
+                </div>
+              </div>
+            </div>
+          </a>
+          <a className="bg-[var(--base\/white,white)] border border-[var(--line\/default,rgba(1,1,1,0.13))] border-solid content-stretch flex flex-col gap-[var(--spacing\/gap\/xsmall,8px)] items-start overflow-clip p-[var(--spacing\/padding\/small,12px)] relative rounded-[var(--radius\/luxury,12px)] shrink-0 w-[318px]" data-node-id="196:1829" data-name="SKU-MAT01 - Hộp Đồ Mát, Đông Lạnh">
+            <div className="h-[290px] relative rounded-[var(--radius\/luxury,12px)] shrink-0 w-full" data-node-id="I196:1829;148:658" data-name="Ảnh sản phẩm">
+              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[var(--radius\/luxury,12px)] size-full" src={imgNhSnPhm14} />
+            </div>
+            <div className="content-stretch flex gap-[var(--spacing\/gap\/xsmall,8px)] h-[22px] items-start overflow-clip relative shrink-0 w-[290px]" data-node-id="I196:1829;148:659" data-name="Tags">
+              <div className="bg-[var(--ink\/strong,#121212)] content-stretch flex h-[20px] items-center overflow-clip p-[var(--spacing\/padding\/2xsmall,4px)] relative rounded-[var(--radius\/luxury,12px)] shrink-0" data-node-id="I196:1829;148:660" data-name="Badge">
+                <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/label-small,12px)] not-italic relative shrink-0 text-[color:var(--base\/white,white)] text-[length:var(--typography\/font-size\/label-small,9px)] text-left tracking-[var(--typography\/letter-spacing\/label-small,0px)] whitespace-nowrap" data-node-id="I196:1829;148:661">
+                  HỘP GIẤY
+                </p>
+              </div>
+              <p className="[word-break:break-word] font-['JetBrains_Mono:Bold'] font-bold leading-[16px] relative shrink-0 text-[11px] text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-left whitespace-nowrap" data-node-id="I196:1829;148:662">
+                SKU-MAT01
+              </p>
+            </div>
+            <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/body-extra,24px)] min-w-full not-italic relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/body-extra,16px)] text-left tracking-[var(--typography\/letter-spacing\/body-extra,-0.16px)] w-[min-content]" data-node-id="I196:1829;148:663">
+              Hộp Đồ Mát, Đông Lạnh
+            </p>
+            <div className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[0] min-w-full not-italic relative shrink-0 text-[0px] text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-left w-[min-content]" data-node-id="I196:1829;148:664">
+              <p className="font-['JetBrains_Mono:Regular'] leading-[16px] mb-0 text-[11px]">260 × 180 × 120 mm</p>
+              <p className="leading-[16px] text-[11px]">Set 100 sản phẩm · in logo thương hiệu riêng</p>
+            </div>
+            <p className="[word-break:break-word] font-['Inter:Bold'] font-bold leading-[normal] min-w-full not-italic relative shrink-0 text-[14px] text-[color:var(--brand\/red,#ff6bd5)] text-left w-[min-content]" data-node-id="I196:1829;148:665">
+              Báo giá theo số lượng
+            </p>
+            <div className="content-stretch flex gap-[8px] items-start overflow-clip relative shrink-0 w-full" data-node-id="I196:1829;195:1600" data-name="Card Actions">
+              <div className="bg-[var(--base\/white,white)] border border-[var(--ink\/strong,#121212)] border-solid content-stretch cursor-pointer flex flex-[1_0_0] gap-[var(--spacing\/gap\/xsmall,8px)] items-center justify-center min-w-px px-[var(--spacing\/padding\/medium,16px)] relative rounded-[var(--radius\/luxury,12px)] self-stretch" data-node-id="I196:1829;148:666" data-name="Btn Xem Chi Tiết">
+                <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/button,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/button-label-xs,12px)] not-italic relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/button-label-xs,12px)] text-left tracking-[var(--typography\/letter-spacing\/button-label-xs,0px)] whitespace-nowrap" data-node-id="I196:1829;148:666;148:112">{`XEM CHI TIẾT & BÁO GIÁ`}</p>
+                <div className="relative shrink-0 size-[16px]" data-node-id="I196:1829;148:666;148:113" data-name="Trailing icon">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconArrowUr} />
+                </div>
+              </div>
+              <div className="bg-[var(--base\/white,white)] border border-[var(--ink\/strong,#121212)] border-solid content-stretch flex items-center justify-center overflow-clip relative rounded-[var(--radius\/luxury,12px)] shrink-0 size-[36px]" data-node-id="I196:1829;195:1601" data-name="Btn Thêm Giỏ">
+                <div className="relative shrink-0 size-[18px]" data-node-id="I196:1829;195:1602" data-name="Icon/bagPlus">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconBagPlus} />
+                </div>
+              </div>
+            </div>
+          </a>
+          <a className="bg-[var(--base\/white,white)] border border-[var(--line\/default,rgba(1,1,1,0.13))] border-solid content-stretch flex flex-col gap-[var(--spacing\/gap\/xsmall,8px)] items-start overflow-clip p-[var(--spacing\/padding\/small,12px)] relative rounded-[var(--radius\/luxury,12px)] shrink-0 w-[318px]" data-node-id="196:1830" data-name="SKU-TR001 - Ống Tròn Giấy">
+            <div className="h-[290px] relative rounded-[var(--radius\/luxury,12px)] shrink-0 w-full" data-node-id="I196:1830;148:658" data-name="Ảnh sản phẩm">
+              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[var(--radius\/luxury,12px)] size-full" src={imgNhSnPhm15} />
+            </div>
+            <div className="content-stretch flex gap-[var(--spacing\/gap\/xsmall,8px)] h-[22px] items-start overflow-clip relative shrink-0 w-[290px]" data-node-id="I196:1830;148:659" data-name="Tags">
+              <div className="bg-[var(--ink\/strong,#121212)] content-stretch flex h-[20px] items-center overflow-clip p-[var(--spacing\/padding\/2xsmall,4px)] relative rounded-[var(--radius\/luxury,12px)] shrink-0" data-node-id="I196:1830;148:660" data-name="Badge">
+                <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/label-small,12px)] not-italic relative shrink-0 text-[color:var(--base\/white,white)] text-[length:var(--typography\/font-size\/label-small,9px)] text-left tracking-[var(--typography\/letter-spacing\/label-small,0px)] whitespace-nowrap" data-node-id="I196:1830;148:661">
+                  ỐNG GIẤY
+                </p>
+              </div>
+              <p className="[word-break:break-word] font-['JetBrains_Mono:Bold'] font-bold leading-[16px] relative shrink-0 text-[11px] text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-left whitespace-nowrap" data-node-id="I196:1830;148:662">
+                SKU-TR001
+              </p>
+            </div>
+            <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/body-extra,24px)] min-w-full not-italic relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/body-extra,16px)] text-left tracking-[var(--typography\/letter-spacing\/body-extra,-0.16px)] w-[min-content]" data-node-id="I196:1830;148:663">
+              Ống Tròn Giấy
+            </p>
+            <div className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[0] min-w-full not-italic relative shrink-0 text-[0px] text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-left w-[min-content]" data-node-id="I196:1830;148:664">
+              <p className="font-['JetBrains_Mono:Regular'] leading-[16px] mb-0 text-[11px]">Ø95 × cao 130 mm</p>
+              <p className="leading-[16px] text-[11px]">Set 100 sản phẩm · in logo thương hiệu riêng</p>
+            </div>
+            <p className="[word-break:break-word] font-['Inter:Bold'] font-bold leading-[normal] min-w-full not-italic relative shrink-0 text-[14px] text-[color:var(--brand\/red,#ff6bd5)] text-left w-[min-content]" data-node-id="I196:1830;148:665">
+              Báo giá theo số lượng
+            </p>
+            <div className="content-stretch flex gap-[8px] items-start overflow-clip relative shrink-0 w-full" data-node-id="I196:1830;195:1600" data-name="Card Actions">
+              <div className="bg-[var(--base\/white,white)] border border-[var(--ink\/strong,#121212)] border-solid content-stretch cursor-pointer flex flex-[1_0_0] gap-[var(--spacing\/gap\/xsmall,8px)] items-center justify-center min-w-px px-[var(--spacing\/padding\/medium,16px)] relative rounded-[var(--radius\/luxury,12px)] self-stretch" data-node-id="I196:1830;148:666" data-name="Btn Xem Chi Tiết">
+                <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/button,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/button-label-xs,12px)] not-italic relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/button-label-xs,12px)] text-left tracking-[var(--typography\/letter-spacing\/button-label-xs,0px)] whitespace-nowrap" data-node-id="I196:1830;148:666;148:112">{`XEM CHI TIẾT & BÁO GIÁ`}</p>
+                <div className="relative shrink-0 size-[16px]" data-node-id="I196:1830;148:666;148:113" data-name="Trailing icon">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconArrowUr} />
+                </div>
+              </div>
+              <div className="bg-[var(--base\/white,white)] border border-[var(--ink\/strong,#121212)] border-solid content-stretch flex items-center justify-center overflow-clip relative rounded-[var(--radius\/luxury,12px)] shrink-0 size-[36px]" data-node-id="I196:1830;195:1601" data-name="Btn Thêm Giỏ">
+                <div className="relative shrink-0 size-[18px]" data-node-id="I196:1830;195:1602" data-name="Icon/bagPlus">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconBagPlus} />
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div className="content-stretch cursor-pointer flex gap-[var(--spacing\/gap\/large,24px)] h-[640px] items-start overflow-clip relative shrink-0 w-[1344px]" data-node-id="196:1911" data-name="Hàng 5">
+          <a className="bg-[var(--base\/white,white)] border border-[var(--line\/default,rgba(1,1,1,0.13))] border-solid content-stretch flex flex-col gap-[var(--spacing\/gap\/xsmall,8px)] items-start overflow-clip p-[var(--spacing\/padding\/small,12px)] relative rounded-[var(--radius\/luxury,12px)] shrink-0 w-[318px]" data-node-id="196:1912" data-name="SKU-DAI - Đai Giấy Quấn Túi Hút Chân Không">
+            <div className="h-[290px] relative rounded-[var(--radius\/luxury,12px)] shrink-0 w-full" data-node-id="I196:1912;148:658" data-name="Ảnh sản phẩm">
+              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[var(--radius\/luxury,12px)] size-full" src={imgNhSnPhm16} />
+            </div>
+            <div className="content-stretch flex gap-[var(--spacing\/gap\/xsmall,8px)] h-[22px] items-start overflow-clip relative shrink-0 w-[290px]" data-node-id="I196:1912;148:659" data-name="Tags">
+              <div className="bg-[var(--brand\/red,#ff6bd5)] content-stretch flex h-[20px] items-center overflow-clip p-[var(--spacing\/padding\/2xsmall,4px)] relative rounded-[var(--radius\/luxury,12px)] shrink-0" data-node-id="I196:1912;148:660" data-name="Badge">
+                <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/label-small,12px)] not-italic relative shrink-0 text-[color:var(--base\/white,white)] text-[length:var(--typography\/font-size\/label-small,9px)] text-left tracking-[var(--typography\/letter-spacing\/label-small,0px)] whitespace-nowrap" data-node-id="I196:1912;148:661">{`TEM & ĐAI`}</p>
+              </div>
+              <p className="[word-break:break-word] font-['JetBrains_Mono:Bold'] font-bold leading-[16px] relative shrink-0 text-[11px] text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-left whitespace-nowrap" data-node-id="I196:1912;148:662">
+                SKU-DAI
+              </p>
+            </div>
+            <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/body-extra,24px)] min-w-full not-italic relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/body-extra,16px)] text-left tracking-[var(--typography\/letter-spacing\/body-extra,-0.16px)] w-[min-content]" data-node-id="I196:1912;148:663">
+              Đai Giấy Quấn Túi Hút Chân Không
+            </p>
+            <div className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[0] min-w-full not-italic relative shrink-0 text-[0px] text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-left w-[min-content]" data-node-id="I196:1912;148:664">
+              <p className="font-['JetBrains_Mono:Regular'] leading-[16px] mb-0 text-[11px]">Bản 200 g · 500 g · 1000 g</p>
+              <p className="leading-[16px] text-[11px]">Set 100 sản phẩm · in logo thương hiệu riêng</p>
+            </div>
+            <p className="[word-break:break-word] font-['Inter:Bold'] font-bold leading-[normal] min-w-full not-italic relative shrink-0 text-[14px] text-[color:var(--brand\/red,#ff6bd5)] text-left w-[min-content]" data-node-id="I196:1912;148:665">
+              Báo giá theo số lượng
+            </p>
+            <div className="content-stretch flex gap-[8px] items-start overflow-clip relative shrink-0 w-full" data-node-id="I196:1912;195:1600" data-name="Card Actions">
+              <div className="bg-[var(--base\/white,white)] border border-[var(--ink\/strong,#121212)] border-solid content-stretch cursor-pointer flex flex-[1_0_0] gap-[var(--spacing\/gap\/xsmall,8px)] items-center justify-center min-w-px px-[var(--spacing\/padding\/medium,16px)] relative rounded-[var(--radius\/luxury,12px)] self-stretch" data-node-id="I196:1912;148:666" data-name="Btn Xem Chi Tiết">
+                <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/button,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/button-label-xs,12px)] not-italic relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/button-label-xs,12px)] text-left tracking-[var(--typography\/letter-spacing\/button-label-xs,0px)] whitespace-nowrap" data-node-id="I196:1912;148:666;148:112">{`XEM CHI TIẾT & BÁO GIÁ`}</p>
+                <div className="relative shrink-0 size-[16px]" data-node-id="I196:1912;148:666;148:113" data-name="Trailing icon">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconArrowUr} />
+                </div>
+              </div>
+              <div className="bg-[var(--base\/white,white)] border border-[var(--ink\/strong,#121212)] border-solid content-stretch flex items-center justify-center overflow-clip relative rounded-[var(--radius\/luxury,12px)] shrink-0 size-[36px]" data-node-id="I196:1912;195:1601" data-name="Btn Thêm Giỏ">
+                <div className="relative shrink-0 size-[18px]" data-node-id="I196:1912;195:1602" data-name="Icon/bagPlus">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconBagPlus} />
+                </div>
+              </div>
+            </div>
+          </a>
+          <a className="bg-[var(--base\/white,white)] border border-[var(--line\/default,rgba(1,1,1,0.13))] border-solid content-stretch flex flex-col gap-[var(--spacing\/gap\/xsmall,8px)] items-start overflow-clip p-[var(--spacing\/padding\/small,12px)] relative rounded-[var(--radius\/luxury,12px)] shrink-0 w-[318px]" data-node-id="196:1913" data-name="SKU-NHAN01 - Nhãn Khiên Dán Lên Đai">
+            <div className="h-[290px] relative rounded-[var(--radius\/luxury,12px)] shrink-0 w-full" data-node-id="I196:1913;148:658" data-name="Ảnh sản phẩm">
+              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[var(--radius\/luxury,12px)] size-full" src={imgNhSnPhm17} />
+            </div>
+            <div className="content-stretch flex gap-[var(--spacing\/gap\/xsmall,8px)] h-[22px] items-start overflow-clip relative shrink-0 w-[290px]" data-node-id="I196:1913;148:659" data-name="Tags">
+              <div className="bg-[var(--ink\/strong,#121212)] content-stretch flex h-[20px] items-center overflow-clip p-[var(--spacing\/padding\/2xsmall,4px)] relative rounded-[var(--radius\/luxury,12px)] shrink-0" data-node-id="I196:1913;148:660" data-name="Badge">
+                <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/label-small,12px)] not-italic relative shrink-0 text-[color:var(--base\/white,white)] text-[length:var(--typography\/font-size\/label-small,9px)] text-left tracking-[var(--typography\/letter-spacing\/label-small,0px)] whitespace-nowrap" data-node-id="I196:1913;148:661">{`TEM & ĐAI`}</p>
+              </div>
+              <p className="[word-break:break-word] font-['JetBrains_Mono:Bold'] font-bold leading-[16px] relative shrink-0 text-[11px] text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-left whitespace-nowrap" data-node-id="I196:1913;148:662">
+                SKU-NHAN01
+              </p>
+            </div>
+            <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/body-extra,24px)] min-w-full not-italic relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/body-extra,16px)] text-left tracking-[var(--typography\/letter-spacing\/body-extra,-0.16px)] w-[min-content]" data-node-id="I196:1913;148:663">
+              Nhãn Khiên Dán Lên Đai
+            </p>
+            <div className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[0] min-w-full not-italic relative shrink-0 text-[0px] text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-left w-[min-content]" data-node-id="I196:1913;148:664">
+              <p className="font-['JetBrains_Mono:Regular'] leading-[16px] mb-0 text-[11px]">70 × 78 mm</p>
+              <p className="leading-[16px] text-[11px]">Set 100 sản phẩm · in logo thương hiệu riêng</p>
+            </div>
+            <p className="[word-break:break-word] font-['Inter:Bold'] font-bold leading-[normal] min-w-full not-italic relative shrink-0 text-[14px] text-[color:var(--brand\/red,#ff6bd5)] text-left w-[min-content]" data-node-id="I196:1913;148:665">
+              Báo giá theo số lượng
+            </p>
+            <div className="content-stretch flex gap-[8px] items-start overflow-clip relative shrink-0 w-full" data-node-id="I196:1913;195:1600" data-name="Card Actions">
+              <div className="bg-[var(--base\/white,white)] border border-[var(--ink\/strong,#121212)] border-solid content-stretch cursor-pointer flex flex-[1_0_0] gap-[var(--spacing\/gap\/xsmall,8px)] items-center justify-center min-w-px px-[var(--spacing\/padding\/medium,16px)] relative rounded-[var(--radius\/luxury,12px)] self-stretch" data-node-id="I196:1913;148:666" data-name="Btn Xem Chi Tiết">
+                <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/button,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/button-label-xs,12px)] not-italic relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/button-label-xs,12px)] text-left tracking-[var(--typography\/letter-spacing\/button-label-xs,0px)] whitespace-nowrap" data-node-id="I196:1913;148:666;148:112">{`XEM CHI TIẾT & BÁO GIÁ`}</p>
+                <div className="relative shrink-0 size-[16px]" data-node-id="I196:1913;148:666;148:113" data-name="Trailing icon">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconArrowUr} />
+                </div>
+              </div>
+              <div className="bg-[var(--base\/white,white)] border border-[var(--ink\/strong,#121212)] border-solid content-stretch flex items-center justify-center overflow-clip relative rounded-[var(--radius\/luxury,12px)] shrink-0 size-[36px]" data-node-id="I196:1913;195:1601" data-name="Btn Thêm Giỏ">
+                <div className="relative shrink-0 size-[18px]" data-node-id="I196:1913;195:1602" data-name="Icon/bagPlus">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconBagPlus} />
+                </div>
+              </div>
+            </div>
+          </a>
+          <a className="bg-[var(--base\/white,white)] border border-[var(--line\/default,rgba(1,1,1,0.13))] border-solid content-stretch flex flex-col gap-[var(--spacing\/gap\/xsmall,8px)] items-start overflow-clip p-[var(--spacing\/padding\/small,12px)] relative rounded-[var(--radius\/luxury,12px)] shrink-0 w-[318px]" data-node-id="196:1914" data-name="SKU-TDL01 - Tem Định Lượng">
+            <div className="h-[290px] relative rounded-[var(--radius\/luxury,12px)] shrink-0 w-full" data-node-id="I196:1914;148:658" data-name="Ảnh sản phẩm">
+              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[var(--radius\/luxury,12px)] size-full" src={imgNhSnPhm18} />
+            </div>
+            <div className="content-stretch flex gap-[var(--spacing\/gap\/xsmall,8px)] h-[22px] items-start overflow-clip relative shrink-0 w-[290px]" data-node-id="I196:1914;148:659" data-name="Tags">
+              <div className="bg-[var(--ink\/strong,#121212)] content-stretch flex h-[20px] items-center overflow-clip p-[var(--spacing\/padding\/2xsmall,4px)] relative rounded-[var(--radius\/luxury,12px)] shrink-0" data-node-id="I196:1914;148:660" data-name="Badge">
+                <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/label-small,12px)] not-italic relative shrink-0 text-[color:var(--base\/white,white)] text-[length:var(--typography\/font-size\/label-small,9px)] text-left tracking-[var(--typography\/letter-spacing\/label-small,0px)] whitespace-nowrap" data-node-id="I196:1914;148:661">{`TEM & ĐAI`}</p>
+              </div>
+              <p className="[word-break:break-word] font-['JetBrains_Mono:Bold'] font-bold leading-[16px] relative shrink-0 text-[11px] text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-left whitespace-nowrap" data-node-id="I196:1914;148:662">
+                SKU-TDL01
+              </p>
+            </div>
+            <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/body-extra,24px)] min-w-full not-italic relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/body-extra,16px)] text-left tracking-[var(--typography\/letter-spacing\/body-extra,-0.16px)] w-[min-content]" data-node-id="I196:1914;148:663">
+              Tem Định Lượng
+            </p>
+            <div className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[0] min-w-full not-italic relative shrink-0 text-[0px] text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-left w-[min-content]" data-node-id="I196:1914;148:664">
+              <p className="font-['JetBrains_Mono:Regular'] leading-[16px] mb-0 text-[11px]">30 × 60 mm</p>
+              <p className="leading-[16px] text-[11px]">Set 100 sản phẩm · in logo thương hiệu riêng</p>
+            </div>
+            <p className="[word-break:break-word] font-['Inter:Bold'] font-bold leading-[normal] min-w-full not-italic relative shrink-0 text-[14px] text-[color:var(--brand\/red,#ff6bd5)] text-left w-[min-content]" data-node-id="I196:1914;148:665">
+              Báo giá theo số lượng
+            </p>
+            <div className="content-stretch flex gap-[8px] items-start overflow-clip relative shrink-0 w-full" data-node-id="I196:1914;195:1600" data-name="Card Actions">
+              <div className="bg-[var(--base\/white,white)] border border-[var(--ink\/strong,#121212)] border-solid content-stretch cursor-pointer flex flex-[1_0_0] gap-[var(--spacing\/gap\/xsmall,8px)] items-center justify-center min-w-px px-[var(--spacing\/padding\/medium,16px)] relative rounded-[var(--radius\/luxury,12px)] self-stretch" data-node-id="I196:1914;148:666" data-name="Btn Xem Chi Tiết">
+                <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/button,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/button-label-xs,12px)] not-italic relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/button-label-xs,12px)] text-left tracking-[var(--typography\/letter-spacing\/button-label-xs,0px)] whitespace-nowrap" data-node-id="I196:1914;148:666;148:112">{`XEM CHI TIẾT & BÁO GIÁ`}</p>
+                <div className="relative shrink-0 size-[16px]" data-node-id="I196:1914;148:666;148:113" data-name="Trailing icon">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconArrowUr} />
+                </div>
+              </div>
+              <div className="bg-[var(--base\/white,white)] border border-[var(--ink\/strong,#121212)] border-solid content-stretch flex items-center justify-center overflow-clip relative rounded-[var(--radius\/luxury,12px)] shrink-0 size-[36px]" data-node-id="I196:1914;195:1601" data-name="Btn Thêm Giỏ">
+                <div className="relative shrink-0 size-[18px]" data-node-id="I196:1914;195:1602" data-name="Icon/bagPlus">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconBagPlus} />
+                </div>
+              </div>
+            </div>
+          </a>
+          <a className="bg-[var(--base\/white,white)] border border-[var(--line\/default,rgba(1,1,1,0.13))] border-solid content-stretch flex flex-col gap-[var(--spacing\/gap\/xsmall,8px)] items-start overflow-clip p-[var(--spacing\/padding\/small,12px)] relative rounded-[var(--radius\/luxury,12px)] shrink-0 w-[318px]" data-node-id="196:1915" data-name="SKU-TQH01 - Tem Quấn Thân Hũ">
+            <div className="h-[290px] relative rounded-[var(--radius\/luxury,12px)] shrink-0 w-full" data-node-id="I196:1915;148:658" data-name="Ảnh sản phẩm">
+              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[var(--radius\/luxury,12px)] size-full" src={imgNhSnPhm19} />
+            </div>
+            <div className="content-stretch flex gap-[var(--spacing\/gap\/xsmall,8px)] h-[22px] items-start overflow-clip relative shrink-0 w-[290px]" data-node-id="I196:1915;148:659" data-name="Tags">
+              <div className="bg-[var(--ink\/strong,#121212)] content-stretch flex h-[20px] items-center overflow-clip p-[var(--spacing\/padding\/2xsmall,4px)] relative rounded-[var(--radius\/luxury,12px)] shrink-0" data-node-id="I196:1915;148:660" data-name="Badge">
+                <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/label-small,12px)] not-italic relative shrink-0 text-[color:var(--base\/white,white)] text-[length:var(--typography\/font-size\/label-small,9px)] text-left tracking-[var(--typography\/letter-spacing\/label-small,0px)] whitespace-nowrap" data-node-id="I196:1915;148:661">{`TEM & ĐAI`}</p>
+              </div>
+              <p className="[word-break:break-word] font-['JetBrains_Mono:Bold'] font-bold leading-[16px] relative shrink-0 text-[11px] text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-left whitespace-nowrap" data-node-id="I196:1915;148:662">
+                SKU-TQH01
+              </p>
+            </div>
+            <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/body-extra,24px)] min-w-full not-italic relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/body-extra,16px)] text-left tracking-[var(--typography\/letter-spacing\/body-extra,-0.16px)] w-[min-content]" data-node-id="I196:1915;148:663">
+              Tem Quấn Thân Hũ
+            </p>
+            <div className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[0] min-w-full not-italic relative shrink-0 text-[0px] text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-left w-[min-content]" data-node-id="I196:1915;148:664">
+              <p className="font-['JetBrains_Mono:Regular'] leading-[16px] mb-0 text-[11px]">Vừa hũ Ø88 mm</p>
+              <p className="leading-[16px] text-[11px]">Set 100 sản phẩm · in logo thương hiệu riêng</p>
+            </div>
+            <p className="[word-break:break-word] font-['Inter:Bold'] font-bold leading-[normal] min-w-full not-italic relative shrink-0 text-[14px] text-[color:var(--brand\/red,#ff6bd5)] text-left w-[min-content]" data-node-id="I196:1915;148:665">
+              Báo giá theo số lượng
+            </p>
+            <div className="content-stretch flex gap-[8px] items-start overflow-clip relative shrink-0 w-full" data-node-id="I196:1915;195:1600" data-name="Card Actions">
+              <div className="bg-[var(--base\/white,white)] border border-[var(--ink\/strong,#121212)] border-solid content-stretch cursor-pointer flex flex-[1_0_0] gap-[var(--spacing\/gap\/xsmall,8px)] items-center justify-center min-w-px px-[var(--spacing\/padding\/medium,16px)] relative rounded-[var(--radius\/luxury,12px)] self-stretch" data-node-id="I196:1915;148:666" data-name="Btn Xem Chi Tiết">
+                <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/button,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/button-label-xs,12px)] not-italic relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/button-label-xs,12px)] text-left tracking-[var(--typography\/letter-spacing\/button-label-xs,0px)] whitespace-nowrap" data-node-id="I196:1915;148:666;148:112">{`XEM CHI TIẾT & BÁO GIÁ`}</p>
+                <div className="relative shrink-0 size-[16px]" data-node-id="I196:1915;148:666;148:113" data-name="Trailing icon">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconArrowUr} />
+                </div>
+              </div>
+              <div className="bg-[var(--base\/white,white)] border border-[var(--ink\/strong,#121212)] border-solid content-stretch flex items-center justify-center overflow-clip relative rounded-[var(--radius\/luxury,12px)] shrink-0 size-[36px]" data-node-id="I196:1915;195:1601" data-name="Btn Thêm Giỏ">
+                <div className="relative shrink-0 size-[18px]" data-node-id="I196:1915;195:1602" data-name="Icon/bagPlus">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconBagPlus} />
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div className="content-stretch cursor-pointer flex gap-[var(--spacing\/gap\/large,24px)] h-[640px] items-start overflow-clip relative shrink-0 w-[1344px]" data-node-id="196:1996" data-name="Hàng 6">
+          <a className="bg-[var(--base\/white,white)] border border-[var(--line\/default,rgba(1,1,1,0.13))] border-solid content-stretch flex flex-col gap-[var(--spacing\/gap\/xsmall,8px)] items-start overflow-clip p-[var(--spacing\/padding\/small,12px)] relative rounded-[var(--radius\/luxury,12px)] shrink-0 w-[318px]" data-node-id="196:1997" data-name="SKU-VCH01 - Vòng Cổ Hũ">
+            <div className="h-[290px] relative rounded-[var(--radius\/luxury,12px)] shrink-0 w-full" data-node-id="I196:1997;148:658" data-name="Ảnh sản phẩm">
+              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[var(--radius\/luxury,12px)] size-full" src={imgNhSnPhm20} />
+            </div>
+            <div className="content-stretch flex gap-[var(--spacing\/gap\/xsmall,8px)] h-[22px] items-start overflow-clip relative shrink-0 w-[290px]" data-node-id="I196:1997;148:659" data-name="Tags">
+              <div className="bg-[var(--brand\/red,#ff6bd5)] content-stretch flex h-[20px] items-center overflow-clip p-[var(--spacing\/padding\/2xsmall,4px)] relative rounded-[var(--radius\/luxury,12px)] shrink-0" data-node-id="I196:1997;148:660" data-name="Badge">
+                <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/label-small,12px)] not-italic relative shrink-0 text-[color:var(--base\/white,white)] text-[length:var(--typography\/font-size\/label-small,9px)] text-left tracking-[var(--typography\/letter-spacing\/label-small,0px)] whitespace-nowrap" data-node-id="I196:1997;148:661">{`TEM & ĐAI`}</p>
+              </div>
+              <p className="[word-break:break-word] font-['JetBrains_Mono:Bold'] font-bold leading-[16px] relative shrink-0 text-[11px] text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-left whitespace-nowrap" data-node-id="I196:1997;148:662">
+                SKU-VCH01
+              </p>
+            </div>
+            <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/body-extra,24px)] min-w-full not-italic relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/body-extra,16px)] text-left tracking-[var(--typography\/letter-spacing\/body-extra,-0.16px)] w-[min-content]" data-node-id="I196:1997;148:663">
+              Vòng Cổ Hũ
+            </p>
+            <div className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[0] min-w-full not-italic relative shrink-0 text-[0px] text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-left w-[min-content]" data-node-id="I196:1997;148:664">
+              <p className="font-['JetBrains_Mono:Regular'] leading-[16px] mb-0 text-[11px]">Vừa hũ Ø88 mm</p>
+              <p className="leading-[16px] text-[11px]">Set 100 sản phẩm · in logo thương hiệu riêng</p>
+            </div>
+            <p className="[word-break:break-word] font-['Inter:Bold'] font-bold leading-[normal] min-w-full not-italic relative shrink-0 text-[14px] text-[color:var(--brand\/red,#ff6bd5)] text-left w-[min-content]" data-node-id="I196:1997;148:665">
+              Báo giá theo số lượng
+            </p>
+            <div className="content-stretch flex gap-[8px] items-start overflow-clip relative shrink-0 w-full" data-node-id="I196:1997;195:1600" data-name="Card Actions">
+              <div className="bg-[var(--base\/white,white)] border border-[var(--ink\/strong,#121212)] border-solid content-stretch cursor-pointer flex flex-[1_0_0] gap-[var(--spacing\/gap\/xsmall,8px)] items-center justify-center min-w-px px-[var(--spacing\/padding\/medium,16px)] relative rounded-[var(--radius\/luxury,12px)] self-stretch" data-node-id="I196:1997;148:666" data-name="Btn Xem Chi Tiết">
+                <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/button,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/button-label-xs,12px)] not-italic relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/button-label-xs,12px)] text-left tracking-[var(--typography\/letter-spacing\/button-label-xs,0px)] whitespace-nowrap" data-node-id="I196:1997;148:666;148:112">{`XEM CHI TIẾT & BÁO GIÁ`}</p>
+                <div className="relative shrink-0 size-[16px]" data-node-id="I196:1997;148:666;148:113" data-name="Trailing icon">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconArrowUr} />
+                </div>
+              </div>
+              <div className="bg-[var(--base\/white,white)] border border-[var(--ink\/strong,#121212)] border-solid content-stretch flex items-center justify-center overflow-clip relative rounded-[var(--radius\/luxury,12px)] shrink-0 size-[36px]" data-node-id="I196:1997;195:1601" data-name="Btn Thêm Giỏ">
+                <div className="relative shrink-0 size-[18px]" data-node-id="I196:1997;195:1602" data-name="Icon/bagPlus">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconBagPlus} />
+                </div>
+              </div>
+            </div>
+          </a>
+          <a className="bg-[var(--base\/white,white)] border border-[var(--line\/default,rgba(1,1,1,0.13))] border-solid content-stretch flex flex-col gap-[var(--spacing\/gap\/xsmall,8px)] items-start overflow-clip p-[var(--spacing\/padding\/small,12px)] relative rounded-[var(--radius\/luxury,12px)] shrink-0 w-[318px]" data-node-id="196:1998" data-name="SKU-PK001 - Bộ Thiệp Tết, Hangtag, Sticker">
+            <div className="h-[290px] relative rounded-[var(--radius\/luxury,12px)] shrink-0 w-full" data-node-id="I196:1998;148:658" data-name="Ảnh sản phẩm">
+              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[var(--radius\/luxury,12px)] size-full" src={imgNhSnPhm18} />
+            </div>
+            <div className="content-stretch flex gap-[var(--spacing\/gap\/xsmall,8px)] h-[22px] items-start overflow-clip relative shrink-0 w-[290px]" data-node-id="I196:1998;148:659" data-name="Tags">
+              <div className="bg-[var(--ink\/strong,#121212)] content-stretch flex h-[20px] items-center overflow-clip p-[var(--spacing\/padding\/2xsmall,4px)] relative rounded-[var(--radius\/luxury,12px)] shrink-0" data-node-id="I196:1998;148:660" data-name="Badge">
+                <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/label-small,12px)] not-italic relative shrink-0 text-[color:var(--base\/white,white)] text-[length:var(--typography\/font-size\/label-small,9px)] text-left tracking-[var(--typography\/letter-spacing\/label-small,0px)] whitespace-nowrap" data-node-id="I196:1998;148:661">
+                  PHỤ KIỆN
+                </p>
+              </div>
+              <p className="[word-break:break-word] font-['JetBrains_Mono:Bold'] font-bold leading-[16px] relative shrink-0 text-[11px] text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-left whitespace-nowrap" data-node-id="I196:1998;148:662">
+                SKU-PK001
+              </p>
+            </div>
+            <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/body-extra,24px)] min-w-full not-italic relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/body-extra,16px)] text-left tracking-[var(--typography\/letter-spacing\/body-extra,-0.16px)] w-[min-content]" data-node-id="I196:1998;148:663">
+              Bộ Thiệp Tết, Hangtag, Sticker
+            </p>
+            <div className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[0] min-w-full not-italic relative shrink-0 text-[0px] text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-left w-[min-content]" data-node-id="I196:1998;148:664">
+              <p className="font-['JetBrains_Mono:Regular'] leading-[16px] mb-0 text-[11px]">Theo set phụ kiện</p>
+              <p className="leading-[16px] text-[11px]">Set 100 sản phẩm · in logo thương hiệu riêng</p>
+            </div>
+            <p className="[word-break:break-word] font-['Inter:Bold'] font-bold leading-[normal] min-w-full not-italic relative shrink-0 text-[14px] text-[color:var(--brand\/red,#ff6bd5)] text-left w-[min-content]" data-node-id="I196:1998;148:665">
+              Báo giá theo số lượng
+            </p>
+            <div className="content-stretch flex gap-[8px] items-start overflow-clip relative shrink-0 w-full" data-node-id="I196:1998;195:1600" data-name="Card Actions">
+              <div className="bg-[var(--base\/white,white)] border border-[var(--ink\/strong,#121212)] border-solid content-stretch cursor-pointer flex flex-[1_0_0] gap-[var(--spacing\/gap\/xsmall,8px)] items-center justify-center min-w-px px-[var(--spacing\/padding\/medium,16px)] relative rounded-[var(--radius\/luxury,12px)] self-stretch" data-node-id="I196:1998;148:666" data-name="Btn Xem Chi Tiết">
+                <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/button,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/button-label-xs,12px)] not-italic relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/button-label-xs,12px)] text-left tracking-[var(--typography\/letter-spacing\/button-label-xs,0px)] whitespace-nowrap" data-node-id="I196:1998;148:666;148:112">{`XEM CHI TIẾT & BÁO GIÁ`}</p>
+                <div className="relative shrink-0 size-[16px]" data-node-id="I196:1998;148:666;148:113" data-name="Trailing icon">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconArrowUr} />
+                </div>
+              </div>
+              <div className="bg-[var(--base\/white,white)] border border-[var(--ink\/strong,#121212)] border-solid content-stretch flex items-center justify-center overflow-clip relative rounded-[var(--radius\/luxury,12px)] shrink-0 size-[36px]" data-node-id="I196:1998;195:1601" data-name="Btn Thêm Giỏ">
+                <div className="relative shrink-0 size-[18px]" data-node-id="I196:1998;195:1602" data-name="Icon/bagPlus">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconBagPlus} />
+                </div>
               </div>
             </div>
           </a>
