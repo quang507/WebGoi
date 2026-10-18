@@ -77,6 +77,15 @@
     var a = document.createElement('textarea'); a.value = text; a.style.cssText = 'position:fixed;opacity:0'; document.body.appendChild(a); a.select();
     try { document.execCommand('copy'); } catch (e) {} a.remove();
   }
+  // ô nhập lỗi: viền đỏ + dòng nhắc ngay dưới ô (theo component "Trường Nhập/Lỗi")
+  function markErr(input, on, text) {
+    if (!input) return; var box = input.closest('[data-name]'); if (!box) return;
+    box.classList.toggle('is-err', on);
+    var m = box.nextElementSibling && box.nextElementSibling.classList.contains('goi-err-msg') ? box.nextElementSibling : null;
+    if (on) { if (!m) { m = document.createElement('p'); m.className = 'goi-err-msg'; m.setAttribute('role', 'alert'); box.parentNode.insertBefore(m, box.nextSibling); } m.textContent = text || 'Bạn nhập giúp số điện thoại Zalo để GÓI gửi báo giá nhé.'; input.focus(); input.setAttribute('aria-invalid', 'true'); }
+    else { if (m) m.remove(); input.removeAttribute('aria-invalid'); }
+  }
+  document.addEventListener('input', function (e) { if (e.target.matches && e.target.matches('[name="sdt"][aria-invalid]')) markErr(e.target, false); });
   $$('form[data-quote]').forEach(function (form) {
     var STEPS = $$('[data-name="Các Nấc Số Lượng"] p', form), track = form.querySelector('[data-slider-track]');
     var fill = form.querySelector('[data-slider-fill]'), thumb = form.querySelector('[data-slider-thumb]');
@@ -130,10 +139,9 @@
       var v = function (n) { var x = form.querySelector('[name="' + n + '"]'); return x ? x.value.trim() : ''; };
       var phone = v('sdt').replace(/[\s.\-]/g, ''), box = form.querySelector('[name="sdt"]');
       if (!/^(0|\+?84)\d{9,10}$/.test(phone)) {
-        if (box) { box.closest('[data-name]').classList.add('is-err'); box.focus(); }
-        toast('Bạn nhập giúp số điện thoại Zalo để GÓI gửi báo giá nhé.'); return;
+        markErr(box, true); return;
       }
-      if (box) box.closest('[data-name]').classList.remove('is-err');
+      markErr(box, false);
       var dims = [v('dai'), v('rong'), v('cao')], hasDim = dims.some(Boolean);
       var msg = ['GÓI ơi, mình cần báo giá:',
         '• Loại: ' + type,
@@ -144,7 +152,7 @@
         '• Giao tới: ' + (v('tinh') || '...')].join('\n');
       saveRequest({ source: 'form', page: location.pathname, ten: v('ten'), sdt: phone, tinh: v('tinh'), items: [{ loai: type, kichthuoc: hasDim ? dims.join('x') + ' cm' : '', sl: qty }], web: '' });
       copy(msg); toast('Đã chép nội dung báo giá. Dán vào khung chat Zalo của GÓI để gửi.');
-      setTimeout(function () { window.open(ZALO, '_blank', 'noopener'); }, 350);
+      window.open(ZALO, '_blank', 'noopener');
     });
   });
   // nút có sẵn nội dung tin nhắn (chọn gói, báo giá mẫu này): chép tin rồi mở Zalo
@@ -174,6 +182,9 @@
       var empty = document.createElement('div'); empty.className = 'goi-cart__empty';
       var et = cartRoot.querySelector('template[data-cart-empty]'); if (et) empty.appendChild(et.content.cloneNode(true));
       frame.appendChild(empty);
+      var sent = document.createElement('div'); sent.className = 'goi-cart__sent';
+      var st = cartRoot.querySelector('template[data-cart-sent]'); if (st) sent.appendChild(st.content.cloneNode(true));
+      frame.appendChild(sent);
       return { v: v, list: list, tpl: tpl, frame: frame };
     });
     function setText(root, name, txt) { var n = root.querySelector('[data-name="' + name + '"]'); n = n && (n.tagName === 'P' ? n : (n.querySelector('p') || n)); if (n) n.textContent = txt; }
@@ -198,7 +209,7 @@
       render(); cartRoot.classList.add('is-open'); cartRoot.setAttribute('aria-hidden', 'false'); document.documentElement.classList.add('goi-cart-open');
       var w = visibleView(); var f = w && w.v.querySelector('[data-cart-close]'); if (f) f.focus();
     }
-    function close() { cartRoot.classList.remove('is-open'); cartRoot.setAttribute('aria-hidden', 'true'); document.documentElement.classList.remove('goi-cart-open'); }
+    function close() { views.forEach(function (w) { w.frame.classList.remove('is-sent'); }); cartRoot.classList.remove('is-open'); cartRoot.setAttribute('aria-hidden', 'true'); document.documentElement.classList.remove('goi-cart-open'); }
     function selectedQty(btn) {
       var bp = btn.closest('.bp'), on = bp && bp.querySelector('[data-tier].is-on'); if (!on) return 0;
       var i = QTY.indexOf(on.getAttribute('data-tier')); return i < 0 ? 0 : i;
@@ -236,16 +247,18 @@
       var v = function (n) { var x = w.v.querySelector('[name="' + n + '"]'); return x ? x.value.trim() : ''; };
       var phone = v('sdt').replace(/[\s.\-]/g, ''), box = w.v.querySelector('[name="sdt"]');
       if (!/^(0|\+?84)\d{9,10}$/.test(phone)) {
-        if (box) { box.closest('[data-name]').classList.add('is-err'); box.focus(); }
-        toast('Bạn nhập giúp số điện thoại Zalo để GÓI gửi báo giá nhé.'); return;
+        markErr(box, true); return;
       }
-      if (box) box.closest('[data-name]').classList.remove('is-err');
+      markErr(box, false);
       var lines = items.map(function (it, i) { return (i + 1) + '. ' + it.code + ' · ' + SKUS[it.code].n + ' · ' + QTY[it.q] + ' cái'; });
       var msg = ['GÓI ơi, mình cần báo giá giỏ ' + count() + ' mẫu:'].concat(lines, ['• Tên: ' + (v('ten') || '...'), '• SĐT Zalo: ' + phone, '• Giao tới: ' + (v('tinh') || '...')], v('ghichu') ? ['• Ghi chú: ' + v('ghichu')] : []).join('\n');
       saveRequest({ source: 'gio', page: location.pathname, ten: v('ten'), sdt: phone, tinh: v('tinh'), ghichu: v('ghichu'), items: items.map(function (it) { return { code: it.code, ten: SKUS[it.code].n, sl: QTY[it.q] }; }), web: '' });
-      copy(msg); toast('Đã chép nội dung giỏ báo giá. Dán vào khung chat Zalo của GÓI để gửi.');
-      items = []; store(); render(); close();
-      setTimeout(function () { window.open(ZALO, '_blank', 'noopener'); }, 350);
+      copy(msg);
+      // mở Zalo ngay trong cú bấm (iPhone chặn nếu mở trễ); nếu bị chặn, màn "Đã gửi" có nút Mở Zalo GÓI
+      window.open(ZALO, '_blank', 'noopener');
+      items = []; store(); render();
+      views.forEach(function (x) { x.frame.classList.add('is-sent'); });
+      var sb = w.v.querySelector('.goi-cart__sent a[href]'); if (sb) sb.focus();
     });
     // nấc số lượng ở trang chi tiết (100 cái, 200 cái…): bấm để chọn số lượng khi thêm vào giỏ
     $$('.bp').forEach(function (bp) {
@@ -289,6 +302,87 @@
     var n = Number(d.followers).toLocaleString('vi-VN');
     fbCount.forEach(function (p) { p.textContent = p.textContent.replace(/^[\d.,]+(?= người theo dõi)/, n); });
   }).catch(function () {});
+
+  // menu mobile/tablet: mở từ nút ☰ ở header, đóng bằng nút X, nền mờ hoặc phím Esc
+  var menu = document.querySelector('[data-menu]');
+  if (menu) (function () {
+    var last = null;
+    $$('a[href]', menu).forEach(function (a) {
+      var h = a.getAttribute('href'), path = location.pathname.replace(/\/$/, '') || '/';
+      if (h === path || (h === '/mau-hop' && path.indexOf('/mau-hop') === 0)) a.setAttribute('aria-current', 'page');
+    });
+    function setOpen(open) {
+      menu.classList.toggle('is-open', open); menu.setAttribute('aria-hidden', String(!open));
+      document.documentElement.classList.toggle('goi-menu-open', open);
+      $$('[data-menu-open]').forEach(function (b) { b.setAttribute('aria-expanded', String(open)); });
+      if (open) { var c = menu.querySelector('[data-menu-close]:not(.goi-menu__scrim)'); if (c) c.focus(); }
+      else if (last) last.focus();
+    }
+    document.addEventListener('click', function (e) {
+      var o = e.target.closest('[data-menu-open]'); if (o) { e.preventDefault(); last = o; setOpen(true); return; }
+      if (e.target.closest('[data-menu-close]')) { e.preventDefault(); setOpen(false); return; }
+      if (menu.classList.contains('is-open') && e.target.closest('[data-menu] a[href]')) setOpen(false);
+    });
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && menu.classList.contains('is-open')) setOpen(false);
+      if ((e.key === 'Enter' || e.key === ' ') && e.target.matches && e.target.matches('[data-menu-open],[data-menu-close]')) { e.preventDefault(); e.target.click(); }
+    });
+  })();
+
+  // trang Mẫu hộp: lọc theo nhóm + tìm theo món bạn bán (không cần tải lại trang)
+  if (document.body.getAttribute('data-page') === 'listing') (function () {
+    var SK = {}; try { SK = JSON.parse(document.getElementById('goi-skus').textContent); } catch (e) {}
+    var norm = function (t) { return (t || '').normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/đ/gi, 'd').toLowerCase().trim(); };
+    var tpl = document.querySelector('template[data-empty-search]');
+    var state = { f: 'all', q: '' }, applied = false;
+    var qs = new URLSearchParams(location.search); if (qs.get('nhom')) state.f = qs.get('nhom'); if (qs.get('q')) state.q = qs.get('q');
+    var views = $$('.bp').map(function (bp) {
+      var cards = $$('[data-sku]', bp).filter(function (c) { return !c.parentElement.closest('[data-sku]'); });
+      if (!cards.length) return null;
+      var rows = []; cards.forEach(function (c) { if (rows.indexOf(c.parentElement) < 0) rows.push(c.parentElement); });
+      var cap = rows.length > 1 ? rows[0].querySelectorAll(':scope > [data-sku]').length : 1e9;
+      var hold = document.createElement('div'); hold.hidden = true; rows[0].parentElement.appendChild(hold);
+      var empty = document.createElement('div'); empty.className = 'goi-empty-search'; empty.hidden = true;
+      if (tpl) empty.appendChild(tpl.content.cloneNode(true));
+      rows[0].parentElement.insertBefore(empty, rows[0]);
+      return { bp: bp, cards: cards, rows: rows, cap: cap, hold: hold, empty: empty };
+    }).filter(Boolean);
+    function match(c) {
+      var d = SK[c.getAttribute('data-sku')] || { g: [], k: '' };
+      if (state.f !== 'all' && d.g.indexOf(state.f) < 0) return false;
+      var q = norm(state.q); if (!q) return true;
+      var hay = d.k + ' ' + norm(c.textContent);
+      return q.split(/\s+/).every(function (w) { return hay.indexOf(w) >= 0; });
+    }
+    function apply() {
+      views.forEach(function (v) {
+        var vis = v.cards.filter(match);
+        if (applied) vis.forEach(function (c) { c.classList.add('is-in'); $$('[data-reveal],[data-crop]', c).forEach(function (x) { x.classList.add('is-in'); }); });
+        v.cards.forEach(function (c) { v.hold.appendChild(c); });
+        if (v.cap === 1e9) vis.forEach(function (c) { v.rows[0].appendChild(c); });
+        else vis.forEach(function (c, i) { v.rows[Math.floor(i / v.cap)].appendChild(c); });
+        v.rows.forEach(function (r) { r.style.display = r.querySelector(':scope > [data-sku]') ? '' : 'none'; });
+        v.empty.hidden = vis.length > 0;
+        var t = v.empty.querySelector('[data-name="Empty Title"]'); if (t) t.textContent = state.q ? 'Chưa có mẫu khớp “' + state.q + '”' : 'Nhóm này chưa có mẫu';
+      });
+      $$('[data-filter]').forEach(function (b) { var on = b.getAttribute('data-filter') === state.f; b.setAttribute('aria-selected', String(on)); if (on && !b.classList.contains('is-on-tab')) { b.classList.add('is-on-tab'); } else if (!on) b.classList.remove('is-on-tab'); });
+      $$('[data-sku-search]').forEach(function (i) { if (document.activeElement !== i) i.value = state.q; });
+      var u = new URL(location.href); state.f === 'all' ? u.searchParams.delete('nhom') : u.searchParams.set('nhom', state.f); state.q ? u.searchParams.set('q', state.q) : u.searchParams.delete('q');
+      history.replaceState(null, '', u.pathname + (u.search || '') + u.hash);
+      applied = true;
+    }
+    var timer;
+    document.addEventListener('input', function (e) { if (!e.target.matches('[data-sku-search]')) return; clearTimeout(timer); timer = setTimeout(function () { state.q = e.target.value; apply(); }, 160); });
+    document.addEventListener('keydown', function (e) { if (e.key === 'Enter' && e.target.matches('[data-sku-search],[data-filter],[data-search-tag]')) { e.preventDefault(); if (e.target.matches('[data-sku-search]')) { state.q = e.target.value; apply(); } else e.target.click(); } });
+    document.addEventListener('click', function (e) {
+      var f = e.target.closest('[data-filter]'); if (f) { state.f = f.getAttribute('data-filter'); apply(); return; }
+      var t = e.target.closest('[data-search-tag]'); if (t) { state.q = t.getAttribute('data-search-tag'); apply(); return; }
+      var g = e.target.closest('[data-search-go]'); if (g) { e.preventDefault(); var i = g.closest('.bp').querySelector('[data-sku-search]'); state.q = i ? i.value : ''; apply(); return; }
+      if (e.target.closest('[data-filter-reset]')) { e.preventDefault(); state.f = 'all'; state.q = ''; apply(); var first = $$('[data-filter="all"]'); first.forEach(function (b) { b.click(); }); }
+    });
+    if (state.f !== 'all' || state.q) { $$('[data-filter="' + state.f + '"]').forEach(function (b) { b.click(); }); }
+    apply();
+  })();
 
   // nút lên đầu trang, nút tải hồ sơ (in ra PDF)
   $$('[data-name="Scroll to Top Button"]').forEach(function (b) {

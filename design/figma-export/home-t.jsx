@@ -1,44 +1,45 @@
-const imgDecoPaperGrain = "https://www.figma.com/api/mcp/asset/db687a82-aaf0-467a-8ed5-a5f33622a09c.png";
-const imgDecoHalftone = "https://www.figma.com/api/mcp/asset/afb00fc8-5ed7-4e99-8b4e-7ee92203a200.png";
-const imgHeroPhoto = "https://www.figma.com/api/mcp/asset/15af2889-6234-42e5-a6f1-468445533a4c.png";
-const imgDecoBangKeo = "https://www.figma.com/api/mcp/asset/88a18fd2-39d6-41c6-9b2e-4e250e4d2f62.png";
-const imgNhGoiKhiDu = "https://www.figma.com/api/mcp/asset/c9bdbf40-5ad5-48b2-ac56-84a410de850d.png";
-const imgNhGoiDngB = "https://www.figma.com/api/mcp/asset/2acc2966-ace2-4d35-8559-c71b883023a5.png";
-const imgThumb = "https://www.figma.com/api/mcp/asset/9ca83552-dbaa-4c90-a35e-22acce8df0f5.png";
-const imgThumb1 = "https://www.figma.com/api/mcp/asset/07f191f0-ffbd-4140-992a-c2c7ac1fc477.png";
-const imgThumb2 = "https://www.figma.com/api/mcp/asset/d8867569-b4eb-4596-85c7-5c8f2d22c483.png";
-const imgThumb3 = "https://www.figma.com/api/mcp/asset/0b35722f-5f18-4a10-80c7-5cfc260552ad.png";
-const imgThumb4 = "https://www.figma.com/api/mcp/asset/33f74faa-de5b-4d2c-a7c7-54da803c2720.png";
-const imgThumb5 = "https://www.figma.com/api/mcp/asset/6048b334-ecb3-45ff-a45a-dc7daf0722f0.png";
-const imgFactoryPhoto = "https://www.figma.com/api/mcp/asset/5ebcf91f-7bb0-436f-8974-93d990400946.png";
-const imgWaveArt = "https://www.figma.com/api/mcp/asset/92364081-bb0c-446c-aa0b-effb3b67cdf0.png";
-const imgSDXngBnIn = "https://www.figma.com/api/mcp/asset/891b49dc-2ba6-48e8-b369-2634237c160e.png";
-const imgNhBiaFacebook = "https://www.figma.com/api/mcp/asset/17cfefc2-1229-4012-b151-670f137fccb3.png";
-const imgAvatarGoi = "https://www.figma.com/api/mcp/asset/e74c0091-68d4-4b74-b4e2-9d2f0c04963d.png";
-const imgIconBag = "https://www.figma.com/api/mcp/asset/3c0ef100-223b-4d2e-aabe-d6f16f8c8e2f.svg";
-const imgIconArrowUr = "https://www.figma.com/api/mcp/asset/0ba4094c-9f05-4ab8-ad70-9da77eb5922d.svg";
-const imgIconChevronDown = "https://www.figma.com/api/mcp/asset/32afdd57-d512-4856-8115-1f9fe33ea40c.svg";
-const imgTrailingIcon = "https://www.figma.com/api/mcp/asset/f36f9e7e-6447-4fb2-84e8-f0dcd9e19709.svg";
-const imgIconScissors = "https://www.figma.com/api/mcp/asset/ab6965c3-5ece-468f-882d-82e0b7ad687b.svg";
-const imgLine = "https://www.figma.com/api/mcp/asset/d9527fa6-1a64-429b-b216-57b83f21710c.svg";
-const imgIconCheck = "https://www.figma.com/api/mcp/asset/5f5544f3-4b83-4b8b-bb48-7f9157d56b82.svg";
-const imgDecoConDu = "https://www.figma.com/api/mcp/asset/4f2b84c4-aa56-4234-8cec-8c5340a3f362.svg";
-const imgEllipse = "https://www.figma.com/api/mcp/asset/1e681824-da06-40f1-890f-6c186a960928.svg";
-const imgGroup = "https://www.figma.com/api/mcp/asset/fb3d0319-6da9-4667-83ec-e85f9e31a90a.svg";
-const imgGroup1 = "https://www.figma.com/api/mcp/asset/14a26d68-fba3-4b99-8401-6391147f2c02.svg";
-const imgIconFacebook = "https://www.figma.com/api/mcp/asset/72cd3edc-202d-4519-8d4a-aefe2d1b21f6.svg";
-const imgIconYoutube = "https://www.figma.com/api/mcp/asset/2a05f209-df74-47bb-9eef-82b70bf83c54.svg";
-const imgIconTiktok = "https://www.figma.com/api/mcp/asset/9668674c-82e7-4b2b-b960-2b678af3d6d7.svg";
-const imgIconChat = "https://www.figma.com/api/mcp/asset/f50beab7-acb0-48b5-9df4-f0f3e4d223b5.svg";
-const imgIconPhone = "https://www.figma.com/api/mcp/asset/9166a021-f8f5-45a1-9094-ed5aad10613a.svg";
-const imgLeadingIcon = "https://www.figma.com/api/mcp/asset/6a924ce8-d601-45bc-95ec-88e76a0c77c0.svg";
-const imgIconPin = "https://www.figma.com/api/mcp/asset/780e5854-d255-480f-a917-ec53c276694b.svg";
-const imgIconPhone1 = "https://www.figma.com/api/mcp/asset/dfd3871b-e5bc-4977-85f4-a8ea77c06fd8.svg";
-const imgIconFactory = "https://www.figma.com/api/mcp/asset/48ca546b-7c48-41b8-94c4-eb7d94eafe23.svg";
-const imgIconChat1 = "https://www.figma.com/api/mcp/asset/d6205fa3-76dd-412b-a3b4-3e2713e95e87.svg";
-const imgIconPin1 = "https://www.figma.com/api/mcp/asset/9624fdc1-ce33-43b4-84f6-402dd0af17c9.svg";
-const imgIconArrowUr1 = "https://www.figma.com/api/mcp/asset/1cf606ae-5eb6-4a9c-be27-7fd9182c7883.svg";
-const imgIconFacebook1 = "https://www.figma.com/api/mcp/asset/71cea1ad-17fa-4fee-85c5-e194a23dde3d.svg";
+const imgDecoPaperGrain = "https://www.figma.com/api/mcp/asset/9747d3e5-95f7-4124-ae71-cf681a2ea32e.png";
+const imgDecoHalftone = "https://www.figma.com/api/mcp/asset/6c5ce1d7-d17c-4ff0-8201-fe20f79bc38d.png";
+const imgHeroPhoto = "https://www.figma.com/api/mcp/asset/322b5180-3048-4d58-be0a-5a5b6a388fb1.png";
+const imgDecoBangKeo = "https://www.figma.com/api/mcp/asset/4408da80-4dfd-4a5b-b71c-ca69c5dee066.png";
+const imgNhGoiKhiDu = "https://www.figma.com/api/mcp/asset/8d482a80-c322-4bd7-a7cb-e71a6c0b26ae.png";
+const imgNhGoiDngB = "https://www.figma.com/api/mcp/asset/b9786766-6811-4856-9853-12d1175a9ca8.png";
+const imgThumb = "https://www.figma.com/api/mcp/asset/ee676175-9725-49b5-9f4d-054c5c8b83b0.png";
+const imgThumb1 = "https://www.figma.com/api/mcp/asset/8f83003b-d3e4-4942-be7b-84061fdb0dc8.png";
+const imgThumb2 = "https://www.figma.com/api/mcp/asset/155eaeab-d3e9-43cc-a2a6-06a53866e047.png";
+const imgThumb3 = "https://www.figma.com/api/mcp/asset/5f14fc17-7d9b-4a52-b90a-17d81777a206.png";
+const imgThumb4 = "https://www.figma.com/api/mcp/asset/c93fe48f-d8ad-4c76-9c14-e0665f716c35.png";
+const imgThumb5 = "https://www.figma.com/api/mcp/asset/45a336a1-a77e-4efe-804f-a34dd7075215.png";
+const imgFactoryPhoto = "https://www.figma.com/api/mcp/asset/4eb43767-c5ca-4dce-8e46-6f75f9a140c2.png";
+const imgWaveArt = "https://www.figma.com/api/mcp/asset/ea8dc881-4d77-44e5-960c-5b1fab7ac046.png";
+const imgSDXngBnIn = "https://www.figma.com/api/mcp/asset/80be9d8d-8095-490d-b293-78c4a553ecc7.png";
+const imgNhBiaFacebook = "https://www.figma.com/api/mcp/asset/0957e54a-c29f-4261-9dfe-d5fd846a3abc.png";
+const imgAvatarGoi = "https://www.figma.com/api/mcp/asset/cac4648d-7d90-4b0a-b08d-ac5e946f4b25.png";
+const imgIconBag = "https://www.figma.com/api/mcp/asset/98a48b64-846f-4f0b-be57-4378ea8d3e99.svg";
+const imgTrailingIcon = "https://www.figma.com/api/mcp/asset/cfafdd64-f4fb-4325-8741-8345aaafcf93.svg";
+const imgIconMenu = "https://www.figma.com/api/mcp/asset/9f09a1a1-331a-413f-91dd-5d4dcd65b72d.svg";
+const imgIconChevronDown = "https://www.figma.com/api/mcp/asset/858b227e-1df7-436e-b5f6-5b538b7abf8c.svg";
+const imgIconScissors = "https://www.figma.com/api/mcp/asset/8b994224-9c56-4664-9360-b5c2078e2194.svg";
+const imgLine = "https://www.figma.com/api/mcp/asset/1cc6b28b-21af-41e1-9a33-c4540809731f.svg";
+const imgIconCheck = "https://www.figma.com/api/mcp/asset/2cea8a71-e19f-402a-96ba-2172608b0c50.svg";
+const imgTrailingIcon1 = "https://www.figma.com/api/mcp/asset/5b3889f7-87b0-4394-a33c-9d7cc6d79033.svg";
+const imgDecoConDu = "https://www.figma.com/api/mcp/asset/e500e496-9d0b-4cff-9a69-eff917c1368d.svg";
+const imgEllipse = "https://www.figma.com/api/mcp/asset/7b7f1bfa-79e0-4442-a6b9-7775b2a106a1.svg";
+const imgGroup = "https://www.figma.com/api/mcp/asset/c1fd0ca8-cb7d-42f5-9049-5dbeb24df803.svg";
+const imgGroup1 = "https://www.figma.com/api/mcp/asset/3aef8940-5b74-472c-ba76-3370872baac3.svg";
+const imgIconFacebook = "https://www.figma.com/api/mcp/asset/fee761db-a9de-4e21-b010-432f05d83d85.svg";
+const imgIconYoutube = "https://www.figma.com/api/mcp/asset/68f3a82c-05ae-47a6-9623-e90558640ebc.svg";
+const imgIconTiktok = "https://www.figma.com/api/mcp/asset/e9ca5cb9-f486-454d-a31d-637f7201ec06.svg";
+const imgIconChat = "https://www.figma.com/api/mcp/asset/060633be-9b41-4cd8-ab26-8c58ea7f1c71.svg";
+const imgIconPhone = "https://www.figma.com/api/mcp/asset/599d8029-c6c1-468f-aa8c-34a3594b4657.svg";
+const imgLeadingIcon = "https://www.figma.com/api/mcp/asset/e600efd1-6ae7-483f-ae2f-3197ec803c34.svg";
+const imgIconPin = "https://www.figma.com/api/mcp/asset/f8035a63-00ba-4108-a7a3-d6a883cbc876.svg";
+const imgIconPhone1 = "https://www.figma.com/api/mcp/asset/13806566-452d-43b6-9ce9-14d9cda06174.svg";
+const imgIconFactory = "https://www.figma.com/api/mcp/asset/97744520-3211-4e05-ad14-b25704b8af84.svg";
+const imgIconChat1 = "https://www.figma.com/api/mcp/asset/a6fc981d-8a4b-4806-8e18-b773b388edba.svg";
+const imgIconPin1 = "https://www.figma.com/api/mcp/asset/c721a993-23f8-40d4-95df-fb91949fddd8.svg";
+const imgIconArrowUr = "https://www.figma.com/api/mcp/asset/481daa83-7d36-439c-adf1-05d7457dc7b3.svg";
+const imgIconFacebook1 = "https://www.figma.com/api/mcp/asset/132b1a43-86fb-4cc7-a6c0-f645752e7eef.svg";
 
 export default function TrangChTablet834IPadResponsive() {
   return (
@@ -48,43 +49,34 @@ export default function TrangChTablet834IPadResponsive() {
           Xưởng in trực tiếp Quận 12 • 21 mẫu hộp có sẵn • Đặt theo set 100 • Hotline: 0387 365 020
         </p>
       </div>
-      <div className="bg-[var(--base\/white,white)] border border-[var(--line\/default,rgba(1,1,1,0.13))] border-solid content-stretch flex h-[82px] items-center justify-between p-[var(--spacing\/padding\/3xlarge,40px)] relative shrink-0 w-[834px]" data-node-id="134:7" data-name="01 - Header Tablet">
-        <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/heading-3,28px)] relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/heading-3,22px)] tracking-[var(--typography\/letter-spacing\/heading-3,-0.44px)] whitespace-nowrap" data-node-id="134:8">
-          GÓI
-        </p>
-        <div className="[word-break:break-word] content-stretch cursor-pointer flex font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] gap-[var(--dm-20,20px)] items-start leading-[0] not-italic overflow-clip relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/body-base,14px)] tracking-[var(--typography\/letter-spacing\/body-base,-0.14px)] whitespace-nowrap" data-node-id="134:9" data-name="Nav Pills">
-          <a className="block relative shrink-0" data-node-id="134:10">
-            <p className="leading-[var(--typography\/line-height\/body-base,20px)]">Hộp Cứng</p>
-          </a>
-          <a className="block relative shrink-0" data-node-id="134:11">
-            <p className="leading-[var(--typography\/line-height\/body-base,20px)]">Hộp Giấy</p>
-          </a>
-          <a className="block relative shrink-0" data-node-id="134:12">
-            <p className="leading-[var(--typography\/line-height\/body-base,20px)]">Túi Giấy</p>
-          </a>
-          <a className="block relative shrink-0" data-node-id="134:13">
-            <p className="leading-[var(--typography\/line-height\/body-base,20px)]">Mẫu Hộp</p>
-          </a>
-        </div>
-        <div className="content-stretch flex gap-[10px] items-center relative shrink-0" data-node-id="197:2596" data-name="Header Actions">
-          <div className="bg-[var(--base\/white,white)] border border-[var(--ink\/strong,#121212)] border-solid content-stretch flex items-center justify-center relative rounded-[var(--radius\/luxury,12px)] shrink-0 size-[40px]" data-node-id="197:2589" data-name="Cart Btn Icon">
-            <div className="relative shrink-0 size-[20px]" data-node-id="I197:2589;195:1594" data-name="Icon/bag">
+      <div className="bg-[var(--base\/white,white)] border-[var(--line\/default,rgba(1,1,1,0.13))] border-b border-solid content-stretch flex h-[72px] items-center justify-between px-[24px] relative shrink-0 w-full" data-node-id="226:4593" data-name="Header Navigation">
+        <a className="[word-break:break-word] block cursor-pointer font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[0] relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/heading-1,28px)] tracking-[var(--typography\/letter-spacing\/heading-1,-0.56px)] whitespace-nowrap" data-node-id="I226:4593;226:4457">
+          <p className="leading-[var(--typography\/line-height\/heading-1,36px)]">GÓI</p>
+        </a>
+        <div className="content-stretch flex gap-[10px] items-center relative shrink-0" data-node-id="I226:4593;226:4458" data-name="Header Actions">
+          <div className="bg-[var(--base\/white,white)] border border-[var(--ink\/strong,#121212)] border-solid content-stretch flex items-center justify-center relative rounded-[var(--radius\/luxury,12px)] shrink-0 size-[40px]" data-node-id="I226:4593;226:4459" data-name="Cart Btn Icon">
+            <div className="relative shrink-0 size-[20px]" data-node-id="I226:4593;226:4459;195:1594" data-name="Icon/bag">
               <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconBag} />
             </div>
-            <div className="absolute bg-[var(--brand\/red,#ff6bd5)] content-stretch flex h-[18px] items-center justify-center left-[28px] min-w-[18px] overflow-clip px-[5px] rounded-[var(--radius\/luxury,12px)] top-[-8px]" data-node-id="I197:2589;195:1598" data-name="Cart Count">
-              <p className="[word-break:break-word] font-['JetBrains_Mono:Bold'] font-bold leading-[normal] relative shrink-0 text-[11px] text-[color:var(--base\/white,white)] whitespace-nowrap" data-node-id="I197:2589;195:1599">
+            <div className="absolute bg-[var(--brand\/red,#ff6bd5)] content-stretch flex h-[18px] items-center justify-center left-[28px] min-w-[18px] overflow-clip px-[5px] rounded-[var(--radius\/luxury,12px)] top-[-8px]" data-node-id="I226:4593;226:4459;195:1598" data-name="Cart Count">
+              <p className="[word-break:break-word] font-['JetBrains_Mono:Bold'] font-bold leading-[normal] relative shrink-0 text-[11px] text-[color:var(--base\/white,white)] whitespace-nowrap" data-node-id="I226:4593;226:4459;195:1599">
                 2
               </p>
             </div>
           </div>
-          <button className="bg-[var(--brand\/red,#ff6bd5)] content-stretch cursor-pointer flex gap-[var(--spacing\/gap\/xsmall,8px)] h-[42px] items-center justify-center px-[var(--spacing\/padding\/large,20px)] relative rounded-[var(--radius\/luxury,12px)] shrink-0" data-node-id="148:116" data-name="Btn Báo Giá">
-            <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/button,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/button-label-l,20px)] not-italic relative shrink-0 text-[color:var(--base\/white,white)] text-[length:var(--typography\/font-size\/button-label-l,14px)] text-left tracking-[var(--typography\/letter-spacing\/button-label-l,0px)] whitespace-nowrap" data-node-id="I148:116;148:70">
+          <div className="bg-[var(--brand\/red,#ff6bd5)] content-stretch flex gap-[var(--spacing\/gap\/xsmall,8px)] h-[36px] items-center justify-center px-[var(--spacing\/padding\/medium,16px)] relative rounded-[var(--radius\/luxury,12px)] shrink-0 w-[160px]" data-node-id="I226:4593;226:4466" data-name="Btn Nhận Báo Giá">
+            <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/button,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/button-label-xs,12px)] not-italic relative shrink-0 text-[color:var(--base\/white,white)] text-[length:var(--typography\/font-size\/button-label-xs,12px)] tracking-[var(--typography\/letter-spacing\/button-label-xs,0px)] whitespace-nowrap" data-node-id="I226:4593;226:4466;148:76">
               NHẬN BÁO GIÁ
             </p>
-            <div className="relative shrink-0 size-[16px]" data-node-id="I148:116;148:71" data-name="Trailing icon">
-              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconArrowUr} />
+            <div className="relative shrink-0 size-[16px]" data-node-id="I226:4593;226:4466;148:77" data-name="Trailing icon">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTrailingIcon} />
             </div>
-          </button>
+          </div>
+          <div className="bg-[var(--base\/white,white)] border border-[var(--ink\/strong,#121212)] border-solid content-stretch flex items-center justify-center overflow-clip relative rounded-[var(--radius\/luxury,12px)] shrink-0 size-[40px]" data-node-id="I226:4593;226:4473" data-name="Btn Menu">
+            <div className="relative shrink-0 size-[20px]" data-node-id="I226:4593;226:4474" data-name="Icon/menu">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconMenu} />
+            </div>
+          </div>
         </div>
       </div>
       <div className="bg-[var(--base\/white,white)] content-stretch flex flex-col gap-[var(--dm-20,20px)] h-[660px] items-start overflow-clip p-[var(--spacing\/padding\/3xlarge,40px)] relative shrink-0 w-[834px]" data-node-id="134:16" data-name="02 - Hero Section Tablet">
@@ -365,7 +357,7 @@ export default function TrangChTablet834IPadResponsive() {
                 CHỌN GÓI NÀY
               </p>
               <div className="relative shrink-0 size-[16px]" data-node-id="I185:1198;148:113" data-name="Trailing icon">
-                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconArrowUr} />
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTrailingIcon1} />
               </div>
             </div>
           </div>
@@ -842,7 +834,7 @@ export default function TrangChTablet834IPadResponsive() {
                   Chỉ đường Google Maps
                 </p>
                 <div className="relative shrink-0 size-[12px]" data-node-id="I220:3505;219:2948" data-name="Icon/arrowUR">
-                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconArrowUr1} />
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconArrowUr} />
                 </div>
               </div>
             </div>

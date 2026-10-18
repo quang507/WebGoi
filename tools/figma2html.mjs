@@ -75,6 +75,10 @@ function hrefFor(el, ctx) {
   if (/^BẢNG GIÁ$/.test(T)) return '/bang-gia';
   if (/IN GIA CÔNG/.test(T)) return '/dich-vu';
   if (/^DANH MỤC CÓ SẴN/.test(T) || /^(HỘP CỨNG|HỘP CỨNG CAO CẤP|MẪU HỘP|KHO KHUÔN|HỘP GIẤY|HỘP GIẤY MỀM|TÚI GIẤY|HỘP CARTON SÓNG)$/.test(T) || /XEM TOÀN BỘ/.test(T)) return '/mau-hop';
+  if (/^XEM THÊM MẪU|^XEM TẤT CẢ \d+ MẪU/.test(T)) return '/mau-hop';
+  if (/^DỊCH VỤ$/.test(T)) return '/dich-vu';
+  if (/^QUY TRÌNH$/.test(T)) return '/quy-trinh';
+  if (/^Btn Gọi/.test(name)) return 'tel:0387365020';
   if (/GHÉ XƯỞNG/.test(T)) return '/lien-he';
   if (/^(DỰ ÁN ĐÃ BÀN GIAO)$/.test(T)) return '/thiet-ke';
   if (/^(BẢNG GIÁ XƯỞNG)$/.test(T)) return '/bang-gia';
@@ -161,6 +165,19 @@ async function convertFrame(el, kind, skuHref, ctx = {}) {
   }
   // thẻ Facebook: đánh dấu dòng số người theo dõi để JS cập nhật
   for (const card of el.querySelectorAll('[data-name="Kênh Facebook"]')) for (const t of card.querySelectorAll('p')) if (/người theo dõi/.test(t.text)) t.setAttribute('data-fb-followers', '');
+  // trang Mẫu hộp: tab lọc theo nhóm, ô tìm kiếm thật, chip gợi ý, mã trên thẻ
+  const FILTER = { 'Lọc Tất Cả': 'all', 'Lọc Quà Tết': 'qt', 'Lọc Thực Phẩm': 'tp', 'Lọc Thời Trang': 'tt', 'Lọc Tem Đai': 'tem' };
+  for (const b of el.querySelectorAll('[data-name^="Lọc "]')) { const f = FILTER[b.getAttribute('data-name')]; if (f) { b.setAttribute('data-filter', f); b.setAttribute('role', 'tab'); b.setAttribute('tabindex', '0'); } }
+  if (kind === 'listing') {
+    for (const box of el.querySelectorAll('[data-name="Search Input Row"], [data-name^="Smart Search"] [data-name="Icon + Label"]')) {
+      const ph = box.querySelector('p'); if (!ph) continue;
+      ph.replaceWith(toDom(`<input type="search" class="${ph.getAttribute('class') || ''}" data-goi-input data-sku-search placeholder="${ph.text.trim()}" aria-label="Tìm mẫu hộp theo món bạn bán" enterkeyhint="search">`).firstChild);
+    }
+    for (const t of el.querySelectorAll('[data-name="Quick Tags"] p, [data-name^="Tags Row"] p')) if (/^\[.*\]$/.test(t.text.trim())) { t.setAttribute('data-search-tag', t.text.trim().slice(1, -1)); t.setAttribute('role', 'button'); t.setAttribute('tabindex', '0'); }
+    for (const b of el.querySelectorAll('[data-name="Btn Tìm Mẫu"]')) b.setAttribute('data-search-go', '');
+    for (const c of el.querySelectorAll('[data-name^="SKU-"]')) c.setAttribute('data-sku', c.getAttribute('data-name').split(' ')[0]);
+  }
+  for (const b of el.querySelectorAll('[data-name="Btn Xem Tất Cả"]')) { b.setAttribute('data-filter-reset', ''); b.setAttribute('role', 'button'); b.setAttribute('tabindex', '0'); }
   // giỏ báo giá: nút mở giỏ, nút thêm vào giỏ, nút trong khung giỏ
   for (const b of el.querySelectorAll('[data-name="Cart Btn"], [data-name="Cart Btn Icon"]')) { b.setAttribute('data-cart-open', ''); b.setAttribute('role', 'button'); b.setAttribute('tabindex', '0'); b.setAttribute('aria-label', 'Mở giỏ báo giá'); }
   for (const c of el.querySelectorAll('[data-name="Cart Count"]')) { c.setAttribute('data-cart-count', ''); const t = c.querySelector('p'); if (t) t.set_content('0'); }
@@ -176,6 +193,8 @@ async function convertFrame(el, kind, skuHref, ctx = {}) {
     const q = it.querySelector('[data-name="Qty"] p'); if (q) q.setAttribute('data-name', 'Qty Value');
   }
   for (const r of el.querySelectorAll('[data-name="Title Row"]')) { const ps = r.childNodes.filter((n) => n.tagName === 'P'); if (ps[1]) ps[1].setAttribute('data-name', 'Cart Count Text'); }
+  for (const b of el.querySelectorAll('[data-name="Btn Menu"]')) { b.setAttribute('data-menu-open', ''); b.setAttribute('role', 'button'); b.setAttribute('tabindex', '0'); b.setAttribute('aria-label', 'Mở menu'); b.setAttribute('aria-expanded', 'false'); }
+  for (const b of el.querySelectorAll('[data-name="Btn Đóng Menu"]')) { b.setAttribute('data-menu-close', ''); b.setAttribute('role', 'button'); b.setAttribute('tabindex', '0'); b.setAttribute('aria-label', 'Đóng menu'); }
   for (const b of el.querySelectorAll('[data-name="Btn Đóng Giỏ"]')) { b.setAttribute('data-cart-close', ''); b.setAttribute('role', 'button'); b.setAttribute('tabindex', '0'); b.setAttribute('aria-label', 'Đóng giỏ'); }
   for (const b of el.querySelectorAll('[data-name="Btn Giảm"], [data-name="Btn Tăng"], [data-name="Btn Xoá"]')) { b.setAttribute('role', 'button'); b.setAttribute('tabindex', '0'); b.setAttribute('aria-label', { 'Btn Giảm': 'Giảm số lượng', 'Btn Tăng': 'Tăng số lượng', 'Btn Xoá': 'Bỏ khỏi giỏ' }[b.getAttribute('data-name')]); }
   for (const f of el.querySelectorAll('[data-name^="Giỏ Báo Giá"]')) { f.tagName = 'form'; f.setAttribute('data-cart-form', ''); f.setAttribute('novalidate', ''); }
@@ -193,7 +212,7 @@ async function convertFrame(el, kind, skuHref, ctx = {}) {
   // nút trong thiết kế chưa nối prototype -> thành thẻ <a>
   for (const b of el.querySelectorAll('[data-name]')) {
     const nm = b.getAttribute('data-name');
-    if (b.tagName !== 'A' && !b.closest('a') && !/^Btn (Thêm|Đóng Giỏ|Giảm|Tăng|Xoá)/.test(nm) && (/^(Btn|Nút|Search Input|Call Btn|Kênh (?!Của)|Social |Sơ Đồ Xưởng)/i.test(nm) || (b.parentNode && b.parentNode.getAttribute && b.parentNode.getAttribute('data-name') === 'Lưới 4 Mẫu Liên Quan') || b.querySelector(':scope > [data-name="Trailing icon"], :scope > [data-name="Label"]'))) b.tagName = 'a';
+    if (b.tagName !== 'A' && !b.closest('a') && !/^Btn (Thêm|Đóng Giỏ|Giảm|Tăng|Xoá|Menu|Đóng Menu|Tìm Mẫu|Xem Tất Cả)/.test(nm) && !/^Search Input/.test(nm) && (/^(Btn|Nút|Search Input|Call Btn|Kênh (?!Của)|Social |Sơ Đồ Xưởng|Menu Item)/i.test(nm) || (b.parentNode && b.parentNode.getAttribute && b.parentNode.getAttribute('data-name') === 'Lưới 4 Mẫu Liên Quan') || b.querySelector(':scope > [data-name="Trailing icon"], :scope > [data-name="Label"]'))) b.tagName = 'a';
   }
   // chữ trong header/footer có đích đến -> bọc <a>
   for (const sec of el.childNodes.filter((n) => kind !== 'cart' && n.nodeType === 1 && /Header|Nav|Footer|Topbar|Top Bar|Breadcrumb/i.test(n.getAttribute('data-name') || ''))) {
@@ -205,6 +224,7 @@ async function convertFrame(el, kind, skuHref, ctx = {}) {
   }
   // link
   for (const a of el.querySelectorAll('a')) { const h = hrefFor(a, { kind, skuHref, ...ctx }); if (!h && !a.hasAttribute('data-link')) { a.tagName = 'div'; continue; } if (h) { a.setAttribute('href', h); if (/^https?:/.test(h)) { a.setAttribute('target', '_blank'); a.setAttribute('rel', 'noopener'); } } }
+  if (ctx.url) for (const a of el.querySelectorAll('[data-name="Header Navigation"] a[href], [data-name="Nav Links"] a[href]')) { const h = a.getAttribute('href'); if (h === ctx.url || (ctx.url.startsWith('/mau-hop') && h === '/mau-hop')) a.setAttribute('aria-current', 'page'); }
   for (const a of el.querySelectorAll('a')) {
     const T = a.text.replace(/\s+/g, ' ').trim().toUpperCase();
     if (a.getAttribute('data-name') === 'Btn Gửi Báo Giá') a.setAttribute('data-quote-submit', '');
@@ -247,7 +267,7 @@ for (const f of ['home-d', 'home-t', 'home-m', 'profile-d', 'profile-t', 'listin
 { // batch-2: khung tạm chứa các frame nhỏ theo thứ tự (frame nhỏ không xuất ra file riêng được)
   const b = jsxToHtml(readFileSync(path.join(EXP, 'batch-2.jsx'), 'utf8'));
   const dom = toDom(b.html); const kids = dom.firstChild.childNodes.filter((n) => n.nodeType === 1);
-  ['profile-m', 'pdp-t', 'pdp-m', 'cart-d', 'cart-m', 'cart-empty'].forEach((k, i) => {
+  ['profile-m', 'pdp-t', 'pdp-m', 'cart-d', 'cart-m', 'cart-empty', 'menu', 'empty-search', 'cart-sent'].forEach((k, i) => {
     const c = kids[i]; const cls = (c.getAttribute('class') || '').split(/\s+/).filter((t) => !/^(absolute|left-\[|top-\[|top-0|left-0)/.test(t));
     c.setAttribute('class', ['relative', ...cls].join(' '));
     frames[k] = { html: c.toString(), assets: b.assets };
@@ -255,6 +275,8 @@ for (const f of ['home-d', 'home-t', 'home-m', 'profile-d', 'profile-t', 'listin
 }
 
 // ---------- giỏ báo giá: dựng 1 lần từ frame "Giỏ Báo Giá", chèn vào mọi trang ----------
+async function sentHtml() { const el = toDom(frames['cart-sent'].html).firstChild; await convertFrame(el, 'cart', () => '/mau-hop'); const b = el.querySelector('[data-name="Sent State"]'); return fixTiles(await resolveAssets(b.toString(), frames['cart-sent'].assets)).replace(/ data-(reveal|parallax|crop|cut|draw|card|sticky)(="[^"]*")?/g, ''); }
+async function emptySearchHtml() { const el = toDom(frames['empty-search'].html).firstChild; await convertFrame(el, 'cart', () => '/mau-hop'); return fixTiles(await resolveAssets(el.toString(), frames['empty-search'].assets)).replace(/ data-(reveal|parallax|crop|cut|draw|card|sticky)(="[^"]*")?/g, ''); }
 async function cartHtml() {
   // khung giỏ nằm ngoài luồng cuộn trang -> bỏ hiệu ứng hiện dần/parallax
   const calm = (h) => h.replace(/ data-(reveal|parallax|crop|cut|draw|card|sticky)(="[^"]*")?/g, '');
@@ -265,7 +287,7 @@ async function cartHtml() {
   return `\n<div class="goi-cart" data-cart aria-hidden="true"><div class="goi-cart__scrim" data-cart-close></div>
 <div class="goi-cart__panel" role="dialog" aria-modal="true" aria-label="Giỏ báo giá">
 <div class="goi-cart__v goi-cart__v-d">${await part('cart-d')}</div><div class="goi-cart__v goi-cart__v-m">${await part('cart-m')}</div>
-</div><template data-cart-empty>${emptyHtml}</template></div>
+</div><template data-cart-empty>${emptyHtml}</template><template data-cart-sent>${await sentHtml()}</template></div>
 <script type="application/json" id="goi-skus">${JSON.stringify(CART_SKUS)}</script>`;
 }
 
@@ -289,17 +311,23 @@ async function buildPage(p, frameKeys, skuHref, mutate) {
     const fr = frames[frameKeys[bp]]; if (!fr) continue;
     const dom = toDom(fr.html); const el = dom.firstChild;
     if (mutate) mutate(el, bp);
-    await convertFrame(el, p.kind, skuHref, { khuon: p.khuon, skuName: p.skuName, skuCode: p.skuCode });
+    await convertFrame(el, p.kind, skuHref, { khuon: p.khuon, skuName: p.skuName, skuCode: p.skuCode, url: p.url });
     let html = fixTiles(await resolveAssets(el.toString(), fr.assets));
     body += `\n<div class="bp bp-${bp}" style="--w:${W[bp]}"${bp === 'd' ? '' : ' aria-hidden="false"'}>${html}</div>`;
   }
-  const out = head({ ...p, v }) + body + CART + `\n<script src="/js/goi-motion.js?v=${v}" defer></script>\n</body></html>\n`;
+  const extra = p.kind === 'listing' ? `
+<template data-empty-search>${EMPTY_SEARCH}</template>` : '';
+  const out = head({ ...p, v }) + body + CART + MENU + extra + `\n<script src="/js/goi-motion.js?v=${v}" defer></script>\n</body></html>\n`;
   const file = path.join(ROOT, p.file); mkdirSync(path.dirname(file), { recursive: true }); writeFileSync(file, out);
   console.log('✓', p.file, (out.length / 1024).toFixed(0) + 'KB');
 }
 
 const skuHref = (code) => '/mau-hop/' + code.replace(/^SKU-/, '').toLowerCase().replace(/[^a-z0-9]/g, '');
 const CART = await cartHtml();
+const EMPTY_SEARCH = await emptySearchHtml();
+const MENU = await (async () => { const el = toDom(frames.menu.html).firstChild; await convertFrame(el, 'cart', () => '/mau-hop'); el.setAttribute('class', (el.getAttribute('class') || '') + ' goi-menu__panel'); el.setAttribute('role', 'dialog'); el.setAttribute('aria-modal', 'true'); el.setAttribute('aria-label', 'Menu');
+  return `
+<div class="goi-menu" data-menu aria-hidden="true"><div class="goi-menu__scrim" data-menu-close></div>${fixTiles(await resolveAssets(el.toString(), frames.menu.assets)).replace(/ data-(reveal|parallax|crop|cut|draw|card|sticky)(="[^"]*")?/g, '')}</div>`; })();
 for (const p of PAGES) await buildPage(p, p.frames, skuHref, p.mutate);
 for (const p of SKU_PAGES) await buildPage(p, p.frames, skuHref, p.mutate);
 writeFileSync(path.join(ROOT, 'css/goi-atoms.css'), '/* Tự sinh từ Figma — không sửa tay. tools/figma2html.mjs */\n' + atoms.css() + '\n');

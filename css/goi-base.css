@@ -165,3 +165,36 @@ html.goi-cart-open{overflow:hidden}
 .goi-ngan [data-name="Ngăn Nội Dung"]{max-height:0;overflow:hidden;padding-bottom:0 !important;transition:max-height .3s cubic-bezier(.2,.8,.2,1),padding .3s}
 .goi-ngan.is-open [data-name="Ngăn Nội Dung"]{padding-bottom:16px !important}
 @media (prefers-reduced-motion:reduce){.goi-ngan [data-name="Ngăn Nội Dung"],.goi-ngan [data-name^="Icon/chevron"]{transition:none}}
+
+/* ---------- menu mobile/tablet (dựng từ frame "Menu Mobile 390") ---------- */
+.goi-menu{position:fixed;inset:0;z-index:1001;visibility:hidden;pointer-events:none}
+.goi-menu.is-open{visibility:visible;pointer-events:auto}
+.goi-menu__scrim{position:absolute;inset:0;background:rgba(23,24,28,.45);opacity:0;transition:opacity .28s ease}
+.goi-menu.is-open .goi-menu__scrim{opacity:1}
+.goi-menu__panel{position:absolute !important;top:0;right:0;left:auto !important;max-height:100%;overflow-y:auto;overscroll-behavior:contain;transform:translateX(100%);transition:transform .32s cubic-bezier(.2,.8,.2,1);box-shadow:-12px 0 40px rgba(23,24,28,.18)}
+.goi-menu.is-open .goi-menu__panel{transform:none}
+@media (max-width:599.98px){.goi-menu__panel{zoom:var(--z,1);height:calc(100% / var(--z,1));max-height:none}}
+html.goi-menu-open{overflow:hidden}
+[data-menu-open],[data-menu-close]{cursor:pointer}
+[data-name="Menu Item"]{transition:background-color .15s ease}
+[data-name="Menu Item"]:hover{background-color:var(--paper-light,#FAF8F5)}
+[data-name="Menu Item"][aria-current="page"] p{color:#D7262B !important}
+[data-name="Header Navigation"] a[aria-current="page"] p,[data-name="Nav Links"] a[aria-current="page"] p{color:#D7262B !important}
+@media (prefers-reduced-motion:reduce){.goi-menu__panel,.goi-menu__scrim{transition:none}}
+
+/* ---------- trạng thái: lỗi ô nhập, giỏ đã gửi, tìm không ra ---------- */
+.goi-err-msg{margin:6px 0 0;color:#D7262B;font:400 12px/1.4 Inter,system-ui,sans-serif}
+.goi-cart__sent{display:none}
+.is-sent > *:not(.goi-cart__sent):not([data-name="Cart Header"]){display:none !important}
+.is-sent > .goi-cart__sent{display:block}
+.is-sent [data-name="Cart Count Text"]{display:none}
+.goi-cart__sent > *{width:100% !important}
+.goi-empty-search{display:flex;justify-content:center;padding:8px 0 32px;width:100%}
+.goi-empty-search[hidden]{display:none}
+.goi-empty-search > *{max-width:560px;width:100% !important}
+[data-filter],[data-search-tag]{cursor:pointer}
+[data-search-tag]:hover{color:#D7262B !important;text-decoration:underline}
+[data-name^="Bộ Lọc"]{overflow-x:auto !important;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+[data-name^="Bộ Lọc"]::-webkit-scrollbar{display:none}
+[data-name^="Bộ Lọc"] > *{flex-shrink:0}
+input[data-sku-search]::-webkit-search-cancel-button{cursor:pointer}
