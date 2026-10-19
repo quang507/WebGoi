@@ -1,37 +1,37 @@
-const imgDecoHalftone = "https://www.figma.com/api/mcp/asset/7b79efc1-eca4-4746-aa75-0f17b57c2fac.png";
-const imgDecoPaperGrain = "https://www.figma.com/api/mcp/asset/e6ebdc27-0bf7-4a86-9a86-31d306ce1447.png";
-const imgNhB = "https://www.figma.com/api/mcp/asset/09056a63-38ce-4a48-befa-608b715e51d1.png";
-const imgNhB1 = "https://www.figma.com/api/mcp/asset/0d613134-c795-4803-bf68-64294e2359d1.png";
-const imgNhB2 = "https://www.figma.com/api/mcp/asset/14851208-e647-4d32-898f-e9eedc7af3b0.png";
-const imgNhB3 = "https://www.figma.com/api/mcp/asset/1afe5b7f-3e1a-4668-99ed-6ebef914982a.png";
-const imgNhB4 = "https://www.figma.com/api/mcp/asset/78746960-3350-42c6-a489-a31192390c72.png";
-const imgNhB5 = "https://www.figma.com/api/mcp/asset/428fc6bf-49ff-481f-bdf9-402e4c1641b9.png";
-const imgSDXngBnIn = "https://www.figma.com/api/mcp/asset/bd6e9663-4485-49cd-8a8e-e9134719f4dc.png";
-const imgNhBiaFacebook = "https://www.figma.com/api/mcp/asset/cb182e72-92b4-409e-9728-ca8913b3a014.png";
-const imgAvatarGoi = "https://www.figma.com/api/mcp/asset/0f8e3086-8ad1-46e2-9ef1-aa2117fd7dd4.png";
-const imgDecoRegistration = "https://www.figma.com/api/mcp/asset/5e043a1d-b61f-4839-b2a3-fb6f552cbc01.svg";
-const imgIconPhone = "https://www.figma.com/api/mcp/asset/feba78a2-2ca2-47db-a71d-414a478c8e95.svg";
-const imgIconBag = "https://www.figma.com/api/mcp/asset/c7db86b0-8de8-433c-85c6-aeacece109b4.svg";
-const imgTrailingIcon = "https://www.figma.com/api/mcp/asset/c9ec2514-85c5-48ce-8075-4f436f177f55.svg";
-const imgGroup = "https://www.figma.com/api/mcp/asset/3589b642-46c7-429a-89f7-f49aef8633b7.svg";
-const imgIconScissors = "https://www.figma.com/api/mcp/asset/323511b6-eaf2-4ffb-9e7b-65cd33a8a805.svg";
-const imgLine = "https://www.figma.com/api/mcp/asset/54a48b52-928d-4f03-8a6c-dc3b400cbd51.svg";
-const imgIconArrowR = "https://www.figma.com/api/mcp/asset/7621bbb9-0dfa-4075-ae0a-dc1734c826eb.svg";
-const imgTrailingIcon1 = "https://www.figma.com/api/mcp/asset/3b120c98-70ea-4ed0-822b-e6c0141332cf.svg";
-const imgIconFacebook = "https://www.figma.com/api/mcp/asset/fed02df5-6448-4709-95ca-1826c7ed532b.svg";
-const imgIconYoutube = "https://www.figma.com/api/mcp/asset/1dc0b0ca-ddef-4499-b61d-d63707eb72be.svg";
-const imgIconTiktok = "https://www.figma.com/api/mcp/asset/0234ddef-e589-4f8e-8884-22973226456a.svg";
-const imgIconChat = "https://www.figma.com/api/mcp/asset/4e406c97-1932-4802-8fed-b3baef1ab87c.svg";
-const imgIconPin = "https://www.figma.com/api/mcp/asset/de06bcef-e4f7-4378-997a-cb9b6d37b88c.svg";
-const imgIconPhone1 = "https://www.figma.com/api/mcp/asset/a00c786b-f0e9-4a9a-92f7-98de4da35196.svg";
-const imgIconFactory = "https://www.figma.com/api/mcp/asset/aa54ede8-fd41-48f9-9c1d-e7dc27751a17.svg";
-const imgIconChat1 = "https://www.figma.com/api/mcp/asset/8ca252ab-80f0-4039-a704-e0337f040545.svg";
-const imgIconArrowU = "https://www.figma.com/api/mcp/asset/e6673e7b-aca2-454c-b075-facd1717e435.svg";
-const imgIconChat2 = "https://www.figma.com/api/mcp/asset/45b41713-adf2-4a37-ad25-7ed55ab7a402.svg";
-const imgDecoRegistration1 = "https://www.figma.com/api/mcp/asset/2068b03a-8ff7-4d44-be9b-a70cdeb8b664.svg";
-const imgIconPin1 = "https://www.figma.com/api/mcp/asset/43f90273-8454-4286-966d-75e53ebd7a2e.svg";
-const imgIconArrowUr = "https://www.figma.com/api/mcp/asset/9e3536cf-29f0-435d-b82b-e53e5ba4c784.svg";
-const imgIconChat3 = "https://www.figma.com/api/mcp/asset/b88ea212-37f0-416d-9f2b-e107cca898d3.svg";
+const imgDecoHalftone = "https://www.figma.com/api/mcp/asset/3a95e5eb-6eed-41c1-ac14-832e154ac534.png";
+const imgDecoPaperGrain = "https://www.figma.com/api/mcp/asset/2cc64687-35c7-4d24-88a7-b76be7608c83.png";
+const imgNhB = "https://www.figma.com/api/mcp/asset/07c40d06-bff5-4ac7-86bb-661996dacab4.png";
+const imgNhB1 = "https://www.figma.com/api/mcp/asset/3e2391b5-b49b-444e-b7f1-7fcf242f54ec.png";
+const imgNhB2 = "https://www.figma.com/api/mcp/asset/e9b838ce-a061-46e4-8b1e-20aada9b0776.png";
+const imgNhB3 = "https://www.figma.com/api/mcp/asset/67a22f5c-1d84-47e6-98db-5b86f96a8cd9.png";
+const imgNhB4 = "https://www.figma.com/api/mcp/asset/02f74309-6153-46b3-9e62-55865efb625c.png";
+const imgNhB5 = "https://www.figma.com/api/mcp/asset/80c94971-7858-468c-98d0-f8938a2ef63c.png";
+const imgSDXngBnIn = "https://www.figma.com/api/mcp/asset/1f598ca5-7e16-417d-a23f-3153647221ce.png";
+const imgNhBiaFacebook = "https://www.figma.com/api/mcp/asset/e2dd24c2-1912-4bcf-8fd4-138328635d82.png";
+const imgAvatarGoi = "https://www.figma.com/api/mcp/asset/df5cf596-5fa5-4e1e-b0e0-6ea65d0fa2ca.png";
+const imgDecoRegistration = "https://www.figma.com/api/mcp/asset/1ff4c417-494a-4eab-9e79-9aa010eac2ce.svg";
+const imgIconPhone = "https://www.figma.com/api/mcp/asset/d9a03655-cd68-4dbc-8137-a373ba99441e.svg";
+const imgIconBag = "https://www.figma.com/api/mcp/asset/d9daad5f-7f32-4ef1-bc1d-2ca0b595c64c.svg";
+const imgTrailingIcon = "https://www.figma.com/api/mcp/asset/13b112c3-b957-4bfa-a008-d8f2534ce89b.svg";
+const imgGroup = "https://www.figma.com/api/mcp/asset/16c68e82-7fc0-4ff9-931d-c4c0170f3c90.svg";
+const imgIconScissors = "https://www.figma.com/api/mcp/asset/759bcfc5-04a5-4875-9d51-f6e1ab2e06e8.svg";
+const imgLine = "https://www.figma.com/api/mcp/asset/721e29d9-50b4-4912-932a-73087c5527a0.svg";
+const imgIconArrowR = "https://www.figma.com/api/mcp/asset/5c16ab7a-9f31-423d-b17b-cb680cad9bf8.svg";
+const imgTrailingIcon1 = "https://www.figma.com/api/mcp/asset/c5bc0889-0f70-4401-a935-02d0b3eaafdb.svg";
+const imgIconFacebook = "https://www.figma.com/api/mcp/asset/9549ed11-0685-4deb-862f-187c7a2fc07a.svg";
+const imgIconYoutube = "https://www.figma.com/api/mcp/asset/4c4775f4-1b38-4edc-b40b-d75e972a7a80.svg";
+const imgIconTiktok = "https://www.figma.com/api/mcp/asset/472ca6d6-4218-4493-9c6e-f346a8beb9d3.svg";
+const imgIconChat = "https://www.figma.com/api/mcp/asset/09cd0fe0-9787-4e3d-96fb-f0d8cf00261d.svg";
+const imgIconPin = "https://www.figma.com/api/mcp/asset/728e40a0-d5b8-45c2-842f-b1d67fb8e596.svg";
+const imgIconPhone1 = "https://www.figma.com/api/mcp/asset/8577463b-0ad3-4fcc-aca6-780f553341f0.svg";
+const imgIconFactory = "https://www.figma.com/api/mcp/asset/3d3508a3-70a9-4ecc-b6c5-876822c26857.svg";
+const imgIconChat1 = "https://www.figma.com/api/mcp/asset/51e8a2f1-07d0-4f7f-b20d-1cedd2f6565b.svg";
+const imgIconArrowU = "https://www.figma.com/api/mcp/asset/68c08d51-e572-4fee-af72-cf2eeb7dc0a0.svg";
+const imgIconChat2 = "https://www.figma.com/api/mcp/asset/561ee583-0cde-49e9-82ac-aea43f1a6488.svg";
+const imgDecoRegistration1 = "https://www.figma.com/api/mcp/asset/3c02a590-67d8-49b7-af0b-0215a5b39053.svg";
+const imgIconPin1 = "https://www.figma.com/api/mcp/asset/d08b6bb5-516d-455b-9bed-d30c4baa3cf3.svg";
+const imgIconArrowUr = "https://www.figma.com/api/mcp/asset/3cb8c82a-71c4-4d28-9baf-919f97c91590.svg";
+const imgIconChat3 = "https://www.figma.com/api/mcp/asset/94a971c0-923f-48d5-a0d8-11ea483555b2.svg";
 
 function DecoHalftone({ className }: { className?: string }) {
   return (
@@ -152,7 +152,7 @@ export default function ThitKDesktop1440() {
           Chưa có thiết kế? Mỗi bộ đã phối xong màu và hoạ tiết theo một mẫu hộp. Bạn đặt logo của mình lên, đổi lời chúc, rồi in.
         </p>
       </div>
-      <div className="bg-[var(--paper\/light,#f7f7f7)] content-stretch flex flex-col gap-[28px] items-start overflow-clip px-[64px] py-[72px] relative shrink-0 w-full" data-node-id="240:9743" data-name="Danh Sách Bộ Thiết Kế">
+      <div className="bg-[var(--paper\/light,#f7f7f7)] content-stretch flex flex-col gap-[28px] items-start overflow-clip px-[64px] py-[96px] relative shrink-0 w-full" data-node-id="240:9743" data-name="Danh Sách Bộ Thiết Kế">
         <div className="absolute bg-size-[200px_200px] bg-top-left h-[5000px] left-0 top-0 w-[1440px]" data-node-id="240:9744" style={{ backgroundImage: `url("${imgDecoPaperGrain}")` }} data-name="Deco · Paper grain" />
         <div className="content-stretch flex gap-[10px] h-[20px] items-center relative shrink-0 w-full" data-node-id="240:9745" data-name="Deco/Dieline Divider">
           <div className="relative shrink-0 size-[16px]" data-node-id="I240:9745;158:579" data-name="Icon / scissors">

@@ -1,32 +1,32 @@
-const imgHeroSectionTablet = "https://www.figma.com/api/mcp/asset/d66ea1c8-27ff-4dc9-862b-7d2747404b4e.png";
-const imgDecoPaperGrain = "https://www.figma.com/api/mcp/asset/c7524c4d-6428-49aa-9003-456513d8008b.png";
-const imgDecoHalftone = "https://www.figma.com/api/mcp/asset/c39e7e20-7855-462e-96b7-558551cd12f9.png";
-const imgNhXngTablet = "https://www.figma.com/api/mcp/asset/21885c55-b517-48e4-8992-c1f4af0cadd9.png";
-const imgSDXngBnIn = "https://www.figma.com/api/mcp/asset/01803ffa-9f67-4fe4-921e-bc0491b7081f.png";
-const imgNhBiaFacebook = "https://www.figma.com/api/mcp/asset/31fd1cc8-55c5-4bd8-8c8a-adda2e266512.png";
-const imgAvatarGoi = "https://www.figma.com/api/mcp/asset/783ab7a9-71e5-46eb-be14-76876ca767c3.png";
-const imgDecoRegistration = "https://www.figma.com/api/mcp/asset/26c75a47-111c-483f-ab5a-2e25f07ea746.svg";
-const imgIconBag = "https://www.figma.com/api/mcp/asset/44f16173-92a8-48f9-abaf-40722e49ce2f.svg";
-const imgTrailingIcon = "https://www.figma.com/api/mcp/asset/bcf852c5-6ecd-489c-b69a-a7711d7480bd.svg";
-const imgIconMenu = "https://www.figma.com/api/mcp/asset/bcfd9489-5676-4a4c-bb83-3095bff60e7f.svg";
-const imgDecoConDu = "https://www.figma.com/api/mcp/asset/dafce064-6d53-46c0-81f9-8d2556bad3c7.svg";
-const imgEllipse = "https://www.figma.com/api/mcp/asset/169baf74-7877-4807-9a74-a74c960a40f9.svg";
-const imgGroup = "https://www.figma.com/api/mcp/asset/dc557f9e-d4e9-40e3-a10a-de8e44ca9c09.svg";
-const imgIconBox = "https://www.figma.com/api/mcp/asset/d359cd78-8a9a-4fa8-8df0-198c7de863df.svg";
-const imgIconCheck = "https://www.figma.com/api/mcp/asset/b75b6fa5-c3d8-4f6f-b2f2-0cb092734f3b.svg";
-const imgIconFacebook = "https://www.figma.com/api/mcp/asset/336373ab-5793-406b-9e8c-8bf7bc6ad58b.svg";
-const imgIconYoutube = "https://www.figma.com/api/mcp/asset/b5527b05-b7d0-4d2f-9f60-d9934a8e1e9b.svg";
-const imgIconTiktok = "https://www.figma.com/api/mcp/asset/4e431a18-da81-411c-ad0e-8ff1e2329af9.svg";
-const imgIconChat = "https://www.figma.com/api/mcp/asset/f2fb56eb-47ee-48b6-8d81-912e74652715.svg";
-const imgIconPhone = "https://www.figma.com/api/mcp/asset/30cde212-9cec-4802-aba6-85d1f21e9e25.svg";
-const imgLeadingIcon = "https://www.figma.com/api/mcp/asset/8e929300-1c3c-4a1e-a5ea-3ed69bac438c.svg";
-const imgIconPin = "https://www.figma.com/api/mcp/asset/0e34041e-f865-4e1f-8012-7a05cf1c470c.svg";
-const imgIconPhone1 = "https://www.figma.com/api/mcp/asset/1b3154e3-2377-49a7-8f33-d540ab620c8d.svg";
-const imgIconFactory = "https://www.figma.com/api/mcp/asset/f56fbd1b-ef06-4e54-be88-0a0269aed539.svg";
-const imgIconChat1 = "https://www.figma.com/api/mcp/asset/b718df25-427c-4e98-b9e4-3f3efa01ce45.svg";
-const imgIconPin1 = "https://www.figma.com/api/mcp/asset/5bd09cb8-c394-4ed7-a45e-e41ae6cf0fda.svg";
-const imgIconArrowUr = "https://www.figma.com/api/mcp/asset/6a5260f1-7819-47a8-af36-7721c5edc32a.svg";
-const imgIconFacebook1 = "https://www.figma.com/api/mcp/asset/5c50cb76-d8a6-4edd-b1a7-8ab2bd249ad4.svg";
+const imgHeroSectionTablet = "https://www.figma.com/api/mcp/asset/a5002521-5ae3-4708-bf2f-5401ee01a1d9.png";
+const imgDecoPaperGrain = "https://www.figma.com/api/mcp/asset/dd16bbfb-0831-40e4-aad0-34d5da887962.png";
+const imgDecoHalftone = "https://www.figma.com/api/mcp/asset/345aba7a-d5c4-4bc8-b590-698015c3c873.png";
+const imgNhXngTablet = "https://www.figma.com/api/mcp/asset/f245c39a-8530-4df3-a715-64da58d19be7.png";
+const imgSDXngBnIn = "https://www.figma.com/api/mcp/asset/6d718d31-7189-4e6c-817a-63afa7928e97.png";
+const imgNhBiaFacebook = "https://www.figma.com/api/mcp/asset/0e9041fe-17c5-4748-b1d2-da2adca2ba57.png";
+const imgAvatarGoi = "https://www.figma.com/api/mcp/asset/d59bb3fa-5d7a-4182-94be-c77da70c6488.png";
+const imgDecoRegistration = "https://www.figma.com/api/mcp/asset/def2376b-3290-45a7-9059-a8d00c4f66f8.svg";
+const imgIconBag = "https://www.figma.com/api/mcp/asset/8cf4014d-5622-4e93-88cf-d07bf8cb0bf8.svg";
+const imgTrailingIcon = "https://www.figma.com/api/mcp/asset/a3f9c3fd-6834-4833-93fd-ebc3c3be8b80.svg";
+const imgIconMenu = "https://www.figma.com/api/mcp/asset/c0a4a464-084b-478a-b3ea-9aae86b72fd3.svg";
+const imgDecoConDu = "https://www.figma.com/api/mcp/asset/5946af20-33e9-48a6-ab10-9fd9c32b500e.svg";
+const imgEllipse = "https://www.figma.com/api/mcp/asset/97ec6fb2-5777-40b6-86aa-6d6f912b5fcf.svg";
+const imgGroup = "https://www.figma.com/api/mcp/asset/2fba52dc-023f-4d8b-87a9-47b3cec778fa.svg";
+const imgIconBox = "https://www.figma.com/api/mcp/asset/3a573ec1-1998-49dd-8015-70a569b79dcb.svg";
+const imgIconCheck = "https://www.figma.com/api/mcp/asset/618ba5ed-cfd1-440a-8c69-5f3abdd7c188.svg";
+const imgIconFacebook = "https://www.figma.com/api/mcp/asset/93d8ac97-19c7-4786-b6d1-4c72d70dd803.svg";
+const imgIconYoutube = "https://www.figma.com/api/mcp/asset/ba8bd3b2-6791-4f3f-8f9a-291cbc0a32f2.svg";
+const imgIconTiktok = "https://www.figma.com/api/mcp/asset/37ea497d-fb51-4a21-94b5-973c107ae8ca.svg";
+const imgIconChat = "https://www.figma.com/api/mcp/asset/db16194b-88be-4c5b-aaf0-2e3edb8b013f.svg";
+const imgIconPhone = "https://www.figma.com/api/mcp/asset/66abfb5e-2b3c-4e4b-b4be-14597b8e9c3e.svg";
+const imgLeadingIcon = "https://www.figma.com/api/mcp/asset/e8f536ec-dc96-4f26-ad2e-b426e4acf2ad.svg";
+const imgIconPin = "https://www.figma.com/api/mcp/asset/12e88030-77e0-4bcd-a694-33e8840f3204.svg";
+const imgIconPhone1 = "https://www.figma.com/api/mcp/asset/195320b6-5968-45e5-ac39-13f95ca10bd3.svg";
+const imgIconFactory = "https://www.figma.com/api/mcp/asset/19c255b6-b4d7-4ba4-a79e-64efc202a0c9.svg";
+const imgIconChat1 = "https://www.figma.com/api/mcp/asset/228a9c3d-7688-4700-bffb-43324b2234bb.svg";
+const imgIconPin1 = "https://www.figma.com/api/mcp/asset/64e1beb4-71b7-4519-a535-24e939deff36.svg";
+const imgIconArrowUr = "https://www.figma.com/api/mcp/asset/87b97548-4142-4629-84b7-581715bc1cde.svg";
+const imgIconFacebook1 = "https://www.figma.com/api/mcp/asset/7b9b52d6-892e-4dea-8736-a59654ed42f1.svg";
 
 export default function HSNangLcTablet834Px() {
   return (
@@ -157,7 +157,7 @@ export default function HSNangLcTablet834Px() {
           </div>
         </div>
       </div>
-      <div className="bg-[var(--base\/white,white)] content-stretch flex flex-col gap-[var(--spacing\/gap\/medium,16px)] h-[640px] items-start overflow-clip p-[var(--spacing\/padding\/2xlarge,32px)] relative shrink-0 w-[834px]" data-node-id="134:879" data-name="Về GÓI Tablet">
+      <div className="bg-[var(--base\/white,white)] content-stretch flex flex-col gap-[var(--spacing\/gap\/medium,16px)] h-[720px] items-start overflow-clip px-[var(--spacing\/padding\/2xlarge,32px)] py-[72px] relative shrink-0 w-[834px]" data-node-id="134:879" data-name="Về GÓI Tablet">
         <div className="absolute bg-size-[50px_50px] bg-top-left inset-0" data-node-id="161:902" style={{ backgroundImage: `url("${imgDecoPaperGrain}")` }} data-name="Deco · Paper grain" />
         <div className="h-[340px] relative rounded-[var(--radius\/luxury,12px)] shrink-0 w-[770px]" data-node-id="134:880" data-name="Ảnh Xưởng Tablet">
           <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[var(--radius\/luxury,12px)] size-full" src={imgNhXngTablet} />
@@ -193,7 +193,7 @@ export default function HSNangLcTablet834Px() {
           </div>
         </div>
       </div>
-      <div className="bg-[var(--paper\/light,#f7f7f7)] content-stretch flex flex-col gap-[var(--spacing\/gap\/medium,16px)] h-[800px] items-start overflow-clip p-[var(--spacing\/padding\/2xlarge,32px)] relative shrink-0 w-[834px]" data-node-id="134:883" data-name="Máy Móc Tablet (2 Cột)">
+      <div className="bg-[var(--paper\/light,#f7f7f7)] content-stretch flex flex-col gap-[var(--spacing\/gap\/medium,16px)] h-[880px] items-start overflow-clip px-[var(--spacing\/padding\/2xlarge,32px)] py-[72px] relative shrink-0 w-[834px]" data-node-id="134:883" data-name="Máy Móc Tablet (2 Cột)">
         <div className="absolute bg-size-[50px_50px] bg-top-left inset-0" data-node-id="161:912" style={{ backgroundImage: `url("${imgDecoPaperGrain}")` }} data-name="Deco · Paper grain" />
         <div className="absolute h-[373.244px] left-[414px] opacity-10 top-[-30px] w-[380px]" data-node-id="185:1648" data-name="Deco · Khuôn TT001">
           <div className="absolute inset-[2.26%_2.22%_11.01%_2.22%]" data-node-id="I185:1648;180:1124" data-name="Group">
@@ -254,7 +254,7 @@ export default function HSNangLcTablet834Px() {
           </div>
         </div>
       </div>
-      <div className="bg-[var(--base\/white,white)] content-stretch flex flex-col gap-[var(--spacing\/gap\/medium,16px)] h-[760px] items-start overflow-clip p-[var(--spacing\/padding\/2xlarge,32px)] relative shrink-0 w-[834px]" data-node-id="134:906" data-name="Dịch Vụ Tablet">
+      <div className="bg-[var(--base\/white,white)] content-stretch flex flex-col gap-[var(--spacing\/gap\/medium,16px)] h-[840px] items-start overflow-clip px-[var(--spacing\/padding\/2xlarge,32px)] py-[72px] relative shrink-0 w-[834px]" data-node-id="134:906" data-name="Dịch Vụ Tablet">
         <div className="absolute bg-size-[50px_50px] bg-top-left inset-0" data-node-id="161:913" style={{ backgroundImage: `url("${imgDecoPaperGrain}")` }} data-name="Deco · Paper grain" />
         <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/heading-3,28px)] relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/heading-3,22px)] tracking-[var(--typography\/letter-spacing\/heading-3,-0.44px)] whitespace-nowrap" data-node-id="134:907">
           HỆ SINH THÁI DỊCH VỤ CUNG CẤP
@@ -358,7 +358,7 @@ export default function HSNangLcTablet834Px() {
           </div>
         </div>
       </div>
-      <div className="bg-[var(--paper\/light,#f7f7f7)] content-stretch flex flex-col gap-[var(--spacing\/gap\/xsmall,8px)] h-[240px] items-start overflow-clip p-[var(--spacing\/padding\/xlarge,24px)] relative shrink-0 w-[834px]" data-node-id="134:935" data-name="Bảng So Sánh Tablet (10/10)">
+      <div className="bg-[var(--paper\/light,#f7f7f7)] content-stretch flex flex-col gap-[var(--spacing\/gap\/xsmall,8px)] h-[336px] items-start overflow-clip px-[var(--spacing\/padding\/xlarge,24px)] py-[72px] relative shrink-0 w-[834px]" data-node-id="134:935" data-name="Bảng So Sánh Tablet (10/10)">
         <div className="absolute bg-size-[50px_50px] bg-top-left inset-0" data-node-id="161:914" style={{ backgroundImage: `url("${imgDecoPaperGrain}")` }} data-name="Deco · Paper grain" />
         <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/body-extra,24px)] not-italic relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/body-extra,16px)] tracking-[var(--typography\/letter-spacing\/body-extra,-0.16px)] whitespace-nowrap" data-node-id="134:936">
           TẠI SAO CHỌN XƯỞNG GÓI Q12?

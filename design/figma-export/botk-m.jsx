@@ -1,31 +1,31 @@
-const imgDecoPaperGrain = "https://www.figma.com/api/mcp/asset/079681e5-0411-4d1e-a5e4-0852ca02be23.png";
-const imgSlotnhB = "https://www.figma.com/api/mcp/asset/4a333ee7-10d9-4316-b0a5-65f2c9600ec4.png";
-const imgDecoBangKeoKraft = "https://www.figma.com/api/mcp/asset/ceee3dbd-7a83-41c2-b9ff-cd4862d94d91.png";
-const imgNhSkuDst01 = "https://www.figma.com/api/mcp/asset/adaed349-c0d7-432c-a8c3-70c7ccca8f00.png";
-const imgNhSkuNhan01 = "https://www.figma.com/api/mcp/asset/426a6e68-2807-46ef-8142-2cbefd160a53.png";
-const imgDecoHalftone = "https://www.figma.com/api/mcp/asset/0f9eff01-a371-416b-ab06-d31f22c78dca.png";
-const imgSDXngBnIn = "https://www.figma.com/api/mcp/asset/789b3f1d-0536-40b6-bc33-bfc5b3a2ba01.png";
-const imgNhBiaFacebook = "https://www.figma.com/api/mcp/asset/d5d076d5-caf7-4364-8bf7-5e740fc00f68.png";
-const imgAvatarGoi = "https://www.figma.com/api/mcp/asset/40a73060-44d3-4e1a-a52f-5eb471ea7a21.png";
-const imgIconPhone = "https://www.figma.com/api/mcp/asset/1b596632-5db2-42fa-8f7a-4d01a693f497.svg";
-const imgIconBag = "https://www.figma.com/api/mcp/asset/0bfe06c8-4bcd-4c52-b309-b4d44a0f0834.svg";
-const imgIconMenu = "https://www.figma.com/api/mcp/asset/4c009ad7-770e-47c2-a6a5-69e9474749a3.svg";
-const imgTrailingIcon = "https://www.figma.com/api/mcp/asset/cb3752ac-0ddf-4d44-86fb-2cc584651f9a.svg";
-const imgTrailingIcon1 = "https://www.figma.com/api/mcp/asset/9ef786de-ea83-46cd-b1d2-f837028088ec.svg";
-const imgIconArrowR = "https://www.figma.com/api/mcp/asset/b7b42d86-4457-424e-87c4-fa50c735d67a.svg";
-const imgIconFacebook = "https://www.figma.com/api/mcp/asset/a58abf47-4313-4a7b-a417-a7abfa744d21.svg";
-const imgIconYoutube = "https://www.figma.com/api/mcp/asset/ee4dbd26-829d-4461-921c-dca9cb1467dc.svg";
-const imgIconTiktok = "https://www.figma.com/api/mcp/asset/b8178a50-0400-4916-975a-357eee1a45c9.svg";
-const imgIconChat = "https://www.figma.com/api/mcp/asset/ca2288ce-c76f-40af-9c39-bc3b9e311f63.svg";
-const imgIconPhone1 = "https://www.figma.com/api/mcp/asset/d054fa6c-8316-4360-8ba2-965a78c0cba1.svg";
-const imgLeadingIcon = "https://www.figma.com/api/mcp/asset/c8527c5f-563a-47be-b29b-c1741c39246d.svg";
-const imgIconPin = "https://www.figma.com/api/mcp/asset/4364ac16-165b-48b6-89d0-e1fa2679f64f.svg";
-const imgIconPhone2 = "https://www.figma.com/api/mcp/asset/19a4f354-f46f-4cdb-b612-1f9347204c1f.svg";
-const imgIconFactory = "https://www.figma.com/api/mcp/asset/a315ad88-ff21-4d8f-94c6-c35ce555b05a.svg";
-const imgIconPin1 = "https://www.figma.com/api/mcp/asset/cc555967-e1c0-46da-9cf4-901ca30c4cd8.svg";
-const imgIconArrowUr = "https://www.figma.com/api/mcp/asset/ca29a49b-b703-4ff1-96b5-b1e02178b425.svg";
-const imgIconFacebook1 = "https://www.figma.com/api/mcp/asset/370c4cf3-4e46-4354-a5bc-fcb78fd13057.svg";
-const imgIconChevronDown = "https://www.figma.com/api/mcp/asset/7a0ac7e1-aa19-4388-999d-7ca260183735.svg";
+const imgDecoPaperGrain = "https://www.figma.com/api/mcp/asset/74a828a6-2ab4-48d1-92b3-9a5010e558c2.png";
+const imgSlotnhB = "https://www.figma.com/api/mcp/asset/50dab463-e968-495c-8f5c-bf440cabde4e.png";
+const imgDecoBangKeoKraft = "https://www.figma.com/api/mcp/asset/f5682f4b-523a-4f15-9bbf-a1cb755141d4.png";
+const imgNhSkuDst01 = "https://www.figma.com/api/mcp/asset/f2d69ef0-16c5-4628-a687-cc4662609c9e.png";
+const imgNhSkuNhan01 = "https://www.figma.com/api/mcp/asset/110c0e80-da1d-41c3-b253-db3100be8184.png";
+const imgDecoHalftone = "https://www.figma.com/api/mcp/asset/fb148ab7-ee16-4599-88a6-fbe4128851cb.png";
+const imgSDXngBnIn = "https://www.figma.com/api/mcp/asset/65fc41b5-05b7-4b61-8313-eeabdf801e73.png";
+const imgNhBiaFacebook = "https://www.figma.com/api/mcp/asset/5cf658c8-dabc-489d-87b4-b38538b3513e.png";
+const imgAvatarGoi = "https://www.figma.com/api/mcp/asset/972738f5-25ea-46f9-b327-266a1c7c6357.png";
+const imgIconPhone = "https://www.figma.com/api/mcp/asset/cb96c410-2f14-44d9-9cfc-86932543dfc7.svg";
+const imgIconBag = "https://www.figma.com/api/mcp/asset/073386e0-5a81-4031-8c19-a0bb03d4864c.svg";
+const imgIconMenu = "https://www.figma.com/api/mcp/asset/b42174b6-5221-4a64-a21b-dd4ec6975fe5.svg";
+const imgTrailingIcon = "https://www.figma.com/api/mcp/asset/67c268e7-a085-4174-8468-e22f79fc77f4.svg";
+const imgTrailingIcon1 = "https://www.figma.com/api/mcp/asset/2ee8c848-53fb-4449-9da9-dc4cd907ed27.svg";
+const imgIconArrowR = "https://www.figma.com/api/mcp/asset/628bb6d4-ec32-457a-8394-7985d96e584b.svg";
+const imgIconFacebook = "https://www.figma.com/api/mcp/asset/ec89d5c5-a798-42af-9692-bc07bd0e88bd.svg";
+const imgIconYoutube = "https://www.figma.com/api/mcp/asset/7abd7380-54ac-4736-87b0-29eaa5f199bc.svg";
+const imgIconTiktok = "https://www.figma.com/api/mcp/asset/b3a758df-388f-4215-8ae7-70194cbc8a45.svg";
+const imgIconChat = "https://www.figma.com/api/mcp/asset/66ddd076-a4ff-4698-a345-b3f951b1e8e9.svg";
+const imgIconPhone1 = "https://www.figma.com/api/mcp/asset/895bdb06-2049-4916-91ca-ea7a99f3dad1.svg";
+const imgLeadingIcon = "https://www.figma.com/api/mcp/asset/1f35a638-3d6c-4d57-bc47-2a7df1b36db1.svg";
+const imgIconPin = "https://www.figma.com/api/mcp/asset/6f0cf04b-0041-483c-9986-1e9ef95b42aa.svg";
+const imgIconPhone2 = "https://www.figma.com/api/mcp/asset/dde538ab-d940-4a72-8d23-581fd9192d28.svg";
+const imgIconFactory = "https://www.figma.com/api/mcp/asset/1fdd5d61-7b3d-4e26-a1b9-19436bf17e2b.svg";
+const imgIconPin1 = "https://www.figma.com/api/mcp/asset/8aac588e-d9ee-431f-b143-c2a4dd93746e.svg";
+const imgIconArrowUr = "https://www.figma.com/api/mcp/asset/8a961f11-9810-40bd-b813-fbe89ca73d93.svg";
+const imgIconFacebook1 = "https://www.figma.com/api/mcp/asset/d7700ecf-dc82-4912-bb11-7dcd0a504503.svg";
+const imgIconChevronDown = "https://www.figma.com/api/mcp/asset/55f7168f-5c71-47d8-8443-379055debbce.svg";
 
 export default function BThitKMobile390() {
   return (
@@ -120,7 +120,7 @@ export default function BThitKMobile390() {
           </div>
         </div>
       </div>
-      <div className="bg-[var(--base\/white,white)] content-stretch flex flex-col gap-[20px] items-start overflow-clip px-[16px] py-[40px] relative shrink-0 w-full" data-node-id="240:11808" data-name="Chi Tiết Bộ">
+      <div className="bg-[var(--base\/white,white)] content-stretch flex flex-col gap-[20px] items-start overflow-clip px-[16px] py-[48px] relative shrink-0 w-full" data-node-id="240:11808" data-name="Chi Tiết Bộ">
         <div className="[word-break:break-word] content-stretch flex flex-col font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] gap-[14px] items-start leading-[28px] not-italic overflow-clip relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/body-extra,16px)] tracking-[var(--typography\/letter-spacing\/body-extra,-0.16px)] w-full" data-node-id="240:11809" data-name="Slot Mô Tả">
           <p className="relative shrink-0 w-full" data-node-id="240:11810">
             Vòng tròn đồng tâm, chim lạc và người hoá trang trên mặt trống được vẽ lại bằng nét vector, in một màu nhũ trên nền đỏ.
@@ -138,7 +138,7 @@ export default function BThitKMobile390() {
           </div>
         </div>
       </div>
-      <div className="bg-[var(--paper\/light,#f7f7f7)] content-stretch flex flex-col gap-[20px] items-start overflow-clip px-[16px] py-[40px] relative shrink-0 w-full" data-node-id="240:11815" data-name="Áp Dụng Cho Mẫu">
+      <div className="bg-[var(--paper\/light,#f7f7f7)] content-stretch flex flex-col gap-[20px] items-start overflow-clip px-[16px] py-[48px] relative shrink-0 w-full" data-node-id="240:11815" data-name="Áp Dụng Cho Mẫu">
         <div className="absolute bg-size-[200px_200px] bg-top-left h-[5000px] left-0 top-0 w-[390px]" data-node-id="240:11816" style={{ backgroundImage: `url("${imgDecoPaperGrain}")` }} data-name="Deco · Paper grain" />
         <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[16px] not-italic relative shrink-0 text-[11px] text-[color:var(--brand\/red,#ff6bd5)] tracking-[0.66px] uppercase whitespace-nowrap" data-node-id="240:11817">
           ÁP DỤNG CHO MẪU HỘP

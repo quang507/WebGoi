@@ -97,10 +97,31 @@ a[data-link]:hover p{color:var(--brand-red) !important}
 [data-slider-thumb]{cursor:grab;transition:box-shadow .2s}
 [data-slider-thumb]:hover,[data-slider-thumb].is-drag{box-shadow:0 0 0 6px rgba(215,38,43,.15)}
 
+/* nhịp cuộn: tiêu đề lớn trồi lên khỏi mép (như tờ in ra khỏi máy) */
+.js [data-rise]{clip-path:inset(0 -4% 100% -4%);transform:translateY(.45em);transition:clip-path .95s var(--ease-out),transform .95s var(--ease-out);transition-delay:calc(var(--i,0) * 70ms + 60ms)}
+.js [data-rise].is-in{clip-path:inset(-30% -4% -30% -4%);transform:none}
+/* ảnh mở dần từ dưới lên, ảnh bên trong thu từ 112% về 100% */
+.js [data-unmask]{transition:clip-path 1.1s var(--ease-out);transition-delay:calc(var(--i,0) * 70ms)}
+.js [data-unmask]:not(.is-in){clip-path:inset(18% 0 0 0)}
+.js [data-unmask] > img:not([data-depth]){transition:transform 1.4s var(--ease-out)}
+.js [data-unmask]:not(.is-in) > img:not([data-depth]){transform:scale(1.12)}
+[data-depth]{will-change:transform;transform:scale(1.08)}
+/* header nhường chỗ khi cuộn xuống, hiện lại khi cuộn lên */
+[data-sticky]{transition:box-shadow .3s var(--ease-out),background-color .3s,transform .45s var(--ease-out)}
+.goi-head-away [data-sticky]{transform:translateY(-110%);box-shadow:none}
+/* chuyển trang: trang cũ lùi lên mờ đi, trang mới trồi lên */
+@view-transition{navigation:auto}
+::view-transition-old(root){animation:goi-vt-out .26s var(--ease-in-out) both}
+::view-transition-new(root){animation:goi-vt-in .48s var(--ease-out) both}
+@keyframes goi-vt-out{to{opacity:0;transform:translateY(-14px)}}
+@keyframes goi-vt-in{from{opacity:0;transform:translateY(18px)}}
+
 @media (prefers-reduced-motion:reduce){
+  @view-transition{navigation:none}
   html{scroll-behavior:auto}
   *,*::before,*::after{animation:none !important;transition:none !important}
-  .js [data-reveal],.js [data-crop] > *,.js [data-cut],.js [data-draw],.js [data-drift]{opacity:1 !important;transform:none !important;clip-path:none !important}
+  .js [data-reveal],.js [data-crop] > *,.js [data-cut],.js [data-draw],.js [data-drift],.js [data-rise],.js [data-unmask],.js [data-unmask] > img{opacity:1 !important;transform:none !important;clip-path:none !important}
+  .goi-head-away [data-sticky]{transform:none}
 }
 
 [data-name^="Deco"]{pointer-events:none !important;cursor:auto !important}
