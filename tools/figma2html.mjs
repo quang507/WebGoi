@@ -54,6 +54,7 @@ function hrefFor(el, ctx) {
   const card = name.match(/^(Bài|Bộ) · (.+)$/); if (card) return (card[1] === 'Bài' ? '/tin-tuc/' : '/thiet-ke/') + card[2];
   if (/^Btn Hỏi Giá |^Btn Dùng Bộ Này$/.test(name)) return ZALO;
   if (name === 'Btn Gọi My') return 'tel:0981047115';
+  const quick = { 'Nhanh Facebook': CH.Facebook, 'Nhanh Zalo': ZALO, 'Nhanh Gọi': 'tel:0387365020' }; if (quick[name]) return quick[name];
   if (name === 'Btn Về Trang Chủ') return '/';
   if (name === 'Btn Kraft Hay Ivory') return '/tin-tuc/kraft-hay-ivory';
   if (/^XEM \d+ MẪU HỘP|^XEM ĐỦ \d+ MẪU/.test(T)) return '/mau-hop';
@@ -200,6 +201,7 @@ async function convertFrame(el, kind, skuHref, ctx = {}) {
     const q = it.querySelector('[data-name="Qty"] p'); if (q) q.setAttribute('data-name', 'Qty Value');
   }
   for (const r of el.querySelectorAll('[data-name="Title Row"]')) { const ps = r.childNodes.filter((n) => n.tagName === 'P'); if (ps[1]) ps[1].setAttribute('data-name', 'Cart Count Text'); }
+  for (const b of el.querySelectorAll('[data-name="Nút Liên Hệ Nhanh"]')) { b.setAttribute('data-fab-toggle', ''); b.setAttribute('role', 'button'); b.setAttribute('tabindex', '0'); b.setAttribute('aria-label', 'Liên hệ nhanh: Facebook, Zalo, gọi điện'); b.setAttribute('aria-expanded', 'false'); }
   for (const b of el.querySelectorAll('[data-name="Btn Menu"]')) { b.setAttribute('data-menu-open', ''); b.setAttribute('role', 'button'); b.setAttribute('tabindex', '0'); b.setAttribute('aria-label', 'Mở menu'); b.setAttribute('aria-expanded', 'false'); }
   for (const b of el.querySelectorAll('[data-name="Btn Đóng Menu"]')) { b.setAttribute('data-menu-close', ''); b.setAttribute('role', 'button'); b.setAttribute('tabindex', '0'); b.setAttribute('aria-label', 'Đóng menu'); }
   for (const b of el.querySelectorAll('[data-name="Btn Đóng Giỏ"]')) { b.setAttribute('data-cart-close', ''); b.setAttribute('role', 'button'); b.setAttribute('tabindex', '0'); b.setAttribute('aria-label', 'Đóng giỏ'); }
@@ -219,7 +221,7 @@ async function convertFrame(el, kind, skuHref, ctx = {}) {
   // nút trong thiết kế chưa nối prototype -> thành thẻ <a>
   for (const b of el.querySelectorAll('[data-name]')) {
     const nm = b.getAttribute('data-name');
-    if (b.tagName !== 'A' && !b.closest('a') && !/^Btn (Thêm|Đóng Giỏ|Giảm|Tăng|Xoá|Menu|Đóng Menu|Tìm Mẫu|Xem Tất Cả)/.test(nm) && !/^Search Input|^Nút (404|Bộ|Bài Viết)$/.test(nm) && (/^(Btn|Nút|Search Input|Call Btn|Kênh (?!Của)|Social |Sơ Đồ Xưởng|Menu Item|Bài · |Bộ · )/i.test(nm) || (b.parentNode && b.parentNode.getAttribute && b.parentNode.getAttribute('data-name') === 'Lưới 4 Mẫu Liên Quan') || b.querySelector(':scope > [data-name="Trailing icon"], :scope > [data-name="Label"]'))) b.tagName = 'a';
+    if (b.tagName !== 'A' && !b.closest('a') && !/^Btn (Thêm|Đóng Giỏ|Giảm|Tăng|Xoá|Menu|Đóng Menu|Tìm Mẫu|Xem Tất Cả)/.test(nm) && !/^Search Input|^Nút (404|Bộ|Bài Viết|Liên Hệ Nhanh)$/.test(nm) && (/^(Btn|Nút|Search Input|Call Btn|Kênh (?!Của)|Social |Sơ Đồ Xưởng|Menu Item|Bài · |Bộ · |Nhanh )/i.test(nm) || (b.parentNode && b.parentNode.getAttribute && b.parentNode.getAttribute('data-name') === 'Lưới 4 Mẫu Liên Quan') || b.querySelector(':scope > [data-name="Trailing icon"], :scope > [data-name="Label"]'))) b.tagName = 'a';
   }
   // chữ trong header/footer có đích đến -> bọc <a>
   for (const sec of el.childNodes.filter((n) => kind !== 'cart' && n.nodeType === 1 && /Header|Nav|Footer|Topbar|Top Bar|Breadcrumb/i.test(n.getAttribute('data-name') || ''))) {
@@ -276,11 +278,19 @@ for (const f of ['home-d', 'home-t', 'home-m', 'profile-d', 'profile-t', 'listin
 { // batch-2: khung tạm chứa các frame nhỏ theo thứ tự (frame nhỏ không xuất ra file riêng được)
   const b = jsxToHtml(readFileSync(path.join(EXP, 'batch-2.jsx'), 'utf8'));
   const dom = toDom(b.html); const kids = dom.firstChild.childNodes.filter((n) => n.nodeType === 1);
-  ['profile-m', 'pdp-t', 'pdp-m', 'cart-d', 'cart-m', 'cart-empty', 'menu', 'empty-search', 'cart-sent'].forEach((k, i) => {
+  ['profile-m', 'pdp-t', 'pdp-m', 'cart-d', 'cart-m', 'cart-empty', 'menu', 'empty-search', 'cart-sent', 'fab'].forEach((k, i) => {
     const c = kids[i]; const cls = (c.getAttribute('class') || '').split(/\s+/).filter((t) => !/^(absolute|left-\[|top-\[|top-0|left-0)/.test(t));
     c.setAttribute('class', ['relative', ...cls].join(' '));
     frames[k] = { html: c.toString(), assets: b.assets };
   });
+}
+
+// batch-3: frame nhỏ xuất kèm frame đệm (bản xuất < ~50KB không lưu ra file được) -> lấy con đầu tiên
+if (existsSync(path.join(EXP, 'batch-3.jsx'))) {
+  const b = jsxToHtml(readFileSync(path.join(EXP, 'batch-3.jsx'), 'utf8'));
+  const c = toDom(b.html).firstChild.childNodes.filter((n) => n.nodeType === 1)[0];
+  c.setAttribute('class', ['relative', ...(c.getAttribute('class') || '').split(/\s+/).filter((t) => t && !/^(absolute|left-\[|top-\[|top-0|left-0)/.test(t))].join(' '));
+  frames['e404-m'] = { html: c.toString(), assets: b.assets };
 }
 
 // ---------- giỏ báo giá: dựng 1 lần từ frame "Giỏ Báo Giá", chèn vào mọi trang ----------
@@ -339,7 +349,7 @@ async function buildPage(p, frameKeys, skuHref, mutate) {
   }
   const extra = p.kind === 'listing' ? `
 <template data-empty-search>${EMPTY_SEARCH}</template>` : '';
-  const out = head({ ...p, v, ogImg: ogImage(p.og) }) + body + CART + MENU + extra + `\n<script src="/js/goi-motion.js?v=${v}" defer></script>\n</body></html>\n`;
+  const out = head({ ...p, v, ogImg: ogImage(p.og) }) + body + CART + MENU + FAB + extra + `\n<script src="/js/goi-motion.js?v=${v}" defer></script>\n</body></html>\n`;
   const file = path.join(ROOT, p.file); mkdirSync(path.dirname(file), { recursive: true }); writeFileSync(file, out);
   console.log('✓', p.file, (out.length / 1024).toFixed(0) + 'KB');
 }
@@ -350,6 +360,10 @@ const EMPTY_SEARCH = await emptySearchHtml();
 const MENU = await (async () => { const el = toDom(frames.menu.html).firstChild; await convertFrame(el, 'cart', () => '/mau-hop'); el.setAttribute('class', (el.getAttribute('class') || '') + ' goi-menu__panel'); el.setAttribute('role', 'dialog'); el.setAttribute('aria-modal', 'true'); el.setAttribute('aria-label', 'Menu');
   return `
 <div class="goi-menu" data-menu aria-hidden="true"><div class="goi-menu__scrim" data-menu-close></div>${fixTiles(await resolveAssets(el.toString(), frames.menu.assets)).replace(/ data-(reveal|parallax|crop|cut|draw|card|sticky)(="[^"]*")?/g, '')}</div>`; })();
+// nút liên hệ nhanh (frame "Liên Hệ Nhanh — Mở"): nổi góc phải mọi trang, bấm để xổ Facebook / Zalo / gọi
+const FAB = await (async () => { const el = toDom(frames.fab.html).firstChild; await convertFrame(el, 'cart', () => '/mau-hop');
+  return `
+<div class="goi-fab" data-fab>${fixTiles(await resolveAssets(el.toString(), frames.fab.assets)).replace(/ data-(reveal|parallax|crop|cut|draw|card|sticky|section)(="[^"]*")?/g, '')}</div>`; })();
 for (const p of PAGES) await buildPage(p, p.frames, skuHref, p.mutate);
 for (const p of SKU_PAGES) await buildPage(p, p.frames, skuHref, p.mutate);
 for (const p of CONTENT_PAGES) await buildPage(p, p.frames, skuHref, p.mutate);

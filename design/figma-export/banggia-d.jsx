@@ -1,40 +1,40 @@
-const imgDecoHalftone = "https://www.figma.com/api/mcp/asset/8bf7be12-ad60-46ca-9ae7-f05a6467ba41.png";
-const imgDecoPaperGrain = "https://www.figma.com/api/mcp/asset/395f57a4-87f4-4b11-bea7-ba277352e2d1.png";
-const imgNhGoiKhiDu = "https://www.figma.com/api/mcp/asset/5683af2f-2dde-462e-b5f7-fda9fe6342f2.png";
-const imgNhGoiDngB = "https://www.figma.com/api/mcp/asset/07b6bad8-7e7d-46fa-bf7e-39466b0f735d.png";
-const imgNhGoiNangTm = "https://www.figma.com/api/mcp/asset/973e9c8e-630d-43ee-bead-64a25d0cc256.png";
-const imgSDXngBnIn = "https://www.figma.com/api/mcp/asset/1843d7ce-8b98-4ab2-832c-368263ddaf68.png";
-const imgNhBiaFacebook = "https://www.figma.com/api/mcp/asset/4a58055a-9e04-42f4-88f7-36bc5e3ed2b7.png";
-const imgAvatarGoi = "https://www.figma.com/api/mcp/asset/bd24406a-d351-4056-9f1d-3ccfbdef207d.png";
-const imgDecoRegistration = "https://www.figma.com/api/mcp/asset/db9c12b2-fb67-4b26-b8f9-1af78aeafadc.svg";
-const imgIconPhone = "https://www.figma.com/api/mcp/asset/08b7e0e7-ffdc-42d8-af79-81cf285a1f87.svg";
-const imgIconBag = "https://www.figma.com/api/mcp/asset/3bdc3e32-ddc2-44f0-8459-9f20309c9439.svg";
-const imgTrailingIcon = "https://www.figma.com/api/mcp/asset/9f8dd28c-312d-4ecd-bb24-dc936965e10b.svg";
-const imgGroup = "https://www.figma.com/api/mcp/asset/94f9ed76-81ba-4e71-8842-12ca9b3d5f1f.svg";
-const imgVector = "https://www.figma.com/api/mcp/asset/dcfb3ef8-1dd3-4dc2-b863-e9085ce9d98c.svg";
-const imgVector1 = "https://www.figma.com/api/mcp/asset/6c13cc1f-ae21-4f91-9560-58aaf69623c4.svg";
-const imgIconCheck = "https://www.figma.com/api/mcp/asset/28a9bf74-ac0e-4900-a57f-c85440505977.svg";
-const imgTrailingIcon1 = "https://www.figma.com/api/mcp/asset/e83ff3f7-159a-415e-8678-58dc4c86c9a0.svg";
-const imgDecoRegistration1 = "https://www.figma.com/api/mcp/asset/90ca3f39-8b1c-464a-828f-f408927abde6.svg";
-const imgDecoConDu = "https://www.figma.com/api/mcp/asset/83e711c9-7c31-40be-a671-16c2e8c62e50.svg";
-const imgEllipse = "https://www.figma.com/api/mcp/asset/bb859a63-91b6-4614-a7cb-774c9bed19b7.svg";
-const imgIconScissors = "https://www.figma.com/api/mcp/asset/e70f4445-5d4f-4833-bfe6-df1a8308d9ec.svg";
-const imgLine = "https://www.figma.com/api/mcp/asset/2a9c9d57-cdec-4734-9e10-a57456610c1c.svg";
-const imgIconChevronDown = "https://www.figma.com/api/mcp/asset/ba1c21a2-666c-4044-bcd8-dd488cbd815f.svg";
-const imgIconFacebook = "https://www.figma.com/api/mcp/asset/f4a3bf1f-e64c-46ca-a752-59595ab326b9.svg";
-const imgIconYoutube = "https://www.figma.com/api/mcp/asset/6f96d953-2259-4f56-8366-c10747144769.svg";
-const imgIconTiktok = "https://www.figma.com/api/mcp/asset/b0e8492e-0b04-4d0d-9172-d7e7c26ac828.svg";
-const imgIconChat = "https://www.figma.com/api/mcp/asset/02714a06-f76f-4cda-9a94-8fdccc238429.svg";
-const imgIconPin = "https://www.figma.com/api/mcp/asset/d18005c9-b00a-44b4-8e09-bbb373f0ccc8.svg";
-const imgIconPhone1 = "https://www.figma.com/api/mcp/asset/cde05338-617d-4b63-9d78-36f9ec4ca6de.svg";
-const imgIconFactory = "https://www.figma.com/api/mcp/asset/010845cd-c444-417d-89a2-ac59f817e0b1.svg";
-const imgIconChat1 = "https://www.figma.com/api/mcp/asset/d669db97-625c-4c6e-8e2e-6cea39fae256.svg";
-const imgIconArrowU = "https://www.figma.com/api/mcp/asset/0c2a3fdd-5908-4071-a486-5b78cc50844f.svg";
-const imgIconChat2 = "https://www.figma.com/api/mcp/asset/16c5f47a-501a-4364-88a0-d78a5c0d4465.svg";
-const imgDecoRegistration2 = "https://www.figma.com/api/mcp/asset/9223e0f2-cc16-4c3f-9487-79c948d03697.svg";
-const imgIconPin1 = "https://www.figma.com/api/mcp/asset/159a952d-e18f-49ef-8ece-971742344e65.svg";
-const imgIconArrowUr = "https://www.figma.com/api/mcp/asset/96b560fc-d827-40a9-a6d8-c7a4a989e8e0.svg";
-const imgIconChat3 = "https://www.figma.com/api/mcp/asset/12ae27d5-2c71-4b75-8083-c40c6ba7dd28.svg";
+const imgDecoHalftone = "https://www.figma.com/api/mcp/asset/7b7232b0-e2f5-4d93-8048-36cc01eed40b.png";
+const imgDecoPaperGrain = "https://www.figma.com/api/mcp/asset/01149f7e-cde9-4945-89cb-f7c9301571fe.png";
+const imgNhGoiKhiDu = "https://www.figma.com/api/mcp/asset/0411dc6d-5d04-4904-b30d-6dad32648898.png";
+const imgNhGoiDngB = "https://www.figma.com/api/mcp/asset/9940b909-5947-44f0-b2a9-4158c36f3ae7.png";
+const imgNhGoiNangTm = "https://www.figma.com/api/mcp/asset/1eade158-ecf2-45d5-833b-233e2071756c.png";
+const imgSDXngBnIn = "https://www.figma.com/api/mcp/asset/808a0609-d37f-47cd-b635-a5fcc001191b.png";
+const imgNhBiaFacebook = "https://www.figma.com/api/mcp/asset/e93e88b7-96b0-406f-8e12-35cb2eb74d1a.png";
+const imgAvatarGoi = "https://www.figma.com/api/mcp/asset/26d9fa05-a69e-4d35-8460-cecdae821a80.png";
+const imgDecoRegistration = "https://www.figma.com/api/mcp/asset/2dd6938f-c6ad-4dae-81ca-3f096f8f1da4.svg";
+const imgIconPhone = "https://www.figma.com/api/mcp/asset/41cbbc7a-5e0d-4d5b-ac31-71c039a0d3b3.svg";
+const imgIconBag = "https://www.figma.com/api/mcp/asset/5ee454d2-7876-4431-a7f9-3a26ea52a778.svg";
+const imgTrailingIcon = "https://www.figma.com/api/mcp/asset/adbac5fa-c431-4255-8cd0-dd2f5717770c.svg";
+const imgGroup = "https://www.figma.com/api/mcp/asset/88ffb535-3818-4d96-bf01-b1ef8fce40c4.svg";
+const imgVector = "https://www.figma.com/api/mcp/asset/2b1c1ef4-3450-416a-9d15-60b4e010ac49.svg";
+const imgVector1 = "https://www.figma.com/api/mcp/asset/041fb07a-c396-40bb-9dcd-36782cea47a6.svg";
+const imgIconCheck = "https://www.figma.com/api/mcp/asset/8ec0b865-ccbf-40cb-809d-17ad60464a89.svg";
+const imgTrailingIcon1 = "https://www.figma.com/api/mcp/asset/03bc5321-cab7-415a-b49e-624a88661427.svg";
+const imgDecoRegistration1 = "https://www.figma.com/api/mcp/asset/74d42c59-f9e3-4bc5-875b-45567ed10a8a.svg";
+const imgDecoConDu = "https://www.figma.com/api/mcp/asset/56aad116-91ad-4866-bd30-edc18e5c6c6e.svg";
+const imgEllipse = "https://www.figma.com/api/mcp/asset/26cbc3df-5d9b-4fca-803c-94279399f5e8.svg";
+const imgIconScissors = "https://www.figma.com/api/mcp/asset/a679d9a3-6b62-497d-86be-2bc9b52cb27a.svg";
+const imgLine = "https://www.figma.com/api/mcp/asset/8be3d6e9-81f6-4bdd-a2e2-94bf52f21d3e.svg";
+const imgIconChevronDown = "https://www.figma.com/api/mcp/asset/236dec19-ebf6-4878-8fb5-fac669ced7b5.svg";
+const imgIconFacebook = "https://www.figma.com/api/mcp/asset/b57b4c4a-2ca4-4976-b993-db5fbc1f4190.svg";
+const imgIconYoutube = "https://www.figma.com/api/mcp/asset/2865c421-6b84-4a36-a912-00a317115501.svg";
+const imgIconTiktok = "https://www.figma.com/api/mcp/asset/274a875c-3b8b-45af-bf4d-99efe047746d.svg";
+const imgIconChat = "https://www.figma.com/api/mcp/asset/ce034b0b-771a-4ead-a7d5-fcc35eaa815f.svg";
+const imgIconPin = "https://www.figma.com/api/mcp/asset/3759bd40-6d41-49b2-be44-f0168e0a5aad.svg";
+const imgIconPhone1 = "https://www.figma.com/api/mcp/asset/29b74b2a-5e69-4a7c-94ce-89e8bb629a3a.svg";
+const imgIconFactory = "https://www.figma.com/api/mcp/asset/b63958d1-c6d4-4f3a-92b3-13b2e5b6339c.svg";
+const imgIconChat1 = "https://www.figma.com/api/mcp/asset/4cefd928-543e-4425-91bd-753d3857d357.svg";
+const imgIconArrowU = "https://www.figma.com/api/mcp/asset/da1a6dfe-7e44-41b9-b937-fa121a09690a.svg";
+const imgIconChat2 = "https://www.figma.com/api/mcp/asset/e7f2991d-f097-4e04-8e00-82c64aa8ba7b.svg";
+const imgDecoRegistration2 = "https://www.figma.com/api/mcp/asset/057f18ae-65ee-4551-babf-0473df679a54.svg";
+const imgIconPin1 = "https://www.figma.com/api/mcp/asset/7c8e2490-5497-46d8-8794-d732c1099185.svg";
+const imgIconArrowUr = "https://www.figma.com/api/mcp/asset/ae159cc0-2a93-466c-b544-e8e9e119fc34.svg";
+const imgIconChat3 = "https://www.figma.com/api/mcp/asset/da7d0888-d947-4809-b721-d79bd27c3383.svg";
 
 function DecoHalftone({ className }: { className?: string }) {
   return (
@@ -370,21 +370,21 @@ export default function BngGiaDesktop1440() {
             <div className="bg-[var(--brand\/gold-foil,#a67c2e)] relative shrink-0 size-[7px]" data-node-id="I237:6810;158:568;158:561" data-name="Rectangle" />
           </div>
         </div>
-        <div className="absolute flex items-center justify-center left-[1235px] size-[111.212px] top-[0.33px]" data-node-id="237:6811">
+        <div className="absolute flex items-center justify-center left-[1219px] size-[148.282px] top-[19px]" data-node-id="237:6811">
           <div className="-rotate-10 flex-none">
-            <div className="opacity-90 relative size-[96px]" data-name="Deco · Con dấu">
+            <div className="opacity-90 relative size-[128px]" data-name="Deco · Con dấu">
               <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgDecoConDu} />
               <div className="absolute inset-[7.14%]" data-node-id="I237:6811;181:1054" data-name="Ellipse">
                 <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse} />
               </div>
-              <p className="[word-break:break-word] absolute font-[family-name:var(--typography\/font-family\/sans,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] inset-[21.43%_14.73%_67.86%_14.73%] leading-[var(--typography\/line-height\/label-small,12px)] not-italic text-[color:var(--base\/white,white)] text-[length:var(--typography\/font-size\/label-small,9px)] tracking-[var(--typography\/letter-spacing\/label-small,0px)] whitespace-nowrap" data-node-id="I237:6811;181:1055">
-                GÓI · XƯỞNG Q.12
+              <p className="[word-break:break-word] absolute font-[family-name:var(--typography\/font-family\/sans,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] inset-[21.43%_12.5%_67.86%_12.5%] leading-[var(--typography\/line-height\/label-small,16px)] not-italic text-[14.67px] text-[color:var(--base\/white,white)] text-center tracking-[2px]" data-node-id="I237:6811;181:1055">
+                GÓI
               </p>
-              <div className="[word-break:break-word] absolute font-['Inter:Semi_Bold'] font-semibold inset-[39.29%_22.32%_32.14%_22.32%] leading-[0] not-italic text-[11px] text-[color:var(--base\/white,white)] text-center tracking-[0.66px] uppercase whitespace-nowrap" data-node-id="I237:6811;181:1056">
-                <p className="leading-[16px] mb-0">ĐÃ DUYỆT</p>
-                <p className="leading-[16px]">MÀU IN</p>
+              <div className="[word-break:break-word] absolute font-['Inter:Semi_Bold'] font-semibold inset-[39.29%_12.5%_32.14%_12.5%] leading-[0] not-italic text-[14.67px] text-[color:var(--base\/white,white)] text-center tracking-[0.8802px] uppercase" data-node-id="I237:6811;181:1056">
+                <p className="leading-[21.333px] mb-0">ĐÃ DUYỆT</p>
+                <p className="leading-[21.333px]">MÀU IN</p>
               </div>
-              <p className="[word-break:break-word] absolute font-[family-name:var(--typography\/font-family\/sans,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] inset-[69.64%_33.93%_19.64%_33.93%] leading-[var(--typography\/line-height\/label-small,12px)] not-italic text-[color:var(--base\/white,white)] text-[length:var(--typography\/font-size\/label-small,9px)] tracking-[var(--typography\/letter-spacing\/label-small,0px)] whitespace-nowrap" data-node-id="I237:6811;181:1057">
+              <p className="[word-break:break-word] absolute font-[family-name:var(--typography\/font-family\/sans,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] inset-[69.64%_12.5%_19.64%_12.5%] leading-[var(--typography\/line-height\/label-small,16px)] not-italic text-[color:var(--base\/white,white)] text-[length:var(--typography\/font-size\/label-small,12px)] text-center tracking-[var(--typography\/letter-spacing\/label-small,0px)]" data-node-id="I237:6811;181:1057">
                 SET 100
               </p>
             </div>
@@ -933,14 +933,14 @@ export default function BngGiaDesktop1440() {
             <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconArrowU} />
           </div>
         </div>
-        <div className="absolute bg-[#c2410c] left-[1332px] overflow-clip rounded-[var(--radius\/luxury,12px)] size-[52px] top-[580px]" data-node-id="I237:6992;217:2852" data-name="Floating Chat Widget">
+        <div className="absolute bg-[var(--brand\/red,#ff6bd5)] left-[1332px] overflow-clip rounded-[var(--radius\/luxury,12px)] size-[52px] top-[580px]" data-node-id="I237:6992;217:2852" data-name="Floating Chat Widget">
           <div className="absolute left-[16px] size-[18px] top-[16px]" data-node-id="I237:6992;217:2853" data-name="Icon/chat">
             <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconChat2} />
           </div>
         </div>
         <div className="[word-break:break-word] absolute font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[0] left-[1150px] text-[color:var(--base\/white,white)] text-[length:var(--typography\/font-size\/heading-2,25px)] top-[306px] tracking-[var(--typography\/letter-spacing\/heading-2,-0.5px)] whitespace-nowrap" data-node-id="I237:6992;217:2854">
-          <p className="leading-[var(--typography\/line-height\/heading-2,32px)] mb-[var(--typography\/font-size\/heading-2,25px)]">GÓI - Một khởi đầu.</p>
-          <p className="leading-[var(--typography\/line-height\/heading-2,32px)]">GÓI - Trọn dấu ấn</p>
+          <p className="leading-[33px] mb-0">GÓI - Một khởi đầu.</p>
+          <p className="leading-[33px] text-[#d7262b]">GÓI - Trọn dấu ấn</p>
         </div>
         <div className="absolute content-stretch flex items-start left-[1150px] top-[415px]" data-node-id="I237:6992;217:2855" data-name="Deco · CMYK">
           <div className="bg-[#00a0e9] relative shrink-0 size-[10px]" data-node-id="I237:6992;217:2855;158:553" data-name="Rectangle" />

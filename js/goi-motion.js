@@ -45,7 +45,7 @@
     });
     $$('p', bp).forEach(function (p) {
       if (p.closest(skipZone) || p.closest('a,[data-btn]') || parseFloat(getComputedStyle(p).fontSize) < 22 || p.textContent.length > 90) return;
-      p.setAttribute('data-rise', '');
+      p.setAttribute('data-rise', ''); if (p.parentElement) p.parentElement.setAttribute('data-rise-host', ''); // chữ đang bị che kín nên theo dõi khung cha
     });
     $$('img', bp).forEach(function (im) {
       var box = im.parentElement; if (!box || box.closest(skipZone) || /^(Deco|Icon|Trailing|Leading)/.test(named(box))) return;
@@ -59,7 +59,7 @@
   var io = new IntersectionObserver(function (es) {
     es.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add('is-in'); io.unobserve(e.target); } });
   }, { rootMargin: '0px 0px -8% 0px', threshold: 0.08 });
-  $$('[data-reveal],[data-crop],[data-cut],[data-draw],[data-drift],[data-unmask],[data-rise]').forEach(function (el) { if (reduce) el.classList.add('is-in'); else io.observe(el); });
+  $$('[data-reveal],[data-crop],[data-cut],[data-draw],[data-drift],[data-unmask],[data-rise-host]').forEach(function (el) { if (reduce) el.classList.add('is-in'); else io.observe(el); });
 
   // 2. Đếm số (400+, 50, 24h, 100%, 10 NĂM, 15.000 HỘP)
   var cio = new IntersectionObserver(function (es) {
@@ -375,6 +375,18 @@
     var n = Number(d.followers).toLocaleString('vi-VN');
     fbCount.forEach(function (p) { p.textContent = p.textContent.replace(/^[\d.,]+(?= người theo dõi)/, n); });
   }).catch(function () {});
+
+  // liên hệ nhanh: bấm nút đỏ để xổ Facebook / Zalo / gọi; rời chuột, bấm ra ngoài hoặc Esc để thu lại
+  var fab = d.querySelector('[data-fab]');
+  if (fab) (function () {
+    var btn = fab.querySelector('[data-fab-toggle]'); if (!btn) return;
+    function set(open) { fab.classList.toggle('is-open', open); btn.setAttribute('aria-expanded', String(open)); }
+    btn.addEventListener('click', function (e) { e.preventDefault(); set(!fab.classList.contains('is-open')); });
+    btn.addEventListener('keydown', function (e) { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); btn.click(); } });
+    if (matchMedia('(hover: hover)').matches) fab.addEventListener('mouseleave', function () { set(false); });
+    d.addEventListener('click', function (e) { if (!fab.contains(e.target)) set(false); });
+    d.addEventListener('keydown', function (e) { if (e.key === 'Escape' && fab.classList.contains('is-open')) { set(false); btn.focus(); } });
+  })();
 
   // menu mobile/tablet: mở từ nút ☰ ở header, đóng bằng nút X, nền mờ hoặc phím Esc
   var menu = document.querySelector('[data-menu]');
