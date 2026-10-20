@@ -48,7 +48,7 @@ a,[data-btn],[data-card]{-webkit-tap-highlight-color:transparent}
 [data-btn="dark"]:hover{background-color:var(--brand-red) !important}
 [data-btn="outline"]:hover{background-color:var(--ink-strong) !important;color:#fff}
 [data-btn="outline"]:hover p{color:#fff !important}
-[data-btn="outline"]:hover img{filter:invert(1) brightness(2)}
+[data-btn="outline"]:hover [data-name="Trailing icon"] img,[data-btn="outline"]:hover [data-name^="Icon"] img{filter:invert(1) brightness(2)}
 [data-btn]:focus-visible,a:focus-visible{outline:2px solid var(--brand-red);outline-offset:3px}
 
 /* thẻ sản phẩm: nhấc lên, ảnh phóng nhẹ, viền mực */

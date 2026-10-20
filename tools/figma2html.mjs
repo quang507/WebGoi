@@ -25,12 +25,14 @@ const PROVINCES = ['TP Hồ Chí Minh','Hà Nội','Hải Phòng','Đà Nẵng',
 async function localAsset(url) {
   if (cache[url] && existsSync(path.join(ROOT, cache[url].slice(1)))) return cache[url];
   const res = await fetch(url); if (!res.ok) throw new Error('asset ' + res.status + ' ' + url);
-  const buf = Buffer.from(await res.arrayBuffer());
+  let buf = Buffer.from(await res.arrayBuffer());
   const type = res.headers.get('content-type') || '';
   const ext = type.includes('svg') ? 'svg' : type.includes('jpeg') ? 'jpg' : type.includes('webp') ? 'webp' : 'png';
   const h = createHash('sha1').update(buf).digest('hex').slice(0, 12);
   let file = `${h}.${ext}`;
   const abs = path.join(ASSET_DIR, file);
+  // SVG xuất từ layer đang ẩn (opacity 0) mang luôn opacity="0" ở nhóm gốc -> icon trắng trơn; trạng thái ẩn/hiện do CSS lo
+  if (ext === 'svg') buf = Buffer.from(buf.toString('utf8').replace(/^(<svg[^>]*>\s*<g [^>]*?) opacity="0"/, '$1'));
   if (!existsSync(abs)) writeFileSync(abs, buf);
   // ảnh chụp PNG nặng -> WebP cùng kích thước (không đổi hình)
   if (ext === 'png' && buf.length > 160_000) {
@@ -142,7 +144,8 @@ function tagInteractions(root, kind) {
   root.querySelectorAll('a,button,[data-name^="Btn"],[data-name^="Nút"]').forEach((a) => {
     const cls = a.getAttribute('data-src-class') || '';
     const nm = a.getAttribute('data-name') || '';
-    if (/btn|nút|cta|Trailing|Label/i.test(nm) || a.querySelector('[data-name="Trailing icon"],[data-name="Label"]')) {
+    // chỉ là nút khi tên là nút hoặc có icon/nhãn nút làm con TRỰC TIẾP (thẻ sản phẩm chứa nút bên trong không phải nút)
+    if (/btn|nút|cta|Trailing|Label/i.test(nm) || a.childNodes.some((c) => c.getAttribute && /^(Trailing icon|Label)$/.test(c.getAttribute('data-name') || ''))) {
       a.setAttribute('data-btn', /bg-\[var\(--brand\\\/red/.test(cls) || /bg-\[var\(--brand\\\/gold/.test(cls) ? 'primary' : /bg-\[var\(--ink\\\/strong/.test(cls) ? 'dark' : 'outline');
     }
   });
