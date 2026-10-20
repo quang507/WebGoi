@@ -1,27 +1,27 @@
-const imgDecoPaperGrain = "https://www.figma.com/api/mcp/asset/dee1343a-7458-4c43-a007-d80e4b2685ef.png";
-const imgDecoBangKeoKraft = "https://www.figma.com/api/mcp/asset/bd6192a0-fbf5-41cd-90df-3cadf48fddd6.png";
-const imgSDXngBnIn = "https://www.figma.com/api/mcp/asset/ec58ac64-a1fb-45f5-bf38-24c53b0ba070.png";
-const imgNhBiaFacebook = "https://www.figma.com/api/mcp/asset/e4bedcc9-0273-449b-9d29-cae6344eee29.png";
-const imgAvatarGoi = "https://www.figma.com/api/mcp/asset/3612ba7c-df92-4eab-b2b2-0425379d3ced.png";
-const imgDecoRegistration = "https://www.figma.com/api/mcp/asset/1ab08a80-1e69-4b97-9899-640d4126726e.svg";
-const imgIconBag = "https://www.figma.com/api/mcp/asset/1fd670bc-7566-4b46-a5e2-74abce4793e1.svg";
-const imgTrailingIcon = "https://www.figma.com/api/mcp/asset/cf6ee494-6928-440b-b8e6-251012ca9d18.svg";
-const imgIconMenu = "https://www.figma.com/api/mcp/asset/c5db60bf-e8aa-4c25-89b2-07e70201418f.svg";
-const imgDecoConDuDuytMau = "https://www.figma.com/api/mcp/asset/4a949103-7a6c-4710-b890-a9869493d866.svg";
-const imgEllipse = "https://www.figma.com/api/mcp/asset/28866a47-c59a-4e79-ac7a-60472ef40f59.svg";
-const imgIconFacebook = "https://www.figma.com/api/mcp/asset/e8d1fa1d-2446-4fc6-a259-2f4f4aa6c2ab.svg";
-const imgIconYoutube = "https://www.figma.com/api/mcp/asset/6b885499-9d69-4896-8506-bac431171a8a.svg";
-const imgIconTiktok = "https://www.figma.com/api/mcp/asset/cc94a720-04a3-4518-85d9-5f311429ea54.svg";
-const imgIconChat = "https://www.figma.com/api/mcp/asset/150258e1-7a24-4691-84ef-d5161deddd1e.svg";
-const imgIconPhone = "https://www.figma.com/api/mcp/asset/e548360e-0875-427c-af55-799d2e9f88ac.svg";
-const imgLeadingIcon = "https://www.figma.com/api/mcp/asset/f5f513bc-1b78-4d6f-8e8c-37ae6f613d9b.svg";
-const imgIconPin = "https://www.figma.com/api/mcp/asset/894e8d11-c984-4822-9731-819b6a54871c.svg";
-const imgIconPhone1 = "https://www.figma.com/api/mcp/asset/d32b9fdb-31b7-4bbe-9e16-a416d9487e68.svg";
-const imgIconFactory = "https://www.figma.com/api/mcp/asset/d2488c98-7e11-4089-897d-10ec508b6d3a.svg";
-const imgIconChat1 = "https://www.figma.com/api/mcp/asset/ab7dae38-5294-4359-93b6-b058af04ad2f.svg";
-const imgIconPin1 = "https://www.figma.com/api/mcp/asset/201cdbe3-9091-4cbe-9a8a-5c241d5ceccb.svg";
-const imgIconArrowUr = "https://www.figma.com/api/mcp/asset/a5bb09c9-b12b-4751-819b-303f08ae8e49.svg";
-const imgIconFacebook1 = "https://www.figma.com/api/mcp/asset/cf0bb1a1-eaeb-4327-a6ab-ed8e7a3ec2ff.svg";
+const imgDecoPaperGrain = "https://www.figma.com/api/mcp/asset/f9aa3cf4-a7b3-416f-9f12-35c4919ea773.png";
+const imgDecoBangKeoKraft = "https://www.figma.com/api/mcp/asset/78c0b23b-aad1-4d68-a114-30167d0048e4.png";
+const imgSDXngBnIn = "https://www.figma.com/api/mcp/asset/5ba4b32d-66e1-4dcf-8b4d-bfa273893399.png";
+const imgNhBiaFacebook = "https://www.figma.com/api/mcp/asset/11209c2e-e81d-4a4c-8ef7-d787a7a366d8.png";
+const imgAvatarGoi = "https://www.figma.com/api/mcp/asset/9f9b9add-8730-4827-9ba0-116b4c4906bc.png";
+const imgDecoRegistration = "https://www.figma.com/api/mcp/asset/7868e335-55f0-490f-8489-fc2e5001620a.svg";
+const imgIconBag = "https://www.figma.com/api/mcp/asset/57348f4f-fa03-44f0-81f9-f5288bd1575c.svg";
+const imgTrailingIcon = "https://www.figma.com/api/mcp/asset/6982ea72-cca4-4fff-89b5-8cfeb5472330.svg";
+const imgIconMenu = "https://www.figma.com/api/mcp/asset/120f49d2-13f2-44f5-89fc-4c2e39aa9db8.svg";
+const imgDecoConDuDuytMau = "https://www.figma.com/api/mcp/asset/0b62216b-c7cc-44ea-868c-2b9ea37f34f6.svg";
+const imgEllipse = "https://www.figma.com/api/mcp/asset/21ae1119-a996-48bd-b768-5453c31f554a.svg";
+const imgIconFacebook = "https://www.figma.com/api/mcp/asset/0ce0bd26-fb72-478c-90ac-77cf2feb7722.svg";
+const imgIconYoutube = "https://www.figma.com/api/mcp/asset/fb00f94f-ec11-4934-bd0c-cffaa565c1cc.svg";
+const imgIconTiktok = "https://www.figma.com/api/mcp/asset/f9819cbb-db5b-4dcc-b838-4c060180c93b.svg";
+const imgIconChat = "https://www.figma.com/api/mcp/asset/ceffbe04-39d2-4c6d-91e1-c350418a4e0d.svg";
+const imgIconPhone = "https://www.figma.com/api/mcp/asset/ccbbd504-bf88-4796-8be6-9b520b166271.svg";
+const imgLeadingIcon = "https://www.figma.com/api/mcp/asset/bf649e68-0d9a-49ec-9d8d-1b0e8dd295db.svg";
+const imgIconPin = "https://www.figma.com/api/mcp/asset/f7e3956c-2404-4100-823c-17d9f4ecf0e7.svg";
+const imgIconPhone1 = "https://www.figma.com/api/mcp/asset/602357c5-08b2-4470-ae90-28c736ecb526.svg";
+const imgIconFactory = "https://www.figma.com/api/mcp/asset/09061ac1-22f0-4ea3-83ce-2b01c01b88db.svg";
+const imgIconChat1 = "https://www.figma.com/api/mcp/asset/ed97f012-7cf5-4470-b8f8-4d10cb2cff8c.svg";
+const imgIconPin1 = "https://www.figma.com/api/mcp/asset/ff4da573-92af-4fb3-a617-f9c220a6968b.svg";
+const imgIconArrowUr = "https://www.figma.com/api/mcp/asset/86f2747f-25de-4d9e-bd81-e914344a491f.svg";
+const imgIconFacebook1 = "https://www.figma.com/api/mcp/asset/7f0c53d0-f5df-407f-9909-041ba74b409b.svg";
 
 export default function Component404Tablet834() {
   return (
@@ -107,7 +107,7 @@ export default function Component404Tablet834() {
         <p className="[word-break:break-word] font-['Be_Vietnam_Pro:ExtraBold'] leading-[var(--typography\/line-height\/display-extra-1,80px)] not-italic relative shrink-0 text-[120px] text-[color:var(--brand\/red,#ff6bd5)] text-center tracking-[var(--typography\/letter-spacing\/display-extra-1,-3.19px)] whitespace-nowrap" data-node-id="236:6412">
           404
         </p>
-        <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/heading-2,38px)] min-w-full relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/heading-2,30px)] text-center tracking-[var(--typography\/letter-spacing\/heading-2,-0.6px)] w-[min-content]" data-node-id="236:6413">
+        <p className="[word-break:break-word] font-['Be_Vietnam_Pro:ExtraBold'] leading-[var(--h1\/dòng,48px)] min-w-full not-italic relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--h1\/cỡ-chữ,40px)] text-center tracking-[var(--h1\/giãn-chữ,-1px)] uppercase w-[min-content]" data-node-id="236:6413">
           Trang này không còn ở đây.
         </p>
         <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/body-base,20px)] min-w-full not-italic relative shrink-0 text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-[length:var(--typography\/font-size\/body-base,14px)] text-center tracking-[var(--typography\/letter-spacing\/body-base,-0.14px)] w-[min-content]" data-node-id="236:6414">

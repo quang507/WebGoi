@@ -1,31 +1,31 @@
-const imgDecoPaperGrain = "https://www.figma.com/api/mcp/asset/7c64a2c6-1ab3-4fac-abdf-b790310366e2.png";
-const imgSlotnhB = "https://www.figma.com/api/mcp/asset/79113bd3-6b6d-4b81-944b-5ba159573d27.png";
-const imgDecoBangKeoKraft = "https://www.figma.com/api/mcp/asset/120b5dc8-7540-4d46-a120-8314d65dfe1e.png";
-const imgNhSkuDst01 = "https://www.figma.com/api/mcp/asset/125a3399-5a7c-4e32-8300-3de883e32027.png";
-const imgNhSkuNhan01 = "https://www.figma.com/api/mcp/asset/c5293623-f034-4faf-8f5f-1b4a58c541d6.png";
-const imgDecoHalftone = "https://www.figma.com/api/mcp/asset/852ec90b-cb98-452b-81de-7bee8d860c69.png";
-const imgSDXngBnIn = "https://www.figma.com/api/mcp/asset/513d79b6-bfdc-439e-a8ba-40b3206f5831.png";
-const imgNhBiaFacebook = "https://www.figma.com/api/mcp/asset/a099f46f-bf90-411c-a6d5-8091c573ec15.png";
-const imgAvatarGoi = "https://www.figma.com/api/mcp/asset/3b94da1d-d1ad-4c10-afba-e90317052419.png";
-const imgDecoRegistration = "https://www.figma.com/api/mcp/asset/23707238-785c-44f2-b1b6-2199401dbd49.svg";
-const imgIconBag = "https://www.figma.com/api/mcp/asset/b689e81b-06db-4543-b0bd-cb4c1fb5a860.svg";
-const imgTrailingIcon = "https://www.figma.com/api/mcp/asset/26f67941-d5e0-417c-9841-4ca4b1b1ff36.svg";
-const imgIconMenu = "https://www.figma.com/api/mcp/asset/11c68766-370c-4f71-a2b0-2189c6fb1d42.svg";
-const imgTrailingIcon1 = "https://www.figma.com/api/mcp/asset/a59c5e56-e900-4b2a-9d10-b8184ef1f6d6.svg";
-const imgIconArrowR = "https://www.figma.com/api/mcp/asset/60e6e160-2a59-4a99-a0e5-c4dc6818f5d1.svg";
-const imgIconFacebook = "https://www.figma.com/api/mcp/asset/240442a7-8543-42b3-8227-09a59c81ae31.svg";
-const imgIconYoutube = "https://www.figma.com/api/mcp/asset/b66770a4-80cb-4447-b336-46e94bd74fa5.svg";
-const imgIconTiktok = "https://www.figma.com/api/mcp/asset/0f542f42-115b-436e-95db-9c027a751ef2.svg";
-const imgIconChat = "https://www.figma.com/api/mcp/asset/9b19c6c9-b9f6-4b32-9366-6679b67a08d9.svg";
-const imgIconPhone = "https://www.figma.com/api/mcp/asset/5d071fb8-d495-45df-b662-cb83b8269b32.svg";
-const imgLeadingIcon = "https://www.figma.com/api/mcp/asset/3259cdae-cd7b-44ab-98a0-84d0f975f5fa.svg";
-const imgIconPin = "https://www.figma.com/api/mcp/asset/2d3767a6-7f7e-49c8-82f2-b65a1ff7afb9.svg";
-const imgIconPhone1 = "https://www.figma.com/api/mcp/asset/a4c898b3-8671-44cd-bae7-b67c46ec7221.svg";
-const imgIconFactory = "https://www.figma.com/api/mcp/asset/a1d6b2e5-62d1-4123-9c34-fed36e10486d.svg";
-const imgIconChat1 = "https://www.figma.com/api/mcp/asset/7116c067-95ab-4aff-b023-942bbe030ebe.svg";
-const imgIconPin1 = "https://www.figma.com/api/mcp/asset/4746737b-2766-40a6-98e2-8f62ea338c95.svg";
-const imgIconArrowUr = "https://www.figma.com/api/mcp/asset/da6652ca-ebe4-45ce-867b-7cf46e8bb350.svg";
-const imgIconFacebook1 = "https://www.figma.com/api/mcp/asset/558cb369-a531-444b-b50d-e600fd826842.svg";
+const imgDecoPaperGrain = "https://www.figma.com/api/mcp/asset/b7997fed-9b49-48b4-96e3-b08092b2225d.png";
+const imgSlotnhB = "https://www.figma.com/api/mcp/asset/5d0437a1-8f3e-4c53-96e9-483289fbed06.png";
+const imgDecoBangKeoKraft = "https://www.figma.com/api/mcp/asset/1e528fbb-3b1c-465f-8392-0f9253bd6be9.png";
+const imgNhSkuDst01 = "https://www.figma.com/api/mcp/asset/10e986c7-8e8d-4e07-bbad-7a4b4a7fa413.png";
+const imgNhSkuNhan01 = "https://www.figma.com/api/mcp/asset/44e6dbfa-6dc2-4d42-9260-c786041e40ce.png";
+const imgDecoHalftone = "https://www.figma.com/api/mcp/asset/3c7ddf5f-8a97-47af-8225-2d6a67ea229c.png";
+const imgSDXngBnIn = "https://www.figma.com/api/mcp/asset/9099eef7-68f7-4e3c-a282-13faa00c30fa.png";
+const imgNhBiaFacebook = "https://www.figma.com/api/mcp/asset/c0bb82b3-fd50-4e00-b292-e7fecec2756a.png";
+const imgAvatarGoi = "https://www.figma.com/api/mcp/asset/4cf98646-0344-4721-9ca9-e824fe64255d.png";
+const imgDecoRegistration = "https://www.figma.com/api/mcp/asset/d803cde3-c3f5-4521-8ef2-a529baa000d8.svg";
+const imgIconBag = "https://www.figma.com/api/mcp/asset/48de516a-56f0-43d5-be85-dd36463aaa06.svg";
+const imgTrailingIcon = "https://www.figma.com/api/mcp/asset/01dfe588-9e24-421b-a5c3-d71a10608e89.svg";
+const imgIconMenu = "https://www.figma.com/api/mcp/asset/35c8cbc6-d182-4190-82d4-1207ef65dcfa.svg";
+const imgTrailingIcon1 = "https://www.figma.com/api/mcp/asset/d3bdadd0-a2ce-4a88-bb96-8ebdb274e956.svg";
+const imgIconArrowR = "https://www.figma.com/api/mcp/asset/80e66ec4-cc12-4e3e-9267-04ce93cbc277.svg";
+const imgIconFacebook = "https://www.figma.com/api/mcp/asset/89344de4-fe60-4423-94f9-bbc32a872982.svg";
+const imgIconYoutube = "https://www.figma.com/api/mcp/asset/5ff8b752-b26c-4809-b476-5e8d85472a6a.svg";
+const imgIconTiktok = "https://www.figma.com/api/mcp/asset/bf9b262e-f85b-4b48-a3bf-3d490f3e13d5.svg";
+const imgIconChat = "https://www.figma.com/api/mcp/asset/cda46638-b9ac-4f8e-80b9-15861786f339.svg";
+const imgIconPhone = "https://www.figma.com/api/mcp/asset/c890ff6a-cb8c-4bf8-a7f5-7af871ebf888.svg";
+const imgLeadingIcon = "https://www.figma.com/api/mcp/asset/869ebba9-0b75-49f7-b0ab-840aef7da338.svg";
+const imgIconPin = "https://www.figma.com/api/mcp/asset/1892a7d6-d479-4d1f-9a4d-49f667a812df.svg";
+const imgIconPhone1 = "https://www.figma.com/api/mcp/asset/876a7078-85ff-4683-8093-3217a40a1075.svg";
+const imgIconFactory = "https://www.figma.com/api/mcp/asset/ec7e50e4-4d3b-409b-b1f1-ba4cdde8fff5.svg";
+const imgIconChat1 = "https://www.figma.com/api/mcp/asset/700b9349-b80e-4d37-b177-ab84d4b138fa.svg";
+const imgIconPin1 = "https://www.figma.com/api/mcp/asset/a43b6f1d-4e17-42a1-8864-017b63de450a.svg";
+const imgIconArrowUr = "https://www.figma.com/api/mcp/asset/96d3d48b-b243-4652-a71a-fb80cf760af6.svg";
+const imgIconFacebook1 = "https://www.figma.com/api/mcp/asset/d4c33f63-f507-4453-8559-d9672cfd6d63.svg";
 
 export default function BThitKTablet834() {
   return (
@@ -91,7 +91,7 @@ export default function BThitKTablet834() {
             <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[16px] not-italic relative shrink-0 text-[11px] text-[color:var(--brand\/red,#ff6bd5)] tracking-[0.66px] uppercase whitespace-nowrap" data-node-id="240:11033">
               BỘ THIẾT KẾ CÓ SẴN
             </p>
-            <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/heading-1,42px)] min-w-full relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/heading-1,34px)] tracking-[var(--typography\/letter-spacing\/heading-1,-0.68px)] w-[min-content]" data-node-id="240:11034">
+            <p className="[word-break:break-word] font-['Be_Vietnam_Pro:ExtraBold'] leading-[var(--h1\/dòng,48px)] min-w-full not-italic relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--h1\/cỡ-chữ,40px)] tracking-[var(--h1\/giãn-chữ,-1px)] uppercase w-[min-content]" data-node-id="240:11034">
               Trống đồng Đông Sơn
             </p>
             <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/body-extra,24px)] min-w-full not-italic relative shrink-0 text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-[length:var(--typography\/font-size\/body-extra,16px)] tracking-[var(--typography\/letter-spacing\/body-extra,-0.16px)] w-[min-content]" data-node-id="240:11035">
@@ -204,11 +204,11 @@ export default function BThitKTablet834() {
         <div className="absolute h-[400px] left-[414px] opacity-18 top-[-60px] w-[800px]" data-node-id="240:11084" data-name="Deco/Halftone">
           <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgDecoHalftone} />
         </div>
-        <div className="[word-break:break-word] content-stretch flex flex-col gap-[6px] items-start overflow-clip relative shrink-0 text-[color:var(--base\/white,white)] whitespace-nowrap" data-node-id="240:11085" data-name="CTA Text">
-          <p className="font-['Inter:Semi_Bold'] font-semibold leading-[16px] not-italic relative shrink-0 text-[11px] tracking-[0.66px] uppercase" data-node-id="240:11086">
+        <div className="[word-break:break-word] content-stretch flex flex-col gap-[6px] items-start not-italic overflow-clip relative shrink-0 text-[color:var(--base\/white,white)] uppercase" data-node-id="240:11085" data-name="CTA Text">
+          <p className="font-['Inter:Semi_Bold'] font-semibold leading-[16px] relative shrink-0 text-[11px] tracking-[0.66px] whitespace-nowrap" data-node-id="240:11086">
             ĐẶT THEO SET 100 · IN LOGO RIÊNG
           </p>
-          <p className="font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/heading-3,32px)] relative shrink-0 text-[length:var(--typography\/font-size\/heading-3,26px)] tracking-[var(--typography\/letter-spacing\/heading-3,-0.52px)]" data-node-id="240:11087">
+          <p className="font-['Be_Vietnam_Pro:ExtraBold'] leading-[var(--h2\/dòng,38px)] min-w-full relative shrink-0 text-[length:var(--h2\/cỡ-chữ,30px)] tracking-[var(--h2\/giãn-chữ,-0.6px)] w-[min-content]" data-node-id="240:11087">
             Nhắn GÓI món bạn bán, nhận báo giá và maket
           </p>
         </div>

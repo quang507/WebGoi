@@ -1,37 +1,37 @@
-const imgDecoHalftone = "https://www.figma.com/api/mcp/asset/08882eab-a3cc-46e8-a487-8499d14d7e4d.png";
-const imgDecoPaperGrain = "https://www.figma.com/api/mcp/asset/eb9c5bf3-326f-4265-922e-2fde06dc52f6.png";
-const imgNhNhanInSatinCareLabel = "https://www.figma.com/api/mcp/asset/14a5dd07-5b40-4e1f-94ed-f636e81de8c8.png";
-const imgNhNhanDt = "https://www.figma.com/api/mcp/asset/f05a0e8e-ecfa-429c-ba25-52e31c61c750.png";
-const imgNhThBaiHangtag = "https://www.figma.com/api/mcp/asset/de393ebf-8294-4d7d-a45a-02b4aed6d1f0.png";
-const imgNhRuyBangIn = "https://www.figma.com/api/mcp/asset/b29b4df6-d931-495b-85b5-fd94f3b35829.png";
-const imgNhTemDanDecal = "https://www.figma.com/api/mcp/asset/e2bfd495-9657-4ff5-8af9-76e56bfe04ca.png";
-const imgNhHpGiyTheoYeuCu = "https://www.figma.com/api/mcp/asset/e48170ee-2c63-45a5-8a2b-a6f2365ba139.png";
-const imgNhPhLiuMay = "https://www.figma.com/api/mcp/asset/cfe063d3-9645-4e73-a508-af9054634c17.png";
-const imgSDXngBnIn = "https://www.figma.com/api/mcp/asset/12afdbe7-891f-4191-aec5-c6834dd27993.png";
-const imgNhBiaFacebook = "https://www.figma.com/api/mcp/asset/ea193546-c985-426b-b7c6-94884f9c1546.png";
-const imgAvatarGoi = "https://www.figma.com/api/mcp/asset/8be58f34-7b2c-493b-a16b-42171cf77908.png";
-const imgDecoRegistration = "https://www.figma.com/api/mcp/asset/1b22cd86-553b-46ab-8d9c-46e37ddd6368.svg";
-const imgIconBag = "https://www.figma.com/api/mcp/asset/b388616d-5ecc-4dec-b419-98108456f71b.svg";
-const imgTrailingIcon = "https://www.figma.com/api/mcp/asset/a51bc95a-e577-4a1e-9aa1-d219969e6f27.svg";
-const imgIconMenu = "https://www.figma.com/api/mcp/asset/36a4a27b-b793-4215-a793-54efb2deb5ce.svg";
-const imgGroup = "https://www.figma.com/api/mcp/asset/f15ef73b-39d4-47d6-b7d1-180dc883a7ee.svg";
-const imgIconScissors = "https://www.figma.com/api/mcp/asset/b25e0701-cc59-496a-a962-235d1ee1ad8e.svg";
-const imgLine = "https://www.figma.com/api/mcp/asset/a3d4c062-4561-44fd-92b2-d4dcb58396ae.svg";
-const imgTrailingIcon1 = "https://www.figma.com/api/mcp/asset/b033521c-7f40-4fee-b4e1-9150451e0624.svg";
-const imgIconBox = "https://www.figma.com/api/mcp/asset/51e6ee68-e23f-463f-bf64-421e61cb9e35.svg";
-const imgIconFacebook = "https://www.figma.com/api/mcp/asset/aa0f645b-9f96-4a2b-8065-4fcae052bf3c.svg";
-const imgIconYoutube = "https://www.figma.com/api/mcp/asset/ec34d648-809f-4d6d-bbab-ed66524a661b.svg";
-const imgIconTiktok = "https://www.figma.com/api/mcp/asset/e631ce55-6fa2-49c7-8f41-43e287bc9b84.svg";
-const imgIconChat = "https://www.figma.com/api/mcp/asset/73520aae-2f3e-4b3b-a9e7-133c0c836ca7.svg";
-const imgIconPhone = "https://www.figma.com/api/mcp/asset/f7d40797-902b-45b5-9da1-fb619afad129.svg";
-const imgLeadingIcon = "https://www.figma.com/api/mcp/asset/c65d16a5-6487-4a18-b3aa-af06bf8df144.svg";
-const imgIconPin = "https://www.figma.com/api/mcp/asset/9452062f-6d4c-4c97-a530-4cc42c0af6d3.svg";
-const imgIconPhone1 = "https://www.figma.com/api/mcp/asset/c20a610a-e91c-4f1d-8b78-15184bb8cf42.svg";
-const imgIconFactory = "https://www.figma.com/api/mcp/asset/3bd09dae-a547-452e-88ef-42d31e9406e5.svg";
-const imgIconChat1 = "https://www.figma.com/api/mcp/asset/f421a9d8-d0eb-43bc-b35d-76be590ac0d3.svg";
-const imgIconPin1 = "https://www.figma.com/api/mcp/asset/bc398d81-a10f-451e-bba8-9b0654ee82c7.svg";
-const imgIconArrowUr = "https://www.figma.com/api/mcp/asset/6bcd7e68-da4f-453c-a0cd-a8ab64d2f1d6.svg";
-const imgIconFacebook1 = "https://www.figma.com/api/mcp/asset/56834da2-fb24-4797-ab13-5439ea4d0fd1.svg";
+const imgDecoHalftone = "https://www.figma.com/api/mcp/asset/1bd2729f-759c-42c0-a1aa-deae39810eb5.png";
+const imgDecoPaperGrain = "https://www.figma.com/api/mcp/asset/9622e225-9729-4ffd-a1e5-a3d5e4709f69.png";
+const imgNhNhanInSatinCareLabel = "https://www.figma.com/api/mcp/asset/2115859a-2257-4f13-bbb3-2dddae789cee.png";
+const imgNhNhanDt = "https://www.figma.com/api/mcp/asset/3f6565a7-2192-4ef2-93b1-ae9e06fc86f5.png";
+const imgNhThBaiHangtag = "https://www.figma.com/api/mcp/asset/50313348-66c4-45d7-8e70-1218e6b84bf3.png";
+const imgNhRuyBangIn = "https://www.figma.com/api/mcp/asset/50f2ee63-e8b6-4ed6-9a8d-f7bf15e3a361.png";
+const imgNhTemDanDecal = "https://www.figma.com/api/mcp/asset/7e4b1671-ece9-46dc-bf1a-47c036045454.png";
+const imgNhHpGiyTheoYeuCu = "https://www.figma.com/api/mcp/asset/0c52508e-dae1-4ce9-813c-94bcc685009d.png";
+const imgNhPhLiuMay = "https://www.figma.com/api/mcp/asset/c227f3cc-7b07-4a4b-97d3-4c2a1fd0f8cf.png";
+const imgSDXngBnIn = "https://www.figma.com/api/mcp/asset/95dae9ad-2b9b-4655-834e-a57d3c77ce4c.png";
+const imgNhBiaFacebook = "https://www.figma.com/api/mcp/asset/8df3e0c3-78b0-4449-92a9-fd74367504b9.png";
+const imgAvatarGoi = "https://www.figma.com/api/mcp/asset/28700f1f-d404-4685-9d82-6f32e7a2d271.png";
+const imgDecoRegistration = "https://www.figma.com/api/mcp/asset/e32332f0-9016-4ca5-9786-542ff5eab60a.svg";
+const imgIconBag = "https://www.figma.com/api/mcp/asset/4057e239-3795-46f7-91c2-80dce3bd202a.svg";
+const imgTrailingIcon = "https://www.figma.com/api/mcp/asset/66222364-5099-4ad9-963a-9e654d3d5522.svg";
+const imgIconMenu = "https://www.figma.com/api/mcp/asset/26b6a414-4f31-44dc-acb0-7d667110f263.svg";
+const imgGroup = "https://www.figma.com/api/mcp/asset/640442a7-821a-4236-8f02-261cd7b686cb.svg";
+const imgIconScissors = "https://www.figma.com/api/mcp/asset/a219e98f-3d2e-4714-8029-fcc5a6f5aa09.svg";
+const imgLine = "https://www.figma.com/api/mcp/asset/45ce6ed9-a92f-4f0a-9e4f-d917ff4d26db.svg";
+const imgTrailingIcon1 = "https://www.figma.com/api/mcp/asset/073976c9-f6e5-4518-bf44-f0ab2c8e1129.svg";
+const imgIconBox = "https://www.figma.com/api/mcp/asset/28b99066-7e14-4c85-9192-8f3a95e0b06d.svg";
+const imgIconFacebook = "https://www.figma.com/api/mcp/asset/7c186297-b58e-4120-b88f-debd5095ddb3.svg";
+const imgIconYoutube = "https://www.figma.com/api/mcp/asset/5c0bcda3-1bad-4640-a475-8b096376f61a.svg";
+const imgIconTiktok = "https://www.figma.com/api/mcp/asset/93080f1a-6242-464e-bf41-e83daaa0edbd.svg";
+const imgIconChat = "https://www.figma.com/api/mcp/asset/1b4f113f-c3bb-463a-bc31-0f53b58423b9.svg";
+const imgIconPhone = "https://www.figma.com/api/mcp/asset/8cd9013f-3167-4a4a-a797-dd258c36200d.svg";
+const imgLeadingIcon = "https://www.figma.com/api/mcp/asset/17a71a3d-570d-4c6e-8e66-3db1b2eae9b9.svg";
+const imgIconPin = "https://www.figma.com/api/mcp/asset/5d52a55c-69c6-40d6-a063-9c6051534637.svg";
+const imgIconPhone1 = "https://www.figma.com/api/mcp/asset/59389cef-44f5-4889-80e5-b623718bfdd9.svg";
+const imgIconFactory = "https://www.figma.com/api/mcp/asset/5a81bce4-fbd8-4357-b21b-2849b671c1de.svg";
+const imgIconChat1 = "https://www.figma.com/api/mcp/asset/7ec69f42-d3df-4d13-a7e3-5fc41ddd46d3.svg";
+const imgIconPin1 = "https://www.figma.com/api/mcp/asset/e6652eec-c942-46a9-b73c-975518e598b2.svg";
+const imgIconArrowUr = "https://www.figma.com/api/mcp/asset/2321185e-450a-4a4f-8226-0009de3e6252.svg";
+const imgIconFacebook1 = "https://www.figma.com/api/mcp/asset/81c0568b-c917-48ad-8fac-bc35e4df77ea.svg";
 
 export default function DchVTablet834() {
   return (
@@ -91,7 +91,7 @@ export default function DchVTablet834() {
         </a>
       </div>
       <div className="bg-[var(--brand\/red,#ff6bd5)] content-stretch flex flex-col gap-[var(--spacing\/gap\/xsmall,8px)] h-[150px] items-start overflow-clip p-[var(--spacing\/padding\/2xlarge,32px)] relative shrink-0 w-full" data-node-id="238:8884" data-name="Category Hero Title">
-        <p className="[word-break:break-word] font-['Be_Vietnam_Pro:ExtraBold'] leading-[var(--typography\/line-height\/heading-1,42px)] not-italic relative shrink-0 text-[color:var(--base\/white,white)] text-[length:var(--typography\/font-size\/heading-1,34px)] tracking-[var(--typography\/letter-spacing\/heading-1,-0.68px)] whitespace-nowrap" data-node-id="238:8885">
+        <p className="[word-break:break-word] font-['Be_Vietnam_Pro:ExtraBold'] leading-[var(--h1\/dòng,48px)] min-w-full not-italic relative shrink-0 text-[color:var(--base\/white,white)] text-[length:var(--h1\/cỡ-chữ,40px)] tracking-[var(--h1\/giãn-chữ,-1px)] uppercase w-[min-content]" data-node-id="238:8885">
           DỊCH VỤ XƯỞNG
         </p>
         <div className="absolute h-[375.3px] left-[-125.1px] mix-blend-multiply opacity-35 top-[-100.2px] w-[750.6px]" data-node-id="238:8886" data-name="Deco · Halftone">
@@ -130,7 +130,7 @@ export default function DchVTablet834() {
                 <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgNhNhanInSatinCareLabel} />
               </div>
               <div className="content-stretch flex flex-col gap-[10px] items-start overflow-clip pb-[20px] pt-[18px] px-[20px] relative shrink-0 w-full" data-node-id="238:8943" data-name="Nội Dung">
-                <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/subheading,26px)] min-w-full relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/subheading,19px)] tracking-[var(--typography\/letter-spacing\/subheading,-0.38px)] w-[min-content]" data-node-id="238:8944">
+                <p className="[word-break:break-word] font-['Lora:SemiBold'] font-semibold leading-[var(--h3\/dòng,28px)] min-w-full relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--h3\/cỡ-chữ,20px)] tracking-[var(--h3\/giãn-chữ,-0.3px)] w-[min-content]" data-node-id="238:8944">
                   Nhãn in satin, care label
                 </p>
                 <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/body-small,16px)] min-w-full not-italic relative shrink-0 text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-[length:var(--typography\/font-size\/body-small,12px)] tracking-[var(--typography\/letter-spacing\/body-small,0px)] w-[min-content]" data-node-id="238:8945">
@@ -152,7 +152,7 @@ export default function DchVTablet834() {
                 <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgNhNhanDt} />
               </div>
               <div className="content-stretch flex flex-[1_0_0] flex-col gap-[10px] items-start min-h-px overflow-clip pb-[20px] pt-[18px] px-[20px] relative w-full" data-node-id="238:8956" data-name="Nội Dung">
-                <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/subheading,26px)] min-w-full relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/subheading,19px)] tracking-[var(--typography\/letter-spacing\/subheading,-0.38px)] w-[min-content]" data-node-id="238:8957">
+                <p className="[word-break:break-word] font-['Lora:SemiBold'] font-semibold leading-[var(--h3\/dòng,28px)] min-w-full relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--h3\/cỡ-chữ,20px)] tracking-[var(--h3\/giãn-chữ,-0.3px)] w-[min-content]" data-node-id="238:8957">
                   Nhãn dệt
                 </p>
                 <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/body-small,16px)] min-w-full not-italic relative shrink-0 text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-[length:var(--typography\/font-size\/body-small,12px)] tracking-[var(--typography\/letter-spacing\/body-small,0px)] w-[min-content]" data-node-id="238:8958">
@@ -176,7 +176,7 @@ export default function DchVTablet834() {
                 <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgNhThBaiHangtag} />
               </div>
               <div className="content-stretch flex flex-col gap-[10px] items-start overflow-clip pb-[20px] pt-[18px] px-[20px] relative shrink-0 w-full" data-node-id="238:8968" data-name="Nội Dung">
-                <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/subheading,26px)] min-w-full relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/subheading,19px)] tracking-[var(--typography\/letter-spacing\/subheading,-0.38px)] w-[min-content]" data-node-id="238:8969">
+                <p className="[word-break:break-word] font-['Lora:SemiBold'] font-semibold leading-[var(--h3\/dòng,28px)] min-w-full relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--h3\/cỡ-chữ,20px)] tracking-[var(--h3\/giãn-chữ,-0.3px)] w-[min-content]" data-node-id="238:8969">
                   Thẻ bài, hangtag
                 </p>
                 <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/body-small,16px)] min-w-full not-italic relative shrink-0 text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-[length:var(--typography\/font-size\/body-small,12px)] tracking-[var(--typography\/letter-spacing\/body-small,0px)] w-[min-content]" data-node-id="238:8970">
@@ -198,7 +198,7 @@ export default function DchVTablet834() {
                 <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgNhRuyBangIn} />
               </div>
               <div className="content-stretch flex flex-[1_0_0] flex-col gap-[10px] items-start min-h-px overflow-clip pb-[20px] pt-[18px] px-[20px] relative w-full" data-node-id="238:8981" data-name="Nội Dung">
-                <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/subheading,26px)] min-w-full relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/subheading,19px)] tracking-[var(--typography\/letter-spacing\/subheading,-0.38px)] w-[min-content]" data-node-id="238:8982">
+                <p className="[word-break:break-word] font-['Lora:SemiBold'] font-semibold leading-[var(--h3\/dòng,28px)] min-w-full relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--h3\/cỡ-chữ,20px)] tracking-[var(--h3\/giãn-chữ,-0.3px)] w-[min-content]" data-node-id="238:8982">
                   Ruy băng in
                 </p>
                 <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/body-small,16px)] min-w-full not-italic relative shrink-0 text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-[length:var(--typography\/font-size\/body-small,12px)] tracking-[var(--typography\/letter-spacing\/body-small,0px)] w-[min-content]" data-node-id="238:8983">
@@ -240,7 +240,7 @@ export default function DchVTablet834() {
                 </p>
               </div>
               <div className="content-stretch flex flex-col gap-[10px] items-start overflow-clip pb-[20px] pt-[18px] px-[20px] relative shrink-0 w-full" data-node-id="238:8993" data-name="Nội Dung">
-                <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/subheading,26px)] min-w-full relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/subheading,19px)] tracking-[var(--typography\/letter-spacing\/subheading,-0.38px)] w-[min-content]" data-node-id="238:8994">
+                <p className="[word-break:break-word] font-['Lora:SemiBold'] font-semibold leading-[var(--h3\/dòng,28px)] min-w-full relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--h3\/cỡ-chữ,20px)] tracking-[var(--h3\/giãn-chữ,-0.3px)] w-[min-content]" data-node-id="238:8994">
                   Nhãn ép nhiệt
                 </p>
                 <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/body-small,16px)] min-w-full not-italic relative shrink-0 text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-[length:var(--typography\/font-size\/body-small,12px)] tracking-[var(--typography\/letter-spacing\/body-small,0px)] w-[min-content]" data-node-id="238:8995">
@@ -262,7 +262,7 @@ export default function DchVTablet834() {
                 <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgNhTemDanDecal} />
               </div>
               <div className="content-stretch flex flex-[1_0_0] flex-col gap-[10px] items-start min-h-px overflow-clip pb-[20px] pt-[18px] px-[20px] relative w-full" data-node-id="238:9006" data-name="Nội Dung">
-                <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/subheading,26px)] min-w-full relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/subheading,19px)] tracking-[var(--typography\/letter-spacing\/subheading,-0.38px)] w-[min-content]" data-node-id="238:9007">
+                <p className="[word-break:break-word] font-['Lora:SemiBold'] font-semibold leading-[var(--h3\/dòng,28px)] min-w-full relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--h3\/cỡ-chữ,20px)] tracking-[var(--h3\/giãn-chữ,-0.3px)] w-[min-content]" data-node-id="238:9007">
                   Tem dán, decal
                 </p>
                 <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/body-small,16px)] min-w-full not-italic relative shrink-0 text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-[length:var(--typography\/font-size\/body-small,12px)] tracking-[var(--typography\/letter-spacing\/body-small,0px)] w-[min-content]" data-node-id="238:9008">
@@ -286,7 +286,7 @@ export default function DchVTablet834() {
                 <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgNhHpGiyTheoYeuCu} />
               </div>
               <div className="content-stretch flex flex-col gap-[10px] items-start overflow-clip pb-[20px] pt-[18px] px-[20px] relative shrink-0 w-full" data-node-id="238:9018" data-name="Nội Dung">
-                <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/subheading,26px)] min-w-full relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/subheading,19px)] tracking-[var(--typography\/letter-spacing\/subheading,-0.38px)] w-[min-content]" data-node-id="238:9019">
+                <p className="[word-break:break-word] font-['Lora:SemiBold'] font-semibold leading-[var(--h3\/dòng,28px)] min-w-full relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--h3\/cỡ-chữ,20px)] tracking-[var(--h3\/giãn-chữ,-0.3px)] w-[min-content]" data-node-id="238:9019">
                   Hộp giấy theo yêu cầu
                 </p>
                 <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/body-small,16px)] min-w-full not-italic relative shrink-0 text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-[length:var(--typography\/font-size\/body-small,12px)] tracking-[var(--typography\/letter-spacing\/body-small,0px)] w-[min-content]" data-node-id="238:9020">
@@ -326,7 +326,7 @@ export default function DchVTablet834() {
                 </p>
               </div>
               <div className="content-stretch flex flex-[1_0_0] flex-col gap-[10px] items-start min-h-px overflow-clip pb-[20px] pt-[18px] px-[20px] relative w-full" data-node-id="238:9031" data-name="Nội Dung">
-                <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/subheading,26px)] min-w-full relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/subheading,19px)] tracking-[var(--typography\/letter-spacing\/subheading,-0.38px)] w-[min-content]" data-node-id="238:9032">
+                <p className="[word-break:break-word] font-['Lora:SemiBold'] font-semibold leading-[var(--h3\/dòng,28px)] min-w-full relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--h3\/cỡ-chữ,20px)] tracking-[var(--h3\/giãn-chữ,-0.3px)] w-[min-content]" data-node-id="238:9032">
                   Giấy cuộn bó hàng
                 </p>
                 <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/body-small,16px)] min-w-full not-italic relative shrink-0 text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-[length:var(--typography\/font-size\/body-small,12px)] tracking-[var(--typography\/letter-spacing\/body-small,0px)] w-[min-content]" data-node-id="238:9033">
@@ -350,7 +350,7 @@ export default function DchVTablet834() {
                 <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgNhPhLiuMay} />
               </div>
               <div className="content-stretch flex flex-col gap-[10px] items-start overflow-clip pb-[20px] pt-[18px] px-[20px] relative shrink-0 w-full" data-node-id="238:9043" data-name="Nội Dung">
-                <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/subheading,26px)] min-w-full relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/subheading,19px)] tracking-[var(--typography\/letter-spacing\/subheading,-0.38px)] w-[min-content]" data-node-id="238:9044">
+                <p className="[word-break:break-word] font-['Lora:SemiBold'] font-semibold leading-[var(--h3\/dòng,28px)] min-w-full relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--h3\/cỡ-chữ,20px)] tracking-[var(--h3\/giãn-chữ,-0.3px)] w-[min-content]" data-node-id="238:9044">
                   Phụ liệu may
                 </p>
                 <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/body-small,16px)] min-w-full not-italic relative shrink-0 text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-[length:var(--typography\/font-size\/body-small,12px)] tracking-[var(--typography\/letter-spacing\/body-small,0px)] w-[min-content]" data-node-id="238:9045">
@@ -378,11 +378,11 @@ export default function DchVTablet834() {
         <div className="absolute h-[400px] left-[414px] opacity-18 top-[-60px] w-[800px]" data-node-id="238:9057" data-name="Deco/Halftone">
           <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgDecoHalftone} />
         </div>
-        <div className="[word-break:break-word] content-stretch flex flex-col gap-[6px] items-start overflow-clip relative shrink-0 text-[color:var(--base\/white,white)] whitespace-nowrap" data-node-id="238:9058" data-name="CTA Text">
-          <p className="font-['Inter:Semi_Bold'] font-semibold leading-[16px] not-italic relative shrink-0 text-[11px] tracking-[0.66px] uppercase" data-node-id="238:9059">
+        <div className="[word-break:break-word] content-stretch flex flex-col gap-[6px] items-start not-italic overflow-clip relative shrink-0 text-[color:var(--base\/white,white)] uppercase" data-node-id="238:9058" data-name="CTA Text">
+          <p className="font-['Inter:Semi_Bold'] font-semibold leading-[16px] relative shrink-0 text-[11px] tracking-[0.66px] whitespace-nowrap" data-node-id="238:9059">
             ĐẶT THEO SET 100 · IN LOGO RIÊNG
           </p>
-          <p className="font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/heading-3,32px)] relative shrink-0 text-[length:var(--typography\/font-size\/heading-3,26px)] tracking-[var(--typography\/letter-spacing\/heading-3,-0.52px)]" data-node-id="238:9060">
+          <p className="font-['Be_Vietnam_Pro:ExtraBold'] leading-[var(--h2\/dòng,38px)] min-w-full relative shrink-0 text-[length:var(--h2\/cỡ-chữ,30px)] tracking-[var(--h2\/giãn-chữ,-0.6px)] w-[min-content]" data-node-id="238:9060">
             Nhắn GÓI món bạn bán, nhận báo giá và maket
           </p>
         </div>

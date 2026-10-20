@@ -1,30 +1,30 @@
-const imgDecoHalftone = "https://www.figma.com/api/mcp/asset/5905d8bb-32b7-452f-87b4-3ccfa030ed78.png";
-const imgDecoPaperGrain = "https://www.figma.com/api/mcp/asset/506c0940-ce45-4170-b2c4-4744c9d37334.png";
-const imgSDXngBnIn = "https://www.figma.com/api/mcp/asset/cc55f1ae-d4a5-4bf2-9ae0-00e04d0b108c.png";
-const imgNhBiaFacebook = "https://www.figma.com/api/mcp/asset/72323895-1607-4a67-83f0-a8a601e081c1.png";
-const imgAvatarGoi = "https://www.figma.com/api/mcp/asset/8c4d3ecd-f32f-41f8-933d-5b39a78c30ad.png";
-const imgDecoRegistration = "https://www.figma.com/api/mcp/asset/e39a7063-a312-48f8-9b11-edfbf5639610.svg";
-const imgIconBag = "https://www.figma.com/api/mcp/asset/31cad12e-d838-4d06-a056-c621410b0942.svg";
-const imgTrailingIcon = "https://www.figma.com/api/mcp/asset/9271ffd2-34d1-40ea-8fb0-5ab981af7dbf.svg";
-const imgIconMenu = "https://www.figma.com/api/mcp/asset/74da272b-e0a3-49d9-8514-d2ecf529600f.svg";
-const imgGroup = "https://www.figma.com/api/mcp/asset/2d09a5a8-2a90-4c13-b7ef-350ad34cba0a.svg";
-const imgIconScissors = "https://www.figma.com/api/mcp/asset/16860db4-877c-42f4-b0c3-c823f988fdbe.svg";
-const imgLine = "https://www.figma.com/api/mcp/asset/11b1b5f7-3d16-4f13-924b-290f1e807d9d.svg";
-const imgIconCheck = "https://www.figma.com/api/mcp/asset/473a4ed6-88d5-48a6-afe3-3fe741ca62b6.svg";
-const imgTrailingIcon1 = "https://www.figma.com/api/mcp/asset/4471f7f8-c141-4d1d-bdf7-37a4d773daf4.svg";
-const imgIconFacebook = "https://www.figma.com/api/mcp/asset/c55f2dc5-acd0-4537-926c-d6abc7285eba.svg";
-const imgIconYoutube = "https://www.figma.com/api/mcp/asset/fbff1e21-4c39-4805-bc21-f404d2010910.svg";
-const imgIconTiktok = "https://www.figma.com/api/mcp/asset/e4177746-98a9-4087-a4f4-5c580a121539.svg";
-const imgIconChat = "https://www.figma.com/api/mcp/asset/a3084153-d3be-442e-8bfb-bd86d4c936e3.svg";
-const imgIconPhone = "https://www.figma.com/api/mcp/asset/46d63b6c-004a-4179-b78c-4ba76f91f3f6.svg";
-const imgLeadingIcon = "https://www.figma.com/api/mcp/asset/7d874404-b36b-47d9-b7bd-d5ccd0b8d595.svg";
-const imgIconPin = "https://www.figma.com/api/mcp/asset/c8025896-e5a1-4e2c-94dc-5252c6830609.svg";
-const imgIconPhone1 = "https://www.figma.com/api/mcp/asset/e59f5949-87d4-47f5-91ef-7f450df7ebea.svg";
-const imgIconFactory = "https://www.figma.com/api/mcp/asset/316621a3-7fda-4344-ac3c-53b8db0e00b9.svg";
-const imgIconChat1 = "https://www.figma.com/api/mcp/asset/fd6287f0-d20d-4c18-8a6d-3c8590a240b1.svg";
-const imgIconPin1 = "https://www.figma.com/api/mcp/asset/e57c186e-6766-4f28-b7a7-c0910b9127b8.svg";
-const imgIconArrowUr = "https://www.figma.com/api/mcp/asset/3cf32ca4-fb43-48e1-b76e-bd8aa9189322.svg";
-const imgIconFacebook1 = "https://www.figma.com/api/mcp/asset/80a0e2e9-ab84-4bd5-b4e9-519effce78bc.svg";
+const imgDecoHalftone = "https://www.figma.com/api/mcp/asset/d6e0133c-82bd-4588-b0fe-cb2eabe687a9.png";
+const imgDecoPaperGrain = "https://www.figma.com/api/mcp/asset/2a10a4c1-7e9e-4dec-bc78-12065748a551.png";
+const imgSDXngBnIn = "https://www.figma.com/api/mcp/asset/5e452a09-a631-4176-ab81-adb441d9fd1f.png";
+const imgNhBiaFacebook = "https://www.figma.com/api/mcp/asset/5cde2096-9570-4232-acbc-9f69a03af017.png";
+const imgAvatarGoi = "https://www.figma.com/api/mcp/asset/cbdf7c66-9d10-4b36-be78-e0d18486e7d7.png";
+const imgDecoRegistration = "https://www.figma.com/api/mcp/asset/a68127ef-9c97-4526-ad1e-a34cdb59944c.svg";
+const imgIconBag = "https://www.figma.com/api/mcp/asset/d0a9cf94-8b91-4716-b842-4a919c3db60d.svg";
+const imgTrailingIcon = "https://www.figma.com/api/mcp/asset/c91fe097-ab5d-47f7-9b3d-48f26515785d.svg";
+const imgIconMenu = "https://www.figma.com/api/mcp/asset/8f762b2c-6916-449e-9f73-ff0bd67af501.svg";
+const imgGroup = "https://www.figma.com/api/mcp/asset/8bbfa3cb-2a2a-42e5-8bd6-e38750ed8654.svg";
+const imgIconScissors = "https://www.figma.com/api/mcp/asset/aa8d235e-ab0e-4e8d-959c-6e9d3ac5a4a7.svg";
+const imgLine = "https://www.figma.com/api/mcp/asset/ae73a416-febe-473f-b969-0e963b1b0ac1.svg";
+const imgIconCheck = "https://www.figma.com/api/mcp/asset/23160278-43b8-4675-be95-a76bef9dcebd.svg";
+const imgTrailingIcon1 = "https://www.figma.com/api/mcp/asset/b6f030e4-7f6b-4df5-90c3-4f5b0efe3eb0.svg";
+const imgIconFacebook = "https://www.figma.com/api/mcp/asset/e8fb97c0-5872-4f42-965a-3c0d77ee945d.svg";
+const imgIconYoutube = "https://www.figma.com/api/mcp/asset/007e014d-e3b2-49b8-bff7-8de84cf76292.svg";
+const imgIconTiktok = "https://www.figma.com/api/mcp/asset/09740284-2563-4b06-b4e3-7784bcaa777e.svg";
+const imgIconChat = "https://www.figma.com/api/mcp/asset/7e82b210-f93d-4807-8e66-32467b14a77d.svg";
+const imgIconPhone = "https://www.figma.com/api/mcp/asset/d863460d-5bf0-4189-a1fd-ff3940a6bc1e.svg";
+const imgLeadingIcon = "https://www.figma.com/api/mcp/asset/1bf86a46-98d5-4231-8c2c-95d470629af9.svg";
+const imgIconPin = "https://www.figma.com/api/mcp/asset/a96b219e-5fdc-427e-a022-6b770bed86bf.svg";
+const imgIconPhone1 = "https://www.figma.com/api/mcp/asset/40885d57-57ef-4aed-bafc-953ca73a089f.svg";
+const imgIconFactory = "https://www.figma.com/api/mcp/asset/3cb8ce30-5b73-4cb4-b1a8-29afd00b276b.svg";
+const imgIconChat1 = "https://www.figma.com/api/mcp/asset/5e248d0f-c327-4a82-861a-fed97d5a3a27.svg";
+const imgIconPin1 = "https://www.figma.com/api/mcp/asset/6c1b6348-ef91-405e-aa9f-0e93277c93c0.svg";
+const imgIconArrowUr = "https://www.figma.com/api/mcp/asset/138116fb-1a82-4bc0-8854-238cfb62f277.svg";
+const imgIconFacebook1 = "https://www.figma.com/api/mcp/asset/54ae0d14-e08b-46c7-8954-2a4b9612eba1.svg";
 
 export default function ChinhSachTablet834() {
   return (
@@ -84,7 +84,7 @@ export default function ChinhSachTablet834() {
         </a>
       </div>
       <div className="bg-[var(--brand\/red,#ff6bd5)] content-stretch flex flex-col gap-[var(--spacing\/gap\/xsmall,8px)] h-[150px] items-start overflow-clip p-[var(--spacing\/padding\/2xlarge,32px)] relative shrink-0 w-full" data-node-id="234:4989" data-name="Category Hero Title">
-        <p className="[word-break:break-word] font-['Be_Vietnam_Pro:ExtraBold'] leading-[var(--typography\/line-height\/heading-1,42px)] not-italic relative shrink-0 text-[color:var(--base\/white,white)] text-[length:var(--typography\/font-size\/heading-1,34px)] tracking-[var(--typography\/letter-spacing\/heading-1,-0.68px)] whitespace-nowrap" data-node-id="234:4990">
+        <p className="[word-break:break-word] font-['Be_Vietnam_Pro:ExtraBold'] leading-[var(--h1\/dòng,48px)] min-w-full not-italic relative shrink-0 text-[color:var(--base\/white,white)] text-[length:var(--h1\/cỡ-chữ,40px)] tracking-[var(--h1\/giãn-chữ,-1px)] uppercase w-[min-content]" data-node-id="234:4990">
           CHÍNH SÁCH ĐẶT HÀNG
         </p>
         <div className="absolute h-[375.3px] left-[-125.1px] mix-blend-multiply opacity-35 top-[-100.2px] w-[750.6px]" data-node-id="234:4991" data-name="Deco · Halftone">
@@ -122,7 +122,7 @@ export default function ChinhSachTablet834() {
               <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/dev,'JetBrains_Mono:Bold')] font-bold leading-[var(--typography\/line-height\/body-small,16px)] relative shrink-0 text-[color:var(--brand\/red,#ff6bd5)] text-[length:var(--typography\/font-size\/body-small,12px)] tracking-[var(--typography\/letter-spacing\/body-code,0px)] whitespace-nowrap" data-node-id="234:5047">
                 01
               </p>
-              <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/heading-4,30px)] min-w-full relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/heading-4,22px)] tracking-[var(--typography\/letter-spacing\/heading-4,-0.44px)] w-[min-content]" data-node-id="234:5048">
+              <p className="[word-break:break-word] font-['Lora:SemiBold'] font-semibold leading-[var(--h3\/dòng,28px)] min-w-full relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--h3\/cỡ-chữ,20px)] tracking-[var(--h3\/giãn-chữ,-0.3px)] w-[min-content]" data-node-id="234:5048">
                 Đặt hàng và cọc
               </p>
               <div className="content-stretch flex gap-[10px] items-start overflow-clip relative shrink-0 w-full" data-node-id="234:5049" data-name="Bullet">
@@ -154,7 +154,7 @@ export default function ChinhSachTablet834() {
               <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/dev,'JetBrains_Mono:Bold')] font-bold leading-[var(--typography\/line-height\/body-small,16px)] relative shrink-0 text-[color:var(--brand\/red,#ff6bd5)] text-[length:var(--typography\/font-size\/body-small,12px)] tracking-[var(--typography\/letter-spacing\/body-code,0px)] whitespace-nowrap" data-node-id="234:5063">
                 02
               </p>
-              <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/heading-4,30px)] min-w-full relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/heading-4,22px)] tracking-[var(--typography\/letter-spacing\/heading-4,-0.44px)] w-[min-content]" data-node-id="234:5064">
+              <p className="[word-break:break-word] font-['Lora:SemiBold'] font-semibold leading-[var(--h3\/dòng,28px)] min-w-full relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--h3\/cỡ-chữ,20px)] tracking-[var(--h3\/giãn-chữ,-0.3px)] w-[min-content]" data-node-id="234:5064">
                 Giao hàng
               </p>
               <div className="content-stretch flex gap-[10px] items-start overflow-clip relative shrink-0 w-full" data-node-id="234:5065" data-name="Bullet">
@@ -188,7 +188,7 @@ export default function ChinhSachTablet834() {
               <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/dev,'JetBrains_Mono:Bold')] font-bold leading-[var(--typography\/line-height\/body-small,16px)] relative shrink-0 text-[color:var(--brand\/red,#ff6bd5)] text-[length:var(--typography\/font-size\/body-small,12px)] tracking-[var(--typography\/letter-spacing\/body-code,0px)] whitespace-nowrap" data-node-id="234:5078">
                 03
               </p>
-              <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/heading-4,30px)] min-w-full relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/heading-4,22px)] tracking-[var(--typography\/letter-spacing\/heading-4,-0.44px)] w-[min-content]" data-node-id="234:5079">
+              <p className="[word-break:break-word] font-['Lora:SemiBold'] font-semibold leading-[var(--h3\/dòng,28px)] min-w-full relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--h3\/cỡ-chữ,20px)] tracking-[var(--h3\/giãn-chữ,-0.3px)] w-[min-content]" data-node-id="234:5079">
                 Màu in và hàng lỗi
               </p>
               <div className="content-stretch flex gap-[10px] items-start overflow-clip relative shrink-0 w-full" data-node-id="234:5080" data-name="Bullet">
@@ -220,7 +220,7 @@ export default function ChinhSachTablet834() {
               <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/dev,'JetBrains_Mono:Bold')] font-bold leading-[var(--typography\/line-height\/body-small,16px)] relative shrink-0 text-[color:var(--brand\/red,#ff6bd5)] text-[length:var(--typography\/font-size\/body-small,12px)] tracking-[var(--typography\/letter-spacing\/body-code,0px)] whitespace-nowrap" data-node-id="234:5094">
                 04
               </p>
-              <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/heading-4,30px)] min-w-full relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/heading-4,22px)] tracking-[var(--typography\/letter-spacing\/heading-4,-0.44px)] w-[min-content]" data-node-id="234:5095">
+              <p className="[word-break:break-word] font-['Lora:SemiBold'] font-semibold leading-[var(--h3\/dòng,28px)] min-w-full relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--h3\/cỡ-chữ,20px)] tracking-[var(--h3\/giãn-chữ,-0.3px)] w-[min-content]" data-node-id="234:5095">
                 Lưu khuôn và file
               </p>
               <div className="content-stretch flex gap-[10px] items-start overflow-clip relative shrink-0 w-full" data-node-id="234:5096" data-name="Bullet">
@@ -250,11 +250,11 @@ export default function ChinhSachTablet834() {
         <div className="absolute h-[400px] left-[414px] opacity-18 top-[-60px] w-[800px]" data-node-id="234:5106" data-name="Deco/Halftone">
           <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgDecoHalftone} />
         </div>
-        <div className="[word-break:break-word] content-stretch flex flex-col gap-[6px] items-start overflow-clip relative shrink-0 text-[color:var(--base\/white,white)] whitespace-nowrap" data-node-id="234:5107" data-name="CTA Text">
-          <p className="font-['Inter:Semi_Bold'] font-semibold leading-[16px] not-italic relative shrink-0 text-[11px] tracking-[0.66px] uppercase" data-node-id="234:5108">
+        <div className="[word-break:break-word] content-stretch flex flex-col gap-[6px] items-start not-italic overflow-clip relative shrink-0 text-[color:var(--base\/white,white)] uppercase" data-node-id="234:5107" data-name="CTA Text">
+          <p className="font-['Inter:Semi_Bold'] font-semibold leading-[16px] relative shrink-0 text-[11px] tracking-[0.66px] whitespace-nowrap" data-node-id="234:5108">
             ĐẶT THEO SET 100 · IN LOGO RIÊNG
           </p>
-          <p className="font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/heading-3,32px)] relative shrink-0 text-[length:var(--typography\/font-size\/heading-3,26px)] tracking-[var(--typography\/letter-spacing\/heading-3,-0.52px)]" data-node-id="234:5109">
+          <p className="font-['Be_Vietnam_Pro:ExtraBold'] leading-[var(--h2\/dòng,38px)] min-w-full relative shrink-0 text-[length:var(--h2\/cỡ-chữ,30px)] tracking-[var(--h2\/giãn-chữ,-0.6px)] w-[min-content]" data-node-id="234:5109">
             Nhắn GÓI món bạn bán, nhận báo giá và maket
           </p>
         </div>

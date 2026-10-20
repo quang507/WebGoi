@@ -43,7 +43,7 @@
       u.removeAttribute('data-reveal'); u.style.removeProperty('--i');
       items.forEach(function (it) { it[0].setAttribute('data-reveal', ''); it[0].style.setProperty('--i', Math.min(it[1], 5)); });
     });
-    $$('p,h1,h2', bp).forEach(function (p) {
+    $$('p,h1,h2,h3', bp).forEach(function (p) {
       if (p.closest(skipZone) || p.closest('a,[data-btn]') || parseFloat(getComputedStyle(p).fontSize) < 22 || p.textContent.length > 90) return;
       p.setAttribute('data-rise', ''); if (p.parentElement) p.parentElement.setAttribute('data-rise-host', ''); // chữ đang bị che kín nên theo dõi khung cha
     });
