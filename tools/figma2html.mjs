@@ -390,6 +390,7 @@ ${[...PAGES, ...SKU_PAGES, ...CONTENT_PAGES].filter((p) => p.url !== '/404').map
 writeFileSync(path.join(ROOT, 'robots.txt'), `User-agent: *
 Allow: /
 Disallow: /api/
+Disallow: /quan-tri
 
 Sitemap: ${SITE}/sitemap.xml
 `);

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Quản trị · GÓI</title><meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#FAF8F5"><link rel="icon" href="/brand/avatar-goi-icon-tet-red.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lora:wght@600&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/quan-tri.css?v=1">
+</head><body>
+
+<!-- đăng nhập -->
+<main class="qt-login" id="login" hidden>
+  <form class="qt-card qt-login__box" id="login-form" novalidate>
+    <p class="qt-logo">GÓI</p>
+    <h1>Quản trị yêu cầu báo giá</h1>
+    <label>Tên đăng nhập<input name="user" autocomplete="username" autocapitalize="none" required></label>
+    <label>Mật khẩu<input name="pass" type="password" autocomplete="current-password" required></label>
+    <p class="qt-err" id="login-err" role="alert" hidden></p>
+    <button class="qt-btn qt-btn--primary" type="submit">Đăng nhập</button>
+  </form>
+</main>
+
+<!-- ứng dụng -->
+<div class="qt-app" id="app" hidden>
+  <header class="qt-top">
+    <p class="qt-logo">GÓI <span>Quản trị</span></p>
+    <div class="qt-top__right"><span id="me"></span><button class="qt-btn qt-btn--ghost" id="logout" type="button">Đăng xuất</button></div>
+  </header>
+  <div class="qt-tools">
+    <input id="q" type="search" placeholder="Tìm tên, số điện thoại, mã mẫu…" aria-label="Tìm yêu cầu">
+    <button class="qt-btn qt-btn--ghost" id="reload" type="button" aria-label="Tải lại danh sách">Tải lại</button>
+  </div>
+  <nav class="qt-tabs" id="tabs" aria-label="Lọc theo trạng thái"></nav>
+  <div class="qt-body">
+    <section class="qt-list" id="list" aria-live="polite"></section>
+    <section class="qt-detail" id="detail" hidden aria-label="Chi tiết yêu cầu"></section>
+  </div>
+</div>
+<div class="qt-toast" id="toast" role="status" hidden></div>
+<script src="/js/quan-tri.js?v=1" defer></script>
+</body></html>
