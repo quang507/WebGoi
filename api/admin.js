@@ -1,9 +1,10 @@
 // Trang quản trị GÓI (/quan-tri): đăng nhập, xem và cập nhật yêu cầu báo giá.
-// Một hàm cho mọi việc (Vercel gói Hobby giới hạn số hàm): ?a=login | logout | me | list | update | history
+// Một hàm cho mọi việc (Vercel gói Hobby giới hạn số hàm): ?a=login | logout | me | list | update | history | qr
 // Biến môi trường trên Vercel:
 //   GOI_ADMIN_USERS            danh sách người dùng "my:matkhau,quang:matkhau" (tên chỉ gồm a-z 0-9 _ -)
 //   SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY   đã có (dùng chung với /api/bao-gia)
 //   GOI_ADMIN_SECRET           (tuỳ chọn) khoá ký phiên; không đặt thì suy ra từ service role key
+//   GOI_BANK_ID, GOI_BANK_ACCOUNT, GOI_BANK_NAME   tài khoản nhận cọc (Quang tự đặt) -> mã VietQR
 // Phiên = cookie HttpOnly ký HMAC, 30 ngày. Lệnh ghi phải kèm header X-GOI: 1 (chặn gửi chéo trang).
 
 const crypto = require('crypto');
@@ -110,6 +111,16 @@ module.exports = async function handler(req, res) {
       }
       if (!rows || !rows.length) return res.status(404).json({ ok: false });
       return res.status(200).json({ ok: true, row: rows[0], by: user });
+    }
+    if (a === 'qr' && req.method === 'GET') {
+      // mã VietQR chuyển khoản cọc: tiền vào thẳng tài khoản ngân hàng của GÓI, nội dung "GOI <số yêu cầu>" để đối chiếu
+      const bank = clip(process.env.GOI_BANK_ID, 20).replace(/[^A-Za-z0-9]/g, ''), acc = clip(process.env.GOI_BANK_ACCOUNT, 30).replace(/\D/g, ''), name = clip(process.env.GOI_BANK_NAME, 60);
+      if (!bank || !acc) return res.status(503).json({ ok: false, error: 'chua_cau_hinh_ngan_hang' });
+      const id = Number(req.query.id); if (!Number.isInteger(id) || id < 1) return res.status(400).json({ ok: false, error: 'id' });
+      const amount = num(req.query.amount); if (!amount || amount < 1000) return res.status(400).json({ ok: false, error: 'so_tien' });
+      const info = 'GOI ' + id;
+      const url = `https://api.vietqr.io/image/${encodeURIComponent(bank)}-${acc}-compact2.jpg?amount=${amount}&addInfo=${encodeURIComponent(info)}` + (name ? `&accountName=${encodeURIComponent(name)}` : '');
+      return res.status(200).json({ ok: true, url, amount, info, bank, name, acc_tail: acc.slice(-4) });
     }
     if (a === 'history' && req.method === 'GET') {
       const id = Number(req.query.id); if (!Number.isInteger(id) || id < 1) return res.status(400).json({ ok: false, error: 'id' });

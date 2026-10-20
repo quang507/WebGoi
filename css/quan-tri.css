@@ -78,3 +78,10 @@ label{display:grid;gap:6px;font-size:13px;font-weight:600;color:var(--muted)}
 
 .qt-history ol{list-style:none;display:grid;gap:6px;font-size:13px;color:var(--muted);border-left:2px solid var(--line);padding-left:12px}
 .qt-history b{color:var(--ink);font-family:var(--mono);font-weight:500}
+
+.qt-deposit{display:grid;gap:10px;padding:12px;background:var(--paper2);border-radius:var(--r)}
+.qt-deposit__row{display:flex;align-items:flex-end;justify-content:space-between;gap:12px}
+.qt-deposit__row label{width:96px}
+.qt-qr{display:grid;gap:8px;justify-items:start}
+.qt-qr img{width:240px;height:auto;background:#fff;border:1px solid var(--line);border-radius:var(--r)}
+@media (max-width:959.98px){.qt-actions--inline{position:static;padding:0;border:0;background:none}}

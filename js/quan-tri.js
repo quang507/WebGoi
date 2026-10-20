@@ -23,7 +23,7 @@
 
   function api(a, opt) {
     opt = opt || {};
-    return fetch(API + '?a=' + a + (opt.id ? '&id=' + opt.id : ''), {
+    return fetch(API + '?a=' + a + (opt.id ? '&id=' + opt.id : '') + (opt.q || ''), {
       method: opt.method || 'GET', credentials: 'same-origin',
       headers: opt.body ? { 'Content-Type': 'application/json', 'X-GOI': '1' } : {},
       body: opt.body ? JSON.stringify(opt.body) : undefined
@@ -125,6 +125,9 @@
       '<table class="qt-lines"><thead><tr><th>Mẫu</th><th class="num">SL</th><th class="num">Đơn giá</th><th class="num">Thành tiền</th><th></th></tr></thead><tbody>' + lines + '</tbody></table>' +
       '<button class="qt-btn qt-btn--ghost" type="button" id="add-line">+ Thêm khoản (phí vận chuyển, khuôn…)</button>' +
       '<p class="qt-total">Tổng (chưa VAT 8%) <b id="sum">' + money(total(d.items)) + 'đ</b></p>' +
+      '<div class="qt-deposit"><div class="qt-deposit__row"><label>Cọc (%)<input id="dep-pct" inputmode="numeric" value="' + depPct + '" aria-label="Phần trăm cọc"></label>' +
+      '<p class="qt-total">Tiền cọc <b id="dep-amt">' + money(deposit()) + 'đ</b></p></div>' +
+      '<button class="qt-btn" type="button" id="qr">Tạo mã QR cọc</button><div class="qt-qr" id="qr-out" hidden></div></div>' +
       '<div><p class="qt-kv" style="margin-bottom:8px">Trạng thái</p><div class="qt-status" id="status">' + ST.map(function (s) {
         return '<button type="button" class="st-' + s[0] + '" data-s="' + s[0] + '" aria-pressed="' + (d.status === s[0]) + '">' + s[1] + '</button>'; }).join('') + '</div></div>' +
       '<label>Ghi chú nội bộ (khách không thấy)<textarea id="note" placeholder="VD: đã gọi 10h, khách hẹn gửi logo tối nay">' + esc(d.note) + '</textarea></label>' +
@@ -146,13 +149,40 @@
       ol.innerHTML = ev.join('');
     });
   }
+  var depPct = 50;
+  function deposit() { return Math.round(total(draft.items) * depPct / 100 / 1000) * 1000; } // làm tròn nghìn đồng
+  function refreshDeposit() { var a = $('dep-amt'); if (a) a.textContent = money(deposit()) + 'đ'; var o = $('qr-out'); if (o) o.hidden = true; }
+  function makeQR(btn) {
+    var amount = deposit();
+    if (amount < 1000) { toast('Nhập giá để có tổng tiền trước khi tạo mã cọc.'); return; }
+    btn.setAttribute('aria-busy', 'true');
+    api('qr', { id: current.id, q: '&amount=' + amount }).then(function (j) {
+      btn.removeAttribute('aria-busy');
+      if (j.error === 'chua_cau_hinh_ngan_hang') { toast('Chưa đặt tài khoản nhận tiền trên Vercel (GOI_BANK_ID, GOI_BANK_ACCOUNT, GOI_BANK_NAME).'); return; }
+      if (!j.ok) { toast('Chưa tạo được mã (' + (j.error || j.status) + ').'); return; }
+      var msg = ['GÓI gửi thông tin cọc' + (current.ten ? ' cho ' + current.ten : '') + ':',
+        'Số tiền cọc: ' + money(j.amount) + 'đ (' + depPct + '% của tổng ' + money(total(draft.items)) + 'đ)',
+        'Nội dung chuyển khoản: ' + j.info,
+        'Quét mã QR để chuyển: ' + j.url,
+        'GÓI nhận được cọc sẽ nhắn xác nhận ngay.'].join('\n');
+      var o = $('qr-out'); o.hidden = false;
+      o.innerHTML = '<img src="' + esc(j.url) + '" alt="Mã QR chuyển khoản cọc ' + money(j.amount) + 'đ" width="240" height="240">' +
+        '<p class="qt-kv">' + esc(j.bank) + ' · ••••' + esc(j.acc_tail) + (j.name ? ' · ' + esc(j.name) : '') + '<br>Nội dung: <b>' + esc(j.info) + '</b> · ' + money(j.amount) + 'đ</p>' +
+        '<div class="qt-actions qt-actions--inline"><button class="qt-btn" type="button" id="qr-copy">Chép tin gửi khách</button><a class="qt-btn qt-btn--ghost" href="' + esc(j.url) + '" target="_blank" rel="noopener">Mở ảnh QR ↗</a></div>';
+      o.querySelector('#qr-copy').addEventListener('click', function () {
+        var done = function () { toast('Đã chép tin cọc. Dán vào Zalo của khách.'); };
+        if (navigator.clipboard && window.isSecureContext) navigator.clipboard.writeText(msg).then(done, function () { prompt('Chép tin dưới đây:', msg); }); else prompt('Chép tin dưới đây:', msg);
+      });
+    }).catch(function () { btn.removeAttribute('aria-busy'); toast('Mất kết nối, thử lại.'); });
+  }
   function refreshSums() {
     draft.items.forEach(function (it, i) { var c = $('detail').querySelector('[data-tt="' + i + '"]'); if (c) { var tt = (it.gia || 0) * qty(it.sl); c.textContent = tt ? money(tt) : '—'; } });
-    $('sum').textContent = money(total(draft.items)) + 'đ';
+    $('sum').textContent = money(total(draft.items)) + 'đ'; refreshDeposit();
   }
   $('detail').addEventListener('input', function (e) {
     var t = e.target;
     if (t.id === 'note') { draft.note = t.value; return markDirty(); }
+    if (t.id === 'dep-pct') { var n = parseInt(t.value.replace(/\D/g, ''), 10); depPct = n > 0 && n <= 100 ? n : 50; return refreshDeposit(); }
     var i = t.getAttribute('data-i'), k = t.getAttribute('data-k'); if (i == null) return;
     var it = draft.items[+i];
     if (k === 'gia') { var n = parseInt(t.value.replace(/\D/g, ''), 10); it.gia = n >= 0 ? n : null; }
@@ -170,6 +200,7 @@
     var del = t.closest('[data-del]'); if (del) { draft.items.splice(+del.getAttribute('data-del'), 1); renderDetail(); return markDirty(); }
     if (t.closest('#save')) return save(t.closest('#save'));
     if (t.closest('#copy')) return copyQuote();
+    if (t.closest('#qr')) return makeQR(t.closest('#qr'));
   });
   function save(btn) {
     btn.setAttribute('aria-busy', 'true'); btn.textContent = 'Đang lưu…';
