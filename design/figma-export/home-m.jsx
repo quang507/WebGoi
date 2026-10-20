@@ -1,49 +1,49 @@
-const imgDecoPaperGrain = "https://www.figma.com/api/mcp/asset/539c4c31-db47-404a-a731-41401c2ff7e6.png";
-const imgDecoHalftone = "https://www.figma.com/api/mcp/asset/f8eca3fd-a5de-4fde-9a3c-d6b125609647.png";
-const imgHeroPhoto = "https://www.figma.com/api/mcp/asset/2d20db18-0925-458f-aaca-3d53ac9e20ee.png";
-const imgDecoBangKeo = "https://www.figma.com/api/mcp/asset/f787d562-334f-469e-b388-d47b377995c7.png";
-const imgNhGoiKhiDu = "https://www.figma.com/api/mcp/asset/b8f5ed51-b6e5-41b7-8c54-b5d6587a66d8.png";
-const imgNhGoiDngB = "https://www.figma.com/api/mcp/asset/4d821553-e7c6-4128-80eb-09be165f0d61.png";
-const imgThumb = "https://www.figma.com/api/mcp/asset/189fc7a9-2478-416c-9a84-5c36061e2b03.png";
-const imgThumb1 = "https://www.figma.com/api/mcp/asset/e118e6eb-e4fe-41a0-9c37-c8018a67b9d0.png";
-const imgThumb2 = "https://www.figma.com/api/mcp/asset/f46d4408-bffa-4d41-89f6-b0267d44fbda.png";
-const imgThumb3 = "https://www.figma.com/api/mcp/asset/741747db-2f4b-4596-a1c6-c3650e087f09.png";
-const imgThumb4 = "https://www.figma.com/api/mcp/asset/01606299-6997-4953-bb4a-aab14eafa426.png";
-const imgThumb5 = "https://www.figma.com/api/mcp/asset/7b8287d1-987f-47ad-aa2f-df1d694a8ea3.png";
-const imgFactoryPhoto = "https://www.figma.com/api/mcp/asset/a9065e27-b995-43f9-833c-6090dd8ee790.png";
-const imgSDXngBnIn = "https://www.figma.com/api/mcp/asset/c37474cf-338c-46d6-8d4f-ae3128885fd0.png";
-const imgNhBiaFacebook = "https://www.figma.com/api/mcp/asset/76bcf62f-9738-4dc6-8d6f-f02f2d203da4.png";
-const imgAvatarGoi = "https://www.figma.com/api/mcp/asset/b00d9f41-22c7-45ae-b026-9e17fe63dfc4.png";
-const imgIconPhone = "https://www.figma.com/api/mcp/asset/9a05cdfe-7328-4503-b874-b196226ea987.svg";
-const imgIconBag = "https://www.figma.com/api/mcp/asset/f5999a9f-2ba4-4ee1-9981-87885c0d7a5f.svg";
-const imgIconMenu = "https://www.figma.com/api/mcp/asset/e49ae6c9-6e91-41f3-9817-a56006908f5a.svg";
-const imgIconChevronDown = "https://www.figma.com/api/mcp/asset/c8487c61-4652-4d5d-a511-58eff0b06ab4.svg";
-const imgTrailingIcon = "https://www.figma.com/api/mcp/asset/5eda67d5-fa5e-4311-8793-1aa2c7471c91.svg";
-const imgIconCheck = "https://www.figma.com/api/mcp/asset/8dc4be01-7f18-406d-82ab-0f1daba81ebd.svg";
-const imgTrailingIcon1 = "https://www.figma.com/api/mcp/asset/ba0a8d1e-ada0-4dff-86da-75bc567a9b94.svg";
-const imgDecoConDu = "https://www.figma.com/api/mcp/asset/1fa66417-a2aa-482f-91c1-8dff593bdba9.svg";
-const imgEllipse = "https://www.figma.com/api/mcp/asset/2978a115-6b17-4940-b668-5a6f754a6956.svg";
-const imgGroup = "https://www.figma.com/api/mcp/asset/8da74ea7-326c-4960-8c90-669765dffcbe.svg";
-const imgIconFacebook = "https://www.figma.com/api/mcp/asset/8b6b3a8a-cfb1-42a8-ad0d-ffdfbc81f7f5.svg";
-const imgIconYoutube = "https://www.figma.com/api/mcp/asset/43bb5ea0-a97f-461a-8d0b-e4cd2fd69ce0.svg";
-const imgIconTiktok = "https://www.figma.com/api/mcp/asset/d7aa8fa6-749a-4d15-8992-ae75714958ec.svg";
-const imgIconChat = "https://www.figma.com/api/mcp/asset/311d2d3f-3147-4327-b8c1-87e0fba8bad1.svg";
-const imgIconPhone1 = "https://www.figma.com/api/mcp/asset/f8b0d451-4005-4a05-b64b-fbb32e4ed863.svg";
-const imgLeadingIcon = "https://www.figma.com/api/mcp/asset/1d1ccbdf-f96f-4dd3-acae-2f9607cf7c53.svg";
-const imgIconPin = "https://www.figma.com/api/mcp/asset/556cad23-8f19-4cad-8f13-2aeae8a43e3f.svg";
-const imgIconPhone2 = "https://www.figma.com/api/mcp/asset/8a91d806-9e37-4a2b-92a9-993238a34c99.svg";
-const imgIconFactory = "https://www.figma.com/api/mcp/asset/e3bc1e59-9f8b-4083-ad8f-9d9f1759031e.svg";
-const imgIconPin1 = "https://www.figma.com/api/mcp/asset/e1a7fa24-171f-4f18-8994-7e34839829bb.svg";
-const imgIconArrowUr = "https://www.figma.com/api/mcp/asset/31c4088e-993b-436a-a5bd-87c05ff408dd.svg";
-const imgIconFacebook1 = "https://www.figma.com/api/mcp/asset/e423a48c-b898-4bea-891f-bd044b364526.svg";
-const imgIconChevronDown1 = "https://www.figma.com/api/mcp/asset/1a77c10c-906c-4c2f-8f5c-7dc10cd8f563.svg";
-const imgLeadingIcon1 = "https://www.figma.com/api/mcp/asset/360dc59f-8844-4c33-bc7e-e6c54ac919ef.svg";
-const imgIconPhone3 = "https://www.figma.com/api/mcp/asset/d5c3c433-83ee-4062-99ff-388d05a4d6e7.svg";
+const imgDecoPaperGrain = "https://www.figma.com/api/mcp/asset/e51eb610-e472-453a-8290-ad69629e3ddf.png";
+const imgDecoHalftone = "https://www.figma.com/api/mcp/asset/045c68bc-a856-4201-a541-ee11ee9b1385.png";
+const imgHeroPhoto = "https://www.figma.com/api/mcp/asset/e92407b8-f453-48b6-83e3-46fcae0446b2.png";
+const imgDecoBangKeo = "https://www.figma.com/api/mcp/asset/5dce5cc8-a36a-497e-b795-4daa4b5b1d09.png";
+const imgNhGoiKhiDu = "https://www.figma.com/api/mcp/asset/d94f4a13-fc6b-4c22-93e0-e90e7f60d7bb.png";
+const imgNhGoiDngB = "https://www.figma.com/api/mcp/asset/6f3de899-de61-4563-8e8e-928515719de1.png";
+const imgThumb = "https://www.figma.com/api/mcp/asset/67c8cc30-bb9f-4e0e-904f-5855369eb812.png";
+const imgThumb1 = "https://www.figma.com/api/mcp/asset/933493d4-a029-4256-a220-7718aab08876.png";
+const imgThumb2 = "https://www.figma.com/api/mcp/asset/1288f68e-3d38-400c-9053-704ed7a80343.png";
+const imgThumb3 = "https://www.figma.com/api/mcp/asset/d5407850-b1ef-4325-b323-45ee1bcbf147.png";
+const imgThumb4 = "https://www.figma.com/api/mcp/asset/92ba05d1-73c3-410d-89c6-36d0abbc6dcc.png";
+const imgThumb5 = "https://www.figma.com/api/mcp/asset/589ee75d-5974-40f1-bc36-e4e9ccbec20c.png";
+const imgFactoryPhoto = "https://www.figma.com/api/mcp/asset/240fe8c5-ac43-4a2b-aca5-2dde1bcfb200.png";
+const imgSDXngBnIn = "https://www.figma.com/api/mcp/asset/9b5d93e4-e0f4-4943-8076-ec689a732789.png";
+const imgNhBiaFacebook = "https://www.figma.com/api/mcp/asset/d7367abc-fd60-4694-9ca8-bb119ce4ed56.png";
+const imgAvatarGoi = "https://www.figma.com/api/mcp/asset/fa7a920a-0925-4fc5-9cfb-af898ccb5b09.png";
+const imgIconPhone = "https://www.figma.com/api/mcp/asset/a0b85a3e-7ccd-4fc1-b2d5-ee0117b81308.svg";
+const imgIconBag = "https://www.figma.com/api/mcp/asset/d7197a38-d64e-4ace-a2d9-4e158c54d298.svg";
+const imgIconMenu = "https://www.figma.com/api/mcp/asset/d30f8d65-e919-435d-b290-aa5c7adba848.svg";
+const imgIconChevronDown = "https://www.figma.com/api/mcp/asset/a911e333-42e8-4463-8c1a-97017201f536.svg";
+const imgTrailingIcon = "https://www.figma.com/api/mcp/asset/5dcc6e20-255a-423f-86b2-ac6e053b8349.svg";
+const imgIconCheck = "https://www.figma.com/api/mcp/asset/7185b005-02d5-4928-9c8a-691f8a31b868.svg";
+const imgTrailingIcon1 = "https://www.figma.com/api/mcp/asset/9366ae88-79ed-41a1-be9f-4a739575acc0.svg";
+const imgDecoConDu = "https://www.figma.com/api/mcp/asset/868ce3ad-c382-4570-8df6-0c5ecdc56f98.svg";
+const imgEllipse = "https://www.figma.com/api/mcp/asset/e587ad95-30b8-4e2e-ac81-608df77c809d.svg";
+const imgGroup = "https://www.figma.com/api/mcp/asset/569a9daf-d115-4334-8ec1-cf8003c4a392.svg";
+const imgIconFacebook = "https://www.figma.com/api/mcp/asset/9b268625-c215-49b0-9a37-88e62d6b32c2.svg";
+const imgIconYoutube = "https://www.figma.com/api/mcp/asset/377e4257-5f6d-4949-860c-ec1bc11dcef8.svg";
+const imgIconTiktok = "https://www.figma.com/api/mcp/asset/afdf21b1-3a9f-49f1-9238-b92184e1e9f1.svg";
+const imgIconChat = "https://www.figma.com/api/mcp/asset/a7854d9f-5e60-494f-8507-89309d589240.svg";
+const imgIconPhone1 = "https://www.figma.com/api/mcp/asset/93e2d78e-f7f4-4807-82e4-701405b2af2a.svg";
+const imgLeadingIcon = "https://www.figma.com/api/mcp/asset/dffa7440-e591-40f9-983c-ac8c01aed7d2.svg";
+const imgIconPin = "https://www.figma.com/api/mcp/asset/4302b547-4023-44ff-aebc-194775323e46.svg";
+const imgIconPhone2 = "https://www.figma.com/api/mcp/asset/a8487762-94b0-4cc7-9788-2eab5efcebf8.svg";
+const imgIconFactory = "https://www.figma.com/api/mcp/asset/013af721-d867-4216-bc60-a084cb2b9b0c.svg";
+const imgIconPin1 = "https://www.figma.com/api/mcp/asset/b33f8c60-ba89-4968-94a8-ffa6c5fe0656.svg";
+const imgIconArrowUr = "https://www.figma.com/api/mcp/asset/cd6ff502-1dfd-4d20-89dd-18c765090b17.svg";
+const imgIconFacebook1 = "https://www.figma.com/api/mcp/asset/21a4d9d4-ca8b-4a85-a220-461deb98f413.svg";
+const imgIconChevronDown1 = "https://www.figma.com/api/mcp/asset/2739b7e9-3470-4cae-af1c-f0260d2bbbc1.svg";
+const imgLeadingIcon1 = "https://www.figma.com/api/mcp/asset/531aa128-6826-4a1f-bf8b-5a8fe358d9b4.svg";
+const imgIconPhone3 = "https://www.figma.com/api/mcp/asset/8d8e5363-172f-4958-9ddd-4ce9cef445e9.svg";
 
 export default function TrangChMobile390TiuNgonCai() {
   return (
     <div className="bg-[var(--base\/white,white)] content-stretch flex flex-col items-start relative size-full" data-node-id="134:126" data-name="Trang Chủ - Mobile 390 (Tối Ưu Ngón Cái)">
-      <div className="bg-[var(--base\/white,white)] border-[var(--line\/default,rgba(1,1,1,0.13))] border-b border-solid content-stretch flex h-[60px] items-center justify-between px-[16px] relative shrink-0 w-full" data-node-id="226:4611" data-name="Header Navigation">
+      <div className="bg-[var(--base\/white,white)] border-[var(--line\/default,rgba(1,1,1,0.13))] border-b border-solid content-stretch flex h-[60px] items-center justify-between px-[var(--space\/gutter,16px)] relative shrink-0 w-full" data-node-id="226:4611" data-name="Header Navigation">
         <a className="[word-break:break-word] block cursor-pointer font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[0] relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/heading-1,34px)] tracking-[var(--typography\/letter-spacing\/heading-1,-0.68px)] whitespace-nowrap" data-node-id="I226:4611;226:4477">
           <p className="leading-[var(--typography\/line-height\/heading-1,42px)]">GÓI</p>
         </a>
@@ -79,46 +79,46 @@ export default function TrangChMobile390TiuNgonCai() {
           <span className="leading-[54px] text-[46px] tracking-[-1.2px]">{`BAO BÌ IN LOGO RIÊNG `}</span>
           <span className="leading-[54px] text-[#d7262b] text-[46px] tracking-[-1.2px]">ĐẶT THEO SET 100</span>
         </p>
-        <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/body-base,20px)] not-italic relative shrink-0 text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-[length:var(--typography\/font-size\/body-base,14px)] tracking-[var(--typography\/letter-spacing\/body-base,-0.14px)] w-[350px]" data-node-id="134:133">
+        <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/body-base,24px)] not-italic relative shrink-0 text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-[length:var(--typography\/font-size\/body-base,16px)] tracking-[var(--typography\/letter-spacing\/body-base,-0.14px)] w-[350px]" data-node-id="134:133">
           Chọn 1 trong 21 mẫu hộp có sẵn, in logo riêng theo set 100. Hàng làm riêng 7–10 ngày sau khi duyệt file.
         </p>
         <div className="[word-break:break-word] content-stretch flex flex-col gap-[var(--spacing\/gap\/xsmall,8px)] h-[120px] items-start not-italic overflow-clip relative shrink-0 w-[350px] whitespace-nowrap" data-node-id="134:134" data-name="Stats 2x2">
           <div className="content-stretch flex gap-[var(--spacing\/gap\/xsmall,8px)] h-[56px] items-start overflow-clip relative shrink-0 w-[350px]" data-node-id="134:135" data-name="Row 1">
-            <div className="bg-[var(--paper\/light,#f7f7f7)] border border-[var(--line\/default,rgba(1,1,1,0.13))] border-solid content-stretch flex flex-col gap-[var(--spacing\/gap\/3xsmall,2px)] h-[56px] items-start overflow-clip p-[var(--spacing\/padding\/xsmall,8px)] relative rounded-[var(--radius\/luxury,12px)] shrink-0 w-[171px]" data-node-id="134:136" data-name="Box">
+            <div className="bg-[var(--paper\/light,#f7f7f7)] border border-[var(--line\/default,rgba(1,1,1,0.13))] border-solid content-stretch flex flex-col gap-[var(--spacing\/gap\/3xsmall,2px)] items-start overflow-clip p-[var(--spacing\/padding\/xsmall,8px)] relative rounded-[var(--radius\/luxury,12px)] shrink-0 w-[171px]" data-node-id="134:136" data-name="Box">
               <p className="font-[family-name:var(--typography\/font-family\/sans,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/body-extra,24px)] relative shrink-0 text-[color:var(--brand\/red,#ff6bd5)] text-[length:var(--typography\/font-size\/body-extra,16px)] tracking-[var(--typography\/letter-spacing\/body-extra,-0.16px)]" data-node-id="134:137">
                 21
               </p>
-              <div className="font-[family-name:var(--typography\/font-family\/sans,'Inter:Medium')] font-[var(--emphasis\/font-weight\/medium,500)] leading-[0] relative shrink-0 text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-[length:var(--typography\/font-size\/label-small,9px)] tracking-[var(--typography\/letter-spacing\/label-small,0px)]" data-node-id="134:138">
-                <p className="leading-[var(--typography\/line-height\/label-small,12px)] mb-0">Mẫu Hộp Có Sẵn</p>
-                <p className="leading-[var(--typography\/line-height\/label-small,12px)]">(Hộp, túi, tem)</p>
+              <div className="font-[family-name:var(--typography\/font-family\/sans,'Inter:Medium')] font-[var(--emphasis\/font-weight\/medium,500)] leading-[0] relative shrink-0 text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-[length:var(--typography\/font-size\/label-small,10px)] tracking-[var(--typography\/letter-spacing\/label-small,0px)]" data-node-id="134:138">
+                <p className="leading-[var(--typography\/line-height\/label-small,14px)] mb-0">Mẫu Hộp Có Sẵn</p>
+                <p className="leading-[var(--typography\/line-height\/label-small,14px)]">(Hộp, túi, tem)</p>
               </div>
             </div>
-            <div className="bg-[var(--paper\/light,#f7f7f7)] border border-[var(--line\/default,rgba(1,1,1,0.13))] border-solid content-stretch flex flex-col gap-[var(--spacing\/gap\/3xsmall,2px)] h-[56px] items-start overflow-clip p-[var(--spacing\/padding\/xsmall,8px)] relative rounded-[var(--radius\/luxury,12px)] shrink-0 w-[171px]" data-node-id="134:139" data-name="Box">
+            <div className="bg-[var(--paper\/light,#f7f7f7)] border border-[var(--line\/default,rgba(1,1,1,0.13))] border-solid content-stretch flex flex-col gap-[var(--spacing\/gap\/3xsmall,2px)] items-start overflow-clip p-[var(--spacing\/padding\/xsmall,8px)] relative rounded-[var(--radius\/luxury,12px)] shrink-0 w-[171px]" data-node-id="134:139" data-name="Box">
               <p className="font-[family-name:var(--typography\/font-family\/sans,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/body-extra,24px)] relative shrink-0 text-[color:var(--brand\/red,#ff6bd5)] text-[length:var(--typography\/font-size\/body-extra,16px)] tracking-[var(--typography\/letter-spacing\/body-extra,-0.16px)]" data-node-id="134:140">
                 100
               </p>
-              <div className="font-[family-name:var(--typography\/font-family\/sans,'Inter:Medium')] font-[var(--emphasis\/font-weight\/medium,500)] leading-[0] relative shrink-0 text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-[length:var(--typography\/font-size\/label-small,9px)] tracking-[var(--typography\/letter-spacing\/label-small,0px)]" data-node-id="134:141">
-                <p className="leading-[var(--typography\/line-height\/label-small,12px)] mb-0">Set Tối Thiểu</p>
-                <p className="leading-[var(--typography\/line-height\/label-small,12px)]">(In logo riêng)</p>
+              <div className="font-[family-name:var(--typography\/font-family\/sans,'Inter:Medium')] font-[var(--emphasis\/font-weight\/medium,500)] leading-[0] relative shrink-0 text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-[length:var(--typography\/font-size\/label-small,10px)] tracking-[var(--typography\/letter-spacing\/label-small,0px)]" data-node-id="134:141">
+                <p className="leading-[var(--typography\/line-height\/label-small,14px)] mb-0">Set Tối Thiểu</p>
+                <p className="leading-[var(--typography\/line-height\/label-small,14px)]">(In logo riêng)</p>
               </div>
             </div>
           </div>
           <div className="content-stretch flex gap-[var(--spacing\/gap\/xsmall,8px)] h-[56px] items-start overflow-clip relative shrink-0 w-[350px]" data-node-id="134:142" data-name="Row 2">
-            <div className="bg-[var(--paper\/light,#f7f7f7)] border border-[var(--line\/default,rgba(1,1,1,0.13))] border-solid content-stretch flex flex-col gap-[var(--spacing\/gap\/3xsmall,2px)] h-[56px] items-start overflow-clip p-[var(--spacing\/padding\/xsmall,8px)] relative rounded-[var(--radius\/luxury,12px)] shrink-0 w-[171px]" data-node-id="134:143" data-name="Box">
+            <div className="bg-[var(--paper\/light,#f7f7f7)] border border-[var(--line\/default,rgba(1,1,1,0.13))] border-solid content-stretch flex flex-col gap-[var(--spacing\/gap\/3xsmall,2px)] items-start overflow-clip p-[var(--spacing\/padding\/xsmall,8px)] relative rounded-[var(--radius\/luxury,12px)] shrink-0 w-[171px]" data-node-id="134:143" data-name="Box">
               <p className="font-[family-name:var(--typography\/font-family\/sans,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/body-extra,24px)] relative shrink-0 text-[color:var(--brand\/red,#ff6bd5)] text-[length:var(--typography\/font-size\/body-extra,16px)] tracking-[var(--typography\/letter-spacing\/body-extra,-0.16px)]" data-node-id="134:144">
                 7–10
               </p>
-              <p className="font-[family-name:var(--typography\/font-family\/sans,'Inter:Medium')] font-[var(--emphasis\/font-weight\/medium,500)] leading-[var(--typography\/line-height\/label-small,12px)] relative shrink-0 text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-[length:var(--typography\/font-size\/label-small,9px)] tracking-[var(--typography\/letter-spacing\/label-small,0px)]" data-node-id="134:145">
+              <p className="font-[family-name:var(--typography\/font-family\/sans,'Inter:Medium')] font-[var(--emphasis\/font-weight\/medium,500)] leading-[var(--typography\/line-height\/label-small,14px)] relative shrink-0 text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-[length:var(--typography\/font-size\/label-small,10px)] tracking-[var(--typography\/letter-spacing\/label-small,0px)]" data-node-id="134:145">
                 Ngày Làm Hàng (Sau duyệt file)
               </p>
             </div>
-            <div className="bg-[var(--paper\/light,#f7f7f7)] border border-[var(--line\/default,rgba(1,1,1,0.13))] border-solid content-stretch flex flex-col gap-[var(--spacing\/gap\/3xsmall,2px)] h-[56px] items-start overflow-clip p-[var(--spacing\/padding\/xsmall,8px)] relative rounded-[var(--radius\/luxury,12px)] shrink-0 w-[171px]" data-node-id="134:146" data-name="Box">
+            <div className="bg-[var(--paper\/light,#f7f7f7)] border border-[var(--line\/default,rgba(1,1,1,0.13))] border-solid content-stretch flex flex-col gap-[var(--spacing\/gap\/3xsmall,2px)] items-start overflow-clip p-[var(--spacing\/padding\/xsmall,8px)] relative rounded-[var(--radius\/luxury,12px)] shrink-0 w-[171px]" data-node-id="134:146" data-name="Box">
               <p className="font-[family-name:var(--typography\/font-family\/sans,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/body-extra,24px)] relative shrink-0 text-[color:var(--brand\/red,#ff6bd5)] text-[length:var(--typography\/font-size\/body-extra,16px)] tracking-[var(--typography\/letter-spacing\/body-extra,-0.16px)]" data-node-id="134:147">
                 3
               </p>
-              <div className="font-[family-name:var(--typography\/font-family\/sans,'Inter:Medium')] font-[var(--emphasis\/font-weight\/medium,500)] leading-[0] relative shrink-0 text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-[length:var(--typography\/font-size\/label-small,9px)] tracking-[var(--typography\/letter-spacing\/label-small,0px)]" data-node-id="134:148">
-                <p className="leading-[var(--typography\/line-height\/label-small,12px)] mb-0">Gói Giá Set 100</p>
-                <p className="leading-[var(--typography\/line-height\/label-small,12px)]">(Từ 1,2 triệu)</p>
+              <div className="font-[family-name:var(--typography\/font-family\/sans,'Inter:Medium')] font-[var(--emphasis\/font-weight\/medium,500)] leading-[0] relative shrink-0 text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-[length:var(--typography\/font-size\/label-small,10px)] tracking-[var(--typography\/letter-spacing\/label-small,0px)]" data-node-id="134:148">
+                <p className="leading-[var(--typography\/line-height\/label-small,14px)] mb-0">Gói Giá Set 100</p>
+                <p className="leading-[var(--typography\/line-height\/label-small,14px)]">(Từ 1,2 triệu)</p>
               </div>
             </div>
           </div>
@@ -141,48 +141,48 @@ export default function TrangChMobile390TiuNgonCai() {
           </div>
         </div>
       </div>
-      <div className="bg-[var(--paper\/light,#f7f7f7)] content-stretch flex flex-col gap-[var(--spacing\/gap\/small,12px)] items-start overflow-clip px-[var(--spacing\/padding\/large,20px)] py-[48px] relative shrink-0 w-[390px]" data-node-id="134:150" data-name="02 - Widget Báo Giá Mobile">
+      <div className="bg-[var(--paper\/light,#f7f7f7)] content-stretch flex flex-col gap-[var(--spacing\/gap\/small,12px)] items-start overflow-clip px-[var(--spacing\/padding\/large,20px)] py-[var(--space\/section-y,48px)] relative shrink-0 w-[390px]" data-node-id="134:150" data-name="02 - Widget Báo Giá Mobile">
         <div className="absolute bg-size-[50px_50px] bg-top-left inset-0" data-node-id="161:767" style={{ backgroundImage: `url("${imgDecoPaperGrain}")` }} data-name="Deco · Paper grain" />
         <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/body-extra,24px)] not-italic relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/body-extra,16px)] tracking-[var(--typography\/letter-spacing\/body-extra,-0.16px)] whitespace-nowrap" data-node-id="134:151">
           NHẬN BÁO GIÁ TRONG 1 PHÚT
         </p>
-        <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/body-small,16px)] min-w-full not-italic relative shrink-0 text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-[length:var(--typography\/font-size\/body-small,12px)] tracking-[var(--typography\/letter-spacing\/body-small,0px)] w-[min-content]" data-node-id="177:1137">
+        <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/body-small,18px)] min-w-full not-italic relative shrink-0 text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-[length:var(--typography\/font-size\/body-small,13px)] tracking-[var(--typography\/letter-spacing\/body-small,0px)] w-[min-content]" data-node-id="177:1137">
           Chọn loại bao bì, kích thước và số lượng. GÓI gửi báo giá qua Zalo.
         </p>
-        <div className="content-stretch flex flex-col gap-[12px] items-start overflow-clip relative shrink-0 w-full" data-node-id="177:1138" data-name="Form Báo Giá Nhanh">
+        <div className="content-stretch flex flex-col gap-[var(--space\/12,12px)] items-start overflow-clip relative shrink-0 w-full" data-node-id="177:1138" data-name="Form Báo Giá Nhanh">
           <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[16px] not-italic relative shrink-0 text-[11px] text-[color:var(--ink\/strong,#121212)] tracking-[0.66px] uppercase whitespace-nowrap" data-node-id="177:1139">
             1. LOẠI BAO BÌ
           </p>
-          <div className="content-start flex flex-wrap gap-[8px] items-start overflow-clip relative shrink-0 w-full" data-node-id="177:1140" data-name="Types">
-            <div className="bg-[var(--paper\/subtle,#ececec)] border border-[var(--brand\/red,#ff6bd5)] border-solid content-stretch flex items-center overflow-clip px-[10px] py-[8px] relative rounded-[var(--radius\/luxury,12px)] shrink-0" data-node-id="177:1141" data-name="Hộp cứng">
-              <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Medium')] font-[var(--emphasis\/font-weight\/medium,500)] leading-[var(--typography\/line-height\/body-small,16px)] not-italic relative shrink-0 text-[color:var(--brand\/red,#ff6bd5)] text-[length:var(--typography\/font-size\/body-small,12px)] tracking-[var(--typography\/letter-spacing\/body-small,0px)] whitespace-nowrap" data-node-id="177:1142">
+          <div className="content-start flex flex-wrap gap-[var(--space\/8,8px)] items-start overflow-clip relative shrink-0 w-full" data-node-id="177:1140" data-name="Types">
+            <div className="bg-[var(--paper\/subtle,#ececec)] border border-[var(--brand\/red,#ff6bd5)] border-solid content-stretch flex items-center overflow-clip px-[var(--input\/spacing\/medium\/vertical-padding,10px)] py-[var(--space\/8,8px)] relative rounded-[var(--radius\/luxury,12px)] shrink-0" data-node-id="177:1141" data-name="Hộp cứng">
+              <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Medium')] font-[var(--emphasis\/font-weight\/medium,500)] leading-[var(--typography\/line-height\/body-small,18px)] not-italic relative shrink-0 text-[color:var(--brand\/red,#ff6bd5)] text-[length:var(--typography\/font-size\/body-small,13px)] tracking-[var(--typography\/letter-spacing\/body-small,0px)] whitespace-nowrap" data-node-id="177:1142">
                 Hộp cứng
               </p>
             </div>
-            <div className="bg-[var(--base\/white,white)] border border-[var(--line\/default,rgba(1,1,1,0.13))] border-solid content-stretch flex items-center overflow-clip px-[10px] py-[8px] relative rounded-[var(--radius\/luxury,12px)] shrink-0" data-node-id="177:1143" data-name="Hộp giấy">
-              <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Medium')] font-[var(--emphasis\/font-weight\/medium,500)] leading-[var(--typography\/line-height\/body-small,16px)] not-italic relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/body-small,12px)] tracking-[var(--typography\/letter-spacing\/body-small,0px)] whitespace-nowrap" data-node-id="177:1144">
+            <div className="bg-[var(--base\/white,white)] border border-[var(--line\/default,rgba(1,1,1,0.13))] border-solid content-stretch flex items-center overflow-clip px-[var(--input\/spacing\/medium\/vertical-padding,10px)] py-[var(--space\/8,8px)] relative rounded-[var(--radius\/luxury,12px)] shrink-0" data-node-id="177:1143" data-name="Hộp giấy">
+              <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Medium')] font-[var(--emphasis\/font-weight\/medium,500)] leading-[var(--typography\/line-height\/body-small,18px)] not-italic relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/body-small,13px)] tracking-[var(--typography\/letter-spacing\/body-small,0px)] whitespace-nowrap" data-node-id="177:1144">
                 Hộp giấy
               </p>
             </div>
-            <div className="bg-[var(--base\/white,white)] border border-[var(--line\/default,rgba(1,1,1,0.13))] border-solid content-stretch flex items-center overflow-clip px-[10px] py-[8px] relative rounded-[var(--radius\/luxury,12px)] shrink-0" data-node-id="177:1145" data-name="Hộp quai xách">
-              <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Medium')] font-[var(--emphasis\/font-weight\/medium,500)] leading-[var(--typography\/line-height\/body-small,16px)] not-italic relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/body-small,12px)] tracking-[var(--typography\/letter-spacing\/body-small,0px)] whitespace-nowrap" data-node-id="177:1146">
+            <div className="bg-[var(--base\/white,white)] border border-[var(--line\/default,rgba(1,1,1,0.13))] border-solid content-stretch flex items-center overflow-clip px-[var(--input\/spacing\/medium\/vertical-padding,10px)] py-[var(--space\/8,8px)] relative rounded-[var(--radius\/luxury,12px)] shrink-0" data-node-id="177:1145" data-name="Hộp quai xách">
+              <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Medium')] font-[var(--emphasis\/font-weight\/medium,500)] leading-[var(--typography\/line-height\/body-small,18px)] not-italic relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/body-small,13px)] tracking-[var(--typography\/letter-spacing\/body-small,0px)] whitespace-nowrap" data-node-id="177:1146">
                 Hộp quai xách
               </p>
             </div>
-            <div className="bg-[var(--base\/white,white)] border border-[var(--line\/default,rgba(1,1,1,0.13))] border-solid content-stretch flex items-center overflow-clip px-[10px] py-[8px] relative rounded-[var(--radius\/luxury,12px)] shrink-0" data-node-id="177:1147" data-name="Túi giấy">
-              <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Medium')] font-[var(--emphasis\/font-weight\/medium,500)] leading-[var(--typography\/line-height\/body-small,16px)] not-italic relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/body-small,12px)] tracking-[var(--typography\/letter-spacing\/body-small,0px)] whitespace-nowrap" data-node-id="177:1148">
+            <div className="bg-[var(--base\/white,white)] border border-[var(--line\/default,rgba(1,1,1,0.13))] border-solid content-stretch flex items-center overflow-clip px-[var(--input\/spacing\/medium\/vertical-padding,10px)] py-[var(--space\/8,8px)] relative rounded-[var(--radius\/luxury,12px)] shrink-0" data-node-id="177:1147" data-name="Túi giấy">
+              <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Medium')] font-[var(--emphasis\/font-weight\/medium,500)] leading-[var(--typography\/line-height\/body-small,18px)] not-italic relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/body-small,13px)] tracking-[var(--typography\/letter-spacing\/body-small,0px)] whitespace-nowrap" data-node-id="177:1148">
                 Túi giấy
               </p>
             </div>
-            <div className="bg-[var(--base\/white,white)] border border-[var(--line\/default,rgba(1,1,1,0.13))] border-solid content-stretch flex items-center overflow-clip px-[10px] py-[8px] relative rounded-[var(--radius\/luxury,12px)] shrink-0" data-node-id="177:1149" data-name="Tem & đai">
-              <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Medium')] font-[var(--emphasis\/font-weight\/medium,500)] leading-[var(--typography\/line-height\/body-small,16px)] not-italic relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/body-small,12px)] tracking-[var(--typography\/letter-spacing\/body-small,0px)] whitespace-nowrap" data-node-id="177:1150">{`Tem & đai`}</p>
+            <div className="bg-[var(--base\/white,white)] border border-[var(--line\/default,rgba(1,1,1,0.13))] border-solid content-stretch flex items-center overflow-clip px-[var(--input\/spacing\/medium\/vertical-padding,10px)] py-[var(--space\/8,8px)] relative rounded-[var(--radius\/luxury,12px)] shrink-0" data-node-id="177:1149" data-name="Tem & đai">
+              <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Medium')] font-[var(--emphasis\/font-weight\/medium,500)] leading-[var(--typography\/line-height\/body-small,18px)] not-italic relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/body-small,13px)] tracking-[var(--typography\/letter-spacing\/body-small,0px)] whitespace-nowrap" data-node-id="177:1150">{`Tem & đai`}</p>
             </div>
           </div>
           <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[16px] not-italic relative shrink-0 text-[11px] text-[color:var(--ink\/strong,#121212)] tracking-[0.66px] uppercase whitespace-nowrap" data-node-id="177:1151">
             2. KÍCH THƯỚC DỰ KIẾN (CM)
           </p>
-          <div className="[word-break:break-word] content-stretch flex font-[var(--emphasis\/font-weight\/regular,400)] gap-[8px] items-start leading-[var(--typography\/line-height\/body-small,16px)] overflow-clip relative shrink-0 text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-[length:var(--typography\/font-size\/body-small,12px)] w-full whitespace-nowrap" data-node-id="177:1152" data-name="Dimension Inputs">
-            <div className="bg-[var(--base\/white,white)] border border-[var(--line\/default,rgba(1,1,1,0.13))] border-solid content-stretch flex flex-[1_0_0] h-[40px] items-center justify-between min-w-px overflow-clip px-[12px] relative rounded-[var(--radius\/luxury,12px)]" data-node-id="177:1153" data-name="Input Dài">
+          <div className="[word-break:break-word] content-stretch flex font-[var(--emphasis\/font-weight\/regular,400)] gap-[var(--space\/8,8px)] items-start leading-[var(--typography\/line-height\/body-small,18px)] overflow-clip relative shrink-0 text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-[length:var(--typography\/font-size\/body-small,13px)] w-full whitespace-nowrap" data-node-id="177:1152" data-name="Dimension Inputs">
+            <div className="bg-[var(--base\/white,white)] border border-[var(--line\/default,rgba(1,1,1,0.13))] border-solid content-stretch flex flex-[1_0_0] gap-[var(--space\/8,8px)] h-[40px] items-center justify-between min-w-px overflow-clip px-[var(--space\/12,12px)] relative rounded-[var(--radius\/luxury,12px)]" data-node-id="177:1153" data-name="Input Dài">
               <p className="font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] not-italic relative shrink-0 tracking-[var(--typography\/letter-spacing\/body-small,0px)]" data-node-id="177:1154">
                 Dài
               </p>
@@ -190,7 +190,7 @@ export default function TrangChMobile390TiuNgonCai() {
                 cm
               </p>
             </div>
-            <div className="bg-[var(--base\/white,white)] border border-[var(--line\/default,rgba(1,1,1,0.13))] border-solid content-stretch flex flex-[1_0_0] h-[40px] items-center justify-between min-w-px overflow-clip px-[12px] relative rounded-[var(--radius\/luxury,12px)]" data-node-id="177:1156" data-name="Input Rộng">
+            <div className="bg-[var(--base\/white,white)] border border-[var(--line\/default,rgba(1,1,1,0.13))] border-solid content-stretch flex flex-[1_0_0] gap-[var(--space\/8,8px)] h-[40px] items-center justify-between min-w-px overflow-clip px-[var(--space\/12,12px)] relative rounded-[var(--radius\/luxury,12px)]" data-node-id="177:1156" data-name="Input Rộng">
               <p className="font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] not-italic relative shrink-0 tracking-[var(--typography\/letter-spacing\/body-small,0px)]" data-node-id="177:1157">
                 Rộng
               </p>
@@ -198,7 +198,7 @@ export default function TrangChMobile390TiuNgonCai() {
                 cm
               </p>
             </div>
-            <div className="bg-[var(--base\/white,white)] border border-[var(--line\/default,rgba(1,1,1,0.13))] border-solid content-stretch flex flex-[1_0_0] h-[40px] items-center justify-between min-w-px overflow-clip px-[12px] relative rounded-[var(--radius\/luxury,12px)]" data-node-id="177:1159" data-name="Input Cao">
+            <div className="bg-[var(--base\/white,white)] border border-[var(--line\/default,rgba(1,1,1,0.13))] border-solid content-stretch flex flex-[1_0_0] gap-[var(--space\/8,8px)] h-[40px] items-center justify-between min-w-px overflow-clip px-[var(--space\/12,12px)] relative rounded-[var(--radius\/luxury,12px)]" data-node-id="177:1159" data-name="Input Cao">
               <p className="font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] not-italic relative shrink-0 tracking-[var(--typography\/letter-spacing\/body-small,0px)]" data-node-id="177:1160">
                 Cao
               </p>
@@ -207,7 +207,7 @@ export default function TrangChMobile390TiuNgonCai() {
               </p>
             </div>
           </div>
-          <div className="[word-break:break-word] content-stretch flex items-center justify-between overflow-clip relative shrink-0 w-full whitespace-nowrap" data-node-id="177:1162" data-name="Qty Header">
+          <div className="[word-break:break-word] content-stretch flex gap-[var(--space\/8,8px)] items-center justify-between overflow-clip relative shrink-0 w-full whitespace-nowrap" data-node-id="177:1162" data-name="Qty Header">
             <p className="font-['Inter:Semi_Bold'] font-semibold leading-[16px] not-italic relative shrink-0 text-[11px] text-[color:var(--ink\/strong,#121212)] tracking-[0.66px] uppercase" data-node-id="177:1163">
               3. SỐ LƯỢNG (TỐI THIỂU SET 100)
             </p>
@@ -215,7 +215,7 @@ export default function TrangChMobile390TiuNgonCai() {
               1.000 cái
             </p>
           </div>
-          <div className="content-stretch flex flex-col gap-[10px] items-start overflow-clip relative shrink-0 w-full" data-node-id="177:1165" data-name="Qty Slider">
+          <div className="content-stretch flex flex-col gap-[var(--input\/spacing\/medium\/vertical-padding,10px)] items-start overflow-clip relative shrink-0 w-full" data-node-id="177:1165" data-name="Qty Slider">
             <div className="bg-[var(--line\/default,rgba(1,1,1,0.13))] h-[6px] relative rounded-[var(--radius\/luxury,12px)] shrink-0 w-full" data-node-id="177:1166" data-name="Track">
               <div className="absolute bg-[var(--brand\/red,#ff6bd5)] h-[6px] left-0 rounded-[var(--radius\/luxury,12px)] top-0 w-[239px]" data-node-id="177:1167" data-name="Active Track" />
               <div className="absolute bg-[var(--brand\/red,#ff6bd5)] border-2 border-[var(--base\/white,white)] border-solid left-[230px] rounded-[var(--radius\/luxury,12px)] size-[18px] top-[-6px]" data-node-id="177:1168" data-name="Thumb" />
@@ -247,30 +247,30 @@ export default function TrangChMobile390TiuNgonCai() {
           <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[16px] not-italic relative shrink-0 text-[11px] text-[color:var(--ink\/strong,#121212)] tracking-[0.66px] uppercase whitespace-nowrap" data-node-id="177:1177">
             4. THÔNG TIN LIÊN HỆ
           </p>
-          <div className="content-stretch flex flex-col gap-[8px] items-start overflow-clip relative shrink-0 w-full" data-node-id="177:1178" data-name="Contact Row">
-            <div className="bg-[var(--base\/white,white)] border border-[var(--line\/default,rgba(1,1,1,0.13))] border-solid content-stretch flex h-[40px] items-center justify-between overflow-clip px-[12px] relative rounded-[var(--radius\/luxury,12px)] shrink-0 w-full" data-node-id="177:1179" data-name="Input Tên">
-              <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/body-small,16px)] not-italic relative shrink-0 text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-[length:var(--typography\/font-size\/body-small,12px)] tracking-[var(--typography\/letter-spacing\/body-small,0px)] whitespace-nowrap" data-node-id="177:1180">
+          <div className="content-stretch flex flex-col gap-[var(--space\/8,8px)] items-start overflow-clip relative shrink-0 w-full" data-node-id="177:1178" data-name="Contact Row">
+            <div className="bg-[var(--base\/white,white)] border border-[var(--line\/default,rgba(1,1,1,0.13))] border-solid content-stretch flex gap-[var(--space\/8,8px)] h-[40px] items-center justify-between overflow-clip px-[var(--space\/12,12px)] relative rounded-[var(--radius\/luxury,12px)] shrink-0 w-full" data-node-id="177:1179" data-name="Input Tên">
+              <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/body-small,18px)] not-italic relative shrink-0 text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-[length:var(--typography\/font-size\/body-small,13px)] tracking-[var(--typography\/letter-spacing\/body-small,0px)] whitespace-nowrap" data-node-id="177:1180">
                 Họ tên / Tên shop
               </p>
             </div>
-            <div className="bg-[var(--base\/white,white)] border border-[var(--line\/default,rgba(1,1,1,0.13))] border-solid content-stretch flex h-[40px] items-center justify-between overflow-clip px-[12px] relative rounded-[var(--radius\/luxury,12px)] shrink-0 w-full" data-node-id="177:1181" data-name="Input SĐT">
-              <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/body-small,16px)] not-italic relative shrink-0 text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-[length:var(--typography\/font-size\/body-small,12px)] tracking-[var(--typography\/letter-spacing\/body-small,0px)] whitespace-nowrap" data-node-id="177:1182">
+            <div className="bg-[var(--base\/white,white)] border border-[var(--line\/default,rgba(1,1,1,0.13))] border-solid content-stretch flex gap-[var(--space\/8,8px)] h-[40px] items-center justify-between overflow-clip px-[var(--space\/12,12px)] relative rounded-[var(--radius\/luxury,12px)] shrink-0 w-full" data-node-id="177:1181" data-name="Input SĐT">
+              <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/body-small,18px)] not-italic relative shrink-0 text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-[length:var(--typography\/font-size\/body-small,13px)] tracking-[var(--typography\/letter-spacing\/body-small,0px)] whitespace-nowrap" data-node-id="177:1182">
                 Số điện thoại Zalo *
               </p>
             </div>
           </div>
-          <div className="bg-[var(--base\/white,white)] border border-[var(--line\/default,rgba(1,1,1,0.13))] border-solid content-stretch flex h-[40px] items-center justify-between overflow-clip px-[12px] relative rounded-[var(--radius\/luxury,12px)] shrink-0 w-full" data-node-id="177:1183" data-name="Select Tỉnh">
-            <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/body-small,16px)] not-italic relative shrink-0 text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-[length:var(--typography\/font-size\/body-small,12px)] tracking-[var(--typography\/letter-spacing\/body-small,0px)] whitespace-nowrap" data-node-id="177:1184">
+          <div className="bg-[var(--base\/white,white)] border border-[var(--line\/default,rgba(1,1,1,0.13))] border-solid content-stretch flex gap-[var(--space\/8,8px)] h-[40px] items-center justify-between overflow-clip px-[var(--space\/12,12px)] relative rounded-[var(--radius\/luxury,12px)] shrink-0 w-full" data-node-id="177:1183" data-name="Select Tỉnh">
+            <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/body-small,18px)] not-italic relative shrink-0 text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-[length:var(--typography\/font-size\/body-small,13px)] tracking-[var(--typography\/letter-spacing\/body-small,0px)] whitespace-nowrap" data-node-id="177:1184">
               — Tỉnh/Thành nhận hàng —
             </p>
             <div className="relative shrink-0 size-[16px]" data-node-id="177:1185" data-name="Icon/chevronDown">
               <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconChevronDown} />
             </div>
           </div>
-          <div className="bg-[var(--paper\/subtle,#ececec)] content-stretch flex items-start overflow-clip px-[12px] py-[10px] relative rounded-[var(--radius\/luxury,12px)] shrink-0 w-full" data-node-id="177:1187" data-name="Summary">
+          <div className="bg-[var(--paper\/subtle,#ececec)] content-stretch flex items-start overflow-clip px-[var(--space\/12,12px)] py-[var(--input\/spacing\/medium\/vertical-padding,10px)] relative rounded-[var(--radius\/luxury,12px)] shrink-0 w-full" data-node-id="177:1187" data-name="Summary">
             <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[0] not-italic relative shrink-0 text-[0px] text-[color:var(--ink\/strong,#121212)] tracking-[var(--typography\/letter-spacing\/body-small,0px)] whitespace-nowrap" data-node-id="177:1188">
-              <span className="leading-[var(--typography\/line-height\/body-small,16px)] text-[12px]">{`Bạn cần: `}</span>
-              <span className="font-['Inter:Semi_Bold'] font-semibold leading-[16px] text-[#d7262b] text-[12px]">Hộp cứng · 1.000 cái</span>
+              <span className="leading-[var(--typography\/line-height\/body-small,18px)] text-[13px]">{`Bạn cần: `}</span>
+              <span className="font-['Inter:Semi_Bold'] font-semibold leading-[18px] text-[#d7262b] text-[13px]">Hộp cứng · 1.000 cái</span>
             </p>
           </div>
           <div className="bg-[var(--brand\/red,#ff6bd5)] content-stretch flex gap-[var(--spacing\/gap\/xsmall,8px)] h-[42px] items-center justify-center px-[var(--spacing\/padding\/large,20px)] relative rounded-[var(--radius\/luxury,12px)] shrink-0 w-full" data-node-id="177:1189" data-name="Btn Gửi Báo Giá">
@@ -281,12 +281,12 @@ export default function TrangChMobile390TiuNgonCai() {
               <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTrailingIcon} />
             </div>
           </div>
-          <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/caption,16px)] min-w-full not-italic relative shrink-0 text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-[length:var(--typography\/font-size\/caption,11px)] tracking-[var(--typography\/letter-spacing\/caption,0px)] w-[min-content]" data-node-id="177:1196">
+          <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/caption,16px)] min-w-full not-italic relative shrink-0 text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-[length:var(--typography\/font-size\/caption,12px)] tracking-[var(--typography\/letter-spacing\/caption,0px)] w-[min-content]" data-node-id="177:1196">
             Giá chưa gồm VAT 8% và vận chuyển · Gửi yêu cầu không bắt buộc đặt hàng
           </p>
         </div>
       </div>
-      <div className="bg-[var(--brand\/red,#ff6bd5)] content-stretch flex flex-col gap-[14px] items-start overflow-clip px-[16px] py-[48px] relative shrink-0 w-full" data-node-id="185:1343" data-name="03B - Ba Gói Set 100 Mobile">
+      <div className="bg-[var(--brand\/red,#ff6bd5)] content-stretch flex flex-col gap-[var(--space\/14,14px)] items-start overflow-clip px-[var(--space\/gutter,16px)] py-[var(--space\/section-y,48px)] relative shrink-0 w-full" data-node-id="185:1343" data-name="03B - Ba Gói Set 100 Mobile">
         <div className="absolute h-[195px] left-[-78px] mix-blend-multiply opacity-35 top-[380px] w-[390px]" data-node-id="185:1344" data-name="Deco · Halftone">
           <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgDecoHalftone} />
         </div>
@@ -294,38 +294,38 @@ export default function TrangChMobile390TiuNgonCai() {
         <p className="[word-break:break-word] font-['Be_Vietnam_Pro:ExtraBold'] leading-[var(--h2\/dòng,32px)] min-w-full not-italic relative shrink-0 text-[color:var(--base\/white,white)] text-[length:var(--h2\/cỡ-chữ,26px)] tracking-[var(--h2\/giãn-chữ,-0.5px)] uppercase w-[min-content]" data-node-id="185:1346">
           BA GÓI BAO BÌ TẾT
         </p>
-        <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/body-small,16px)] not-italic relative shrink-0 text-[color:var(--base\/white,white)] text-[length:var(--typography\/font-size\/body-small,12px)] tracking-[var(--typography\/letter-spacing\/body-small,0px)] whitespace-nowrap" data-node-id="185:1347">
+        <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/body-small,18px)] not-italic relative shrink-0 text-[color:var(--base\/white,white)] text-[length:var(--typography\/font-size\/body-small,13px)] tracking-[var(--typography\/letter-spacing\/body-small,0px)] whitespace-nowrap" data-node-id="185:1347">
           Giá cho 100 sản phẩm, chưa gồm VAT 8% và vận chuyển.
         </p>
-        <div className="content-stretch flex flex-col gap-[12px] items-start overflow-clip relative shrink-0 w-full" data-node-id="185:1348" data-name="Ba Gói">
-          <div className="bg-[var(--base\/white,white)] border border-[var(--line\/default,rgba(1,1,1,0.13))] border-solid content-stretch flex flex-col gap-[8px] items-start overflow-clip p-[14px] relative rounded-[var(--radius\/luxury,12px)] shrink-0 w-full" data-node-id="185:1349" data-name="Card · GÓI KHỞI ĐẦU">
+        <div className="content-stretch flex flex-col gap-[var(--space\/12,12px)] items-start overflow-clip relative shrink-0 w-full" data-node-id="185:1348" data-name="Ba Gói">
+          <div className="bg-[var(--base\/white,white)] border border-[var(--line\/default,rgba(1,1,1,0.13))] border-solid content-stretch flex flex-col gap-[var(--space\/8,8px)] items-start overflow-clip p-[var(--space\/14,14px)] relative rounded-[var(--radius\/luxury,12px)] shrink-0 w-full" data-node-id="185:1349" data-name="Card · GÓI KHỞI ĐẦU">
             <div className="h-[110px] relative rounded-[var(--radius\/luxury,12px)] shrink-0 w-full" data-node-id="185:1350" data-name="Ảnh GÓI KHỞI ĐẦU">
               <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[var(--radius\/luxury,12px)] size-full" src={imgNhGoiKhiDu} />
             </div>
             <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[16px] not-italic relative shrink-0 text-[11px] text-[color:var(--ink\/strong,#121212)] tracking-[0.66px] uppercase whitespace-nowrap" data-node-id="185:1351">
               GÓI KHỞI ĐẦU
             </p>
-            <div className="[word-break:break-word] content-stretch flex gap-[6px] items-end overflow-clip relative shrink-0 whitespace-nowrap" data-node-id="185:1352" data-name="Giá">
+            <div className="[word-break:break-word] content-stretch flex gap-[var(--input\/spacing\/small\/vertical-padding,6px)] items-end overflow-clip relative shrink-0 whitespace-nowrap" data-node-id="185:1352" data-name="Giá">
               <p className="font-['JetBrains_Mono:Bold'] font-bold leading-[28px] relative shrink-0 text-[20px] text-[color:var(--ink\/strong,#121212)]" data-node-id="185:1353">
                 1.200.000đ
               </p>
-              <p className="font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/caption,16px)] not-italic relative shrink-0 text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-[length:var(--typography\/font-size\/caption,11px)] tracking-[var(--typography\/letter-spacing\/caption,0px)]" data-node-id="185:1354">
+              <p className="font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/caption,16px)] not-italic relative shrink-0 text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-[length:var(--typography\/font-size\/caption,12px)] tracking-[var(--typography\/letter-spacing\/caption,0px)]" data-node-id="185:1354">
                 / 100 sp
               </p>
             </div>
-            <div className="content-stretch flex gap-[6px] items-center overflow-clip relative shrink-0" data-node-id="185:1355" data-name="Icon + Label">
+            <div className="content-stretch flex gap-[var(--input\/spacing\/small\/vertical-padding,6px)] items-center overflow-clip relative shrink-0" data-node-id="185:1355" data-name="Icon + Label">
               <div className="relative shrink-0 size-[14px]" data-node-id="185:1356" data-name="Icon/check">
                 <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconCheck} />
               </div>
-              <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/caption,16px)] not-italic relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/caption,11px)] tracking-[var(--typography\/letter-spacing\/caption,0px)] whitespace-nowrap" data-node-id="185:1358">
+              <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/caption,16px)] not-italic relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/caption,12px)] tracking-[var(--typography\/letter-spacing\/caption,0px)] whitespace-nowrap" data-node-id="185:1358">
                 Hộp giấy chọn từ mẫu có sẵn
               </p>
             </div>
-            <div className="content-stretch flex gap-[6px] items-center overflow-clip relative shrink-0" data-node-id="185:1359" data-name="Icon + Label">
+            <div className="content-stretch flex gap-[var(--input\/spacing\/small\/vertical-padding,6px)] items-center overflow-clip relative shrink-0" data-node-id="185:1359" data-name="Icon + Label">
               <div className="relative shrink-0 size-[14px]" data-node-id="185:1360" data-name="Icon/check">
                 <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconCheck} />
               </div>
-              <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/caption,16px)] not-italic relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/caption,11px)] tracking-[var(--typography\/letter-spacing\/caption,0px)] whitespace-nowrap" data-node-id="185:1362">
+              <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/caption,16px)] not-italic relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/caption,12px)] tracking-[var(--typography\/letter-spacing\/caption,0px)] whitespace-nowrap" data-node-id="185:1362">
                 In logo thương hiệu riêng
               </p>
             </div>
@@ -338,34 +338,34 @@ export default function TrangChMobile390TiuNgonCai() {
               </div>
             </div>
           </div>
-          <div className="bg-[var(--base\/white,white)] border-2 border-[var(--brand\/gold-foil,#a67c2e)] border-solid content-stretch flex flex-col gap-[8px] items-start overflow-clip p-[14px] relative rounded-[var(--radius\/luxury,12px)] shrink-0 w-full" data-node-id="185:1369" data-name="Card · GÓI ĐỒNG BỘ">
+          <div className="bg-[var(--base\/white,white)] border-2 border-[var(--brand\/gold-foil,#a67c2e)] border-solid content-stretch flex flex-col gap-[var(--space\/8,8px)] items-start overflow-clip p-[var(--space\/14,14px)] relative rounded-[var(--radius\/luxury,12px)] shrink-0 w-full" data-node-id="185:1369" data-name="Card · GÓI ĐỒNG BỘ">
             <div className="h-[110px] relative rounded-[var(--radius\/luxury,12px)] shrink-0 w-full" data-node-id="185:1370" data-name="Ảnh GÓI ĐỒNG BỘ">
               <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[var(--radius\/luxury,12px)] size-full" src={imgNhGoiDngB} />
             </div>
             <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[16px] not-italic relative shrink-0 text-[11px] text-[color:var(--brand\/red,#ff6bd5)] tracking-[0.66px] uppercase whitespace-nowrap" data-node-id="185:1371">
               GÓI ĐỒNG BỘ
             </p>
-            <div className="[word-break:break-word] content-stretch flex gap-[6px] items-end overflow-clip relative shrink-0 whitespace-nowrap" data-node-id="185:1372" data-name="Giá">
+            <div className="[word-break:break-word] content-stretch flex gap-[var(--input\/spacing\/small\/vertical-padding,6px)] items-end overflow-clip relative shrink-0 whitespace-nowrap" data-node-id="185:1372" data-name="Giá">
               <p className="font-['JetBrains_Mono:Bold'] font-bold leading-[28px] relative shrink-0 text-[20px] text-[color:var(--ink\/strong,#121212)]" data-node-id="185:1373">
                 1.370.000đ
               </p>
-              <p className="font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/caption,16px)] not-italic relative shrink-0 text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-[length:var(--typography\/font-size\/caption,11px)] tracking-[var(--typography\/letter-spacing\/caption,0px)]" data-node-id="185:1374">
+              <p className="font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/caption,16px)] not-italic relative shrink-0 text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-[length:var(--typography\/font-size\/caption,12px)] tracking-[var(--typography\/letter-spacing\/caption,0px)]" data-node-id="185:1374">
                 / 100 sp
               </p>
             </div>
-            <div className="content-stretch flex gap-[6px] items-center overflow-clip relative shrink-0" data-node-id="185:1375" data-name="Icon + Label">
+            <div className="content-stretch flex gap-[var(--input\/spacing\/small\/vertical-padding,6px)] items-center overflow-clip relative shrink-0" data-node-id="185:1375" data-name="Icon + Label">
               <div className="relative shrink-0 size-[14px]" data-node-id="185:1376" data-name="Icon/check">
                 <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconCheck} />
               </div>
-              <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/caption,16px)] not-italic relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/caption,11px)] tracking-[var(--typography\/letter-spacing\/caption,0px)] whitespace-nowrap" data-node-id="185:1378">
+              <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/caption,16px)] not-italic relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/caption,12px)] tracking-[var(--typography\/letter-spacing\/caption,0px)] whitespace-nowrap" data-node-id="185:1378">
                 Thêm thank card 9 × 5,4 cm
               </p>
             </div>
-            <div className="content-stretch flex gap-[6px] items-center overflow-clip relative shrink-0" data-node-id="185:1379" data-name="Icon + Label">
+            <div className="content-stretch flex gap-[var(--input\/spacing\/small\/vertical-padding,6px)] items-center overflow-clip relative shrink-0" data-node-id="185:1379" data-name="Icon + Label">
               <div className="relative shrink-0 size-[14px]" data-node-id="185:1380" data-name="Icon/check">
                 <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconCheck} />
               </div>
-              <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/caption,16px)] not-italic relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/caption,11px)] tracking-[var(--typography\/letter-spacing\/caption,0px)] whitespace-nowrap" data-node-id="185:1382">
+              <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/caption,16px)] not-italic relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/caption,12px)] tracking-[var(--typography\/letter-spacing\/caption,0px)] whitespace-nowrap" data-node-id="185:1382">
                 Thêm nhãn phụ 6,5 × 5 cm
               </p>
             </div>
@@ -378,34 +378,34 @@ export default function TrangChMobile390TiuNgonCai() {
               </div>
             </div>
           </div>
-          <div className="bg-[var(--base\/white,white)] border border-[var(--line\/default,rgba(1,1,1,0.13))] border-solid content-stretch flex flex-col gap-[8px] items-start overflow-clip p-[14px] relative rounded-[var(--radius\/luxury,12px)] shrink-0 w-full" data-node-id="185:1389" data-name="Card · GÓI NÂNG TẦM">
+          <div className="bg-[var(--base\/white,white)] border border-[var(--line\/default,rgba(1,1,1,0.13))] border-solid content-stretch flex flex-col gap-[var(--space\/8,8px)] items-start overflow-clip p-[var(--space\/14,14px)] relative rounded-[var(--radius\/luxury,12px)] shrink-0 w-full" data-node-id="185:1389" data-name="Card · GÓI NÂNG TẦM">
             <div className="h-[110px] relative rounded-[var(--radius\/luxury,12px)] shrink-0 w-full" data-node-id="185:1390" data-name="Ảnh GÓI NÂNG TẦM">
               <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[var(--radius\/luxury,12px)] size-full" src={imgHeroPhoto} />
             </div>
             <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[16px] not-italic relative shrink-0 text-[11px] text-[color:var(--ink\/strong,#121212)] tracking-[0.66px] uppercase whitespace-nowrap" data-node-id="185:1391">
               GÓI NÂNG TẦM
             </p>
-            <div className="[word-break:break-word] content-stretch flex gap-[6px] items-end overflow-clip relative shrink-0 whitespace-nowrap" data-node-id="185:1392" data-name="Giá">
+            <div className="[word-break:break-word] content-stretch flex gap-[var(--input\/spacing\/small\/vertical-padding,6px)] items-end overflow-clip relative shrink-0 whitespace-nowrap" data-node-id="185:1392" data-name="Giá">
               <p className="font-['JetBrains_Mono:Bold'] font-bold leading-[28px] relative shrink-0 text-[20px] text-[color:var(--ink\/strong,#121212)]" data-node-id="185:1393">
                 2.586.000đ
               </p>
-              <p className="font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/caption,16px)] not-italic relative shrink-0 text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-[length:var(--typography\/font-size\/caption,11px)] tracking-[var(--typography\/letter-spacing\/caption,0px)]" data-node-id="185:1394">
+              <p className="font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/caption,16px)] not-italic relative shrink-0 text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-[length:var(--typography\/font-size\/caption,12px)] tracking-[var(--typography\/letter-spacing\/caption,0px)]" data-node-id="185:1394">
                 / 100 sp
               </p>
             </div>
-            <div className="content-stretch flex gap-[6px] items-center overflow-clip relative shrink-0" data-node-id="185:1395" data-name="Icon + Label">
+            <div className="content-stretch flex gap-[var(--input\/spacing\/small\/vertical-padding,6px)] items-center overflow-clip relative shrink-0" data-node-id="185:1395" data-name="Icon + Label">
               <div className="relative shrink-0 size-[14px]" data-node-id="185:1396" data-name="Icon/check">
                 <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconCheck} />
               </div>
-              <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/caption,16px)] not-italic relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/caption,11px)] tracking-[var(--typography\/letter-spacing\/caption,0px)] whitespace-nowrap" data-node-id="185:1398">
+              <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/caption,16px)] not-italic relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/caption,12px)] tracking-[var(--typography\/letter-spacing\/caption,0px)] whitespace-nowrap" data-node-id="185:1398">
                 Thêm hộp nhựa 500 ml
               </p>
             </div>
-            <div className="content-stretch flex gap-[6px] items-center overflow-clip relative shrink-0" data-node-id="185:1399" data-name="Icon + Label">
+            <div className="content-stretch flex gap-[var(--input\/spacing\/small\/vertical-padding,6px)] items-center overflow-clip relative shrink-0" data-node-id="185:1399" data-name="Icon + Label">
               <div className="relative shrink-0 size-[14px]" data-node-id="185:1400" data-name="Icon/check">
                 <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconCheck} />
               </div>
-              <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/caption,16px)] not-italic relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/caption,11px)] tracking-[var(--typography\/letter-spacing\/caption,0px)] whitespace-nowrap" data-node-id="185:1402">
+              <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/caption,16px)] not-italic relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/caption,12px)] tracking-[var(--typography\/letter-spacing\/caption,0px)] whitespace-nowrap" data-node-id="185:1402">
                 Thêm seal nhôm 82 mm
               </p>
             </div>
@@ -426,21 +426,21 @@ export default function TrangChMobile390TiuNgonCai() {
               <div className="absolute inset-[7.14%]" data-node-id="I185:1409;181:1054" data-name="Ellipse">
                 <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse} />
               </div>
-              <p className="[word-break:break-word] absolute font-[family-name:var(--typography\/font-family\/sans,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] inset-[21.43%_12.5%_67.86%_12.5%] leading-[var(--typography\/line-height\/label-small,15.333px)] not-italic text-[14.06px] text-[color:var(--base\/white,white)] text-center tracking-[2px]" data-node-id="I185:1409;181:1055">
+              <p className="[word-break:break-word] absolute font-[family-name:var(--typography\/font-family\/sans,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] inset-[21.43%_12.5%_67.86%_12.5%] leading-[var(--typography\/line-height\/label-small,17.889px)] not-italic text-[14.06px] text-[color:var(--base\/white,white)] text-center tracking-[2px]" data-node-id="I185:1409;181:1055">
                 GÓI
               </p>
               <div className="[word-break:break-word] absolute font-['Inter:Semi_Bold'] font-semibold inset-[39.29%_12.5%_32.14%_12.5%] leading-[0] not-italic text-[14.06px] text-[color:var(--base\/white,white)] text-center tracking-[0.8436px] uppercase" data-node-id="I185:1409;181:1056">
                 <p className="leading-[20.444px] mb-0">ĐÃ DUYỆT</p>
                 <p className="leading-[20.444px]">MÀU IN</p>
               </div>
-              <p className="[word-break:break-word] absolute font-[family-name:var(--typography\/font-family\/sans,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] inset-[69.64%_12.5%_19.64%_12.5%] leading-[var(--typography\/line-height\/label-small,15.333px)] not-italic text-[color:var(--base\/white,white)] text-[length:var(--typography\/font-size\/label-small,11.5px)] text-center tracking-[var(--typography\/letter-spacing\/label-small,0px)]" data-node-id="I185:1409;181:1057">
+              <p className="[word-break:break-word] absolute font-[family-name:var(--typography\/font-family\/sans,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] inset-[69.64%_12.5%_19.64%_12.5%] leading-[var(--typography\/line-height\/label-small,17.889px)] not-italic text-[color:var(--base\/white,white)] text-[length:var(--typography\/font-size\/label-small,12.78px)] text-center tracking-[var(--typography\/letter-spacing\/label-small,0px)]" data-node-id="I185:1409;181:1057">
                 SET 100
               </p>
             </div>
           </div>
         </div>
       </div>
-      <div className="bg-[var(--base\/white,white)] content-stretch flex flex-col gap-[var(--spacing\/gap\/small,12px)] h-[896px] items-start overflow-clip px-[var(--spacing\/padding\/large,20px)] py-[48px] relative shrink-0 w-[390px]" data-node-id="134:169" data-name="03 - Trụ Cột Năng Lực Mobile">
+      <div className="bg-[var(--base\/white,white)] content-stretch flex flex-col gap-[var(--spacing\/gap\/small,12px)] h-[896px] items-start overflow-clip px-[var(--spacing\/padding\/large,20px)] py-[var(--space\/section-y,48px)] relative shrink-0 w-[390px]" data-node-id="134:169" data-name="03 - Trụ Cột Năng Lực Mobile">
         <div aria-hidden className="absolute bg-size-[60.00000238418579px_60.00000238418579px] bg-top-left inset-0 opacity-55 pointer-events-none" style={{ backgroundImage: `url("${imgDecoBangKeo}")` }} />
         <div className="absolute bg-size-[50px_50px] bg-top-left inset-0" data-node-id="161:768" style={{ backgroundImage: `url("${imgDecoPaperGrain}")` }} data-name="Deco · Paper grain" />
         <div className="absolute h-[313.042px] left-[-60px] opacity-14 top-[600px] w-[260px]" data-node-id="185:1416" data-name="Deco · Khuôn MAILER">
@@ -454,51 +454,51 @@ export default function TrangChMobile390TiuNgonCai() {
           MỘT ĐỐI TÁC TRỌN GÓI CHO SME
         </p>
         <div className="[word-break:break-word] bg-[var(--paper\/light,#f7f7f7)] border border-[var(--line\/default,rgba(1,1,1,0.13))] border-solid content-stretch flex flex-col gap-[var(--spacing\/gap\/2xsmall,4px)] h-[170px] items-start not-italic overflow-clip p-[var(--spacing\/padding\/medium,16px)] relative rounded-[var(--radius\/luxury,12px)] shrink-0 w-[350px]" data-node-id="134:171" data-name="Bình File & Maket 3D 15p">
-          <p className="font-[family-name:var(--typography\/font-family\/sans,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/label-small,12px)] relative shrink-0 text-[color:var(--brand\/red,#ff6bd5)] text-[length:var(--typography\/font-size\/label-small,9px)] tracking-[var(--typography\/letter-spacing\/label-small,0px)] whitespace-nowrap" data-node-id="134:172">
+          <p className="font-[family-name:var(--typography\/font-family\/sans,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/label-small,14px)] relative shrink-0 text-[color:var(--brand\/red,#ff6bd5)] text-[length:var(--typography\/font-size\/label-small,10px)] tracking-[var(--typography\/letter-spacing\/label-small,0px)] whitespace-nowrap" data-node-id="134:172">
             01 / TƯ VẤN THIẾT KẾ
           </p>
-          <p className="font-[family-name:var(--typography\/font-family\/sans,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/body-base,20px)] relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/body-base,14px)] tracking-[var(--typography\/letter-spacing\/body-base,-0.14px)] whitespace-nowrap" data-node-id="134:173">
+          <p className="font-[family-name:var(--typography\/font-family\/sans,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/body-base,24px)] relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/body-base,16px)] tracking-[var(--typography\/letter-spacing\/body-base,-0.14px)] whitespace-nowrap" data-node-id="134:173">
             Thiết Kế Maket Miễn Phí
           </p>
-          <p className="font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/body-small,16px)] relative shrink-0 text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-[length:var(--typography\/font-size\/body-small,12px)] tracking-[var(--typography\/letter-spacing\/body-small,0px)] w-[318px]" data-node-id="134:174">
+          <p className="font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/body-small,18px)] relative shrink-0 text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-[length:var(--typography\/font-size\/body-small,13px)] tracking-[var(--typography\/letter-spacing\/body-small,0px)] w-[318px]" data-node-id="134:174">
             Kỹ thuật xưởng trực tiếp kiểm tra file, tư vấn độ dày giấy bồi và căn chỉnh dung sai bế gập hoàn toàn miễn phí.
           </p>
         </div>
         <div className="[word-break:break-word] bg-[var(--paper\/light,#f7f7f7)] border border-[var(--line\/default,rgba(1,1,1,0.13))] border-solid content-stretch flex flex-col gap-[var(--spacing\/gap\/2xsmall,4px)] h-[170px] items-start not-italic overflow-clip p-[var(--spacing\/padding\/medium,16px)] relative rounded-[var(--radius\/luxury,12px)] shrink-0 w-[350px]" data-node-id="134:175" data-name="Tiết Kiệm 1.5 - 3.5tr Tiền Dao">
-          <p className="font-[family-name:var(--typography\/font-family\/sans,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/label-small,12px)] relative shrink-0 text-[color:var(--brand\/red,#ff6bd5)] text-[length:var(--typography\/font-size\/label-small,9px)] tracking-[var(--typography\/letter-spacing\/label-small,0px)] whitespace-nowrap" data-node-id="134:176">
+          <p className="font-[family-name:var(--typography\/font-family\/sans,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/label-small,14px)] relative shrink-0 text-[color:var(--brand\/red,#ff6bd5)] text-[length:var(--typography\/font-size\/label-small,10px)] tracking-[var(--typography\/letter-spacing\/label-small,0px)] whitespace-nowrap" data-node-id="134:176">
             02 / MẪU HỘP CÓ SẴN
           </p>
-          <p className="font-[family-name:var(--typography\/font-family\/sans,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/body-base,20px)] relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/body-base,14px)] tracking-[var(--typography\/letter-spacing\/body-base,-0.14px)] whitespace-nowrap" data-node-id="134:177">
+          <p className="font-[family-name:var(--typography\/font-family\/sans,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/body-base,24px)] relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/body-base,16px)] tracking-[var(--typography\/letter-spacing\/body-base,-0.14px)] whitespace-nowrap" data-node-id="134:177">
             21 Mẫu Hộp Chọn Ngay
           </p>
-          <p className="font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/body-small,16px)] relative shrink-0 text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-[length:var(--typography\/font-size\/body-small,12px)] tracking-[var(--typography\/letter-spacing\/body-small,0px)] w-[318px]" data-node-id="134:178">
+          <p className="font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/body-small,18px)] relative shrink-0 text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-[length:var(--typography\/font-size\/body-small,13px)] tracking-[var(--typography\/letter-spacing\/body-small,0px)] w-[318px]" data-node-id="134:178">
             Hộp quà, hộp cứng, túi giấy, tem và đai đã có sẵn thiết kế. Bạn chọn mẫu, GÓI đặt logo của bạn lên.
           </p>
         </div>
         <div className="[word-break:break-word] bg-[var(--paper\/light,#f7f7f7)] border border-[var(--line\/default,rgba(1,1,1,0.13))] border-solid content-stretch flex flex-col gap-[var(--spacing\/gap\/2xsmall,4px)] h-[170px] items-start not-italic overflow-clip p-[var(--spacing\/padding\/medium,16px)] relative rounded-[var(--radius\/luxury,12px)] shrink-0 w-[350px]" data-node-id="134:179" data-name="Nhận In Từ 50 Đến 50.000 Cái">
-          <p className="font-[family-name:var(--typography\/font-family\/sans,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/label-small,12px)] relative shrink-0 text-[color:var(--brand\/red,#ff6bd5)] text-[length:var(--typography\/font-size\/label-small,9px)] tracking-[var(--typography\/letter-spacing\/label-small,0px)] whitespace-nowrap" data-node-id="134:180">
+          <p className="font-[family-name:var(--typography\/font-family\/sans,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/label-small,14px)] relative shrink-0 text-[color:var(--brand\/red,#ff6bd5)] text-[length:var(--typography\/font-size\/label-small,10px)] tracking-[var(--typography\/letter-spacing\/label-small,0px)] whitespace-nowrap" data-node-id="134:180">
             03 / SẢN XUẤT LINH HOẠT
           </p>
-          <p className="font-[family-name:var(--typography\/font-family\/sans,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/body-base,20px)] relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/body-base,14px)] tracking-[var(--typography\/letter-spacing\/body-base,-0.14px)] whitespace-nowrap" data-node-id="134:181">
+          <p className="font-[family-name:var(--typography\/font-family\/sans,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/body-base,24px)] relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/body-base,16px)] tracking-[var(--typography\/letter-spacing\/body-base,-0.14px)] whitespace-nowrap" data-node-id="134:181">
             Đặt Theo Set 100 Sản Phẩm
           </p>
-          <p className="font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/body-small,16px)] relative shrink-0 text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-[length:var(--typography\/font-size\/body-small,12px)] tracking-[var(--typography\/letter-spacing\/body-small,0px)] w-[318px]" data-node-id="134:182">
+          <p className="font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/body-small,18px)] relative shrink-0 text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-[length:var(--typography\/font-size\/body-small,13px)] tracking-[var(--typography\/letter-spacing\/body-small,0px)] w-[318px]" data-node-id="134:182">
             Set 100 là mức tối thiểu để shop nhỏ thử bán Tết. Đơn lớn hơn, GÓI báo giá theo số lượng.
           </p>
         </div>
         <div className="[word-break:break-word] bg-[var(--paper\/light,#f7f7f7)] border border-[var(--line\/default,rgba(1,1,1,0.13))] border-solid content-stretch flex flex-col gap-[var(--spacing\/gap\/2xsmall,4px)] h-[170px] items-start not-italic overflow-clip p-[var(--spacing\/padding\/medium,16px)] relative rounded-[var(--radius\/luxury,12px)] shrink-0 w-[350px]" data-node-id="134:183" data-name="Cam Kết Bù Hàng 100% Không Rủi Ro">
-          <p className="font-[family-name:var(--typography\/font-family\/sans,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/label-small,12px)] relative shrink-0 text-[color:var(--brand\/red,#ff6bd5)] text-[length:var(--typography\/font-size\/label-small,9px)] tracking-[var(--typography\/letter-spacing\/label-small,0px)] whitespace-nowrap" data-node-id="134:184">
+          <p className="font-[family-name:var(--typography\/font-family\/sans,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/label-small,14px)] relative shrink-0 text-[color:var(--brand\/red,#ff6bd5)] text-[length:var(--typography\/font-size\/label-small,10px)] tracking-[var(--typography\/letter-spacing\/label-small,0px)] whitespace-nowrap" data-node-id="134:184">
             04 / DUYỆT MẪU TRƯỚC
           </p>
-          <p className="font-[family-name:var(--typography\/font-family\/sans,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/body-base,20px)] relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/body-base,14px)] tracking-[var(--typography\/letter-spacing\/body-base,-0.14px)] whitespace-nowrap" data-node-id="134:185">
+          <p className="font-[family-name:var(--typography\/font-family\/sans,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/body-base,24px)] relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/body-base,16px)] tracking-[var(--typography\/letter-spacing\/body-base,-0.14px)] whitespace-nowrap" data-node-id="134:185">
             Duyệt Mẫu Trước Khi In Loạt
           </p>
-          <p className="font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/body-small,16px)] relative shrink-0 text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-[length:var(--typography\/font-size\/body-small,12px)] tracking-[var(--typography\/letter-spacing\/body-small,0px)] w-[318px]" data-node-id="134:186">
+          <p className="font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/body-small,18px)] relative shrink-0 text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-[length:var(--typography\/font-size\/body-small,13px)] tracking-[var(--typography\/letter-spacing\/body-small,0px)] w-[318px]" data-node-id="134:186">
             Bạn xem maket và hàng mẫu trước. Duyệt xong, xưởng mới chạy số lượng.
           </p>
         </div>
       </div>
-      <div className="bg-[var(--base\/white,white)] content-stretch flex flex-col gap-[var(--spacing\/gap\/medium,16px)] h-[2616px] items-start overflow-clip px-[var(--spacing\/padding\/large,20px)] py-[48px] relative shrink-0 w-[390px]" data-node-id="134:187" data-name="04 - Catalog 6 Sản Phẩm Mobile">
+      <div className="bg-[var(--base\/white,white)] content-stretch flex flex-col gap-[var(--spacing\/gap\/medium,16px)] h-[2616px] items-start overflow-clip px-[var(--spacing\/padding\/large,20px)] py-[var(--space\/section-y,48px)] relative shrink-0 w-[390px]" data-node-id="134:187" data-name="04 - Catalog 6 Sản Phẩm Mobile">
         <a className="absolute bg-size-[50px_50px] bg-top-left block cursor-pointer inset-0" data-node-id="161:769" style={{ backgroundImage: `url("${imgDecoPaperGrain}")` }} data-name="Deco · Paper grain" />
         <p className="[word-break:break-word] font-['Lora:SemiBold'] font-semibold leading-[var(--h3\/dòng,26px)] min-w-full relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--h3\/cỡ-chữ,19px)] tracking-[var(--h3\/giãn-chữ,-0.2px)] w-[min-content]" data-node-id="134:188">
           CÁC DÒNG SẢN PHẨM CỐT LÕI (IN LOGO)
@@ -515,10 +515,10 @@ export default function TrangChMobile390TiuNgonCai() {
           <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/body-extra,24px)] not-italic relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/body-extra,16px)] tracking-[var(--typography\/letter-spacing\/body-extra,-0.16px)] whitespace-nowrap" data-node-id="134:191">
             Hộp Âm Dương
           </p>
-          <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/body-base,20px)] not-italic relative shrink-0 text-[color:var(--brand\/red,#ff6bd5)] text-[length:var(--typography\/font-size\/body-base,14px)] tracking-[var(--typography\/letter-spacing\/body-base,-0.14px)] whitespace-nowrap" data-node-id="134:192">
+          <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/body-base,24px)] not-italic relative shrink-0 text-[color:var(--brand\/red,#ff6bd5)] text-[length:var(--typography\/font-size\/body-base,16px)] tracking-[var(--typography\/letter-spacing\/body-base,-0.14px)] whitespace-nowrap" data-node-id="134:192">
             Báo giá theo set 100
           </p>
-          <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/caption,16px)] not-italic relative shrink-0 text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-[length:var(--typography\/font-size\/caption,11px)] tracking-[var(--typography\/letter-spacing\/caption,0px)] whitespace-nowrap" data-node-id="134:193">
+          <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/caption,16px)] not-italic relative shrink-0 text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-[length:var(--typography\/font-size\/caption,12px)] tracking-[var(--typography\/letter-spacing\/caption,0px)] whitespace-nowrap" data-node-id="134:193">
             Âm dương nắp rời, hoạ tiết Nùng Indigo
           </p>
         </div>
@@ -529,10 +529,10 @@ export default function TrangChMobile390TiuNgonCai() {
           <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/body-extra,24px)] not-italic relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/body-extra,16px)] tracking-[var(--typography\/letter-spacing\/body-extra,-0.16px)] whitespace-nowrap" data-node-id="134:196">
             Hộp Nam Châm
           </p>
-          <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/body-base,20px)] not-italic relative shrink-0 text-[color:var(--brand\/red,#ff6bd5)] text-[length:var(--typography\/font-size\/body-base,14px)] tracking-[var(--typography\/letter-spacing\/body-base,-0.14px)] whitespace-nowrap" data-node-id="134:197">
+          <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/body-base,24px)] not-italic relative shrink-0 text-[color:var(--brand\/red,#ff6bd5)] text-[length:var(--typography\/font-size\/body-base,16px)] tracking-[var(--typography\/letter-spacing\/body-base,-0.14px)] whitespace-nowrap" data-node-id="134:197">
             Báo giá theo set 100
           </p>
-          <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/caption,16px)] not-italic relative shrink-0 text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-[length:var(--typography\/font-size\/caption,11px)] tracking-[var(--typography\/letter-spacing\/caption,0px)] whitespace-nowrap" data-node-id="134:198">
+          <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/caption,16px)] not-italic relative shrink-0 text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-[length:var(--typography\/font-size\/caption,12px)] tracking-[var(--typography\/letter-spacing\/caption,0px)] whitespace-nowrap" data-node-id="134:198">
             Nắp bật nam châm, logo ép kim
           </p>
         </div>
@@ -543,10 +543,10 @@ export default function TrangChMobile390TiuNgonCai() {
           <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/body-extra,24px)] not-italic relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/body-extra,16px)] tracking-[var(--typography\/letter-spacing\/body-extra,-0.16px)] whitespace-nowrap" data-node-id="134:201">
             Hộp Eco Dây Giật
           </p>
-          <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/body-base,20px)] not-italic relative shrink-0 text-[color:var(--brand\/red,#ff6bd5)] text-[length:var(--typography\/font-size\/body-base,14px)] tracking-[var(--typography\/letter-spacing\/body-base,-0.14px)] whitespace-nowrap" data-node-id="134:202">
+          <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/body-base,24px)] not-italic relative shrink-0 text-[color:var(--brand\/red,#ff6bd5)] text-[length:var(--typography\/font-size\/body-base,16px)] tracking-[var(--typography\/letter-spacing\/body-base,-0.14px)] whitespace-nowrap" data-node-id="134:202">
             Báo giá theo set 100
           </p>
-          <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/caption,16px)] not-italic relative shrink-0 text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-[length:var(--typography\/font-size\/caption,11px)] tracking-[var(--typography\/letter-spacing\/caption,0px)] whitespace-nowrap" data-node-id="134:203">
+          <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/caption,16px)] not-italic relative shrink-0 text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-[length:var(--typography\/font-size\/caption,12px)] tracking-[var(--typography\/letter-spacing\/caption,0px)] whitespace-nowrap" data-node-id="134:203">
             Nắp gập tự khoá, dây giật mở hộp
           </p>
         </div>
@@ -557,10 +557,10 @@ export default function TrangChMobile390TiuNgonCai() {
           <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/body-extra,24px)] not-italic relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/body-extra,16px)] tracking-[var(--typography\/letter-spacing\/body-extra,-0.16px)] whitespace-nowrap" data-node-id="134:206">
             Hộp Mailer Zipper
           </p>
-          <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/body-base,20px)] not-italic relative shrink-0 text-[color:var(--brand\/red,#ff6bd5)] text-[length:var(--typography\/font-size\/body-base,14px)] tracking-[var(--typography\/letter-spacing\/body-base,-0.14px)] whitespace-nowrap" data-node-id="134:207">
+          <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/body-base,24px)] not-italic relative shrink-0 text-[color:var(--brand\/red,#ff6bd5)] text-[length:var(--typography\/font-size\/body-base,16px)] tracking-[var(--typography\/letter-spacing\/body-base,-0.14px)] whitespace-nowrap" data-node-id="134:207">
             Báo giá theo set 100
           </p>
-          <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/caption,16px)] not-italic relative shrink-0 text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-[length:var(--typography\/font-size\/caption,11px)] tracking-[var(--typography\/letter-spacing\/caption,0px)] whitespace-nowrap" data-node-id="134:208">
+          <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/caption,16px)] not-italic relative shrink-0 text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-[length:var(--typography\/font-size\/caption,12px)] tracking-[var(--typography\/letter-spacing\/caption,0px)] whitespace-nowrap" data-node-id="134:208">
             Sóng E, gập là khoá, không cần băng keo
           </p>
         </div>
@@ -571,10 +571,10 @@ export default function TrangChMobile390TiuNgonCai() {
           <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/body-extra,24px)] not-italic relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/body-extra,16px)] tracking-[var(--typography\/letter-spacing\/body-extra,-0.16px)] whitespace-nowrap" data-node-id="134:211">
             Hộp Quai Xách
           </p>
-          <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/body-base,20px)] not-italic relative shrink-0 text-[color:var(--brand\/red,#ff6bd5)] text-[length:var(--typography\/font-size\/body-base,14px)] tracking-[var(--typography\/letter-spacing\/body-base,-0.14px)] whitespace-nowrap" data-node-id="134:212">
+          <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/body-base,24px)] not-italic relative shrink-0 text-[color:var(--brand\/red,#ff6bd5)] text-[length:var(--typography\/font-size\/body-base,16px)] tracking-[var(--typography\/letter-spacing\/body-base,-0.14px)] whitespace-nowrap" data-node-id="134:212">
             Báo giá theo set 100
           </p>
-          <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/caption,16px)] not-italic relative shrink-0 text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-[length:var(--typography\/font-size\/caption,11px)] tracking-[var(--typography\/letter-spacing\/caption,0px)] whitespace-nowrap" data-node-id="134:213">
+          <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/caption,16px)] not-italic relative shrink-0 text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-[length:var(--typography\/font-size\/caption,12px)] tracking-[var(--typography\/letter-spacing\/caption,0px)] whitespace-nowrap" data-node-id="134:213">
             Quai liền thân, cửa sổ, vừa 2 hũ
           </p>
         </div>
@@ -585,10 +585,10 @@ export default function TrangChMobile390TiuNgonCai() {
           <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/body-extra,24px)] not-italic relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/body-extra,16px)] tracking-[var(--typography\/letter-spacing\/body-extra,-0.16px)] whitespace-nowrap" data-node-id="134:216">
             Túi Giấy Cao Cấp
           </p>
-          <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/body-base,20px)] not-italic relative shrink-0 text-[color:var(--brand\/red,#ff6bd5)] text-[length:var(--typography\/font-size\/body-base,14px)] tracking-[var(--typography\/letter-spacing\/body-base,-0.14px)] whitespace-nowrap" data-node-id="134:217">
+          <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/body-base,24px)] not-italic relative shrink-0 text-[color:var(--brand\/red,#ff6bd5)] text-[length:var(--typography\/font-size\/body-base,16px)] tracking-[var(--typography\/letter-spacing\/body-base,-0.14px)] whitespace-nowrap" data-node-id="134:217">
             Báo giá theo set 100
           </p>
-          <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/caption,16px)] not-italic relative shrink-0 text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-[length:var(--typography\/font-size\/caption,11px)] tracking-[var(--typography\/letter-spacing\/caption,0px)] whitespace-nowrap" data-node-id="134:218">
+          <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/caption,16px)] not-italic relative shrink-0 text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-[length:var(--typography\/font-size\/caption,12px)] tracking-[var(--typography\/letter-spacing\/caption,0px)] whitespace-nowrap" data-node-id="134:218">
             Quai dây, in đồng màu với hộp
           </p>
         </div>
@@ -603,7 +603,7 @@ export default function TrangChMobile390TiuNgonCai() {
           <div className="absolute bg-[var(--ink\/strong,#121212)] bottom-[-28px] h-[18px] right-0 w-[0.75px]" data-node-id="I161:770;158:546" data-name="Rectangle" />
         </div>
       </div>
-      <div className="bg-[var(--base\/white,white)] content-stretch flex flex-col gap-[var(--spacing\/gap\/small,12px)] h-[576px] items-start overflow-clip px-[var(--spacing\/padding\/large,20px)] py-[48px] relative shrink-0 w-[390px]" data-node-id="134:219" data-name="05 - Xưởng Thật Q12 Mobile">
+      <div className="bg-[var(--base\/white,white)] content-stretch flex flex-col gap-[var(--spacing\/gap\/small,12px)] h-[576px] items-start overflow-clip px-[var(--spacing\/padding\/large,20px)] py-[var(--space\/section-y,48px)] relative shrink-0 w-[390px]" data-node-id="134:219" data-name="05 - Xưởng Thật Q12 Mobile">
         <div className="absolute bg-size-[50px_50px] bg-top-left inset-0" data-node-id="161:779" style={{ backgroundImage: `url("${imgDecoPaperGrain}")` }} data-name="Deco · Paper grain" />
         <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[16px] not-italic relative shrink-0 text-[11px] text-[color:var(--brand\/red,#ff6bd5)] tracking-[0.66px] uppercase whitespace-nowrap" data-node-id="134:220">
           XƯỞNG SẢN XUẤT THẬT TẠI QUẬN 12
@@ -623,7 +623,7 @@ export default function TrangChMobile390TiuNgonCai() {
           </div>
         </div>
       </div>
-      <div className="bg-[#1e140e] content-stretch flex flex-col gap-[20px] items-start overflow-clip px-[16px] py-[28px] relative shrink-0 w-full" data-node-id="220:4033" data-name="Footer">
+      <div className="bg-[var(--surface\/dark,#1e140e)] content-stretch flex flex-col gap-[var(--space\/20,20px)] items-start overflow-clip px-[var(--space\/gutter,16px)] py-[var(--space\/28,28px)] relative shrink-0 w-full" data-node-id="220:4033" data-name="Footer">
         <div className="absolute bg-[var(--brand\/red,#ff6bd5)] h-[4px] left-0 top-0 w-[390px]" data-node-id="I220:4033;218:2850" data-name="Deco · Viền đỏ" />
         <div className="[word-break:break-word] content-stretch flex flex-col gap-[6px] items-start overflow-clip relative shrink-0 w-full" data-node-id="I220:4033;218:2851" data-name="Footer Brand">
           <p className="font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/heading-2,38px)] relative shrink-0 text-[color:var(--base\/white,white)] text-[length:var(--typography\/font-size\/heading-2,30px)] tracking-[var(--typography\/letter-spacing\/heading-2,-0.6px)] whitespace-nowrap" data-node-id="I220:4033;218:2852">
@@ -632,7 +632,7 @@ export default function TrangChMobile390TiuNgonCai() {
           <p className="font-['Inter:Semi_Bold'] font-semibold leading-[16px] not-italic relative shrink-0 text-[11px] text-[color:var(--brand\/gold-foil,#a67c2e)] tracking-[0.66px] uppercase whitespace-nowrap" data-node-id="I220:4033;218:2853">
             XƯỞNG BAO BÌ GIẤY TRỰC TIẾP TP.HCM
           </p>
-          <p className="font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/body-base,20px)] min-w-full not-italic relative shrink-0 text-[color:var(--paper\/subtle,#ececec)] text-[length:var(--typography\/font-size\/body-base,14px)] tracking-[var(--typography\/letter-spacing\/body-base,-0.14px)] w-[min-content]" data-node-id="I220:4033;218:2854">
+          <p className="font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/body-small,18px)] min-w-full not-italic relative shrink-0 text-[color:var(--paper\/subtle,#ececec)] text-[length:var(--typography\/font-size\/body-small,13px)] tracking-[var(--typography\/letter-spacing\/body-small,0px)] w-[min-content]" data-node-id="I220:4033;218:2854">
             Bao bì Tết in logo thương hiệu riêng, đặt theo set 100 sản phẩm. In trực tiếp tại xưởng Quận 12.
           </p>
         </div>
@@ -681,7 +681,7 @@ export default function TrangChMobile390TiuNgonCai() {
             <div className="relative shrink-0 size-[18px]" data-node-id="I220:4033;218:2882" data-name="Icon/pin">
               <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconPin} />
             </div>
-            <p className="[word-break:break-word] flex-[1_0_0] font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/body-base,20px)] min-w-px not-italic relative text-[color:var(--paper\/subtle,#ececec)] text-[length:var(--typography\/font-size\/body-base,14px)] tracking-[var(--typography\/letter-spacing\/body-base,-0.14px)]" data-node-id="I220:4033;218:2885">
+            <p className="[word-break:break-word] flex-[1_0_0] font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/body-small,18px)] min-w-px not-italic relative text-[color:var(--paper\/subtle,#ececec)] text-[length:var(--typography\/font-size\/body-small,13px)] tracking-[var(--typography\/letter-spacing\/body-small,0px)]" data-node-id="I220:4033;218:2885">
               Xưởng: 36/6H Trần Thị Hè, P. Tân Thới Hiệp, Quận 12, TP.HCM
             </p>
           </div>
@@ -689,13 +689,13 @@ export default function TrangChMobile390TiuNgonCai() {
             <div className="relative shrink-0 size-[18px]" data-node-id="I220:4033;218:2887" data-name="Icon/phone">
               <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconPhone2} />
             </div>
-            <p className="[word-break:break-word] flex-[1_0_0] font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/body-base,20px)] min-w-px not-italic relative text-[color:var(--paper\/subtle,#ececec)] text-[length:var(--typography\/font-size\/body-base,14px)] tracking-[var(--typography\/letter-spacing\/body-base,-0.14px)]" data-node-id="I220:4033;218:2889">{`Thiết kế & tư vấn (Quang): 0387 365 020`}</p>
+            <p className="[word-break:break-word] flex-[1_0_0] font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/body-small,18px)] min-w-px not-italic relative text-[color:var(--paper\/subtle,#ececec)] text-[length:var(--typography\/font-size\/body-small,13px)] tracking-[var(--typography\/letter-spacing\/body-small,0px)]" data-node-id="I220:4033;218:2889">{`Thiết kế & tư vấn (Quang): 0387 365 020`}</p>
           </div>
           <div className="content-stretch flex gap-[10px] items-start overflow-clip relative shrink-0 w-full" data-node-id="I220:4033;218:2890" data-name="Contact Row">
             <div className="relative shrink-0 size-[18px]" data-node-id="I220:4033;218:2891" data-name="Icon/factory">
               <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconFactory} />
             </div>
-            <p className="[word-break:break-word] flex-[1_0_0] font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/body-base,20px)] min-w-px not-italic relative text-[color:var(--paper\/subtle,#ececec)] text-[length:var(--typography\/font-size\/body-base,14px)] tracking-[var(--typography\/letter-spacing\/body-base,-0.14px)]" data-node-id="I220:4033;218:2893">{`Xưởng & báo giá (My): 0981 047 115`}</p>
+            <p className="[word-break:break-word] flex-[1_0_0] font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/body-small,18px)] min-w-px not-italic relative text-[color:var(--paper\/subtle,#ececec)] text-[length:var(--typography\/font-size\/body-small,13px)] tracking-[var(--typography\/letter-spacing\/body-small,0px)]" data-node-id="I220:4033;218:2893">{`Xưởng & báo giá (My): 0981 047 115`}</p>
           </div>
         </div>
         <div className="h-[210px] overflow-clip relative rounded-[var(--radius\/luxury,12px)] shrink-0 w-full" data-node-id="I220:4033;218:2894" data-name="Sơ Đồ Xưởng (bản in)">
@@ -705,17 +705,17 @@ export default function TrangChMobile390TiuNgonCai() {
               <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconPin1} />
             </div>
             <div className="bg-[var(--ink\/strong,#121212)] content-stretch flex items-start overflow-clip px-[8px] py-[4px] relative rounded-[var(--radius\/luxury,12px)] shrink-0" data-node-id="I220:4033;218:2897" data-name="Nhãn Xưởng">
-              <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/label-small,12px)] not-italic relative shrink-0 text-[color:var(--base\/white,white)] text-[length:var(--typography\/font-size\/label-small,9px)] tracking-[var(--typography\/letter-spacing\/label-small,0px)] whitespace-nowrap" data-node-id="I220:4033;218:2898">
+              <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/label-small,14px)] not-italic relative shrink-0 text-[color:var(--base\/white,white)] text-[length:var(--typography\/font-size\/label-small,10px)] tracking-[var(--typography\/letter-spacing\/label-small,0px)] whitespace-nowrap" data-node-id="I220:4033;218:2898">
                 XƯỞNG GÓI · Q.12
               </p>
             </div>
           </div>
           <div className="absolute bg-[var(--base\/white,white)] border border-[var(--line\/default,rgba(1,1,1,0.13))] border-solid content-stretch flex flex-col gap-[2px] items-start left-[10px] overflow-clip px-[10px] py-[8px] rounded-[var(--radius\/luxury,12px)] top-[148px]" data-node-id="I220:4033;218:2899" data-name="Địa chỉ">
-            <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Medium')] font-[var(--emphasis\/font-weight\/medium,500)] leading-[var(--typography\/line-height\/caption,16px)] not-italic relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/caption,11px)] tracking-[var(--typography\/letter-spacing\/caption,0px)] whitespace-nowrap" data-node-id="I220:4033;218:2900">
+            <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Medium')] font-[var(--emphasis\/font-weight\/medium,500)] leading-[var(--typography\/line-height\/caption,16px)] not-italic relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/caption,12px)] tracking-[var(--typography\/letter-spacing\/caption,0px)] whitespace-nowrap" data-node-id="I220:4033;218:2900">
               36/6H Trần Thị Hè, P. Tân Thới Hiệp, Q.12
             </p>
             <div className="content-stretch flex gap-[4px] items-center overflow-clip relative shrink-0" data-node-id="I220:4033;218:2901" data-name="Btn Chỉ Đường">
-              <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/caption,16px)] not-italic relative shrink-0 text-[color:var(--brand\/red,#ff6bd5)] text-[length:var(--typography\/font-size\/caption,11px)] tracking-[var(--typography\/letter-spacing\/caption,0px)] whitespace-nowrap" data-node-id="I220:4033;218:2902">
+              <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/caption,16px)] not-italic relative shrink-0 text-[color:var(--brand\/red,#ff6bd5)] text-[length:var(--typography\/font-size\/caption,12px)] tracking-[var(--typography\/letter-spacing\/caption,0px)] whitespace-nowrap" data-node-id="I220:4033;218:2902">
                 Chỉ đường Google Maps
               </p>
               <div className="relative shrink-0 size-[12px]" data-node-id="I220:4033;218:2903" data-name="Icon/arrowUR">
@@ -770,14 +770,14 @@ export default function TrangChMobile390TiuNgonCai() {
         <div className="border-[rgba(255,255,255,0.14)] border-b border-solid content-stretch flex flex-col items-start overflow-clip relative shrink-0 w-full" data-node-id="I220:4033;218:2928" data-name="Footer Links">
           <div className="border-[rgba(255,255,255,0.14)] border-solid border-t content-stretch flex flex-col items-start overflow-clip relative shrink-0 w-full" data-node-id="I220:4033;218:2929" data-name="Ngăn Sản phẩm">
             <div className="content-stretch flex h-[52px] items-center justify-between overflow-clip relative shrink-0 w-full" data-node-id="I220:4033;218:2930" data-name="Ngăn Tiêu Đề">
-              <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/body-base,20px)] not-italic relative shrink-0 text-[color:var(--base\/white,white)] text-[length:var(--typography\/font-size\/body-base,14px)] tracking-[var(--typography\/letter-spacing\/body-base,-0.14px)] whitespace-nowrap" data-node-id="I220:4033;218:2931">
+              <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Medium')] font-[var(--emphasis\/font-weight\/medium,500)] leading-[var(--typography\/line-height\/body-small,18px)] not-italic relative shrink-0 text-[color:var(--base\/white,white)] text-[length:var(--typography\/font-size\/body-small,13px)] tracking-[var(--typography\/letter-spacing\/body-small,0px)] whitespace-nowrap" data-node-id="I220:4033;218:2931">
                 Sản phẩm
               </p>
               <div className="relative shrink-0 size-[18px]" data-node-id="I220:4033;218:2932" data-name="Icon/chevronDown">
                 <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconChevronDown1} />
               </div>
             </div>
-            <div className="[word-break:break-word] content-stretch flex flex-col font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] gap-[12px] items-start leading-[var(--typography\/line-height\/body-base,20px)] not-italic overflow-clip pb-[16px] relative shrink-0 text-[color:var(--paper\/subtle,#ececec)] text-[length:var(--typography\/font-size\/body-base,14px)] tracking-[var(--typography\/letter-spacing\/body-base,-0.14px)] w-full whitespace-nowrap" data-node-id="I220:4033;218:2934" data-name="Ngăn Nội Dung">
+            <div className="[word-break:break-word] content-stretch flex flex-col font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] gap-[12px] items-start leading-[var(--typography\/line-height\/body-small,18px)] not-italic overflow-clip pb-[16px] relative shrink-0 text-[color:var(--paper\/subtle,#ececec)] text-[length:var(--typography\/font-size\/body-small,13px)] tracking-[var(--typography\/letter-spacing\/body-small,0px)] w-full whitespace-nowrap" data-node-id="I220:4033;218:2934" data-name="Ngăn Nội Dung">
               <p className="relative shrink-0" data-node-id="I220:4033;218:2935">
                 Hộp cứng cao cấp (Âm dương, Nam châm)
               </p>
@@ -796,14 +796,14 @@ export default function TrangChMobile390TiuNgonCai() {
           </div>
           <div className="border-[rgba(255,255,255,0.14)] border-solid border-t content-stretch flex flex-col items-start overflow-clip relative shrink-0 w-full" data-node-id="I220:4033;218:2941" data-name="Ngăn Chính sách mua hàng">
             <div className="content-stretch flex h-[52px] items-center justify-between overflow-clip relative shrink-0 w-full" data-node-id="I220:4033;218:2942" data-name="Ngăn Tiêu Đề">
-              <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/body-base,20px)] not-italic relative shrink-0 text-[color:var(--base\/white,white)] text-[length:var(--typography\/font-size\/body-base,14px)] tracking-[var(--typography\/letter-spacing\/body-base,-0.14px)] whitespace-nowrap" data-node-id="I220:4033;218:2943">
+              <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Medium')] font-[var(--emphasis\/font-weight\/medium,500)] leading-[var(--typography\/line-height\/body-small,18px)] not-italic relative shrink-0 text-[color:var(--base\/white,white)] text-[length:var(--typography\/font-size\/body-small,13px)] tracking-[var(--typography\/letter-spacing\/body-small,0px)] whitespace-nowrap" data-node-id="I220:4033;218:2943">
                 Chính sách mua hàng
               </p>
               <div className="relative shrink-0 size-[18px]" data-node-id="I220:4033;218:2944" data-name="Icon/chevronDown">
                 <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconChevronDown1} />
               </div>
             </div>
-            <div className="[word-break:break-word] content-stretch flex flex-col font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] gap-[12px] items-start leading-[var(--typography\/line-height\/body-base,20px)] not-italic overflow-clip pb-[16px] relative shrink-0 text-[color:var(--paper\/subtle,#ececec)] text-[length:var(--typography\/font-size\/body-base,14px)] tracking-[var(--typography\/letter-spacing\/body-base,-0.14px)] w-full whitespace-nowrap" data-node-id="I220:4033;218:2946" data-name="Ngăn Nội Dung">
+            <div className="[word-break:break-word] content-stretch flex flex-col font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] gap-[12px] items-start leading-[var(--typography\/line-height\/body-small,18px)] not-italic overflow-clip pb-[16px] relative shrink-0 text-[color:var(--paper\/subtle,#ececec)] text-[length:var(--typography\/font-size\/body-small,13px)] tracking-[var(--typography\/letter-spacing\/body-small,0px)] w-full whitespace-nowrap" data-node-id="I220:4033;218:2946" data-name="Ngăn Nội Dung">
               <p className="relative shrink-0" data-node-id="I220:4033;218:2947">
                 Chính sách đổi trả
               </p>
@@ -826,14 +826,14 @@ export default function TrangChMobile390TiuNgonCai() {
           </div>
           <div className="border-[rgba(255,255,255,0.14)] border-solid border-t content-stretch flex flex-col items-start overflow-clip relative shrink-0 w-full" data-node-id="I220:4033;218:2953" data-name="Ngăn Liên kết nhanh">
             <div className="content-stretch flex h-[52px] items-center justify-between overflow-clip relative shrink-0 w-full" data-node-id="I220:4033;218:2954" data-name="Ngăn Tiêu Đề">
-              <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Semi_Bold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/body-base,20px)] not-italic relative shrink-0 text-[color:var(--base\/white,white)] text-[length:var(--typography\/font-size\/body-base,14px)] tracking-[var(--typography\/letter-spacing\/body-base,-0.14px)] whitespace-nowrap" data-node-id="I220:4033;218:2955">
+              <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Medium')] font-[var(--emphasis\/font-weight\/medium,500)] leading-[var(--typography\/line-height\/body-small,18px)] not-italic relative shrink-0 text-[color:var(--base\/white,white)] text-[length:var(--typography\/font-size\/body-small,13px)] tracking-[var(--typography\/letter-spacing\/body-small,0px)] whitespace-nowrap" data-node-id="I220:4033;218:2955">
                 Liên kết nhanh
               </p>
               <div className="relative shrink-0 size-[18px]" data-node-id="I220:4033;218:2956" data-name="Icon/chevronDown">
                 <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconChevronDown1} />
               </div>
             </div>
-            <div className="[word-break:break-word] content-stretch flex flex-col font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] gap-[12px] items-start leading-[var(--typography\/line-height\/body-base,20px)] not-italic overflow-clip pb-[16px] relative shrink-0 text-[color:var(--paper\/subtle,#ececec)] text-[length:var(--typography\/font-size\/body-base,14px)] tracking-[var(--typography\/letter-spacing\/body-base,-0.14px)] w-full whitespace-nowrap" data-node-id="I220:4033;218:2958" data-name="Ngăn Nội Dung">
+            <div className="[word-break:break-word] content-stretch flex flex-col font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] gap-[12px] items-start leading-[var(--typography\/line-height\/body-small,18px)] not-italic overflow-clip pb-[16px] relative shrink-0 text-[color:var(--paper\/subtle,#ececec)] text-[length:var(--typography\/font-size\/body-small,13px)] tracking-[var(--typography\/letter-spacing\/body-small,0px)] w-full whitespace-nowrap" data-node-id="I220:4033;218:2958" data-name="Ngăn Nội Dung">
               <p className="relative shrink-0" data-node-id="I220:4033;218:2959">
                 Trang chủ
               </p>
@@ -876,7 +876,7 @@ export default function TrangChMobile390TiuNgonCai() {
             <div className="bg-[var(--brand\/gold-foil,#a67c2e)] relative shrink-0 size-[10px]" data-node-id="I220:4033;218:2969;158:561" data-name="Rectangle" />
           </div>
         </div>
-        <div className="[word-break:break-word] border-[rgba(255,255,255,0.14)] border-solid border-t content-stretch flex flex-col font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] gap-[4px] items-start leading-[var(--typography\/line-height\/body-small,16px)] not-italic overflow-clip pt-[16px] relative shrink-0 text-[length:var(--typography\/font-size\/body-small,12px)] tracking-[var(--typography\/letter-spacing\/body-small,0px)] w-full whitespace-nowrap" data-node-id="I220:4033;218:2979" data-name="Footer Bottom">
+        <div className="[word-break:break-word] border-[rgba(255,255,255,0.14)] border-solid border-t content-stretch flex flex-col font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] gap-[4px] items-start leading-[var(--typography\/line-height\/body-small,18px)] not-italic overflow-clip pt-[16px] relative shrink-0 text-[length:var(--typography\/font-size\/body-small,13px)] tracking-[var(--typography\/letter-spacing\/body-small,0px)] w-full whitespace-nowrap" data-node-id="I220:4033;218:2979" data-name="Footer Bottom">
           <p className="relative shrink-0 text-[rgba(255,255,255,0.72)]" data-node-id="I220:4033;218:2980">
             © 2026 GÓI - Xưởng bao bì giấy số lượng nhỏ.
           </p>
@@ -885,7 +885,7 @@ export default function TrangChMobile390TiuNgonCai() {
           </p>
         </div>
       </div>
-      <div className="bg-[var(--base\/white,white)] border border-[var(--line\/default,rgba(1,1,1,0.13))] border-solid content-stretch flex h-[170px] items-center justify-between overflow-clip px-[var(--spacing\/padding\/small,12px)] py-[48px] relative shrink-0 w-[390px]" data-node-id="134:228" data-name="07 - Sticky Bottom Bar Mobile (Ngón Cái)">
+      <div className="bg-[var(--base\/white,white)] border border-[var(--line\/default,rgba(1,1,1,0.13))] border-solid content-stretch flex h-[170px] items-center justify-between overflow-clip px-[var(--spacing\/padding\/small,12px)] py-[var(--space\/section-y,48px)] relative shrink-0 w-[390px]" data-node-id="134:228" data-name="07 - Sticky Bottom Bar Mobile (Ngón Cái)">
         <button className="bg-[var(--brand\/red,#ff6bd5)] content-stretch cursor-pointer flex gap-[var(--spacing\/gap\/xsmall,8px)] h-[48px] items-center justify-center px-[var(--spacing\/padding\/xlarge,24px)] relative rounded-[var(--radius\/luxury,12px)] shrink-0 w-[178px]" data-node-id="148:155" data-name="Btn Zalo">
           <div className="relative shrink-0 size-[16px]" data-node-id="I148:155;148:62" data-name="Leading icon">
             <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgLeadingIcon1} />

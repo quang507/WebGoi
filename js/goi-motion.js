@@ -208,7 +208,7 @@
     if (sel) sel.addEventListener('change', function () { sel.classList.toggle('has-v', !!sel.value); });
     var btn = form.querySelector('[data-quote-submit]');
     if (btn) btn.addEventListener('click', function (e) {
-      e.preventDefault();
+      e.preventDefault(); if (btn.classList.contains('is-sending')) return;
       var v = function (n) { var x = form.querySelector('[name="' + n + '"]'); return x ? x.value.trim() : ''; };
       var phone = v('sdt').replace(/[\s.\-]/g, ''), box = form.querySelector('[name="sdt"]');
       if (!/^(0|\+?84)\d{9,10}$/.test(phone)) {
@@ -223,7 +223,7 @@
         '• Tên: ' + (v('ten') || '...'),
         '• SĐT Zalo: ' + phone,
         '• Giao tới: ' + (v('tinh') || '...')].join('\n');
-      saveRequest({ source: 'form', page: location.pathname, ten: v('ten'), sdt: phone, tinh: v('tinh'), items: [{ loai: type, kichthuoc: hasDim ? dims.join('x') + ' cm' : '', sl: qty }], web: '' });
+      sending(btn, saveRequest({ source: 'form', page: location.pathname, ten: v('ten'), sdt: phone, tinh: v('tinh'), items: [{ loai: type, kichthuoc: hasDim ? dims.join('x') + ' cm' : '', sl: qty }], web: '' }));
       copy(msg); toast('Đã chép nội dung báo giá. Dán vào khung chat Zalo của GÓI để gửi.');
       window.open(ZALO, '_blank', 'noopener');
     });
@@ -233,6 +233,14 @@
     a.addEventListener('click', function () { copy(a.getAttribute('data-zalo-msg')); toast('Đã chép tin nhắn. Dán vào Zalo của GÓI để gửi.'); });
   });
 
+  // nút đang gửi (kiểu State=Loading trong Figma): chữ "ĐANG GỬI…", vòng quay thay mũi tên, chặn bấm hai lần
+  function sending(btn, job) {
+    if (!btn) return job; var label = btn.querySelector('p'), old = label ? label.textContent : '';
+    btn.classList.add('is-sending'); btn.setAttribute('aria-busy', 'true'); if (label) label.textContent = 'ĐANG GỬI…';
+    var done = function () { btn.classList.remove('is-sending'); btn.removeAttribute('aria-busy'); if (label) label.textContent = old; };
+    Promise.all([job, new Promise(function (r) { setTimeout(r, 900); })]).then(done, done);
+    return job;
+  }
   // gửi yêu cầu về máy chủ để lưu lại (không chặn việc mở Zalo nếu lỗi mạng)
   function saveRequest(data) {
     try {
@@ -314,7 +322,7 @@
       if ((e.key === 'Enter' || e.key === ' ') && t.matches && t.matches('[data-cart-open],[data-cart-add],[data-cart-close],[data-tier],[data-name="Btn Giảm"],[data-name="Btn Tăng"],[data-name="Btn Xoá"]')) { e.preventDefault(); t.click(); }
     });
     cartRoot.addEventListener('click', function (e) {
-      var b = e.target.closest('[data-cart-submit]'); if (!b) return; e.preventDefault();
+      var b = e.target.closest('[data-cart-submit]'); if (!b) return; e.preventDefault(); if (b.classList.contains('is-sending')) return;
       var w = visibleView(); if (!w) return;
       if (!count()) { toast('Giỏ đang trống. Chọn mẫu hộp trước nhé.'); return; }
       var v = function (n) { var x = w.v.querySelector('[name="' + n + '"]'); return x ? x.value.trim() : ''; };
@@ -325,7 +333,7 @@
       markErr(box, false);
       var lines = items.map(function (it, i) { return (i + 1) + '. ' + it.code + ' · ' + SKUS[it.code].n + ' · ' + QTY[it.q] + ' cái'; });
       var msg = ['GÓI ơi, mình cần báo giá giỏ ' + count() + ' mẫu:'].concat(lines, ['• Tên: ' + (v('ten') || '...'), '• SĐT Zalo: ' + phone, '• Giao tới: ' + (v('tinh') || '...')], v('ghichu') ? ['• Ghi chú: ' + v('ghichu')] : []).join('\n');
-      saveRequest({ source: 'gio', page: location.pathname, ten: v('ten'), sdt: phone, tinh: v('tinh'), ghichu: v('ghichu'), items: items.map(function (it) { return { code: it.code, ten: SKUS[it.code].n, sl: QTY[it.q] }; }), web: '' });
+      sending(b, saveRequest({ source: 'gio', page: location.pathname, ten: v('ten'), sdt: phone, tinh: v('tinh'), ghichu: v('ghichu'), items: items.map(function (it) { return { code: it.code, ten: SKUS[it.code].n, sl: QTY[it.q] }; }), web: '' }));
       copy(msg);
       // mở Zalo ngay trong cú bấm (iPhone chặn nếu mở trễ); nếu bị chặn, màn "Đã gửi" có nút Mở Zalo GÓI
       window.open(ZALO, '_blank', 'noopener');

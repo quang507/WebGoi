@@ -42,7 +42,7 @@ a,[data-btn],[data-card]{-webkit-tap-highlight-color:transparent}
 [data-btn]{transition:background-color .16s var(--ease-out),color .16s,gap .16s var(--ease-out),transform .12s var(--ease-out),box-shadow .2s}
 [data-btn] img{transition:transform .2s var(--ease-out)}
 [data-btn]:hover{gap:12px !important}
-[data-btn]:hover img{transform:translate(2px,-2px)}
+[data-btn]:hover img{transform:translateX(3px)}
 [data-btn]:active{transform:scale(.98)}
 [data-btn="primary"]:hover{background-color:var(--brand-red-hover) !important}
 [data-btn="dark"]:hover{background-color:var(--brand-red) !important}
@@ -246,3 +246,10 @@ input[data-sku-search]::-webkit-search-cancel-button{cursor:pointer}
 .goi-cart-open .goi-fab,.goi-menu-open .goi-fab{display:none}
 @media (prefers-reduced-motion:reduce){.goi-fab *{transition:none !important}}
 .goi-fab.is-open > *{pointer-events:auto}
+
+/* nút đang gửi (Button State=Loading trong Figma) */
+.is-sending{pointer-events:none;opacity:.85}
+.is-sending [data-name="Trailing icon"] img{opacity:0}
+.is-sending [data-name="Trailing icon"]{position:relative}
+.is-sending [data-name="Trailing icon"]::after{content:"";position:absolute;inset:0;border:2px solid currentColor;border-right-color:transparent;border-radius:50%;animation:goi-spin .7s linear infinite;color:#fff}
+@keyframes goi-spin{to{transform:rotate(360deg)}}
