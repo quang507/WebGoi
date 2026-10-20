@@ -345,6 +345,7 @@ const head = (p) => `<!DOCTYPE html>
 <meta property="og:image" content="${SITE}${p.ogImg}"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta name="twitter:card" content="summary_large_image">
 <script type="application/ld+json">${LD}</script>
 <meta name="theme-color" content="#FAF8F5"><link rel="icon" href="/brand/avatar-goi-icon-tet-red.svg" type="image/svg+xml">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BWP5EMZMGZ"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-BWP5EMZMGZ',/[?&]staticb/.test(location.search)?{send_page_view:false}:{});</script>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@700;800&family=Inter:wght@400;500;600;700&family=Lora:wght@500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/css/goi-base.css?v=${p.v}"><link rel="stylesheet" href="/css/goi-atoms.css?v=${p.v}">
