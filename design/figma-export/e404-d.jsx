@@ -1,29 +1,29 @@
-const imgDecoHalftone = "https://www.figma.com/api/mcp/asset/11680994-bfd4-4ab0-bf9e-6e877b297734.png";
-const imgDecoPaperGrain = "https://www.figma.com/api/mcp/asset/6a117ac3-bd75-48e1-b54f-7122048a5d64.png";
-const imgDecoBangKeoKraft = "https://www.figma.com/api/mcp/asset/0822849e-66d1-4a09-a752-43570a97f276.png";
-const imgSDXngBnIn = "https://www.figma.com/api/mcp/asset/05340990-8dd9-4937-805c-3f66215b4aee.png";
-const imgNhBiaFacebook = "https://www.figma.com/api/mcp/asset/af4c6903-c824-4ef7-b591-752ecd8d50a2.png";
-const imgAvatarGoi = "https://www.figma.com/api/mcp/asset/a9cdf025-29db-4616-b9f4-26a5ad56aff9.png";
-const imgDecoRegistration = "https://www.figma.com/api/mcp/asset/bc140d89-d60b-4da0-a138-0ed941a14a4a.svg";
-const imgIconPhone = "https://www.figma.com/api/mcp/asset/b28552bf-5b92-4c71-8edb-f0ea56567a8a.svg";
-const imgIconBag = "https://www.figma.com/api/mcp/asset/d038a544-3201-4b7c-997e-2287f4158097.svg";
-const imgTrailingIcon = "https://www.figma.com/api/mcp/asset/539cabaa-4016-4f47-9c58-167b20fc559e.svg";
-const imgDecoConDuDuytMau = "https://www.figma.com/api/mcp/asset/f257c9a6-193c-4bd8-9e4d-8c817aa7ed09.svg";
-const imgEllipse = "https://www.figma.com/api/mcp/asset/d09b7a66-091b-4f18-8da1-5c92a636bc86.svg";
-const imgIconFacebook = "https://www.figma.com/api/mcp/asset/ef69dbdf-c300-45f3-8ba7-b7afe3944d36.svg";
-const imgIconYoutube = "https://www.figma.com/api/mcp/asset/5a27be85-0d32-4fde-9a01-dd6bf4e0b35f.svg";
-const imgIconTiktok = "https://www.figma.com/api/mcp/asset/e7c4279b-8646-43d8-81d6-a9b7c43ad82e.svg";
-const imgIconChat = "https://www.figma.com/api/mcp/asset/6ebc66cb-a25e-449a-af9c-001b8ec4b052.svg";
-const imgIconPin = "https://www.figma.com/api/mcp/asset/d688b422-fc79-40ec-bc02-48d73d8da36c.svg";
-const imgIconPhone1 = "https://www.figma.com/api/mcp/asset/9f8b3ac6-edb6-4241-8d03-b985b9e7cb26.svg";
-const imgIconFactory = "https://www.figma.com/api/mcp/asset/a11643ae-3db8-475c-97ca-0072471c432f.svg";
-const imgIconChat1 = "https://www.figma.com/api/mcp/asset/c16ab6bb-5aca-421c-ada5-dd3a657fbc20.svg";
-const imgIconArrowU = "https://www.figma.com/api/mcp/asset/f7e7dd85-fbcb-45fb-a5d7-a021beada4a7.svg";
-const imgIconChat2 = "https://www.figma.com/api/mcp/asset/0c019b0f-5d0d-4b8f-b3cd-bfb1fbe19195.svg";
-const imgDecoRegistration1 = "https://www.figma.com/api/mcp/asset/d8acc6bf-7d4b-4a90-82cb-944619893ab4.svg";
-const imgIconPin1 = "https://www.figma.com/api/mcp/asset/211c5e31-2165-417f-ba28-3bc8c845fb66.svg";
-const imgIconArrowUr = "https://www.figma.com/api/mcp/asset/f7586296-d3ba-45f9-a4a6-7454fbb2e06c.svg";
-const imgIconChat3 = "https://www.figma.com/api/mcp/asset/073b1495-e278-41a9-b9b0-82a78526d83c.svg";
+const imgDecoHalftone = "https://www.figma.com/api/mcp/asset/8778e997-3a5f-4c1a-9b1a-37659a82659b.png";
+const imgDecoPaperGrain = "https://www.figma.com/api/mcp/asset/2805d773-bdb1-4390-998e-7e008a1da8ee.png";
+const imgDecoBangKeoKraft = "https://www.figma.com/api/mcp/asset/fba54c00-ad49-40c3-acef-c2d0bd5dec7e.png";
+const imgSDXngBnIn = "https://www.figma.com/api/mcp/asset/03edd03f-ef1a-4701-8390-b6dd2549bb21.png";
+const imgNhBiaFacebook = "https://www.figma.com/api/mcp/asset/0fea2690-66dc-4355-9d2e-469323760e0f.png";
+const imgAvatarGoi = "https://www.figma.com/api/mcp/asset/c7ff3469-e4bd-49d7-81d5-96e14449d48c.png";
+const imgDecoRegistration = "https://www.figma.com/api/mcp/asset/f1493cc0-9da2-460c-9c6c-9141e4627920.svg";
+const imgIconPhone = "https://www.figma.com/api/mcp/asset/ed4bba25-d755-41d2-ac04-6a5b5d120044.svg";
+const imgIconBag = "https://www.figma.com/api/mcp/asset/3f3bbd58-1517-4e55-a709-01d27a7e17b8.svg";
+const imgTrailingIcon = "https://www.figma.com/api/mcp/asset/419151b2-59bf-4758-ad5e-63ad3cd6041d.svg";
+const imgDecoConDuDuytMau = "https://www.figma.com/api/mcp/asset/596a6517-8904-4096-a447-a42b14d6a4cb.svg";
+const imgEllipse = "https://www.figma.com/api/mcp/asset/f32f7413-d145-450c-a35c-43fb50f40cb0.svg";
+const imgIconFacebook = "https://www.figma.com/api/mcp/asset/a663b486-9670-4389-a7f4-069ded057607.svg";
+const imgIconYoutube = "https://www.figma.com/api/mcp/asset/dcfa6c5f-640d-473c-875b-61cc0f7acd71.svg";
+const imgIconTiktok = "https://www.figma.com/api/mcp/asset/9d0e3c12-4d69-4ff2-85ec-db88e96f6321.svg";
+const imgIconChat = "https://www.figma.com/api/mcp/asset/78126ad6-a13a-4549-b6f8-d77089ac3b10.svg";
+const imgIconPin = "https://www.figma.com/api/mcp/asset/c673878a-758d-4adf-a712-58e8a6fb9ce1.svg";
+const imgIconPhone1 = "https://www.figma.com/api/mcp/asset/8a327105-6a19-440e-8841-950423c5573d.svg";
+const imgIconFactory = "https://www.figma.com/api/mcp/asset/00dc750b-df3d-4cbc-8bfa-45eb5a80b903.svg";
+const imgIconChat1 = "https://www.figma.com/api/mcp/asset/fc9b4f81-d8e7-4b5e-9e9c-367624d605b0.svg";
+const imgIconArrowU = "https://www.figma.com/api/mcp/asset/0bb42f1f-b3d3-4e7d-a370-81ff3b89c48f.svg";
+const imgIconChat2 = "https://www.figma.com/api/mcp/asset/bb5ae8d0-83b9-4aa9-ad99-b272ff1b139e.svg";
+const imgDecoRegistration1 = "https://www.figma.com/api/mcp/asset/ad14362c-b2e1-4660-afe0-83356ba5d0a1.svg";
+const imgIconPin1 = "https://www.figma.com/api/mcp/asset/90fde243-c699-4d6a-b429-07619a7cfe6a.svg";
+const imgIconArrowUr = "https://www.figma.com/api/mcp/asset/ef573ccd-cf0a-414c-a348-fc511d360674.svg";
+const imgIconChat3 = "https://www.figma.com/api/mcp/asset/0402fbe8-29d5-496d-9b09-74504ea04066.svg";
 
 function DecoHalftone({ className }: { className?: string }) {
   return (
@@ -56,8 +56,8 @@ export default function Component404Desktop1440() {
         </div>
       </div>
       <div className="bg-[var(--base\/white,white)] border-[var(--line\/default,rgba(1,1,1,0.13))] border-b border-solid content-stretch flex h-[84px] items-center justify-between px-[32px] relative shrink-0 w-full" data-node-id="236:5787" data-name="Header Navigation">
-        <a className="[word-break:break-word] block cursor-pointer font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[0] relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/heading-1,28px)] tracking-[var(--typography\/letter-spacing\/heading-1,-0.56px)] whitespace-nowrap" data-node-id="I236:5787;226:4426">
-          <p className="leading-[var(--typography\/line-height\/heading-1,36px)]">GÓI</p>
+        <a className="[word-break:break-word] block cursor-pointer font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[0] relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/heading-1,34px)] tracking-[var(--typography\/letter-spacing\/heading-1,-0.68px)] whitespace-nowrap" data-node-id="I236:5787;226:4426">
+          <p className="leading-[var(--typography\/line-height\/heading-1,42px)]">GÓI</p>
         </a>
         <div className="[word-break:break-word] content-stretch flex font-[family-name:var(--typography\/font-family\/sans,'Inter:Medium')] font-[var(--emphasis\/font-weight\/medium,500)] gap-[24px] items-center leading-[var(--typography\/line-height\/body-base,20px)] not-italic overflow-clip relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/body-base,14px)] tracking-[var(--typography\/letter-spacing\/body-base,-0.14px)] whitespace-nowrap" data-node-id="I236:5787;226:4427" data-name="Nav Links">
           <p className="relative shrink-0" data-node-id="I236:5787;226:4428">
@@ -146,10 +146,10 @@ export default function Component404Desktop1440() {
             </div>
           </div>
         </div>
-        <p className="[word-break:break-word] font-['Be_Vietnam_Pro:ExtraBold'] leading-[var(--typography\/line-height\/display-extra-1,72px)] not-italic relative shrink-0 text-[120px] text-[color:var(--brand\/red,#ff6bd5)] text-center tracking-[var(--typography\/letter-spacing\/display-extra-1,-2.88px)] whitespace-nowrap" data-node-id="236:5825">
+        <p className="[word-break:break-word] font-['Be_Vietnam_Pro:ExtraBold'] leading-[var(--typography\/line-height\/display-extra-1,80px)] not-italic relative shrink-0 text-[120px] text-[color:var(--brand\/red,#ff6bd5)] text-center tracking-[var(--typography\/letter-spacing\/display-extra-1,-3.19px)] whitespace-nowrap" data-node-id="236:5825">
           404
         </p>
-        <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/heading-2,32px)] min-w-full relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/heading-2,25px)] text-center tracking-[var(--typography\/letter-spacing\/heading-2,-0.5px)] w-[min-content]" data-node-id="236:5826">
+        <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/heading-2,38px)] min-w-full relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/heading-2,30px)] text-center tracking-[var(--typography\/letter-spacing\/heading-2,-0.6px)] w-[min-content]" data-node-id="236:5826">
           Trang này không còn ở đây.
         </p>
         <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/body-base,20px)] min-w-full not-italic relative shrink-0 text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-[length:var(--typography\/font-size\/body-base,14px)] text-center tracking-[var(--typography\/letter-spacing\/body-base,-0.14px)] w-[min-content]" data-node-id="236:5827">
@@ -178,7 +178,7 @@ export default function Component404Desktop1440() {
             GÓI
           </p>
         </div>
-        <p className="[word-break:break-word] absolute font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/heading-2,32px)] left-[64px] text-[color:var(--base\/white,white)] text-[length:var(--typography\/font-size\/heading-2,25px)] top-[48px] tracking-[var(--typography\/letter-spacing\/heading-2,-0.5px)] whitespace-nowrap" data-node-id="I236:5843;217:2803">
+        <p className="[word-break:break-word] absolute font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/heading-2,38px)] left-[64px] text-[color:var(--base\/white,white)] text-[length:var(--typography\/font-size\/heading-2,30px)] top-[48px] tracking-[var(--typography\/letter-spacing\/heading-2,-0.6px)] whitespace-nowrap" data-node-id="I236:5843;217:2803">
           GÓI
         </p>
         <p className="[word-break:break-word] absolute font-['Inter:Semi_Bold'] font-semibold leading-[16px] left-[64px] not-italic text-[11px] text-[color:var(--brand\/gold-foil,#a67c2e)] top-[84px] tracking-[0.66px] uppercase whitespace-nowrap" data-node-id="I236:5843;217:2804">
@@ -311,11 +311,11 @@ export default function Component404Desktop1440() {
             <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconChat2} />
           </div>
         </div>
-        <div className="[word-break:break-word] absolute font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[0] left-[1150px] text-[color:var(--base\/white,white)] text-[length:var(--typography\/font-size\/heading-2,25px)] top-[306px] tracking-[var(--typography\/letter-spacing\/heading-2,-0.5px)] whitespace-nowrap" data-node-id="I236:5843;217:2854">
+        <div className="[word-break:break-word] absolute font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[0] left-[1105px] text-[color:var(--base\/white,white)] text-[length:var(--typography\/font-size\/heading-2,30px)] top-[306px] tracking-[var(--typography\/letter-spacing\/heading-2,-0.6px)] whitespace-nowrap" data-node-id="I236:5843;217:2854">
           <p className="leading-[33px] mb-0">GÓI - Một khởi đầu.</p>
           <p className="leading-[33px] text-[#d7262b]">GÓI - Trọn dấu ấn</p>
         </div>
-        <div className="absolute content-stretch flex items-start left-[1150px] top-[415px]" data-node-id="I236:5843;217:2855" data-name="Deco · CMYK">
+        <div className="absolute content-stretch flex items-start left-[1105px] top-[415px]" data-node-id="I236:5843;217:2855" data-name="Deco · CMYK">
           <div className="bg-[#00a0e9] relative shrink-0 size-[10px]" data-node-id="I236:5843;217:2855;158:553" data-name="Rectangle" />
           <div className="bg-[#e4007f] relative shrink-0 size-[10px]" data-node-id="I236:5843;217:2855;158:554" data-name="Rectangle" />
           <div className="bg-[#fff100] relative shrink-0 size-[10px]" data-node-id="I236:5843;217:2855;158:555" data-name="Rectangle" />
@@ -326,7 +326,7 @@ export default function Component404Desktop1440() {
           <div className="bg-[var(--brand\/red,#ff6bd5)] relative shrink-0 size-[10px]" data-node-id="I236:5843;217:2855;158:560" data-name="Rectangle" />
           <div className="bg-[var(--brand\/gold-foil,#a67c2e)] relative shrink-0 size-[10px]" data-node-id="I236:5843;217:2855;158:561" data-name="Rectangle" />
         </div>
-        <div className="absolute left-[1252px] size-[14px] top-[413px]" data-node-id="I236:5843;217:2856" data-name="Deco/Registration">
+        <div className="absolute left-[1207px] size-[14px] top-[413px]" data-node-id="I236:5843;217:2856" data-name="Deco/Registration">
           <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgDecoRegistration1} />
         </div>
         <div className="absolute h-[300px] left-[64px] overflow-clip rounded-[var(--radius\/luxury,12px)] top-[310px] w-[400px]" data-node-id="I236:5843;217:2857" data-name="Sơ Đồ Xưởng (bản in)">

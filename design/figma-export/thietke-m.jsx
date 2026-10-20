@@ -1,36 +1,36 @@
-const imgDecoHalftone = "https://www.figma.com/api/mcp/asset/4df627e9-4ae9-4615-8a7f-3e5efde155ec.png";
-const imgDecoPaperGrain = "https://www.figma.com/api/mcp/asset/fe99a9f3-7e8f-4ad2-8e3e-9488a290824f.png";
-const imgNhB = "https://www.figma.com/api/mcp/asset/579e8fc8-798b-443f-a97f-7a3fa0c49a1d.png";
-const imgNhB1 = "https://www.figma.com/api/mcp/asset/0233e88b-05ec-4b54-900d-4fb30650c49e.png";
-const imgNhB2 = "https://www.figma.com/api/mcp/asset/abade746-e45a-4365-ab18-b4e62f634b55.png";
-const imgNhB3 = "https://www.figma.com/api/mcp/asset/568a73f3-ad64-4f8d-a777-69a5fd651682.png";
-const imgNhB4 = "https://www.figma.com/api/mcp/asset/7fba03eb-9d31-4c9f-bca8-1c3bc873475d.png";
-const imgNhB5 = "https://www.figma.com/api/mcp/asset/5a754e6a-08f1-4039-9c96-68b67240d254.png";
-const imgSDXngBnIn = "https://www.figma.com/api/mcp/asset/fc1ef110-840b-4b3c-948d-2279d289e1e6.png";
-const imgNhBiaFacebook = "https://www.figma.com/api/mcp/asset/800619f2-6242-4ad3-9070-46f591a27c9b.png";
-const imgAvatarGoi = "https://www.figma.com/api/mcp/asset/49a88f89-00cb-41e9-bbf0-dac32c70ea23.png";
-const imgIconPhone = "https://www.figma.com/api/mcp/asset/b61271d3-1935-4171-bd09-68b3d0aae418.svg";
-const imgIconBag = "https://www.figma.com/api/mcp/asset/7c866982-f43f-4f90-a314-64cebee8274a.svg";
-const imgIconMenu = "https://www.figma.com/api/mcp/asset/bd043cfc-2c2f-4b92-ba0d-fffe2fc9a992.svg";
-const imgGroup = "https://www.figma.com/api/mcp/asset/573feb25-af59-4c96-8087-dc75bb171b99.svg";
-const imgIconScissors = "https://www.figma.com/api/mcp/asset/0b2f0240-9915-4ca4-a866-5f752aed814f.svg";
-const imgLine = "https://www.figma.com/api/mcp/asset/7442c05b-b8b5-4e9f-a5cd-a870d1962da9.svg";
-const imgIconArrowR = "https://www.figma.com/api/mcp/asset/786a23ac-9521-40fa-b6eb-1a20a65261aa.svg";
-const imgTrailingIcon = "https://www.figma.com/api/mcp/asset/7d68a8a4-a0b4-474a-9b39-575e35029252.svg";
-const imgTrailingIcon1 = "https://www.figma.com/api/mcp/asset/083408fa-c666-414d-bb68-63ee356599bc.svg";
-const imgIconFacebook = "https://www.figma.com/api/mcp/asset/b667d4a2-d9dc-46cd-ba49-8c776f42e405.svg";
-const imgIconYoutube = "https://www.figma.com/api/mcp/asset/05aebc9a-5492-41e1-b91c-d65999f09537.svg";
-const imgIconTiktok = "https://www.figma.com/api/mcp/asset/39ee259d-9063-4f94-8e9c-f83a248493cf.svg";
-const imgIconChat = "https://www.figma.com/api/mcp/asset/9dcb2a0b-3604-4839-8e29-5e4ebb018f82.svg";
-const imgIconPhone1 = "https://www.figma.com/api/mcp/asset/f8d939c2-bf3f-4c60-822a-61f75b80b76b.svg";
-const imgLeadingIcon = "https://www.figma.com/api/mcp/asset/04e395a2-bd22-401f-8c48-4e9daf5d7d2a.svg";
-const imgIconPin = "https://www.figma.com/api/mcp/asset/88460e2c-1a17-40a9-bf59-760371a5f431.svg";
-const imgIconPhone2 = "https://www.figma.com/api/mcp/asset/cbbd029a-a52c-4573-b8a7-46743c665bc6.svg";
-const imgIconFactory = "https://www.figma.com/api/mcp/asset/c1bca82c-59ab-4671-b9d0-b1437e2e3933.svg";
-const imgIconPin1 = "https://www.figma.com/api/mcp/asset/b3f0d003-ab11-469e-be62-8b808c395d9d.svg";
-const imgIconArrowUr = "https://www.figma.com/api/mcp/asset/e930f923-ebff-4ba7-b357-f8a8366ebef1.svg";
-const imgIconFacebook1 = "https://www.figma.com/api/mcp/asset/3e495cc8-b01d-4ee5-b5f0-2389767b5d39.svg";
-const imgIconChevronDown = "https://www.figma.com/api/mcp/asset/a3b5e28f-f05a-440e-93c6-7383cef01139.svg";
+const imgDecoHalftone = "https://www.figma.com/api/mcp/asset/e2b92d6e-116f-488b-9390-e15b637a85a1.png";
+const imgDecoPaperGrain = "https://www.figma.com/api/mcp/asset/edd91a14-ebc8-406a-9069-5a11de30248c.png";
+const imgNhB = "https://www.figma.com/api/mcp/asset/55db98d0-dc84-437c-8695-1b1e1a6fe818.png";
+const imgNhB1 = "https://www.figma.com/api/mcp/asset/88a8e77d-984c-4535-9028-b49cb9763f8f.png";
+const imgNhB2 = "https://www.figma.com/api/mcp/asset/2f6d6970-cb0f-43e6-adc9-eb8c6dc68ea9.png";
+const imgNhB3 = "https://www.figma.com/api/mcp/asset/2a36548e-3a88-40e7-b0cf-796881fd3a7d.png";
+const imgNhB4 = "https://www.figma.com/api/mcp/asset/5cc401a8-fef7-4c0c-92e6-8c7a8eabe3df.png";
+const imgNhB5 = "https://www.figma.com/api/mcp/asset/5d138d8c-7f06-4539-8100-dd5ed037e453.png";
+const imgSDXngBnIn = "https://www.figma.com/api/mcp/asset/17355d58-ccfb-4702-a30a-44fa31dd1375.png";
+const imgNhBiaFacebook = "https://www.figma.com/api/mcp/asset/c000fb2c-5324-421f-8f4f-1811f53b5f75.png";
+const imgAvatarGoi = "https://www.figma.com/api/mcp/asset/34b17989-576d-4d45-9569-852ab73e3c69.png";
+const imgIconPhone = "https://www.figma.com/api/mcp/asset/07ae41b9-2cdf-41db-863e-4dc7fc4339c5.svg";
+const imgIconBag = "https://www.figma.com/api/mcp/asset/f8d70086-d067-41b7-9e64-3b4ec6be9689.svg";
+const imgIconMenu = "https://www.figma.com/api/mcp/asset/2b2b3fb2-d64c-48b4-bd6b-88dc59a16dbe.svg";
+const imgGroup = "https://www.figma.com/api/mcp/asset/c792fd51-b2a8-4f76-b17c-7aa3f1eb62a4.svg";
+const imgIconScissors = "https://www.figma.com/api/mcp/asset/90c60990-9345-4d4f-a12b-dcea5104aeee.svg";
+const imgLine = "https://www.figma.com/api/mcp/asset/d013dc0c-0be7-48a5-84bc-f3d6cbcf7b14.svg";
+const imgIconArrowR = "https://www.figma.com/api/mcp/asset/91d89803-86dc-4343-ad17-6fe8795ca482.svg";
+const imgTrailingIcon = "https://www.figma.com/api/mcp/asset/1aba92ef-3be1-405e-8947-4190c6a6617a.svg";
+const imgTrailingIcon1 = "https://www.figma.com/api/mcp/asset/c1e52d95-a451-4fe9-af74-274b96cf3548.svg";
+const imgIconFacebook = "https://www.figma.com/api/mcp/asset/d133ab90-e7e6-448e-9f89-e8c48f9a3c30.svg";
+const imgIconYoutube = "https://www.figma.com/api/mcp/asset/ce7be8b8-7b25-4f81-95ec-0bfc04bbe0cd.svg";
+const imgIconTiktok = "https://www.figma.com/api/mcp/asset/1df1c5cd-c3c7-4cdc-b674-8750b286b407.svg";
+const imgIconChat = "https://www.figma.com/api/mcp/asset/5a04a59c-9da1-43d3-b3f3-aeeb920b91c2.svg";
+const imgIconPhone1 = "https://www.figma.com/api/mcp/asset/84c98213-ba8c-448a-8b5c-d2c5481659c0.svg";
+const imgLeadingIcon = "https://www.figma.com/api/mcp/asset/6b096e21-c892-4a27-abde-7a89ba1327f6.svg";
+const imgIconPin = "https://www.figma.com/api/mcp/asset/0f393948-3d20-4140-a381-1ebed88642cc.svg";
+const imgIconPhone2 = "https://www.figma.com/api/mcp/asset/889fea01-a2d5-47d5-bc4a-3f2a2c76b97b.svg";
+const imgIconFactory = "https://www.figma.com/api/mcp/asset/470a6251-121e-4c63-b9c6-39aaca2e5f10.svg";
+const imgIconPin1 = "https://www.figma.com/api/mcp/asset/ebe97d96-ca3c-45eb-b5d8-85ff2cdc4fd4.svg";
+const imgIconArrowUr = "https://www.figma.com/api/mcp/asset/b604ad52-3cd3-40e6-b974-07301186a8cc.svg";
+const imgIconFacebook1 = "https://www.figma.com/api/mcp/asset/c1bb9b9c-dc30-42b5-96ee-338fc684029d.svg";
+const imgIconChevronDown = "https://www.figma.com/api/mcp/asset/bda313d4-e60c-46e3-850e-78237baa2b4f.svg";
 
 export default function ThitKMobile390() {
   return (
@@ -52,8 +52,8 @@ export default function ThitKMobile390() {
         </div>
       </div>
       <div className="bg-[var(--base\/white,white)] border-[var(--line\/default,rgba(1,1,1,0.13))] border-b border-solid content-stretch flex h-[60px] items-center justify-between px-[16px] relative shrink-0 w-full" data-node-id="240:11237" data-name="Header Navigation">
-        <a className="[word-break:break-word] block cursor-pointer font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[0] relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/heading-1,28px)] tracking-[var(--typography\/letter-spacing\/heading-1,-0.56px)] whitespace-nowrap" data-node-id="I240:11237;226:4477">
-          <p className="leading-[var(--typography\/line-height\/heading-1,36px)]">GÓI</p>
+        <a className="[word-break:break-word] block cursor-pointer font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[0] relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/heading-1,34px)] tracking-[var(--typography\/letter-spacing\/heading-1,-0.68px)] whitespace-nowrap" data-node-id="I240:11237;226:4477">
+          <p className="leading-[var(--typography\/line-height\/heading-1,42px)]">GÓI</p>
         </a>
         <div className="content-stretch flex gap-[8px] items-center relative shrink-0" data-node-id="I240:11237;226:4478" data-name="Header Actions">
           <div className="bg-[var(--base\/white,white)] border border-[var(--ink\/strong,#121212)] border-solid content-stretch flex items-center justify-center overflow-clip relative rounded-[var(--radius\/luxury,12px)] shrink-0 size-[40px]" data-node-id="I240:11237;226:4479" data-name="Btn Gọi Nhanh">
@@ -82,7 +82,7 @@ export default function ThitKMobile390() {
         <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/caption,16px)] not-italic relative shrink-0 text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-[length:var(--typography\/font-size\/caption,11px)] text-left tracking-[var(--typography\/letter-spacing\/caption,0px)] whitespace-pre" data-node-id="240:11254">{`Trang Chủ  /  Thiết Kế`}</p>
       </a>
       <div className="bg-[var(--brand\/red,#ff6bd5)] content-stretch flex flex-col gap-[var(--spacing\/gap\/2xsmall,4px)] h-[120px] items-start overflow-clip p-[var(--spacing\/padding\/medium,16px)] relative shrink-0 w-full" data-node-id="240:11255" data-name="Category Hero Title Mobile">
-        <p className="[word-break:break-word] font-['Be_Vietnam_Pro:ExtraBold'] leading-[var(--typography\/line-height\/heading-3,28px)] not-italic relative shrink-0 text-[color:var(--base\/white,white)] text-[length:var(--typography\/font-size\/heading-3,22px)] tracking-[var(--typography\/letter-spacing\/heading-3,-0.44px)] whitespace-nowrap" data-node-id="240:11256">
+        <p className="[word-break:break-word] font-['Be_Vietnam_Pro:ExtraBold'] leading-[var(--typography\/line-height\/heading-3,32px)] not-italic relative shrink-0 text-[color:var(--base\/white,white)] text-[length:var(--typography\/font-size\/heading-3,26px)] tracking-[var(--typography\/letter-spacing\/heading-3,-0.52px)] whitespace-nowrap" data-node-id="240:11256">
           BỘ THIẾT KẾ CÓ SẴN
         </p>
         <div className="absolute h-[175.5px] left-[-58.5px] mix-blend-multiply opacity-35 top-[3px] w-[351px]" data-node-id="240:11257" data-name="Deco · Halftone">
@@ -121,7 +121,7 @@ export default function ThitKMobile390() {
                 <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgNhB} />
               </div>
               <div className="content-stretch flex flex-col gap-[8px] items-start overflow-clip pb-[20px] pt-[16px] px-[20px] relative shrink-0 w-full" data-node-id="240:11314" data-name="Nội Dung">
-                <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/subheading,24px)] min-w-full relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/subheading,18px)] tracking-[var(--typography\/letter-spacing\/subheading,-0.36px)] w-[min-content]" data-node-id="240:11315">
+                <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/subheading,26px)] min-w-full relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/subheading,19px)] tracking-[var(--typography\/letter-spacing\/subheading,-0.38px)] w-[min-content]" data-node-id="240:11315">
                   Cá sen Đông Hồ
                 </p>
                 <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/body-small,16px)] min-w-full not-italic relative shrink-0 text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-[length:var(--typography\/font-size\/body-small,12px)] tracking-[var(--typography\/letter-spacing\/body-small,0px)] w-[min-content]" data-node-id="240:11316">
@@ -148,7 +148,7 @@ export default function ThitKMobile390() {
                 <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgNhB1} />
               </div>
               <div className="content-stretch flex flex-col gap-[8px] items-start overflow-clip pb-[20px] pt-[16px] px-[20px] relative shrink-0 w-full" data-node-id="240:11326" data-name="Nội Dung">
-                <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/subheading,24px)] min-w-full relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/subheading,18px)] tracking-[var(--typography\/letter-spacing\/subheading,-0.36px)] w-[min-content]" data-node-id="240:11327">
+                <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/subheading,26px)] min-w-full relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/subheading,19px)] tracking-[var(--typography\/letter-spacing\/subheading,-0.38px)] w-[min-content]" data-node-id="240:11327">
                   Hoa đào lồng đèn
                 </p>
                 <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/body-small,16px)] min-w-full not-italic relative shrink-0 text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-[length:var(--typography\/font-size\/body-small,12px)] tracking-[var(--typography\/letter-spacing\/body-small,0px)] w-[min-content]" data-node-id="240:11328">
@@ -175,7 +175,7 @@ export default function ThitKMobile390() {
                 <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgNhB2} />
               </div>
               <div className="content-stretch flex flex-col gap-[8px] items-start overflow-clip pb-[20px] pt-[16px] px-[20px] relative shrink-0 w-full" data-node-id="240:11338" data-name="Nội Dung">
-                <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/subheading,24px)] min-w-full relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/subheading,18px)] tracking-[var(--typography\/letter-spacing\/subheading,-0.36px)] w-[min-content]" data-node-id="240:11339">
+                <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/subheading,26px)] min-w-full relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/subheading,19px)] tracking-[var(--typography\/letter-spacing\/subheading,-0.38px)] w-[min-content]" data-node-id="240:11339">
                   Trống đồng Đông Sơn
                 </p>
                 <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/body-small,16px)] min-w-full not-italic relative shrink-0 text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-[length:var(--typography\/font-size\/body-small,12px)] tracking-[var(--typography\/letter-spacing\/body-small,0px)] w-[min-content]" data-node-id="240:11340">
@@ -202,7 +202,7 @@ export default function ThitKMobile390() {
                 <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgNhB3} />
               </div>
               <div className="content-stretch flex flex-col gap-[8px] items-start overflow-clip pb-[20px] pt-[16px] px-[20px] relative shrink-0 w-full" data-node-id="240:11350" data-name="Nội Dung">
-                <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/subheading,24px)] min-w-full relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/subheading,18px)] tracking-[var(--typography\/letter-spacing\/subheading,-0.36px)] w-[min-content]" data-node-id="240:11351">
+                <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/subheading,26px)] min-w-full relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/subheading,19px)] tracking-[var(--typography\/letter-spacing\/subheading,-0.38px)] w-[min-content]" data-node-id="240:11351">
                   Nùng Indigo
                 </p>
                 <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/body-small,16px)] min-w-full not-italic relative shrink-0 text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-[length:var(--typography\/font-size\/body-small,12px)] tracking-[var(--typography\/letter-spacing\/body-small,0px)] w-[min-content]" data-node-id="240:11352">
@@ -229,7 +229,7 @@ export default function ThitKMobile390() {
                 <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgNhB4} />
               </div>
               <div className="content-stretch flex flex-col gap-[8px] items-start overflow-clip pb-[20px] pt-[16px] px-[20px] relative shrink-0 w-full" data-node-id="240:11362" data-name="Nội Dung">
-                <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/subheading,24px)] min-w-full relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/subheading,18px)] tracking-[var(--typography\/letter-spacing\/subheading,-0.36px)] w-[min-content]" data-node-id="240:11363">
+                <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/subheading,26px)] min-w-full relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/subheading,19px)] tracking-[var(--typography\/letter-spacing\/subheading,-0.38px)] w-[min-content]" data-node-id="240:11363">
                   Lá dong
                 </p>
                 <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/body-small,16px)] min-w-full not-italic relative shrink-0 text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-[length:var(--typography\/font-size\/body-small,12px)] tracking-[var(--typography\/letter-spacing\/body-small,0px)] w-[min-content]" data-node-id="240:11364">
@@ -256,7 +256,7 @@ export default function ThitKMobile390() {
                 <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgNhB5} />
               </div>
               <div className="content-stretch flex flex-col gap-[8px] items-start overflow-clip pb-[20px] pt-[16px] px-[20px] relative shrink-0 w-full" data-node-id="240:11374" data-name="Nội Dung">
-                <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/subheading,24px)] min-w-full relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/subheading,18px)] tracking-[var(--typography\/letter-spacing\/subheading,-0.36px)] w-[min-content]" data-node-id="240:11375">
+                <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/subheading,26px)] min-w-full relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/subheading,19px)] tracking-[var(--typography\/letter-spacing\/subheading,-0.38px)] w-[min-content]" data-node-id="240:11375">
                   Sắc đỏ Tết
                 </p>
                 <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/body-small,16px)] min-w-full not-italic relative shrink-0 text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-[length:var(--typography\/font-size\/body-small,12px)] tracking-[var(--typography\/letter-spacing\/body-small,0px)] w-[min-content]" data-node-id="240:11376">
@@ -287,7 +287,7 @@ export default function ThitKMobile390() {
           <p className="font-['Inter:Semi_Bold'] font-semibold leading-[16px] not-italic relative shrink-0 text-[11px] tracking-[0.66px] uppercase whitespace-nowrap" data-node-id="240:11387">
             ĐẶT THEO SET 100 · IN LOGO RIÊNG
           </p>
-          <p className="font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/heading-4,28px)] min-w-full relative shrink-0 text-[length:var(--typography\/font-size\/heading-4,20px)] tracking-[var(--typography\/letter-spacing\/heading-4,-0.4px)] w-[min-content]" data-node-id="240:11388">
+          <p className="font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/heading-4,30px)] min-w-full relative shrink-0 text-[length:var(--typography\/font-size\/heading-4,22px)] tracking-[var(--typography\/letter-spacing\/heading-4,-0.44px)] w-[min-content]" data-node-id="240:11388">
             Nhắn GÓI món bạn bán, nhận báo giá và maket
           </p>
         </div>
@@ -313,7 +313,7 @@ export default function ThitKMobile390() {
       <div className="bg-[#1e140e] content-stretch flex flex-col gap-[20px] items-start overflow-clip px-[16px] py-[28px] relative shrink-0 w-full" data-node-id="240:11402" data-name="Footer">
         <div className="absolute bg-[var(--brand\/red,#ff6bd5)] h-[4px] left-0 top-0 w-[390px]" data-node-id="I240:11402;218:2850" data-name="Deco · Viền đỏ" />
         <div className="[word-break:break-word] content-stretch flex flex-col gap-[6px] items-start overflow-clip relative shrink-0 w-full" data-node-id="I240:11402;218:2851" data-name="Footer Brand">
-          <p className="font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/heading-2,32px)] relative shrink-0 text-[color:var(--base\/white,white)] text-[length:var(--typography\/font-size\/heading-2,25px)] tracking-[var(--typography\/letter-spacing\/heading-2,-0.5px)] whitespace-nowrap" data-node-id="I240:11402;218:2852">
+          <p className="font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/heading-2,38px)] relative shrink-0 text-[color:var(--base\/white,white)] text-[length:var(--typography\/font-size\/heading-2,30px)] tracking-[var(--typography\/letter-spacing\/heading-2,-0.6px)] whitespace-nowrap" data-node-id="I240:11402;218:2852">
             GÓI
           </p>
           <p className="font-['Inter:Semi_Bold'] font-semibold leading-[16px] not-italic relative shrink-0 text-[11px] text-[color:var(--brand\/gold-foil,#a67c2e)] tracking-[0.66px] uppercase whitespace-nowrap" data-node-id="I240:11402;218:2853">
@@ -547,7 +547,7 @@ export default function ThitKMobile390() {
           </div>
         </div>
         <div className="content-stretch flex flex-col gap-[10px] items-start overflow-clip relative shrink-0" data-node-id="I240:11402;218:2967" data-name="Footer Slogan">
-          <div className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[0] relative shrink-0 text-[color:var(--base\/white,white)] text-[length:var(--typography\/font-size\/heading-2,25px)] tracking-[var(--typography\/letter-spacing\/heading-2,-0.5px)] whitespace-nowrap" data-node-id="I240:11402;218:2968">
+          <div className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[0] relative shrink-0 text-[color:var(--base\/white,white)] text-[length:var(--typography\/font-size\/heading-2,30px)] tracking-[var(--typography\/letter-spacing\/heading-2,-0.6px)] whitespace-nowrap" data-node-id="I240:11402;218:2968">
             <p className="leading-[33px] mb-0">GÓI - Một khởi đầu.</p>
             <p className="leading-[33px] text-[#d7262b]">GÓI - Trọn dấu ấn</p>
           </div>

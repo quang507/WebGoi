@@ -243,6 +243,23 @@ async function convertFrame(el, kind, skuHref, ctx = {}) {
     const hg = (a.getAttribute('data-name') || '').match(/^Btn Hỏi Giá (.+)$/); if (hg) a.setAttribute('data-zalo-msg', `GÓI ơi, mình cần báo giá ${hg[1].toLowerCase()}. Số lượng dự kiến: ... Mình gửi mẫu/logo kèm theo.`);
     if (/^(ĐẶT HÀNG MẪU TRƯỚC|NHẬN BÁO GIÁ MẪU NÀY|ZALO BÁO GIÁ NGAY|NHẬN MẪU IN THỬ)/.test(T) && ctx.skuName) a.setAttribute('data-zalo-msg', `GÓI ơi, mình cần báo giá ${ctx.skuName} (${ctx.skuCode}), số lượng dự kiến: ... Giao tới: ...`);
   }
+  // tiêu đề thật cho Google / trình đọc màn hình: chữ kiểu Display / Heading 1–3 -> h1 (cái đầu tiên của mỗi bản) rồi h2
+  if (kind !== 'cart') {
+    let first = true;
+    // chữ nhiều dòng Figma xuất thành <div> bọc các <p>: xét luôn khối đó, các dòng bên trong thành <span> khối
+    const isMulti = (n) => n.tagName === 'DIV' && /leading-\[0\]/.test(n.getAttribute('class') || '') && n.childNodes.filter((k) => k.nodeType === 1).length > 1 && n.childNodes.filter((k) => k.nodeType === 1).every((k) => k.tagName === 'P');
+    for (const p of el.querySelectorAll('p, div')) {
+      if (p.tagName === 'DIV' && !isMulti(p)) continue;
+      if (p.tagName === 'P' && p.parentNode && /^H[12]$/.test(p.parentNode.tagName || '')) continue;
+      if (p.tagName === 'P' && p.parentNode && isMulti(p.parentNode)) continue;
+      const c = [p, ...p.querySelectorAll('span')].map((x) => x.getAttribute('class') || '').join(' ');
+      if (!/font-size\\\/(display|heading-[123])|Be_Vietnam_Pro:ExtraBold|Lora:SemiBold[^"]*text-\[(2[2-9]|[3-9]\d)px\]/.test(c)) continue;
+      if (p.closest('[data-name^="Footer"],[data-sticky],[data-name="Header Navigation"],[data-name^="Topbar"],[data-name*="Breadcrumb"],[data-name*="Form"],[data-name*="Widget"],[data-marquee],form,a')) continue;
+      const t = p.text.trim(); if (!t || /^[\d.,\s]+\S{0,3}$/.test(t)) continue; // bỏ giá tiền, con số
+      p.tagName = first ? 'h1' : 'h2'; first = false;
+      for (const k of p.childNodes.filter((k) => k.nodeType === 1 && k.tagName === 'P')) { k.tagName = 'span'; k.setAttribute('style', ((k.getAttribute('style') || '') + ';display:block').replace(/^;/, '')); }
+    }
+  }
   // class -> atomic
   const all = [el, ...el.querySelectorAll('*')];
   for (const n of all) {
@@ -332,7 +349,7 @@ const head = (p) => `<!DOCTYPE html>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@700;800&family=Inter:wght@400;500;600;700&family=Lora:wght@500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/css/goi-base.css?v=${p.v}"><link rel="stylesheet" href="/css/goi-atoms.css?v=${p.v}">
-<script>(function(){var q=/[?&]bp=([dtm])/.exec(location.search),R=document.documentElement;if(q)R.setAttribute('data-bp',q[1]);function z(){var w=R.clientWidth,b=q?{d:1440,t:834,m:390}[q[1]]:(w>=1100?1440:w>=600?834:390),v=q?1:w/b;if(b===1440)v=Math.min(v,1);R.style.setProperty('--z',v);}z();addEventListener('resize',z);})();</script>
+<script>(function(){var q=/[?&]bp=([dtm])/.exec(location.search),R=document.documentElement;if(q)R.setAttribute('data-bp',q[1]);function z(){var w=R.clientWidth,b=q?{d:1440,t:834,m:390}[q[1]]:(w>=1280?1440:w>=700?834:390),v=q?1:w/b;v=Math.min(v,{1440:1,834:1.2,390:1.4}[b]);R.style.setProperty('--z',v);}z();addEventListener('resize',z);})();</script>
 </head><body class="goi" data-page="${p.kind}">
 <div class="goi-progress" aria-hidden="true"></div>`;
 

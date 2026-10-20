@@ -1,36 +1,36 @@
-const imgDecoHalftone = "https://www.figma.com/api/mcp/asset/4f6ea4b0-f3d3-483a-b05f-285d6c5480f9.png";
-const imgNhGoiKhiDu = "https://www.figma.com/api/mcp/asset/fd9c731c-9941-4475-b36a-c14137f73c3c.png";
-const imgNhGoiDngB = "https://www.figma.com/api/mcp/asset/150b041e-5625-4455-9fd8-bf4c7384f86e.png";
-const imgNhGoiNangTm = "https://www.figma.com/api/mcp/asset/ceefb907-41ee-4ea9-a463-65e1c7121837.png";
-const imgDecoPaperGrain = "https://www.figma.com/api/mcp/asset/8345a997-5ccd-4526-8a02-a76a904d6dcf.png";
-const imgSDXngBnIn = "https://www.figma.com/api/mcp/asset/2391726a-50ab-4d41-9aef-2dd3cec9bae2.png";
-const imgNhBiaFacebook = "https://www.figma.com/api/mcp/asset/c23054ff-793c-4351-91d6-c80d94e4d37e.png";
-const imgAvatarGoi = "https://www.figma.com/api/mcp/asset/6ec6d1e4-c760-46e1-b310-128544ecbb6f.png";
-const imgIconPhone = "https://www.figma.com/api/mcp/asset/cbe78c51-a430-44bc-a0c2-b1fc91f951d3.svg";
-const imgIconBag = "https://www.figma.com/api/mcp/asset/f26772ae-48de-4c85-803f-e6dbc62ec238.svg";
-const imgIconMenu = "https://www.figma.com/api/mcp/asset/764068f4-39dd-4d02-b09e-919b98753737.svg";
-const imgGroup = "https://www.figma.com/api/mcp/asset/d41d203e-e817-43b4-a235-1d6f42c3ad12.svg";
-const imgIconCheck = "https://www.figma.com/api/mcp/asset/89184350-2f1e-45a9-82dd-a63a482eb998.svg";
-const imgTrailingIcon = "https://www.figma.com/api/mcp/asset/06f2ff9d-1cae-41ad-990e-598fe71db747.svg";
-const imgTrailingIcon1 = "https://www.figma.com/api/mcp/asset/85519abf-ed72-4b49-9a35-ca7f9c5338cd.svg";
-const imgDecoConDu = "https://www.figma.com/api/mcp/asset/fea6b471-1fd8-476f-9ad9-02f66005257c.svg";
-const imgEllipse = "https://www.figma.com/api/mcp/asset/6bca1be2-6087-433e-b0a6-bfef0e9659c6.svg";
-const imgIconScissors = "https://www.figma.com/api/mcp/asset/48a92e15-f88d-4333-8d5f-25de13b1ac3d.svg";
-const imgLine = "https://www.figma.com/api/mcp/asset/fea283d7-9130-4df9-9fdb-6d18ab9a90bc.svg";
-const imgIconChevronDown = "https://www.figma.com/api/mcp/asset/2da5b9ee-7aa1-41c1-9382-9d9992960b1e.svg";
-const imgIconFacebook = "https://www.figma.com/api/mcp/asset/d8379b57-0ec6-471d-af1b-0c0b0b5a87c5.svg";
-const imgIconYoutube = "https://www.figma.com/api/mcp/asset/f0701793-b194-4dfd-90bf-f9aac6323bb2.svg";
-const imgIconTiktok = "https://www.figma.com/api/mcp/asset/b761b8c0-5b43-49bf-b29f-d78431d01e41.svg";
-const imgIconChat = "https://www.figma.com/api/mcp/asset/f1fd0dc1-54f3-4cac-a7dc-c26ffbdd67a6.svg";
-const imgIconPhone1 = "https://www.figma.com/api/mcp/asset/5ea27d32-dae1-4873-8ce3-e084d560cb24.svg";
-const imgLeadingIcon = "https://www.figma.com/api/mcp/asset/ea3ce2a3-6e1d-4991-8dd8-3c415c5c8ebe.svg";
-const imgIconPin = "https://www.figma.com/api/mcp/asset/5e7d5cfc-e58a-4c11-9334-6dca20d63660.svg";
-const imgIconPhone2 = "https://www.figma.com/api/mcp/asset/93f29f06-0857-4c26-8e9a-7b019b7b60c2.svg";
-const imgIconFactory = "https://www.figma.com/api/mcp/asset/b8d09f24-57ac-42d4-883e-bd5b91f04fab.svg";
-const imgIconPin1 = "https://www.figma.com/api/mcp/asset/1d04bfce-5579-417d-adcc-41857a98b1e4.svg";
-const imgIconArrowUr = "https://www.figma.com/api/mcp/asset/ee8d1fd9-79f0-4e8e-a0de-a158837b0b0e.svg";
-const imgIconFacebook1 = "https://www.figma.com/api/mcp/asset/f4e7568a-4a41-4531-ae50-42db7a3c36d6.svg";
-const imgIconChevronDown1 = "https://www.figma.com/api/mcp/asset/d343c79d-14fb-452e-b33c-e6dc81ace593.svg";
+const imgDecoHalftone = "https://www.figma.com/api/mcp/asset/95988302-cf6c-48d6-9949-cbacec3bf664.png";
+const imgNhGoiKhiDu = "https://www.figma.com/api/mcp/asset/0554e2b5-f39d-4cf7-86e0-e43b0ff9e5f4.png";
+const imgNhGoiDngB = "https://www.figma.com/api/mcp/asset/49db347e-d6f9-4286-be41-8a3a5a9b943a.png";
+const imgNhGoiNangTm = "https://www.figma.com/api/mcp/asset/c1c4db33-44d8-4ec7-af0d-a96e14c6dfb0.png";
+const imgDecoPaperGrain = "https://www.figma.com/api/mcp/asset/32bcc0bc-d40b-45e0-94cf-1c3bf1f58647.png";
+const imgSDXngBnIn = "https://www.figma.com/api/mcp/asset/9fae526d-2009-499a-9776-b24e5f3f3058.png";
+const imgNhBiaFacebook = "https://www.figma.com/api/mcp/asset/a121f658-9656-4bce-b2b6-826daa727ff8.png";
+const imgAvatarGoi = "https://www.figma.com/api/mcp/asset/f5d2b388-90eb-42d2-ba60-2b7949fb7048.png";
+const imgIconPhone = "https://www.figma.com/api/mcp/asset/1f7a4e53-ff07-447b-84e7-6267b7268d8d.svg";
+const imgIconBag = "https://www.figma.com/api/mcp/asset/86056683-5069-47c1-af9c-7b97d904496f.svg";
+const imgIconMenu = "https://www.figma.com/api/mcp/asset/6da853aa-6778-4e05-a12e-bab7e62c22aa.svg";
+const imgGroup = "https://www.figma.com/api/mcp/asset/6ca6edec-2df5-4ef7-8650-6a584b97c975.svg";
+const imgIconCheck = "https://www.figma.com/api/mcp/asset/a6c5aa1c-7382-44e0-9c94-0e6158674f9f.svg";
+const imgTrailingIcon = "https://www.figma.com/api/mcp/asset/1d4af7d1-17a1-4c6d-9617-105f80bf1f8f.svg";
+const imgTrailingIcon1 = "https://www.figma.com/api/mcp/asset/5a244fa0-01c0-4462-a99a-288636e7036c.svg";
+const imgDecoConDu = "https://www.figma.com/api/mcp/asset/267b00c1-799b-477f-9681-a57f85b8b9cd.svg";
+const imgEllipse = "https://www.figma.com/api/mcp/asset/15828f56-0f94-4caa-b2f7-d105be48ffd9.svg";
+const imgIconScissors = "https://www.figma.com/api/mcp/asset/474c8f23-a329-41a1-a7a1-6fe36ef810aa.svg";
+const imgLine = "https://www.figma.com/api/mcp/asset/c0d432d9-1544-4484-a5e6-0b7d25a47844.svg";
+const imgIconChevronDown = "https://www.figma.com/api/mcp/asset/f40304a8-2cc3-4dc0-9d44-6b7fa9cfeeea.svg";
+const imgIconFacebook = "https://www.figma.com/api/mcp/asset/28225051-d84a-4abc-af57-e37be67fd66c.svg";
+const imgIconYoutube = "https://www.figma.com/api/mcp/asset/bc8eee14-3f53-4559-a667-ddcb14df146a.svg";
+const imgIconTiktok = "https://www.figma.com/api/mcp/asset/45e66e42-0658-43fe-ae67-378f759fd752.svg";
+const imgIconChat = "https://www.figma.com/api/mcp/asset/15aa9362-3aee-4c21-a9f1-4b1e1fa7ff00.svg";
+const imgIconPhone1 = "https://www.figma.com/api/mcp/asset/e1c798e4-eec2-465e-9b93-ac322cf533e1.svg";
+const imgLeadingIcon = "https://www.figma.com/api/mcp/asset/8ce941dc-f085-4862-b81a-22cde3ef0bc5.svg";
+const imgIconPin = "https://www.figma.com/api/mcp/asset/3d4c5937-50c7-4417-8969-5208cc9a4235.svg";
+const imgIconPhone2 = "https://www.figma.com/api/mcp/asset/9b6de67e-100a-419b-aab9-2e324d5072a0.svg";
+const imgIconFactory = "https://www.figma.com/api/mcp/asset/c213c0b5-ef96-4e02-a377-aafafca12337.svg";
+const imgIconPin1 = "https://www.figma.com/api/mcp/asset/f1f2efa7-dadf-48c3-b3a4-07695b7e94e5.svg";
+const imgIconArrowUr = "https://www.figma.com/api/mcp/asset/f3545072-1110-479b-be5b-c01ef2b603a7.svg";
+const imgIconFacebook1 = "https://www.figma.com/api/mcp/asset/a635cea0-e82d-4212-a109-6e829708737b.svg";
+const imgIconChevronDown1 = "https://www.figma.com/api/mcp/asset/323cccbb-5fd1-4823-84f8-1dace49b7798.svg";
 
 export default function BngGiaMobile390() {
   return (
@@ -52,8 +52,8 @@ export default function BngGiaMobile390() {
         </div>
       </div>
       <div className="bg-[var(--base\/white,white)] border-[var(--line\/default,rgba(1,1,1,0.13))] border-b border-solid content-stretch flex h-[60px] items-center justify-between px-[16px] relative shrink-0 w-full" data-node-id="237:8309" data-name="Header Navigation">
-        <a className="[word-break:break-word] block cursor-pointer font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[0] relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/heading-1,28px)] tracking-[var(--typography\/letter-spacing\/heading-1,-0.56px)] whitespace-nowrap" data-node-id="I237:8309;226:4477">
-          <p className="leading-[var(--typography\/line-height\/heading-1,36px)]">GÓI</p>
+        <a className="[word-break:break-word] block cursor-pointer font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[0] relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/heading-1,34px)] tracking-[var(--typography\/letter-spacing\/heading-1,-0.68px)] whitespace-nowrap" data-node-id="I237:8309;226:4477">
+          <p className="leading-[var(--typography\/line-height\/heading-1,42px)]">GÓI</p>
         </a>
         <div className="content-stretch flex gap-[8px] items-center relative shrink-0" data-node-id="I237:8309;226:4478" data-name="Header Actions">
           <div className="bg-[var(--base\/white,white)] border border-[var(--ink\/strong,#121212)] border-solid content-stretch flex items-center justify-center overflow-clip relative rounded-[var(--radius\/luxury,12px)] shrink-0 size-[40px]" data-node-id="I237:8309;226:4479" data-name="Btn Gọi Nhanh">
@@ -82,7 +82,7 @@ export default function BngGiaMobile390() {
         <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/caption,16px)] not-italic relative shrink-0 text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-[length:var(--typography\/font-size\/caption,11px)] text-left tracking-[var(--typography\/letter-spacing\/caption,0px)] whitespace-pre" data-node-id="237:8326">{`Trang Chủ  /  Bảng Giá`}</p>
       </a>
       <div className="bg-[var(--brand\/red,#ff6bd5)] content-stretch flex flex-col gap-[var(--spacing\/gap\/2xsmall,4px)] h-[120px] items-start overflow-clip p-[var(--spacing\/padding\/medium,16px)] relative shrink-0 w-full" data-node-id="237:8327" data-name="Category Hero Title Mobile">
-        <p className="[word-break:break-word] font-['Be_Vietnam_Pro:ExtraBold'] leading-[var(--typography\/line-height\/heading-3,28px)] not-italic relative shrink-0 text-[color:var(--base\/white,white)] text-[length:var(--typography\/font-size\/heading-3,22px)] tracking-[var(--typography\/letter-spacing\/heading-3,-0.44px)] whitespace-nowrap" data-node-id="237:8328">
+        <p className="[word-break:break-word] font-['Be_Vietnam_Pro:ExtraBold'] leading-[var(--typography\/line-height\/heading-3,32px)] not-italic relative shrink-0 text-[color:var(--base\/white,white)] text-[length:var(--typography\/font-size\/heading-3,26px)] tracking-[var(--typography\/letter-spacing\/heading-3,-0.52px)] whitespace-nowrap" data-node-id="237:8328">
           BẢNG GIÁ SET 100
         </p>
         <div className="absolute h-[175.5px] left-[-58.5px] mix-blend-multiply opacity-35 top-[3px] w-[351px]" data-node-id="237:8329" data-name="Deco · Halftone">
@@ -104,7 +104,7 @@ export default function BngGiaMobile390() {
           <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgDecoHalftone} />
         </div>
         <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[16px] not-italic relative shrink-0 text-[11px] text-[color:var(--base\/white,white)] tracking-[0.66px] uppercase whitespace-pre" data-node-id="237:8375">{`BẢNG GIÁ TRỌN GÓI  /  SET 100 SẢN PHẨM`}</p>
-        <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/heading-3,28px)] relative shrink-0 text-[color:var(--base\/white,white)] text-[length:var(--typography\/font-size\/heading-3,22px)] tracking-[var(--typography\/letter-spacing\/heading-3,-0.44px)] whitespace-nowrap" data-node-id="237:8376">
+        <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/heading-3,32px)] relative shrink-0 text-[color:var(--base\/white,white)] text-[length:var(--typography\/font-size\/heading-3,26px)] tracking-[var(--typography\/letter-spacing\/heading-3,-0.52px)] whitespace-nowrap" data-node-id="237:8376">
           BA GÓI BAO BÌ TẾT
         </p>
         <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/body-small,16px)] not-italic relative shrink-0 text-[color:var(--base\/white,white)] text-[length:var(--typography\/font-size\/body-small,12px)] tracking-[var(--typography\/letter-spacing\/body-small,0px)] whitespace-nowrap" data-node-id="237:8377">
@@ -258,7 +258,7 @@ export default function BngGiaMobile390() {
           <p className="font-['Inter:Semi_Bold'] font-semibold leading-[16px] not-italic relative shrink-0 text-[11px] text-[color:var(--brand\/red,#ff6bd5)] tracking-[0.66px] uppercase whitespace-nowrap" data-node-id="237:8421">
             GÓI NÀO CÓ GÌ
           </p>
-          <p className="font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/heading-4,28px)] min-w-full relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/heading-4,20px)] tracking-[var(--typography\/letter-spacing\/heading-4,-0.4px)] w-[min-content]" data-node-id="237:8422">
+          <p className="font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/heading-4,30px)] min-w-full relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/heading-4,22px)] tracking-[var(--typography\/letter-spacing\/heading-4,-0.44px)] w-[min-content]" data-node-id="237:8422">
             So sánh ba gói
           </p>
         </div>
@@ -460,7 +460,7 @@ export default function BngGiaMobile390() {
           <p className="font-['Inter:Semi_Bold'] font-semibold leading-[16px] not-italic relative shrink-0 text-[11px] text-[color:var(--brand\/red,#ff6bd5)] tracking-[0.66px] uppercase whitespace-nowrap" data-node-id="237:8507">
             THANH TOÁN
           </p>
-          <p className="font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/heading-4,28px)] min-w-full relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/heading-4,20px)] tracking-[var(--typography\/letter-spacing\/heading-4,-0.4px)] w-[min-content]" data-node-id="237:8508">
+          <p className="font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/heading-4,30px)] min-w-full relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/heading-4,22px)] tracking-[var(--typography\/letter-spacing\/heading-4,-0.44px)] w-[min-content]" data-node-id="237:8508">
             Tiền nong rõ ràng
           </p>
           <p className="font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/body-base,20px)] min-w-full not-italic relative shrink-0 text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-[length:var(--typography\/font-size\/body-base,14px)] tracking-[var(--typography\/letter-spacing\/body-base,-0.14px)] w-[min-content]" data-node-id="237:8509">
@@ -473,7 +473,7 @@ export default function BngGiaMobile390() {
               <p className="font-['Inter:Semi_Bold'] font-semibold leading-[16px] not-italic relative shrink-0 text-[11px] text-[color:var(--brand\/red,#ff6bd5)] tracking-[0.66px] uppercase whitespace-nowrap" data-node-id="237:8512">
                 CỌC
               </p>
-              <p className="font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/subheading,24px)] relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/subheading,18px)] tracking-[var(--typography\/letter-spacing\/subheading,-0.36px)] whitespace-nowrap" data-node-id="237:8513">
+              <p className="font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/subheading,26px)] relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/subheading,19px)] tracking-[var(--typography\/letter-spacing\/subheading,-0.38px)] whitespace-nowrap" data-node-id="237:8513">
                 50%
               </p>
               <p className="font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/body-small,16px)] min-w-full not-italic relative shrink-0 text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-[length:var(--typography\/font-size\/body-small,12px)] tracking-[var(--typography\/letter-spacing\/body-small,0px)] w-[min-content]" data-node-id="237:8514">
@@ -484,7 +484,7 @@ export default function BngGiaMobile390() {
               <p className="font-['Inter:Semi_Bold'] font-semibold leading-[16px] not-italic relative shrink-0 text-[11px] text-[color:var(--brand\/red,#ff6bd5)] tracking-[0.66px] uppercase whitespace-nowrap" data-node-id="237:8517">
                 CÒN LẠI
               </p>
-              <p className="font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/subheading,24px)] relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/subheading,18px)] tracking-[var(--typography\/letter-spacing\/subheading,-0.36px)] whitespace-nowrap" data-node-id="237:8518">
+              <p className="font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/subheading,26px)] relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/subheading,19px)] tracking-[var(--typography\/letter-spacing\/subheading,-0.38px)] whitespace-nowrap" data-node-id="237:8518">
                 Khi nhận
               </p>
               <p className="font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/body-small,16px)] min-w-full not-italic relative shrink-0 text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-[length:var(--typography\/font-size\/body-small,12px)] tracking-[var(--typography\/letter-spacing\/body-small,0px)] w-[min-content]" data-node-id="237:8519">
@@ -497,7 +497,7 @@ export default function BngGiaMobile390() {
               <p className="font-['Inter:Semi_Bold'] font-semibold leading-[16px] not-italic relative shrink-0 text-[11px] text-[color:var(--brand\/red,#ff6bd5)] tracking-[0.66px] uppercase whitespace-nowrap" data-node-id="237:8521">
                 MAKET
               </p>
-              <p className="font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/subheading,24px)] relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/subheading,18px)] tracking-[var(--typography\/letter-spacing\/subheading,-0.36px)] whitespace-nowrap" data-node-id="237:8522">
+              <p className="font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/subheading,26px)] relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/subheading,19px)] tracking-[var(--typography\/letter-spacing\/subheading,-0.38px)] whitespace-nowrap" data-node-id="237:8522">
                 Miễn phí
               </p>
               <p className="font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/body-small,16px)] min-w-full not-italic relative shrink-0 text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-[length:var(--typography\/font-size\/body-small,12px)] tracking-[var(--typography\/letter-spacing\/body-small,0px)] w-[min-content]" data-node-id="237:8523">
@@ -508,7 +508,7 @@ export default function BngGiaMobile390() {
               <p className="font-['Inter:Semi_Bold'] font-semibold leading-[16px] not-italic relative shrink-0 text-[11px] text-[color:var(--brand\/red,#ff6bd5)] tracking-[0.66px] uppercase whitespace-nowrap" data-node-id="237:8526">
                 KHUÔN
               </p>
-              <p className="font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/subheading,24px)] relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/subheading,18px)] tracking-[var(--typography\/letter-spacing\/subheading,-0.36px)] whitespace-nowrap" data-node-id="237:8527">
+              <p className="font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/subheading,26px)] relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/subheading,19px)] tracking-[var(--typography\/letter-spacing\/subheading,-0.38px)] whitespace-nowrap" data-node-id="237:8527">
                 0 đồng
               </p>
               <p className="font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/body-small,16px)] min-w-full not-italic relative shrink-0 text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-[length:var(--typography\/font-size\/body-small,12px)] tracking-[var(--typography\/letter-spacing\/body-small,0px)] w-[min-content]" data-node-id="237:8528">
@@ -521,7 +521,7 @@ export default function BngGiaMobile390() {
               <p className="font-['Inter:Semi_Bold'] font-semibold leading-[16px] not-italic relative shrink-0 text-[11px] text-[color:var(--brand\/red,#ff6bd5)] tracking-[0.66px] uppercase whitespace-nowrap" data-node-id="237:8530">
                 GIAO
               </p>
-              <p className="font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/subheading,24px)] relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/subheading,18px)] tracking-[var(--typography\/letter-spacing\/subheading,-0.36px)] whitespace-nowrap" data-node-id="237:8531">
+              <p className="font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/subheading,26px)] relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/subheading,19px)] tracking-[var(--typography\/letter-spacing\/subheading,-0.38px)] whitespace-nowrap" data-node-id="237:8531">
                 Nội thành
               </p>
               <p className="font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/body-small,16px)] min-w-full not-italic relative shrink-0 text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-[length:var(--typography\/font-size\/body-small,12px)] tracking-[var(--typography\/letter-spacing\/body-small,0px)] w-[min-content]" data-node-id="237:8532">
@@ -536,7 +536,7 @@ export default function BngGiaMobile390() {
           <p className="font-['Inter:Semi_Bold'] font-semibold leading-[16px] not-italic relative shrink-0 text-[11px] text-[color:var(--brand\/red,#ff6bd5)] tracking-[0.66px] uppercase whitespace-nowrap" data-node-id="237:8536">
             HỎI NHANH, ĐÁP GỌN
           </p>
-          <p className="font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/heading-4,28px)] min-w-full relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/heading-4,20px)] tracking-[var(--typography\/letter-spacing\/heading-4,-0.4px)] w-[min-content]" data-node-id="237:8537">
+          <p className="font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/heading-4,30px)] min-w-full relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/heading-4,22px)] tracking-[var(--typography\/letter-spacing\/heading-4,-0.44px)] w-[min-content]" data-node-id="237:8537">
             Câu hỏi hay gặp về giá
           </p>
         </div>
@@ -641,7 +641,7 @@ export default function BngGiaMobile390() {
           <p className="font-['Inter:Semi_Bold'] font-semibold leading-[16px] not-italic relative shrink-0 text-[11px] tracking-[0.66px] uppercase whitespace-nowrap" data-node-id="237:8584">
             ĐẶT THEO SET 100 · IN LOGO RIÊNG
           </p>
-          <p className="font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/heading-4,28px)] min-w-full relative shrink-0 text-[length:var(--typography\/font-size\/heading-4,20px)] tracking-[var(--typography\/letter-spacing\/heading-4,-0.4px)] w-[min-content]" data-node-id="237:8585">
+          <p className="font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/heading-4,30px)] min-w-full relative shrink-0 text-[length:var(--typography\/font-size\/heading-4,22px)] tracking-[var(--typography\/letter-spacing\/heading-4,-0.44px)] w-[min-content]" data-node-id="237:8585">
             Nhắn GÓI món bạn bán, nhận báo giá và maket
           </p>
         </div>
@@ -667,7 +667,7 @@ export default function BngGiaMobile390() {
       <div className="bg-[#1e140e] content-stretch flex flex-col gap-[20px] items-start overflow-clip px-[16px] py-[28px] relative shrink-0 w-full" data-node-id="237:8599" data-name="Footer">
         <div className="absolute bg-[var(--brand\/red,#ff6bd5)] h-[4px] left-0 top-0 w-[390px]" data-node-id="I237:8599;218:2850" data-name="Deco · Viền đỏ" />
         <div className="[word-break:break-word] content-stretch flex flex-col gap-[6px] items-start overflow-clip relative shrink-0 w-full" data-node-id="I237:8599;218:2851" data-name="Footer Brand">
-          <p className="font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/heading-2,32px)] relative shrink-0 text-[color:var(--base\/white,white)] text-[length:var(--typography\/font-size\/heading-2,25px)] tracking-[var(--typography\/letter-spacing\/heading-2,-0.5px)] whitespace-nowrap" data-node-id="I237:8599;218:2852">
+          <p className="font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/heading-2,38px)] relative shrink-0 text-[color:var(--base\/white,white)] text-[length:var(--typography\/font-size\/heading-2,30px)] tracking-[var(--typography\/letter-spacing\/heading-2,-0.6px)] whitespace-nowrap" data-node-id="I237:8599;218:2852">
             GÓI
           </p>
           <p className="font-['Inter:Semi_Bold'] font-semibold leading-[16px] not-italic relative shrink-0 text-[11px] text-[color:var(--brand\/gold-foil,#a67c2e)] tracking-[0.66px] uppercase whitespace-nowrap" data-node-id="I237:8599;218:2853">
@@ -901,7 +901,7 @@ export default function BngGiaMobile390() {
           </div>
         </div>
         <div className="content-stretch flex flex-col gap-[10px] items-start overflow-clip relative shrink-0" data-node-id="I237:8599;218:2967" data-name="Footer Slogan">
-          <div className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[0] relative shrink-0 text-[color:var(--base\/white,white)] text-[length:var(--typography\/font-size\/heading-2,25px)] tracking-[var(--typography\/letter-spacing\/heading-2,-0.5px)] whitespace-nowrap" data-node-id="I237:8599;218:2968">
+          <div className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[0] relative shrink-0 text-[color:var(--base\/white,white)] text-[length:var(--typography\/font-size\/heading-2,30px)] tracking-[var(--typography\/letter-spacing\/heading-2,-0.6px)] whitespace-nowrap" data-node-id="I237:8599;218:2968">
             <p className="leading-[33px] mb-0">GÓI - Một khởi đầu.</p>
             <p className="leading-[33px] text-[#d7262b]">GÓI - Trọn dấu ấn</p>
           </div>

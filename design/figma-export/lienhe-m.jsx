@@ -1,33 +1,33 @@
-const imgDecoHalftone = "https://www.figma.com/api/mcp/asset/d6a392f3-89d8-4af5-b1b6-0e560ac0e7ae.png";
-const imgDecoPaperGrain = "https://www.figma.com/api/mcp/asset/b52844a5-0141-4ede-9f67-8ef1481de23a.png";
-const imgSDXngBnIn = "https://www.figma.com/api/mcp/asset/192c3abd-698f-4879-820b-acc84dd86286.png";
-const imgNhBiaFacebook = "https://www.figma.com/api/mcp/asset/9a2edcbd-7ead-4f35-8195-01a48c6355cc.png";
-const imgAvatarGoi = "https://www.figma.com/api/mcp/asset/f433c9f5-0c28-49c4-ab2a-0a7aa486b2be.png";
-const imgIconPhone = "https://www.figma.com/api/mcp/asset/3396fd18-2ba3-4267-9af1-0d7750b23a7f.svg";
-const imgIconBag = "https://www.figma.com/api/mcp/asset/3eedc9a9-c911-42bf-9292-ec6275b0a79d.svg";
-const imgIconMenu = "https://www.figma.com/api/mcp/asset/d5a9951f-66c5-4af9-b052-b1796fea5b2f.svg";
-const imgGroup = "https://www.figma.com/api/mcp/asset/79afa819-b0e9-4d21-a760-a9cd47d3dde4.svg";
-const imgIconScissors = "https://www.figma.com/api/mcp/asset/797df3be-6310-4069-a0f7-96ea2fb9fb4d.svg";
-const imgLine = "https://www.figma.com/api/mcp/asset/f0734407-1664-4f86-9412-1804d811fade.svg";
-const imgIconPin = "https://www.figma.com/api/mcp/asset/07fbc591-07dc-443c-a412-b6b3888eb624.svg";
-const imgIconFactory = "https://www.figma.com/api/mcp/asset/1d6c2927-eb4f-4ab3-a015-d2f4c9b1d9b4.svg";
-const imgIconChat = "https://www.figma.com/api/mcp/asset/ded388f1-5ef2-4425-bacd-acac67452914.svg";
-const imgIconPin1 = "https://www.figma.com/api/mcp/asset/87afa08b-a45f-4711-afee-49519a421e9e.svg";
-const imgIconArrowUr = "https://www.figma.com/api/mcp/asset/9c24f02d-1c56-4667-8013-23be5a460a9c.svg";
-const imgIconChevronDown = "https://www.figma.com/api/mcp/asset/d339a07a-12e5-428a-9a98-da9be09c69c7.svg";
-const imgTrailingIcon = "https://www.figma.com/api/mcp/asset/a8594074-f05b-40fd-8eff-7c1018059db2.svg";
-const imgIconChevronDown1 = "https://www.figma.com/api/mcp/asset/3314f381-fb48-4711-9955-e1042d82938f.svg";
-const imgIconFacebook = "https://www.figma.com/api/mcp/asset/a2a24822-89a4-4fa8-a813-071962b616b8.svg";
-const imgIconYoutube = "https://www.figma.com/api/mcp/asset/16238081-b815-4044-b661-23fcb19dfaf4.svg";
-const imgIconTiktok = "https://www.figma.com/api/mcp/asset/02895743-e9f5-4ee6-ae53-56cd3e5b7fd0.svg";
-const imgIconChat1 = "https://www.figma.com/api/mcp/asset/0c4cbd9d-6ed4-4346-bcd3-489904780249.svg";
-const imgIconPhone1 = "https://www.figma.com/api/mcp/asset/4423fca1-716a-4b87-a0ac-e8f78f9a4a82.svg";
-const imgLeadingIcon = "https://www.figma.com/api/mcp/asset/95f4bfd0-591f-4b2b-bf3e-36d5eb688d7b.svg";
-const imgIconPin2 = "https://www.figma.com/api/mcp/asset/4c621df8-9fc4-4eb1-b559-2a4fccb18353.svg";
-const imgIconPhone2 = "https://www.figma.com/api/mcp/asset/632c47a4-d15d-48ae-b370-acb2c6ad7941.svg";
-const imgIconFactory1 = "https://www.figma.com/api/mcp/asset/916248e1-6f70-4dc8-9431-3eb3b0064c69.svg";
-const imgIconFacebook1 = "https://www.figma.com/api/mcp/asset/c1381e73-53b0-4534-b4a0-2c75a1f6b170.svg";
-const imgIconChevronDown2 = "https://www.figma.com/api/mcp/asset/d91c60af-c41b-4b98-8004-09a2d2d19d44.svg";
+const imgDecoHalftone = "https://www.figma.com/api/mcp/asset/c45352e7-d18e-4887-a417-2d81c4c8c240.png";
+const imgDecoPaperGrain = "https://www.figma.com/api/mcp/asset/d5096265-4ecd-4421-8f87-8099649571f9.png";
+const imgSDXngBnIn = "https://www.figma.com/api/mcp/asset/1df7c561-9230-4916-acac-86874648f2e1.png";
+const imgNhBiaFacebook = "https://www.figma.com/api/mcp/asset/bfe617ef-75fe-4a3a-a165-810bd20fc2e2.png";
+const imgAvatarGoi = "https://www.figma.com/api/mcp/asset/37285f01-6eba-45da-ba78-abc3f816fcd5.png";
+const imgIconPhone = "https://www.figma.com/api/mcp/asset/9908eaff-f8d9-4eda-ac31-94a2cac109d0.svg";
+const imgIconBag = "https://www.figma.com/api/mcp/asset/e66f04b1-df05-4d35-b20f-a21d1ea64aad.svg";
+const imgIconMenu = "https://www.figma.com/api/mcp/asset/bb3b1149-eee3-4547-b20d-c30806ddfc03.svg";
+const imgGroup = "https://www.figma.com/api/mcp/asset/2ecd2d23-7e74-4eb1-a1cc-0d998f2dccba.svg";
+const imgIconScissors = "https://www.figma.com/api/mcp/asset/44dcc81a-5a59-4a1a-bf13-4f571357b4e6.svg";
+const imgLine = "https://www.figma.com/api/mcp/asset/3f1cae3e-7a28-4d61-92f0-9706e96f2bd5.svg";
+const imgIconPin = "https://www.figma.com/api/mcp/asset/fd9c73fd-ce6f-461c-b187-8e12dacda93f.svg";
+const imgIconFactory = "https://www.figma.com/api/mcp/asset/f80e42ea-feff-410f-ab19-a7db26f5fd89.svg";
+const imgIconChat = "https://www.figma.com/api/mcp/asset/a030d6b2-be24-456f-9fe6-20afc0775a32.svg";
+const imgIconPin1 = "https://www.figma.com/api/mcp/asset/e7dcf796-9355-4c0d-ac49-86d3c2b6d24b.svg";
+const imgIconArrowUr = "https://www.figma.com/api/mcp/asset/27d57457-3f84-4df5-8802-d3fce71f6c58.svg";
+const imgIconChevronDown = "https://www.figma.com/api/mcp/asset/0ef67be2-3281-452d-9a2c-c37789cb0fe0.svg";
+const imgTrailingIcon = "https://www.figma.com/api/mcp/asset/28a5d08f-b4af-480d-84fc-13538df95eed.svg";
+const imgIconChevronDown1 = "https://www.figma.com/api/mcp/asset/e9842a70-e556-48d4-8540-96bd4ea7b6bb.svg";
+const imgIconFacebook = "https://www.figma.com/api/mcp/asset/81f25a94-77ae-435a-97e4-662efab54515.svg";
+const imgIconYoutube = "https://www.figma.com/api/mcp/asset/796e8402-4eed-42f6-ada9-9657615fc339.svg";
+const imgIconTiktok = "https://www.figma.com/api/mcp/asset/0adbf51c-f119-4be1-a918-f1386caf23eb.svg";
+const imgIconChat1 = "https://www.figma.com/api/mcp/asset/e025e44d-ed53-4571-8d55-11918b616333.svg";
+const imgIconPhone1 = "https://www.figma.com/api/mcp/asset/7fd9a461-6cd8-4237-9883-5ddbf2fed34a.svg";
+const imgLeadingIcon = "https://www.figma.com/api/mcp/asset/c9057593-4165-47e7-a8f7-baa805de2d14.svg";
+const imgIconPin2 = "https://www.figma.com/api/mcp/asset/7456781b-1218-480f-a4f3-35f106c925e2.svg";
+const imgIconPhone2 = "https://www.figma.com/api/mcp/asset/3ad4063f-ac93-46cc-822d-3ebd1324092a.svg";
+const imgIconFactory1 = "https://www.figma.com/api/mcp/asset/9c5354e7-14f0-42de-837e-dd1e76103fca.svg";
+const imgIconFacebook1 = "https://www.figma.com/api/mcp/asset/9edccb3a-0b29-4876-898b-fca42833f82b.svg";
+const imgIconChevronDown2 = "https://www.figma.com/api/mcp/asset/46ffef21-748c-4080-a922-6852a76fcb6f.svg";
 
 export default function LienHMobile390() {
   return (
@@ -49,8 +49,8 @@ export default function LienHMobile390() {
         </div>
       </div>
       <div className="bg-[var(--base\/white,white)] border-[var(--line\/default,rgba(1,1,1,0.13))] border-b border-solid content-stretch flex h-[60px] items-center justify-between px-[16px] relative shrink-0 w-full" data-node-id="236:6564" data-name="Header Navigation">
-        <a className="[word-break:break-word] block cursor-pointer font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[0] relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/heading-1,28px)] tracking-[var(--typography\/letter-spacing\/heading-1,-0.56px)] whitespace-nowrap" data-node-id="I236:6564;226:4477">
-          <p className="leading-[var(--typography\/line-height\/heading-1,36px)]">GÓI</p>
+        <a className="[word-break:break-word] block cursor-pointer font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[0] relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/heading-1,34px)] tracking-[var(--typography\/letter-spacing\/heading-1,-0.68px)] whitespace-nowrap" data-node-id="I236:6564;226:4477">
+          <p className="leading-[var(--typography\/line-height\/heading-1,42px)]">GÓI</p>
         </a>
         <div className="content-stretch flex gap-[8px] items-center relative shrink-0" data-node-id="I236:6564;226:4478" data-name="Header Actions">
           <div className="bg-[var(--base\/white,white)] border border-[var(--ink\/strong,#121212)] border-solid content-stretch flex items-center justify-center overflow-clip relative rounded-[var(--radius\/luxury,12px)] shrink-0 size-[40px]" data-node-id="I236:6564;226:4479" data-name="Btn Gọi Nhanh">
@@ -79,7 +79,7 @@ export default function LienHMobile390() {
         <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/caption,16px)] not-italic relative shrink-0 text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-[length:var(--typography\/font-size\/caption,11px)] text-left tracking-[var(--typography\/letter-spacing\/caption,0px)] whitespace-pre" data-node-id="236:6581">{`Trang Chủ  /  Liên Hệ`}</p>
       </a>
       <div className="bg-[var(--brand\/red,#ff6bd5)] content-stretch flex flex-col gap-[var(--spacing\/gap\/2xsmall,4px)] h-[120px] items-start overflow-clip p-[var(--spacing\/padding\/medium,16px)] relative shrink-0 w-full" data-node-id="236:6582" data-name="Category Hero Title Mobile">
-        <p className="[word-break:break-word] font-['Be_Vietnam_Pro:ExtraBold'] leading-[var(--typography\/line-height\/heading-3,28px)] not-italic relative shrink-0 text-[color:var(--base\/white,white)] text-[length:var(--typography\/font-size\/heading-3,22px)] tracking-[var(--typography\/letter-spacing\/heading-3,-0.44px)] whitespace-nowrap" data-node-id="236:6583">
+        <p className="[word-break:break-word] font-['Be_Vietnam_Pro:ExtraBold'] leading-[var(--typography\/line-height\/heading-3,32px)] not-italic relative shrink-0 text-[color:var(--base\/white,white)] text-[length:var(--typography\/font-size\/heading-3,26px)] tracking-[var(--typography\/letter-spacing\/heading-3,-0.52px)] whitespace-nowrap" data-node-id="236:6583">
           LIÊN HỆ GÓI
         </p>
         <div className="absolute h-[175.5px] left-[-58.5px] mix-blend-multiply opacity-35 top-[3px] w-[351px]" data-node-id="236:6584" data-name="Deco · Halftone">
@@ -377,7 +377,7 @@ export default function LienHMobile390() {
           <p className="font-['Inter:Semi_Bold'] font-semibold leading-[16px] not-italic relative shrink-0 text-[11px] text-[color:var(--brand\/red,#ff6bd5)] tracking-[0.66px] uppercase whitespace-nowrap" data-node-id="236:6769">
             HỎI NHANH, ĐÁP GỌN
           </p>
-          <p className="font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/heading-4,28px)] min-w-full relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/heading-4,20px)] tracking-[var(--typography\/letter-spacing\/heading-4,-0.4px)] w-[min-content]" data-node-id="236:6770">
+          <p className="font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/heading-4,30px)] min-w-full relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/heading-4,22px)] tracking-[var(--typography\/letter-spacing\/heading-4,-0.44px)] w-[min-content]" data-node-id="236:6770">
             Câu hỏi hay gặp trước khi đặt in
           </p>
         </div>
@@ -477,7 +477,7 @@ export default function LienHMobile390() {
       <div className="bg-[#1e140e] content-stretch flex flex-col gap-[20px] items-start overflow-clip px-[16px] py-[28px] relative shrink-0 w-full" data-node-id="236:6814" data-name="Footer">
         <div className="absolute bg-[var(--brand\/red,#ff6bd5)] h-[4px] left-0 top-0 w-[390px]" data-node-id="I236:6814;218:2850" data-name="Deco · Viền đỏ" />
         <div className="[word-break:break-word] content-stretch flex flex-col gap-[6px] items-start overflow-clip relative shrink-0 w-full" data-node-id="I236:6814;218:2851" data-name="Footer Brand">
-          <p className="font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/heading-2,32px)] relative shrink-0 text-[color:var(--base\/white,white)] text-[length:var(--typography\/font-size\/heading-2,25px)] tracking-[var(--typography\/letter-spacing\/heading-2,-0.5px)] whitespace-nowrap" data-node-id="I236:6814;218:2852">
+          <p className="font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/heading-2,38px)] relative shrink-0 text-[color:var(--base\/white,white)] text-[length:var(--typography\/font-size\/heading-2,30px)] tracking-[var(--typography\/letter-spacing\/heading-2,-0.6px)] whitespace-nowrap" data-node-id="I236:6814;218:2852">
             GÓI
           </p>
           <p className="font-['Inter:Semi_Bold'] font-semibold leading-[16px] not-italic relative shrink-0 text-[11px] text-[color:var(--brand\/gold-foil,#a67c2e)] tracking-[0.66px] uppercase whitespace-nowrap" data-node-id="I236:6814;218:2853">
@@ -711,7 +711,7 @@ export default function LienHMobile390() {
           </div>
         </div>
         <div className="content-stretch flex flex-col gap-[10px] items-start overflow-clip relative shrink-0" data-node-id="I236:6814;218:2967" data-name="Footer Slogan">
-          <div className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[0] relative shrink-0 text-[color:var(--base\/white,white)] text-[length:var(--typography\/font-size\/heading-2,25px)] tracking-[var(--typography\/letter-spacing\/heading-2,-0.5px)] whitespace-nowrap" data-node-id="I236:6814;218:2968">
+          <div className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[0] relative shrink-0 text-[color:var(--base\/white,white)] text-[length:var(--typography\/font-size\/heading-2,30px)] tracking-[var(--typography\/letter-spacing\/heading-2,-0.6px)] whitespace-nowrap" data-node-id="I236:6814;218:2968">
             <p className="leading-[33px] mb-0">GÓI - Một khởi đầu.</p>
             <p className="leading-[33px] text-[#d7262b]">GÓI - Trọn dấu ấn</p>
           </div>

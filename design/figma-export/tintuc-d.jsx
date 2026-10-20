@@ -1,39 +1,39 @@
-const imgDecoHalftone = "https://www.figma.com/api/mcp/asset/6bc96831-1c92-4994-b09b-520faa622f01.png";
-const imgDecoPaperGrain = "https://www.figma.com/api/mcp/asset/33748039-4721-4fd7-a19b-e49ce497796d.png";
-const imgNhBai = "https://www.figma.com/api/mcp/asset/1039f93e-84a6-4990-b33d-98969575f669.png";
-const imgNhBai1 = "https://www.figma.com/api/mcp/asset/7cacdfbd-70dd-4b11-b979-8f359277aa43.png";
-const imgNhBai2 = "https://www.figma.com/api/mcp/asset/93044013-a2f7-4c0c-a8b1-47fcb67536e9.png";
-const imgNhBai3 = "https://www.figma.com/api/mcp/asset/e599f677-2e4f-427e-8330-64a11aa68951.png";
-const imgNhBai4 = "https://www.figma.com/api/mcp/asset/97ecce9c-c8e9-4c15-a38c-dfd803dd1d90.png";
-const imgNhBai5 = "https://www.figma.com/api/mcp/asset/f564f48f-80af-4ce5-b289-302e5252ebe4.png";
-const imgNhBai6 = "https://www.figma.com/api/mcp/asset/b58cc688-c543-4a24-934f-81a27f1de545.png";
-const imgNhBai7 = "https://www.figma.com/api/mcp/asset/cd2effdb-301e-4291-b3b5-2e97e8e92436.png";
-const imgSDXngBnIn = "https://www.figma.com/api/mcp/asset/038152a1-fe79-4046-8bba-181cd70099c1.png";
-const imgNhBiaFacebook = "https://www.figma.com/api/mcp/asset/2b537347-a755-4c90-99af-4d828e9805f0.png";
-const imgAvatarGoi = "https://www.figma.com/api/mcp/asset/4430984b-7fec-4e90-ae24-2a5a9325d232.png";
-const imgDecoRegistration = "https://www.figma.com/api/mcp/asset/a003013c-028d-49fb-9fcf-d1e9ad889a00.svg";
-const imgIconPhone = "https://www.figma.com/api/mcp/asset/913bd16b-a953-4077-9450-a03ccaed9f37.svg";
-const imgIconBag = "https://www.figma.com/api/mcp/asset/32d779a6-04e0-4639-ada1-8a2d10a975ed.svg";
-const imgTrailingIcon = "https://www.figma.com/api/mcp/asset/15c82939-3c91-4e04-8a17-b228ec2a637e.svg";
-const imgGroup = "https://www.figma.com/api/mcp/asset/6e7b7814-fec7-45f6-839a-4cfe617548b5.svg";
-const imgIconScissors = "https://www.figma.com/api/mcp/asset/65672048-6bbf-4077-be38-871de9e72b14.svg";
-const imgLine = "https://www.figma.com/api/mcp/asset/dbb90569-49aa-40df-8e67-d33590027913.svg";
-const imgIconArrowR = "https://www.figma.com/api/mcp/asset/03b351ad-0368-4002-84d2-92ab4a679fa3.svg";
-const imgTrailingIcon1 = "https://www.figma.com/api/mcp/asset/8e21e2eb-7e2d-43f0-8fcf-0f951fdae093.svg";
-const imgIconFacebook = "https://www.figma.com/api/mcp/asset/7814ff42-3a5b-4d74-992c-db39f4501c10.svg";
-const imgIconYoutube = "https://www.figma.com/api/mcp/asset/a99a3b37-0ca5-4bbd-978f-f0af2edba352.svg";
-const imgIconTiktok = "https://www.figma.com/api/mcp/asset/1afb8f30-1c4c-48aa-a5a3-bf1a5cd022f0.svg";
-const imgIconChat = "https://www.figma.com/api/mcp/asset/323ae9a6-1f22-408f-b9bc-ef5ca795d3a3.svg";
-const imgIconPin = "https://www.figma.com/api/mcp/asset/61cbc45a-cd67-4c02-8ecc-3b677adf0978.svg";
-const imgIconPhone1 = "https://www.figma.com/api/mcp/asset/b4547854-50f3-4d44-9cc8-7e6b89bcf721.svg";
-const imgIconFactory = "https://www.figma.com/api/mcp/asset/046ca65d-5cdb-4831-b5a0-6d9f7c1fb8a4.svg";
-const imgIconChat1 = "https://www.figma.com/api/mcp/asset/3b7d928a-9cf8-43de-b48a-e0e6a138e143.svg";
-const imgIconArrowU = "https://www.figma.com/api/mcp/asset/94cdf623-a6b2-402d-91b1-2a221925f887.svg";
-const imgIconChat2 = "https://www.figma.com/api/mcp/asset/19a18be2-d372-4edc-b8ff-a6f3efe2aebe.svg";
-const imgDecoRegistration1 = "https://www.figma.com/api/mcp/asset/6f36b5f8-77e1-4cbf-92eb-49ee3f8c9ba9.svg";
-const imgIconPin1 = "https://www.figma.com/api/mcp/asset/81834413-28b4-4ce5-9b23-be1c3c9d8f5e.svg";
-const imgIconArrowUr = "https://www.figma.com/api/mcp/asset/3d9d9408-3c48-4bf9-b928-cd432b4f845c.svg";
-const imgIconChat3 = "https://www.figma.com/api/mcp/asset/11a0fe36-8529-41de-97c1-d612ab7d4951.svg";
+const imgDecoHalftone = "https://www.figma.com/api/mcp/asset/0d197216-e963-4ddf-8e03-d7281f204daf.png";
+const imgDecoPaperGrain = "https://www.figma.com/api/mcp/asset/1bc9a6ba-7bc6-4dfd-925e-d69071e665e1.png";
+const imgNhBai = "https://www.figma.com/api/mcp/asset/960bb029-282d-43b3-ab57-b1a5d91219f2.png";
+const imgNhBai1 = "https://www.figma.com/api/mcp/asset/5ec5c2d2-45d3-47d1-961b-ceee71a542c1.png";
+const imgNhBai2 = "https://www.figma.com/api/mcp/asset/a7f35707-438d-489d-bb79-34b14b5ae634.png";
+const imgNhBai3 = "https://www.figma.com/api/mcp/asset/6af8e253-9b33-438d-a705-b2e556631c5e.png";
+const imgNhBai4 = "https://www.figma.com/api/mcp/asset/0899540d-f964-4cb2-b657-49716b85f74e.png";
+const imgNhBai5 = "https://www.figma.com/api/mcp/asset/c9c8e338-5adb-4116-8885-84e78f58bc53.png";
+const imgNhBai6 = "https://www.figma.com/api/mcp/asset/f06bdc7a-ab60-4c8c-8a49-0b8be5727290.png";
+const imgNhBai7 = "https://www.figma.com/api/mcp/asset/a8d708be-cee0-4639-93e0-6039f5d3f2a7.png";
+const imgSDXngBnIn = "https://www.figma.com/api/mcp/asset/8836e8eb-4685-4904-ad23-e384005cb9f5.png";
+const imgNhBiaFacebook = "https://www.figma.com/api/mcp/asset/73961004-cb95-4bdb-9a3d-9b35f9e90699.png";
+const imgAvatarGoi = "https://www.figma.com/api/mcp/asset/d0ff365e-a7f8-4045-9755-6b3393c576ad.png";
+const imgDecoRegistration = "https://www.figma.com/api/mcp/asset/4806a03e-06a6-4f3f-b8c3-146bdfa65e41.svg";
+const imgIconPhone = "https://www.figma.com/api/mcp/asset/6e390756-6075-4095-9e82-458c5adca52e.svg";
+const imgIconBag = "https://www.figma.com/api/mcp/asset/de3a9a80-8f04-4ff4-85be-d8d35809c0c0.svg";
+const imgTrailingIcon = "https://www.figma.com/api/mcp/asset/a9feb6d4-07a0-4e88-a32b-a2b493ecf0d5.svg";
+const imgGroup = "https://www.figma.com/api/mcp/asset/f4fe9794-e6a9-4440-b7f5-0b8c87623658.svg";
+const imgIconScissors = "https://www.figma.com/api/mcp/asset/ec0265e9-5625-4b61-a8c5-a4538d9427a4.svg";
+const imgLine = "https://www.figma.com/api/mcp/asset/c9d4fd95-a31f-44ea-bdca-2acc77c54495.svg";
+const imgIconArrowR = "https://www.figma.com/api/mcp/asset/3b59d850-ad82-47fc-b8dd-a4e0714701c4.svg";
+const imgTrailingIcon1 = "https://www.figma.com/api/mcp/asset/811980c2-31e9-4385-b0d3-22bb7e85382f.svg";
+const imgIconFacebook = "https://www.figma.com/api/mcp/asset/80b84633-33da-44b7-b6af-a33c61552158.svg";
+const imgIconYoutube = "https://www.figma.com/api/mcp/asset/c03987b1-8567-4af5-8e2e-32096df26994.svg";
+const imgIconTiktok = "https://www.figma.com/api/mcp/asset/cc11940c-6b13-4266-a96a-e5c69d6d83ed.svg";
+const imgIconChat = "https://www.figma.com/api/mcp/asset/90aeac34-f5dd-4871-89ec-6b65d50e3d6a.svg";
+const imgIconPin = "https://www.figma.com/api/mcp/asset/cef1b77b-f8c9-4c61-8b1e-7f567ff2b5d7.svg";
+const imgIconPhone1 = "https://www.figma.com/api/mcp/asset/a965601d-605c-433b-a5d1-889861542ded.svg";
+const imgIconFactory = "https://www.figma.com/api/mcp/asset/0f816a92-4c16-49f7-993b-6355a5357f11.svg";
+const imgIconChat1 = "https://www.figma.com/api/mcp/asset/27bd7317-b3c5-461f-8024-88ccdd27e06d.svg";
+const imgIconArrowU = "https://www.figma.com/api/mcp/asset/2ec7e30f-4062-450b-ad1c-73e3a8262622.svg";
+const imgIconChat2 = "https://www.figma.com/api/mcp/asset/e85c181c-557f-42fa-b729-023716040d1f.svg";
+const imgDecoRegistration1 = "https://www.figma.com/api/mcp/asset/da2cab2f-8092-4b7d-9a51-2ac298f70f8c.svg";
+const imgIconPin1 = "https://www.figma.com/api/mcp/asset/ba1446ff-04ec-4af0-8034-6cc674464eb2.svg";
+const imgIconArrowUr = "https://www.figma.com/api/mcp/asset/2b782b0b-3ff9-4942-9338-b8464a3c27cf.svg";
+const imgIconChat3 = "https://www.figma.com/api/mcp/asset/191b1660-be32-43e8-ac9f-56668c2a65bc.svg";
 
 function DecoHalftone({ className }: { className?: string }) {
   return (
@@ -66,8 +66,8 @@ export default function TinTcDesktop1440() {
         </div>
       </div>
       <div className="bg-[var(--base\/white,white)] border-[var(--line\/default,rgba(1,1,1,0.13))] border-b border-solid content-stretch flex h-[84px] items-center justify-between px-[32px] relative shrink-0 w-full" data-node-id="238:8510" data-name="Header Navigation">
-        <a className="[word-break:break-word] block cursor-pointer font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[0] relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/heading-1,28px)] tracking-[var(--typography\/letter-spacing\/heading-1,-0.56px)] whitespace-nowrap" data-node-id="I238:8510;226:4426">
-          <p className="leading-[var(--typography\/line-height\/heading-1,36px)]">GÓI</p>
+        <a className="[word-break:break-word] block cursor-pointer font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[0] relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/heading-1,34px)] tracking-[var(--typography\/letter-spacing\/heading-1,-0.68px)] whitespace-nowrap" data-node-id="I238:8510;226:4426">
+          <p className="leading-[var(--typography\/line-height\/heading-1,42px)]">GÓI</p>
         </a>
         <div className="[word-break:break-word] content-stretch flex font-[family-name:var(--typography\/font-family\/sans,'Inter:Medium')] font-[var(--emphasis\/font-weight\/medium,500)] gap-[24px] items-center leading-[var(--typography\/line-height\/body-base,20px)] not-italic overflow-clip relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/body-base,14px)] tracking-[var(--typography\/letter-spacing\/body-base,-0.14px)] whitespace-nowrap" data-node-id="I238:8510;226:4427" data-name="Nav Links">
           <p className="relative shrink-0" data-node-id="I238:8510;226:4428">
@@ -147,7 +147,7 @@ export default function TinTcDesktop1440() {
         <div className="absolute h-[450px] left-[-225px] opacity-12 top-[-168px] w-[900px]" data-node-id="238:8545" data-name="Deco · Halftone">
           <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgDecoHalftone} />
         </div>
-        <p className="[word-break:break-word] font-['Be_Vietnam_Pro:ExtraBold'] leading-[var(--typography\/line-height\/display-3,44px)] not-italic relative shrink-0 text-[color:var(--base\/white,white)] text-[length:var(--typography\/font-size\/display-3,36px)] tracking-[var(--typography\/letter-spacing\/display-3,-0.98px)] whitespace-nowrap" data-node-id="238:8546">
+        <p className="[word-break:break-word] font-['Be_Vietnam_Pro:ExtraBold'] leading-[var(--typography\/line-height\/display-3,48px)] not-italic relative shrink-0 text-[color:var(--base\/white,white)] text-[length:var(--typography\/font-size\/display-3,42px)] tracking-[var(--typography\/letter-spacing\/display-3,-1.14px)] whitespace-nowrap" data-node-id="238:8546">
           CẨM NANG BAO BÌ
         </p>
         <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/body-base,20px)] not-italic relative shrink-0 text-[color:var(--base\/white,white)] text-[length:var(--typography\/font-size\/body-base,14px)] tracking-[var(--typography\/letter-spacing\/body-base,-0.14px)] w-[1100px]" data-node-id="238:8547">
@@ -179,7 +179,7 @@ export default function TinTcDesktop1440() {
                 <p className="[word-break:break-word] font-['JetBrains_Mono:Regular'] font-normal leading-[16px] relative shrink-0 text-[11px] text-[color:var(--brand\/red,#ff6bd5)] whitespace-nowrap" data-node-id="238:8603">
                   14/10/2026
                 </p>
-                <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/subheading,24px)] min-w-full relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/subheading,18px)] tracking-[var(--typography\/letter-spacing\/subheading,-0.36px)] w-[min-content]" data-node-id="238:8604">
+                <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/subheading,26px)] min-w-full relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/subheading,19px)] tracking-[var(--typography\/letter-spacing\/subheading,-0.38px)] w-[min-content]" data-node-id="238:8604">
                   Ba gói bao bì Tết, shop mình hợp gói nào
                 </p>
                 <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/body-small,16px)] min-w-full not-italic relative shrink-0 text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-[length:var(--typography\/font-size\/body-small,12px)] tracking-[var(--typography\/letter-spacing\/body-small,0px)] w-[min-content]" data-node-id="238:8605">
@@ -204,7 +204,7 @@ export default function TinTcDesktop1440() {
                 <p className="[word-break:break-word] font-['JetBrains_Mono:Regular'] font-normal leading-[16px] relative shrink-0 text-[11px] text-[color:var(--brand\/red,#ff6bd5)] whitespace-nowrap" data-node-id="238:8615">
                   13/10/2026
                 </p>
-                <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/subheading,24px)] min-w-full relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/subheading,18px)] tracking-[var(--typography\/letter-spacing\/subheading,-0.36px)] w-[min-content]" data-node-id="238:8616">
+                <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/subheading,26px)] min-w-full relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/subheading,19px)] tracking-[var(--typography\/letter-spacing\/subheading,-0.38px)] w-[min-content]" data-node-id="238:8616">
                   Mới có logo, chưa có file thiết kế thì đặt được không
                 </p>
                 <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/body-small,16px)] min-w-full not-italic relative shrink-0 text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-[length:var(--typography\/font-size\/body-small,12px)] tracking-[var(--typography\/letter-spacing\/body-small,0px)] w-[min-content]" data-node-id="238:8617">
@@ -229,7 +229,7 @@ export default function TinTcDesktop1440() {
                 <p className="[word-break:break-word] font-['JetBrains_Mono:Regular'] font-normal leading-[16px] relative shrink-0 text-[11px] text-[color:var(--brand\/red,#ff6bd5)] whitespace-nowrap" data-node-id="238:8626">
                   12/10/2026
                 </p>
-                <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/subheading,24px)] min-w-full relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/subheading,18px)] tracking-[var(--typography\/letter-spacing\/subheading,-0.36px)] w-[min-content]" data-node-id="238:8627">
+                <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/subheading,26px)] min-w-full relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/subheading,19px)] tracking-[var(--typography\/letter-spacing\/subheading,-0.38px)] w-[min-content]" data-node-id="238:8627">
                   Bảng giá set 100: ba gói, ba mức ngân sách
                 </p>
                 <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/body-small,16px)] min-w-full not-italic relative shrink-0 text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-[length:var(--typography\/font-size\/body-small,12px)] tracking-[var(--typography\/letter-spacing\/body-small,0px)] w-[min-content]" data-node-id="238:8628">
@@ -256,7 +256,7 @@ export default function TinTcDesktop1440() {
                 <p className="[word-break:break-word] font-['JetBrains_Mono:Regular'] font-normal leading-[16px] relative shrink-0 text-[11px] text-[color:var(--brand\/red,#ff6bd5)] whitespace-nowrap" data-node-id="238:8637">
                   10/10/2026
                 </p>
-                <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/subheading,24px)] min-w-full relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/subheading,18px)] tracking-[var(--typography\/letter-spacing\/subheading,-0.36px)] w-[min-content]" data-node-id="238:8638">
+                <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/subheading,26px)] min-w-full relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/subheading,19px)] tracking-[var(--typography\/letter-spacing\/subheading,-0.38px)] w-[min-content]" data-node-id="238:8638">
                   Đặt ít mà giá vẫn mềm: chuyện tờ in gom bài
                 </p>
                 <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/body-small,16px)] min-w-full not-italic relative shrink-0 text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-[length:var(--typography\/font-size\/body-small,12px)] tracking-[var(--typography\/letter-spacing\/body-small,0px)] w-[min-content]" data-node-id="238:8639">
@@ -281,7 +281,7 @@ export default function TinTcDesktop1440() {
                 <p className="[word-break:break-word] font-['JetBrains_Mono:Regular'] font-normal leading-[16px] relative shrink-0 text-[11px] text-[color:var(--brand\/red,#ff6bd5)] whitespace-nowrap" data-node-id="238:8649">
                   09/10/2026
                 </p>
-                <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/subheading,24px)] min-w-full relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/subheading,18px)] tracking-[var(--typography\/letter-spacing\/subheading,-0.36px)] w-[min-content]" data-node-id="238:8650">
+                <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/subheading,26px)] min-w-full relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/subheading,19px)] tracking-[var(--typography\/letter-spacing\/subheading,-0.38px)] w-[min-content]" data-node-id="238:8650">
                   Kraft hay Ivory, giấy nào hợp món Tết nhà bạn
                 </p>
                 <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/body-small,16px)] min-w-full not-italic relative shrink-0 text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-[length:var(--typography\/font-size\/body-small,12px)] tracking-[var(--typography\/letter-spacing\/body-small,0px)] w-[min-content]" data-node-id="238:8651">
@@ -306,7 +306,7 @@ export default function TinTcDesktop1440() {
                 <p className="[word-break:break-word] font-['JetBrains_Mono:Regular'] font-normal leading-[16px] relative shrink-0 text-[11px] text-[color:var(--brand\/red,#ff6bd5)] whitespace-nowrap" data-node-id="238:8660">
                   08/10/2026
                 </p>
-                <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/subheading,24px)] min-w-full relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/subheading,18px)] tracking-[var(--typography\/letter-spacing\/subheading,-0.36px)] w-[min-content]" data-node-id="238:8661">
+                <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/subheading,26px)] min-w-full relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/subheading,19px)] tracking-[var(--typography\/letter-spacing\/subheading,-0.38px)] w-[min-content]" data-node-id="238:8661">
                   Quà biếu đối tác: hộp cứng nắp bật nam châm
                 </p>
                 <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/body-small,16px)] min-w-full not-italic relative shrink-0 text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-[length:var(--typography\/font-size\/body-small,12px)] tracking-[var(--typography\/letter-spacing\/body-small,0px)] w-[min-content]" data-node-id="238:8662">
@@ -333,7 +333,7 @@ export default function TinTcDesktop1440() {
                 <p className="[word-break:break-word] font-['JetBrains_Mono:Regular'] font-normal leading-[16px] relative shrink-0 text-[11px] text-[color:var(--brand\/red,#ff6bd5)] whitespace-nowrap" data-node-id="238:8671">
                   07/10/2026
                 </p>
-                <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/subheading,24px)] min-w-full relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/subheading,18px)] tracking-[var(--typography\/letter-spacing\/subheading,-0.36px)] w-[min-content]" data-node-id="238:8672">
+                <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/subheading,26px)] min-w-full relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/subheading,19px)] tracking-[var(--typography\/letter-spacing\/subheading,-0.38px)] w-[min-content]" data-node-id="238:8672">
                   Hộp âm dương cho bánh chưng, giò chả nhà gói
                 </p>
                 <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/body-small,16px)] min-w-full not-italic relative shrink-0 text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-[length:var(--typography\/font-size\/body-small,12px)] tracking-[var(--typography\/letter-spacing\/body-small,0px)] w-[min-content]" data-node-id="238:8673">
@@ -358,7 +358,7 @@ export default function TinTcDesktop1440() {
                 <p className="[word-break:break-word] font-['JetBrains_Mono:Regular'] font-normal leading-[16px] relative shrink-0 text-[11px] text-[color:var(--brand\/red,#ff6bd5)] whitespace-nowrap" data-node-id="238:8683">
                   06/10/2026
                 </p>
-                <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/subheading,24px)] min-w-full relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/subheading,18px)] tracking-[var(--typography\/letter-spacing\/subheading,-0.36px)] w-[min-content]" data-node-id="238:8684">
+                <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/subheading,26px)] min-w-full relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/subheading,19px)] tracking-[var(--typography\/letter-spacing\/subheading,-0.38px)] w-[min-content]" data-node-id="238:8684">
                   Lạp xưởng, khô bò, khô gà: đóng sao cho ra dáng quà Tết
                 </p>
                 <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/body-small,16px)] min-w-full not-italic relative shrink-0 text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-[length:var(--typography\/font-size\/body-small,12px)] tracking-[var(--typography\/letter-spacing\/body-small,0px)] w-[min-content]" data-node-id="238:8685">
@@ -383,7 +383,7 @@ export default function TinTcDesktop1440() {
                 <p className="[word-break:break-word] font-['JetBrains_Mono:Regular'] font-normal leading-[16px] relative shrink-0 text-[11px] text-[color:var(--brand\/red,#ff6bd5)] whitespace-nowrap" data-node-id="238:8694">
                   05/10/2026
                 </p>
-                <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/subheading,24px)] min-w-full relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/subheading,18px)] tracking-[var(--typography\/letter-spacing\/subheading,-0.36px)] w-[min-content]" data-node-id="238:8695">
+                <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/subheading,26px)] min-w-full relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/subheading,19px)] tracking-[var(--typography\/letter-spacing\/subheading,-0.38px)] w-[min-content]" data-node-id="238:8695">
                   Bán Tết lần đầu, chọn bao bì sao cho vừa ngân sách
                 </p>
                 <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/body-small,16px)] min-w-full not-italic relative shrink-0 text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-[length:var(--typography\/font-size\/body-small,12px)] tracking-[var(--typography\/letter-spacing\/body-small,0px)] w-[min-content]" data-node-id="238:8696">
@@ -411,7 +411,7 @@ export default function TinTcDesktop1440() {
           <p className="font-['Inter:Semi_Bold'] font-semibold leading-[16px] not-italic relative shrink-0 text-[11px] tracking-[0.66px] uppercase" data-node-id="238:8705">
             ĐẶT THEO SET 100 · IN LOGO RIÊNG
           </p>
-          <p className="font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/heading-3,28px)] relative shrink-0 text-[length:var(--typography\/font-size\/heading-3,22px)] tracking-[var(--typography\/letter-spacing\/heading-3,-0.44px)]" data-node-id="238:8706">
+          <p className="font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/heading-3,32px)] relative shrink-0 text-[length:var(--typography\/font-size\/heading-3,26px)] tracking-[var(--typography\/letter-spacing\/heading-3,-0.52px)]" data-node-id="238:8706">
             Nhắn GÓI món bạn bán, nhận báo giá và maket
           </p>
         </div>
@@ -441,7 +441,7 @@ export default function TinTcDesktop1440() {
             GÓI
           </p>
         </div>
-        <p className="[word-break:break-word] absolute font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/heading-2,32px)] left-[64px] text-[color:var(--base\/white,white)] text-[length:var(--typography\/font-size\/heading-2,25px)] top-[48px] tracking-[var(--typography\/letter-spacing\/heading-2,-0.5px)] whitespace-nowrap" data-node-id="I238:8720;217:2803">
+        <p className="[word-break:break-word] absolute font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/heading-2,38px)] left-[64px] text-[color:var(--base\/white,white)] text-[length:var(--typography\/font-size\/heading-2,30px)] top-[48px] tracking-[var(--typography\/letter-spacing\/heading-2,-0.6px)] whitespace-nowrap" data-node-id="I238:8720;217:2803">
           GÓI
         </p>
         <p className="[word-break:break-word] absolute font-['Inter:Semi_Bold'] font-semibold leading-[16px] left-[64px] not-italic text-[11px] text-[color:var(--brand\/gold-foil,#a67c2e)] top-[84px] tracking-[0.66px] uppercase whitespace-nowrap" data-node-id="I238:8720;217:2804">
@@ -574,11 +574,11 @@ export default function TinTcDesktop1440() {
             <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconChat2} />
           </div>
         </div>
-        <div className="[word-break:break-word] absolute font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[0] left-[1150px] text-[color:var(--base\/white,white)] text-[length:var(--typography\/font-size\/heading-2,25px)] top-[306px] tracking-[var(--typography\/letter-spacing\/heading-2,-0.5px)] whitespace-nowrap" data-node-id="I238:8720;217:2854">
+        <div className="[word-break:break-word] absolute font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[0] left-[1105px] text-[color:var(--base\/white,white)] text-[length:var(--typography\/font-size\/heading-2,30px)] top-[306px] tracking-[var(--typography\/letter-spacing\/heading-2,-0.6px)] whitespace-nowrap" data-node-id="I238:8720;217:2854">
           <p className="leading-[33px] mb-0">GÓI - Một khởi đầu.</p>
           <p className="leading-[33px] text-[#d7262b]">GÓI - Trọn dấu ấn</p>
         </div>
-        <div className="absolute content-stretch flex items-start left-[1150px] top-[415px]" data-node-id="I238:8720;217:2855" data-name="Deco · CMYK">
+        <div className="absolute content-stretch flex items-start left-[1105px] top-[415px]" data-node-id="I238:8720;217:2855" data-name="Deco · CMYK">
           <div className="bg-[#00a0e9] relative shrink-0 size-[10px]" data-node-id="I238:8720;217:2855;158:553" data-name="Rectangle" />
           <div className="bg-[#e4007f] relative shrink-0 size-[10px]" data-node-id="I238:8720;217:2855;158:554" data-name="Rectangle" />
           <div className="bg-[#fff100] relative shrink-0 size-[10px]" data-node-id="I238:8720;217:2855;158:555" data-name="Rectangle" />
@@ -589,7 +589,7 @@ export default function TinTcDesktop1440() {
           <div className="bg-[var(--brand\/red,#ff6bd5)] relative shrink-0 size-[10px]" data-node-id="I238:8720;217:2855;158:560" data-name="Rectangle" />
           <div className="bg-[var(--brand\/gold-foil,#a67c2e)] relative shrink-0 size-[10px]" data-node-id="I238:8720;217:2855;158:561" data-name="Rectangle" />
         </div>
-        <div className="absolute left-[1252px] size-[14px] top-[413px]" data-node-id="I238:8720;217:2856" data-name="Deco/Registration">
+        <div className="absolute left-[1207px] size-[14px] top-[413px]" data-node-id="I238:8720;217:2856" data-name="Deco/Registration">
           <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgDecoRegistration1} />
         </div>
         <div className="absolute h-[300px] left-[64px] overflow-clip rounded-[var(--radius\/luxury,12px)] top-[310px] w-[400px]" data-node-id="I238:8720;217:2857" data-name="Sơ Đồ Xưởng (bản in)">

@@ -1,32 +1,32 @@
-const imgSlotnhChinh = "https://www.figma.com/api/mcp/asset/a6414f6b-168a-4e1f-bb74-6020aa738a2e.png";
-const imgMunh = "https://www.figma.com/api/mcp/asset/cfae7ca3-29ea-49da-9396-3fd9f7989ed5.png";
-const imgMunh1 = "https://www.figma.com/api/mcp/asset/07a6b112-5acc-42be-a546-3e6f4c3cbcf4.png";
-const imgDecoPaperGrain = "https://www.figma.com/api/mcp/asset/30b09388-3735-42f1-80ce-91b0bff3510f.png";
-const imgNhBai = "https://www.figma.com/api/mcp/asset/6fd32876-ebe4-4cc1-a8a8-cfc051ab8160.png";
-const imgNhBai1 = "https://www.figma.com/api/mcp/asset/89fe9117-7669-4abe-a894-3823b785556f.png";
-const imgNhBai2 = "https://www.figma.com/api/mcp/asset/8b59e03c-21d5-44ac-84c5-880791c9dad2.png";
-const imgSDXngBnIn = "https://www.figma.com/api/mcp/asset/b8365e0c-dfe3-4cac-94d2-67431093b7dd.png";
-const imgNhBiaFacebook = "https://www.figma.com/api/mcp/asset/b473603e-c89e-48f1-9fe3-347b83754da3.png";
-const imgAvatarGoi = "https://www.figma.com/api/mcp/asset/b0283b18-ad17-426c-8a81-72d7a3c65b57.png";
-const imgDecoRegistration = "https://www.figma.com/api/mcp/asset/7e51b496-42b5-4343-8df5-9579e05797a9.svg";
-const imgIconBag = "https://www.figma.com/api/mcp/asset/4acc945a-c802-47a1-8176-8b551fc67a2f.svg";
-const imgTrailingIcon = "https://www.figma.com/api/mcp/asset/2723d5e6-b8c3-492c-b46b-80685528d5bc.svg";
-const imgIconMenu = "https://www.figma.com/api/mcp/asset/06f8a8a5-917d-4f1d-8f23-209c5ecc8b90.svg";
-const imgTrailingIcon1 = "https://www.figma.com/api/mcp/asset/a9ad27a2-cc4b-43a7-ae2a-fd671fc03551.svg";
-const imgIconArrowR = "https://www.figma.com/api/mcp/asset/7b58489d-31b7-4fcc-8070-c2a24c18738b.svg";
-const imgIconFacebook = "https://www.figma.com/api/mcp/asset/e476d832-7248-4f8a-8412-dbe4b4564792.svg";
-const imgIconYoutube = "https://www.figma.com/api/mcp/asset/288508e7-60ef-4153-90ff-282600301c0c.svg";
-const imgIconTiktok = "https://www.figma.com/api/mcp/asset/3029707b-9c83-4ac9-903e-9539f8d0aee9.svg";
-const imgIconChat = "https://www.figma.com/api/mcp/asset/649432b2-21bf-428b-add0-5abfa0323f91.svg";
-const imgIconPhone = "https://www.figma.com/api/mcp/asset/fe07dbe9-1790-4806-a70a-67a8d092adb8.svg";
-const imgLeadingIcon = "https://www.figma.com/api/mcp/asset/70ef6571-7a16-4f8e-ba6c-6958d6e2218e.svg";
-const imgIconPin = "https://www.figma.com/api/mcp/asset/176b20d6-8d46-4949-acd9-20d814d20e18.svg";
-const imgIconPhone1 = "https://www.figma.com/api/mcp/asset/06ad59d4-e906-4b94-bb76-a4f8863ecae7.svg";
-const imgIconFactory = "https://www.figma.com/api/mcp/asset/06ba2401-0232-40c0-bd67-b40bda650f7a.svg";
-const imgIconChat1 = "https://www.figma.com/api/mcp/asset/f58e342a-ee7d-499c-bae8-adc1daa46c7c.svg";
-const imgIconPin1 = "https://www.figma.com/api/mcp/asset/cd26e77d-d4df-4534-87f6-bcd820c30329.svg";
-const imgIconArrowUr = "https://www.figma.com/api/mcp/asset/52e62d21-fdcb-49d3-9211-3991db107809.svg";
-const imgIconFacebook1 = "https://www.figma.com/api/mcp/asset/a115277d-84cd-44c6-bb6c-f25585a08e4d.svg";
+const imgSlotnhChinh = "https://www.figma.com/api/mcp/asset/be48025f-e8e6-466e-96d6-1ec76d9185e2.png";
+const imgMunh = "https://www.figma.com/api/mcp/asset/8bbd4af1-2c24-43a4-8dc6-e30968dbd4da.png";
+const imgMunh1 = "https://www.figma.com/api/mcp/asset/6509a861-098e-44ed-8621-5ef9c6c64fd0.png";
+const imgDecoPaperGrain = "https://www.figma.com/api/mcp/asset/15a312d5-a7b5-4b73-beb8-d5606184b5e2.png";
+const imgNhBai = "https://www.figma.com/api/mcp/asset/6c0d6412-28cd-4277-a784-6930e0bbbc58.png";
+const imgNhBai1 = "https://www.figma.com/api/mcp/asset/bcb25341-0d22-42a5-a700-544605f32f5e.png";
+const imgNhBai2 = "https://www.figma.com/api/mcp/asset/3ca8d631-fdd1-4f48-83e7-aab0c5102f0b.png";
+const imgSDXngBnIn = "https://www.figma.com/api/mcp/asset/9c0a5af2-9d11-4577-b376-f6e0b4463599.png";
+const imgNhBiaFacebook = "https://www.figma.com/api/mcp/asset/467ef02a-194c-467c-84de-d9ced24bb9c3.png";
+const imgAvatarGoi = "https://www.figma.com/api/mcp/asset/f9888d3f-b5ed-4dad-8885-d49ca1681d45.png";
+const imgDecoRegistration = "https://www.figma.com/api/mcp/asset/8f4f2463-4143-4d0a-a7c7-b40fa125fc35.svg";
+const imgIconBag = "https://www.figma.com/api/mcp/asset/e569e073-a96b-4479-8737-3de5b53a1d24.svg";
+const imgTrailingIcon = "https://www.figma.com/api/mcp/asset/4a3fc3ab-bd16-43c0-810d-0a417a9c1da5.svg";
+const imgIconMenu = "https://www.figma.com/api/mcp/asset/717c7304-7d38-4902-918a-7edef9c324de.svg";
+const imgTrailingIcon1 = "https://www.figma.com/api/mcp/asset/e68afa77-a0a6-4f7b-b4d1-9f04cdba7941.svg";
+const imgIconArrowR = "https://www.figma.com/api/mcp/asset/3d47f5e8-e2e2-47dd-8fcf-d8398e865b29.svg";
+const imgIconFacebook = "https://www.figma.com/api/mcp/asset/4a0b1306-04d7-41a7-a819-913d875cc123.svg";
+const imgIconYoutube = "https://www.figma.com/api/mcp/asset/9aec3d09-52ec-409b-ab5c-a0a3b84f0e50.svg";
+const imgIconTiktok = "https://www.figma.com/api/mcp/asset/468b742b-0aa5-4353-8139-0247343e8291.svg";
+const imgIconChat = "https://www.figma.com/api/mcp/asset/d0551c42-b355-4ac1-8c78-9fb853f77dd1.svg";
+const imgIconPhone = "https://www.figma.com/api/mcp/asset/c284479d-5b8e-4227-8a72-3a41de64484b.svg";
+const imgLeadingIcon = "https://www.figma.com/api/mcp/asset/f16e1646-c0b9-4da7-9cda-ce307d47cbd9.svg";
+const imgIconPin = "https://www.figma.com/api/mcp/asset/267be612-bc9f-4a89-baf0-a023a9442e24.svg";
+const imgIconPhone1 = "https://www.figma.com/api/mcp/asset/40eff376-e3a9-4ef2-9159-828331e6c02c.svg";
+const imgIconFactory = "https://www.figma.com/api/mcp/asset/00163572-d37e-4900-b79a-205f3f66364f.svg";
+const imgIconChat1 = "https://www.figma.com/api/mcp/asset/ca133aac-7c3e-4921-9484-cba32f089ff4.svg";
+const imgIconPin1 = "https://www.figma.com/api/mcp/asset/a3037d77-386a-4df7-a283-703a5d96b91b.svg";
+const imgIconArrowUr = "https://www.figma.com/api/mcp/asset/8b989a30-117b-4589-9397-66a5c48692c2.svg";
+const imgIconFacebook1 = "https://www.figma.com/api/mcp/asset/70778e07-886b-4496-8403-843a3f7d112c.svg";
 
 export default function BaiVitTablet834() {
   return (
@@ -51,8 +51,8 @@ export default function BaiVitTablet834() {
         </div>
       </div>
       <div className="bg-[var(--base\/white,white)] border-[var(--line\/default,rgba(1,1,1,0.13))] border-b border-solid content-stretch flex h-[72px] items-center justify-between px-[24px] relative shrink-0 w-full" data-node-id="240:10782" data-name="Header Navigation">
-        <a className="[word-break:break-word] block cursor-pointer font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[0] relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/heading-1,28px)] tracking-[var(--typography\/letter-spacing\/heading-1,-0.56px)] whitespace-nowrap" data-node-id="I240:10782;226:4457">
-          <p className="leading-[var(--typography\/line-height\/heading-1,36px)]">GÓI</p>
+        <a className="[word-break:break-word] block cursor-pointer font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[0] relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/heading-1,34px)] tracking-[var(--typography\/letter-spacing\/heading-1,-0.68px)] whitespace-nowrap" data-node-id="I240:10782;226:4457">
+          <p className="leading-[var(--typography\/line-height\/heading-1,42px)]">GÓI</p>
         </a>
         <div className="content-stretch flex gap-[10px] items-center relative shrink-0" data-node-id="I240:10782;226:4458" data-name="Header Actions">
           <div className="bg-[var(--base\/white,white)] border border-[var(--ink\/strong,#121212)] border-solid content-stretch flex items-center justify-center relative rounded-[var(--radius\/luxury,12px)] shrink-0 size-[40px]" data-node-id="I240:10782;226:4459" data-name="Cart Btn Icon">
@@ -90,7 +90,7 @@ export default function BaiVitTablet834() {
           <p className="[word-break:break-word] font-['JetBrains_Mono:Regular'] font-normal leading-[16px] relative shrink-0 text-[11px] text-[color:var(--brand\/red,#ff6bd5)] whitespace-nowrap" data-node-id="240:10804">
             09/10/2026
           </p>
-          <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/heading-1,36px)] min-w-full relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/heading-1,28px)] tracking-[var(--typography\/letter-spacing\/heading-1,-0.56px)] w-[min-content]" data-node-id="240:10805">
+          <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/heading-1,42px)] min-w-full relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/heading-1,34px)] tracking-[var(--typography\/letter-spacing\/heading-1,-0.68px)] w-[min-content]" data-node-id="240:10805">
             Kraft hay Ivory, giấy nào hợp món Tết nhà bạn
           </p>
           <div className="h-[420px] relative rounded-[var(--radius\/luxury,12px)] shrink-0 w-full" data-node-id="240:10806" data-name="Slot Ảnh Chính">
@@ -100,19 +100,19 @@ export default function BaiVitTablet834() {
             <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[28px] not-italic relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/body-extra,16px)] tracking-[var(--typography\/letter-spacing\/body-extra,-0.16px)] w-full" data-node-id="240:10808">
               Chọn giấy không khó. Nhìn vào món bạn bán là ra.
             </p>
-            <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/heading-4,28px)] relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/heading-4,20px)] tracking-[var(--typography\/letter-spacing\/heading-4,-0.4px)] w-full" data-node-id="240:10809">
+            <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/heading-4,30px)] relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/heading-4,22px)] tracking-[var(--typography\/letter-spacing\/heading-4,-0.44px)] w-full" data-node-id="240:10809">
               Kraft nâu mộc
             </p>
             <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[28px] not-italic relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/body-extra,16px)] tracking-[var(--typography\/letter-spacing\/body-extra,-0.16px)] w-full" data-node-id="240:10810">
               Gần gũi, có cảm giác nhà làm. Hợp với hạt, mứt, khô gà, trà và nông sản.
             </p>
-            <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/heading-4,28px)] relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/heading-4,20px)] tracking-[var(--typography\/letter-spacing\/heading-4,-0.4px)] w-full" data-node-id="240:10811">
+            <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/heading-4,30px)] relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/heading-4,22px)] tracking-[var(--typography\/letter-spacing\/heading-4,-0.44px)] w-full" data-node-id="240:10811">
               Ivory trắng ngà
             </p>
             <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[28px] not-italic relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/body-extra,16px)] tracking-[var(--typography\/letter-spacing\/body-extra,-0.16px)] w-full" data-node-id="240:10812">
               Mặt giấy mịn, màu in tươi. Hợp với set quà biếu cần nhìn sạch, sang, hoặc logo nhiều màu.
             </p>
-            <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/heading-4,28px)] relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/heading-4,20px)] tracking-[var(--typography\/letter-spacing\/heading-4,-0.4px)] w-full" data-node-id="240:10813">
+            <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/heading-4,30px)] relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/heading-4,22px)] tracking-[var(--typography\/letter-spacing\/heading-4,-0.44px)] w-full" data-node-id="240:10813">
               Chưa chắc chọn loại nào
             </p>
             <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[28px] not-italic relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/body-extra,16px)] tracking-[var(--typography\/letter-spacing\/body-extra,-0.16px)] w-full" data-node-id="240:10814">
@@ -131,7 +131,7 @@ export default function BaiVitTablet834() {
             <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[16px] not-italic relative shrink-0 text-[11px] text-[color:var(--brand\/red,#ff6bd5)] tracking-[0.66px] uppercase whitespace-nowrap" data-node-id="240:10819">
               CẦN BÁO GIÁ CHO MÓN CỦA BẠN?
             </p>
-            <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/subheading,24px)] min-w-full relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/subheading,18px)] tracking-[var(--typography\/letter-spacing\/subheading,-0.36px)] w-[min-content]" data-node-id="240:10820">
+            <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/subheading,26px)] min-w-full relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/subheading,19px)] tracking-[var(--typography\/letter-spacing\/subheading,-0.38px)] w-[min-content]" data-node-id="240:10820">
               Gửi logo và món bạn bán, GÓI báo giá theo set 100.
             </p>
             <div className="content-stretch flex gap-[12px] items-start overflow-clip relative shrink-0" data-node-id="240:10821" data-name="Nút Bài Viết">
@@ -170,7 +170,7 @@ export default function BaiVitTablet834() {
                 <p className="[word-break:break-word] font-['JetBrains_Mono:Regular'] font-normal leading-[16px] relative shrink-0 text-[11px] text-[color:var(--brand\/red,#ff6bd5)] whitespace-nowrap" data-node-id="240:10841">
                   14/10/2026
                 </p>
-                <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/subheading,24px)] min-w-full relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/subheading,18px)] tracking-[var(--typography\/letter-spacing\/subheading,-0.36px)] w-[min-content]" data-node-id="240:10842">
+                <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/subheading,26px)] min-w-full relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/subheading,19px)] tracking-[var(--typography\/letter-spacing\/subheading,-0.38px)] w-[min-content]" data-node-id="240:10842">
                   Ba gói bao bì Tết, shop mình hợp gói nào
                 </p>
                 <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/body-small,16px)] min-w-full not-italic relative shrink-0 text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-[length:var(--typography\/font-size\/body-small,12px)] tracking-[var(--typography\/letter-spacing\/body-small,0px)] w-[min-content]" data-node-id="240:10843">
@@ -195,7 +195,7 @@ export default function BaiVitTablet834() {
                 <p className="[word-break:break-word] font-['JetBrains_Mono:Regular'] font-normal leading-[16px] relative shrink-0 text-[11px] text-[color:var(--brand\/red,#ff6bd5)] whitespace-nowrap" data-node-id="240:10853">
                   13/10/2026
                 </p>
-                <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/subheading,24px)] min-w-full relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/subheading,18px)] tracking-[var(--typography\/letter-spacing\/subheading,-0.36px)] w-[min-content]" data-node-id="240:10854">
+                <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/subheading,26px)] min-w-full relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/subheading,19px)] tracking-[var(--typography\/letter-spacing\/subheading,-0.38px)] w-[min-content]" data-node-id="240:10854">
                   Mới có logo, chưa có file thiết kế thì đặt được không
                 </p>
                 <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/body-small,16px)] min-w-full not-italic relative shrink-0 text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-[length:var(--typography\/font-size\/body-small,12px)] tracking-[var(--typography\/letter-spacing\/body-small,0px)] w-[min-content]" data-node-id="240:10855">
@@ -220,7 +220,7 @@ export default function BaiVitTablet834() {
                 <p className="[word-break:break-word] font-['JetBrains_Mono:Regular'] font-normal leading-[16px] relative shrink-0 text-[11px] text-[color:var(--brand\/red,#ff6bd5)] whitespace-nowrap" data-node-id="240:10864">
                   12/10/2026
                 </p>
-                <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/subheading,24px)] min-w-full relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/subheading,18px)] tracking-[var(--typography\/letter-spacing\/subheading,-0.36px)] w-[min-content]" data-node-id="240:10865">
+                <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/subheading,26px)] min-w-full relative shrink-0 text-[color:var(--ink\/strong,#121212)] text-[length:var(--typography\/font-size\/subheading,19px)] tracking-[var(--typography\/letter-spacing\/subheading,-0.38px)] w-[min-content]" data-node-id="240:10865">
                   Bảng giá set 100: ba gói, ba mức ngân sách
                 </p>
                 <p className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/sans,'Inter:Regular')] font-[var(--emphasis\/font-weight\/regular,400)] leading-[var(--typography\/line-height\/body-small,16px)] min-w-full not-italic relative shrink-0 text-[color:var(--ink\/muted,rgba(0,0,0,0.69))] text-[length:var(--typography\/font-size\/body-small,12px)] tracking-[var(--typography\/letter-spacing\/body-small,0px)] w-[min-content]" data-node-id="240:10866">
@@ -245,7 +245,7 @@ export default function BaiVitTablet834() {
         <div className="content-stretch flex gap-[40px] items-start overflow-clip relative shrink-0 w-full" data-node-id="I240:10872;219:2902" data-name="Footer Row Top">
           <div className="content-stretch flex flex-col gap-[16px] items-start overflow-clip relative shrink-0 w-[360px]" data-node-id="I240:10872;219:2903" data-name="Footer Col Brand">
             <div className="[word-break:break-word] content-stretch flex flex-col gap-[6px] items-start overflow-clip relative shrink-0 w-full" data-node-id="I240:10872;219:2904" data-name="Footer Brand">
-              <p className="font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/heading-2,32px)] relative shrink-0 text-[color:var(--base\/white,white)] text-[length:var(--typography\/font-size\/heading-2,25px)] tracking-[var(--typography\/letter-spacing\/heading-2,-0.5px)] whitespace-nowrap" data-node-id="I240:10872;219:2905">
+              <p className="font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[var(--typography\/line-height\/heading-2,38px)] relative shrink-0 text-[color:var(--base\/white,white)] text-[length:var(--typography\/font-size\/heading-2,30px)] tracking-[var(--typography\/letter-spacing\/heading-2,-0.6px)] whitespace-nowrap" data-node-id="I240:10872;219:2905">
                 GÓI
               </p>
               <p className="font-['Inter:Semi_Bold'] font-semibold leading-[16px] not-italic relative shrink-0 text-[11px] text-[color:var(--brand\/gold-foil,#a67c2e)] tracking-[0.66px] uppercase whitespace-nowrap" data-node-id="I240:10872;219:2906">
@@ -476,7 +476,7 @@ export default function BaiVitTablet834() {
         </div>
         <div className="border-[rgba(255,255,255,0.14)] border-solid border-t content-stretch flex items-end justify-between overflow-clip pt-[24px] relative shrink-0 w-full" data-node-id="I240:10872;219:3000" data-name="Footer Row Bottom">
           <div className="content-stretch flex flex-col gap-[10px] items-start overflow-clip relative shrink-0" data-node-id="I240:10872;219:3001" data-name="Footer Slogan">
-            <div className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[0] relative shrink-0 text-[color:var(--base\/white,white)] text-[length:var(--typography\/font-size\/heading-2,25px)] tracking-[var(--typography\/letter-spacing\/heading-2,-0.5px)] whitespace-nowrap" data-node-id="I240:10872;219:3002">
+            <div className="[word-break:break-word] font-[family-name:var(--typography\/font-family\/heading,'Lora:SemiBold')] font-[var(--emphasis\/font-weight\/bold,600)] leading-[0] relative shrink-0 text-[color:var(--base\/white,white)] text-[length:var(--typography\/font-size\/heading-2,30px)] tracking-[var(--typography\/letter-spacing\/heading-2,-0.6px)] whitespace-nowrap" data-node-id="I240:10872;219:3002">
               <p className="leading-[33px] mb-0">GÓI - Một khởi đầu.</p>
               <p className="leading-[33px] text-[#d7262b]">GÓI - Trọn dấu ấn</p>
             </div>
