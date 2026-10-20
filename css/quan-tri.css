@@ -47,7 +47,7 @@ label{display:grid;gap:6px;font-size:13px;font-weight:600;color:var(--muted)}
 .qt-empty{padding:32px 16px;text-align:center;color:var(--muted)}
 .qt-pill{display:inline-flex;align-items:center;gap:6px;font-size:12px;font-weight:600;white-space:nowrap}
 .qt-pill::before{content:"";width:8px;height:8px;border-radius:50%;background:currentColor}
-.st-moi{color:var(--red)}.st-da_goi{color:var(--warn)}.st-da_bao_gia{color:var(--info)}.st-chot{color:var(--ok)}.st-huy{color:var(--muted)}
+.st-moi{color:var(--red)}.st-da_goi{color:var(--warn)}.st-da_bao_gia{color:var(--info)}.st-chot{color:var(--ok)}.st-da_coc{color:#6B4FA0}.st-dang_in{color:var(--gold)}.st-da_giao{color:#1F6B5C}.st-huy{color:var(--muted)}
 
 /* chi tiết */
 .qt-detail{background:var(--white);border:1px solid var(--line);border-radius:var(--r);padding:16px;display:grid;gap:16px}
@@ -75,3 +75,6 @@ label{display:grid;gap:6px;font-size:13px;font-weight:600;color:var(--muted)}
 .qt-dirty{font-size:13px;color:var(--warn)}
 .qt-toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%);background:var(--ink);color:#fff;padding:10px 16px;border-radius:var(--r);font-size:14px;z-index:40;max-width:calc(100% - 32px)}
 @media (max-width:959.98px){.qt-toast{bottom:88px}}
+
+.qt-history ol{list-style:none;display:grid;gap:6px;font-size:13px;color:var(--muted);border-left:2px solid var(--line);padding-left:12px}
+.qt-history b{color:var(--ink);font-family:var(--mono);font-weight:500}

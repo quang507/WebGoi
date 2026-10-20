@@ -1,5 +1,5 @@
 // Trang quản trị GÓI (/quan-tri): đăng nhập, xem và cập nhật yêu cầu báo giá.
-// Một hàm cho mọi việc (Vercel gói Hobby giới hạn số hàm): ?a=login | logout | me | list | update
+// Một hàm cho mọi việc (Vercel gói Hobby giới hạn số hàm): ?a=login | logout | me | list | update | history
 // Biến môi trường trên Vercel:
 //   GOI_ADMIN_USERS            danh sách người dùng "my:matkhau,quang:matkhau" (tên chỉ gồm a-z 0-9 _ -)
 //   SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY   đã có (dùng chung với /api/bao-gia)
@@ -8,7 +8,8 @@
 
 const crypto = require('crypto');
 
-const STATUSES = ['moi', 'da_goi', 'da_bao_gia', 'chot', 'huy'];
+const STATUSES = ['moi', 'da_goi', 'da_bao_gia', 'chot', 'da_coc', 'dang_in', 'da_giao', 'huy'];
+const NEW_STATUSES = ['da_coc', 'dang_in', 'da_giao']; // cần chạy docs/supabase-quan-tri.sql
 const COOKIE = 'goi_admin';
 const DAY = 864e5;
 
@@ -48,7 +49,7 @@ async function sb(path, init = {}) {
   const r = await fetch(url.replace(/\/$/, '') + '/rest/v1/' + path, {
     ...init, headers: { apikey: key, Authorization: 'Bearer ' + key, 'Content-Type': 'application/json', ...(init.headers || {}) }
   });
-  if (!r.ok) throw Object.assign(new Error('db_' + r.status), { code: 502 });
+  if (!r.ok) { const t = await r.text().catch(() => ''); throw Object.assign(new Error('db_' + r.status), { code: 502, db: r.status, detail: t }); }
   return r.status === 204 ? null : r.json();
 }
 
@@ -99,9 +100,21 @@ module.exports = async function handler(req, res) {
       if (b.note !== undefined) patch.note = String(b.note == null ? '' : b.note).replace(/\r/g, '').replace(/[\u0000-\u0009\u000b-\u001f]/g, ' ').trim().slice(0, 2000) || null; // giữ xuống dòng
       if (b.items !== undefined) patch.items = cleanItems(b.items);
       if (!Object.keys(patch).length) return res.status(400).json({ ok: false, error: 'trong' });
-      const rows = await sb('quote_requests?id=eq.' + id, { method: 'PATCH', headers: { Prefer: 'return=representation' }, body: JSON.stringify(patch) });
+      const go = (p) => sb('quote_requests?id=eq.' + id, { method: 'PATCH', headers: { Prefer: 'return=representation' }, body: JSON.stringify(p) });
+      let rows;
+      try { rows = await go({ ...patch, updated_by: user }); } catch (e) {
+        // database chưa chạy SQL quản trị: chưa có cột updated_by / chưa nhận trạng thái mới
+        if (e.db !== 400) throw e;
+        if (patch.status && NEW_STATUSES.includes(patch.status)) return res.status(409).json({ ok: false, error: 'can_chay_sql' });
+        rows = await go(patch);
+      }
       if (!rows || !rows.length) return res.status(404).json({ ok: false });
       return res.status(200).json({ ok: true, row: rows[0], by: user });
+    }
+    if (a === 'history' && req.method === 'GET') {
+      const id = Number(req.query.id); if (!Number.isInteger(id) || id < 1) return res.status(400).json({ ok: false, error: 'id' });
+      try { return res.status(200).json({ ok: true, rows: await sb('quote_events?request_id=eq.' + id + '&order=at.desc&limit=50') }); }
+      catch (e) { if (e.db === 404 || e.db === 400) return res.status(200).json({ ok: true, rows: [], chua_co: true }); throw e; }
     }
     return res.status(404).json({ ok: false });
   } catch (e) {

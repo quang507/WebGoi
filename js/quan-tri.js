@@ -2,7 +2,7 @@
 (function () {
   'use strict';
   var API = '/api/admin';
-  var ST = [['moi', 'Mới'], ['da_goi', 'Đã gọi'], ['da_bao_gia', 'Đã báo giá'], ['chot', 'Chốt đơn'], ['huy', 'Huỷ']];
+  var ST = [['moi', 'Mới'], ['da_goi', 'Đã gọi'], ['da_bao_gia', 'Đã báo giá'], ['chot', 'Chốt đơn'], ['da_coc', 'Đã cọc'], ['dang_in', 'Đang in'], ['da_giao', 'Đã giao'], ['huy', 'Huỷ']];
   var LABEL = {}; ST.forEach(function (s) { LABEL[s[0]] = s[1]; });
   var $ = function (id) { return document.getElementById(id); };
   var rows = [], filter = 'all', query = '', current = null, draft = null, dirty = false;
@@ -129,7 +129,22 @@
         return '<button type="button" class="st-' + s[0] + '" data-s="' + s[0] + '" aria-pressed="' + (d.status === s[0]) + '">' + s[1] + '</button>'; }).join('') + '</div></div>' +
       '<label>Ghi chú nội bộ (khách không thấy)<textarea id="note" placeholder="VD: đã gọi 10h, khách hẹn gửi logo tối nay">' + esc(d.note) + '</textarea></label>' +
       '<div class="qt-actions"><button class="qt-btn qt-btn--primary" type="button" id="save">Lưu</button><button class="qt-btn" type="button" id="copy">Chép tin báo giá</button></div>' +
-      '<p class="qt-dirty" id="dirty" hidden>Có thay đổi chưa lưu.</p>';
+      '<p class="qt-dirty" id="dirty" hidden>Có thay đổi chưa lưu.</p>' +
+      '<div class="qt-history"><p class="qt-kv" style="margin-bottom:6px">Lịch sử</p><ol id="history"><li class="qt-kv">Đang tải…</li></ol></div>';
+    loadHistory(r.id);
+  }
+  function loadHistory(id) {
+    api('history', { id: id }).then(function (j) {
+      var ol = $('history'); if (!ol || !current || current.id !== id) return;
+      if (!j.ok) { ol.innerHTML = '<li class="qt-kv">Không tải được lịch sử.</li>'; return; }
+      if (j.chua_co) { ol.innerHTML = '<li class="qt-kv">Chưa bật lịch sử (cần chạy SQL quản trị trong Supabase).</li>'; return; }
+      var ev = (j.rows || []).map(function (e) {
+        var st = e.status_from !== e.status_to ? (LABEL[e.status_from] || e.status_from) + ' → ' + (LABEL[e.status_to] || e.status_to) : (LABEL[e.status_to] || e.status_to);
+        return '<li><b>' + esc(when(e.at).split(' · ')[0]) + '</b> · ' + esc(e.by || 'máy chủ') + ' · ' + esc(e.ghi_chu || '') + ' · ' + esc(st) + (e.tong ? ' · ' + money(e.tong) + 'đ' : '') + '</li>';
+      });
+      ev.push('<li><b>' + esc(when(current.created_at).split(' · ')[0]) + '</b> · khách gửi yêu cầu (' + (current.source === 'gio' ? 'giỏ báo giá' : 'form báo giá nhanh') + ')</li>');
+      ol.innerHTML = ev.join('');
+    });
   }
   function refreshSums() {
     draft.items.forEach(function (it, i) { var c = $('detail').querySelector('[data-tt="' + i + '"]'); if (c) { var tt = (it.gia || 0) * qty(it.sl); c.textContent = tt ? money(tt) : '—'; } });
@@ -162,6 +177,7 @@
     api('update', { method: 'PATCH', id: current.id, body: { status: draft.status, note: draft.note, items: items } }).then(function (j) {
       btn.removeAttribute('aria-busy'); btn.textContent = 'Lưu';
       if (j.status === 401) { toast('Phiên đăng nhập đã hết, đăng nhập lại.'); return showLogin(); }
+      if (j.error === 'can_chay_sql') { toast('Trạng thái này cần chạy SQL quản trị trong Supabase trước.'); return; }
       if (!j.ok) { toast('Chưa lưu được (' + (j.error || j.status) + '). Thử lại.'); return; }
       rows = rows.map(function (r) { return r.id === j.row.id ? j.row : r; });
       dirty = false; open(j.row); renderTabs(); toast('Đã lưu.');
