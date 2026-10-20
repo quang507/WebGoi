@@ -339,7 +339,7 @@ function ogImage(src) {
 }
 const head = (p) => `<!DOCTYPE html>
 <html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>${p.title}</title><meta name="description" content="${p.desc}">${p.url === '/404' ? '<meta name="robots" content="noindex">' : ''}
+<title>${p.title}</title><meta name="description" content="${p.desc}">${p.url === '/404' ? '<meta name="robots" content="noindex">' : ''}${p.url === '/' ? '<meta name="google-site-verification" content="-qu3VeZl5G81D02yh_qnayykspxDv_ypbqYn2j9fpCg">' : ''}
 <link rel="canonical" href="${SITE}${p.url === '/' ? '/' : p.url}"><meta property="og:type" content="${p.kind === 'article' ? 'article' : 'website'}"><meta property="og:site_name" content="GÓI"><meta property="og:locale" content="vi_VN">
 <meta property="og:url" content="${SITE}${p.url}"><meta property="og:title" content="${p.title}"><meta property="og:description" content="${p.desc}">
 <meta property="og:image" content="${SITE}${p.ogImg}"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta name="twitter:card" content="summary_large_image">
